@@ -1,0 +1,26 @@
+{
+  "name": "elasticsearch-play",
+  "version": "1.0.0",
+  "description": "playing with elasticsearch",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PavelNovotny/elasticsearch-play.git"
+  },
+  "keywords": [
+    "elasticsearch",
+    "javascript"
+  ],
+  "author": "Pavel Novotny",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PavelNovotny/elasticsearch-play/issues"
+  },
+  "homepage": "https://github.com/PavelNovotny/elasticsearch-play#readme",
+  "dependencies": {
+    "node-rest-client": "^1.8.0"
+  }
+}
