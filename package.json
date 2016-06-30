@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/PavelNovotny/elasticsearch-play#readme",
   "dependencies": {
+    "async": "^2.0.0-rc.6",
     "node-rest-client": "^1.8.0"
   }
 }
