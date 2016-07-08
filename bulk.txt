@@ -1,7 +1,7 @@
-{ "delete": { "_index": "website", "_type": "blog", "_id": "123" }}
-{ "create": { "_index": "website", "_type": "blog", "_id": "123" }}
+{ "delete": { "_index": "my", "_type": "blog", "_id": "123" }}
+{ "create": { "_index": "my", "_type": "blog", "_id": "123" }}
 { "title":    "My first blog post" }
-{ "index":  { "_index": "website", "_type": "blog" }}
+{ "index":  { "_index": "my", "_type": "blog" }}
 { "title":    "My second blog post" }
-{ "update": { "_index": "website", "_type": "blog", "_id": "123", "_retry_on_conflict" : 3} }
+{ "update": { "_index": "my", "_type": "blog", "_id": "123", "_retry_on_conflict" : 3} }
 { "doc" : {"title" : "My updated blog post"} }
