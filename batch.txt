@@ -1,2 +1,3 @@
+DELETE /service_index
 PUT /pokus/pokus/1 body1.txt
 POST /_search body2.txt
