@@ -1,0 +1,23 @@
+{
+  "billingCycle": "201605",
+  "birthNumber": "20150101",
+  "companyName": "O2",
+  "ico": 123456789,
+  "refNum": 777,
+  "firstName": "Jan Karel",
+  "lastName": "Vopicka",
+  "address": [
+    {
+      "street": "Novakova smutny",
+      "buildingNo": "124",
+      "city": "Chladna teply",
+      "zip": "12345"
+    },
+    {
+      "street": "vlas damsky",
+      "buildingNo": "124",
+      "city": "Horka studeny",
+      "zip": "12345"
+    }
+  ]
+}
