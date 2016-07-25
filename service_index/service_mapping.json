@@ -1,0 +1,24 @@
+{
+  "properties": {
+    "servicePointID": {
+      "type": "string",
+      "index": "not_analyzed"
+    },
+    "refCustNumber": {
+      "type": "long",
+      "index": "not_analyzed"
+    },
+    "IMSI": {
+      "type": "string",
+      "index": "not_analyzed"
+    },
+    "billingCycle": {
+      "type": "string",
+      "index": "not_analyzed"
+    },
+    "tarif": {
+      "type": "string",
+      "index": "not_analyzed"
+    }
+  }
+}

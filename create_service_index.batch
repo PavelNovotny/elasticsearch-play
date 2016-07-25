@@ -1,0 +1,5 @@
+DELETE /service_index
+PUT /service_index service_index/service_index_settings.json
+PUT /service_index/_mapping/product service_index/product_mapping.json
+PUT /service_index/_mapping/service service_index/service_mapping.json
+#PUT /service_index/service/123/_create service_index/service_data.json
