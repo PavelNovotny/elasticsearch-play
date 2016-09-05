@@ -1,0 +1,110 @@
+{
+  "properties": {
+    "agreements": {
+      "type": "nested",
+      "properties": {
+        "agreementId": {
+          "type": "string"
+        }
+      }
+    },
+    "customerRequests": {
+      "type": "nested",
+      "properties": {
+        "crId": {
+          "type": "string"
+        }
+      }
+    },
+    "invoices": {
+      "type": "nested",
+      "properties": {
+        "variableSymbol": {
+          "type": "string"
+        }
+      }
+    },
+    "orders": {
+      "type": "nested",
+      "properties": {
+        "orderId": {
+          "type": "string"
+        }
+      }
+    },
+
+    "residentalAddress": {
+      "type": "nested",
+      "properties": {
+        "buildingNo": {
+          "type": "string"
+        },
+        "city": {
+          "type": "string"
+        },
+        "cityDistrict": {
+          "type": "string"
+        },
+        "countryCode": {
+          "type": "string"
+        },
+        "crossId": {
+          "type": "string"
+        },
+        "postalCode": {
+          "type": "string"
+        },
+        "street": {
+          "type": "string"
+        },
+        "streetNo": {
+          "type": "string"
+        }
+      }
+    },
+
+    //exact
+    "birthDate": {
+      "type": "string"
+    },
+    "birthNumber": {
+      "type": "string"
+    },
+
+    "companyRegNo": {
+      "type": "string"
+    },
+
+    "cuRefNo": {
+      "type": "string"
+    },
+
+    "customerType": {
+      "type": "string"
+    },
+
+    "identityDocumentID": {
+      "type": "string"
+    },
+    "segment": {
+      "type": "string"
+    },
+    "sfaId": {
+      "type": "string"
+    },
+    "taxRegNo": {
+      "type": "string"
+    },
+
+    //match
+    "companyName": {
+      "type": "string"
+    },
+    "firstName": {
+      "type": "string"
+    },
+    "lastName": {
+      "type": "string"
+    }
+  }
+}

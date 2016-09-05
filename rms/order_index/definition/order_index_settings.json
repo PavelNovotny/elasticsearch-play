@@ -1,0 +1,40 @@
+{
+    "settings" : {
+        "index" : {
+            "number_of_shards" : 4,
+            "number_of_replicas" : 0
+        },
+        "analysis": {
+          "analyzer": {
+                "ES_czech": {
+                  "type" : "custom",
+                  "tokenizer":  "standard",
+                  "filter": [
+                    "lowercase",
+                    "stopwords_CZ",
+                    "ES_czech_stemmer",
+		    "icu_folding",
+		    "remove_duplicities"
+                  ]
+                }
+          },
+          "filter": {
+                "stopwords_CZ": {
+                  "type": "stop",
+                  "stopwords": [
+                    "právě", "že","_czech_"
+                  ],
+                  "ignore_case": true
+                },
+                "remove_duplicities": {
+                  "type": "unique",
+                  "only_on_same_position": false
+                },
+                "ES_czech_stemmer": {
+                  "type":       "stemmer",
+                  "language":   "czech"
+                }
+          }
+        }
+    }
+}

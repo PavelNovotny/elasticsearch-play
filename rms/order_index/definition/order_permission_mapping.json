@@ -1,0 +1,12 @@
+{
+	"_parent": {
+		"type": "order"
+	},
+  "properties":
+			{ 
+				"login":
+				{
+					"type" : "string"
+				}  
+			}      
+}

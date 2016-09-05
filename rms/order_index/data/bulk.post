@@ -1,0 +1,3 @@
+POST /_bulk rms/order_index/data/bulk.txt
+
+

@@ -1,0 +1,127 @@
+{
+  "properties": {
+    //contacts child
+    "cvops": {
+      "type": "nested",
+      "properties": {
+        "cvop": {
+          "type": "string"
+        }
+      }
+    },
+    "individualOffers": {
+      "type": "nested",
+      "properties": {
+        "inId": {
+          "type": "string"
+        }
+      }
+    },
+    "installationAddress": {
+      "type": "nested",
+      "properties": {
+        "buildingNo": {
+          "type": "string"
+        },
+        "city": {
+          "type": "string"
+        },
+        "cityDistrict": {
+          "type": "string"
+        },
+        "countryCode": {
+          "type": "string"
+        },
+        "crossId": {
+          "type": "string"
+        },
+        "postalCode": {
+          "type": "string"
+        },
+        "street": {
+          "type": "string"
+        },
+        "streetNo": {
+          "type": "string"
+        }
+      }
+    },
+    "parameters": {
+      "type": "nested",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "value": {
+          "type": "string"
+        }
+      }
+    },
+    //permissions child
+    "productFilterGroups": {
+      "type": "nested",
+      "properties": {
+        "key": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        }
+      }
+    },
+    "relations": {
+      "type": "nested",
+      "properties": {
+        "parentId": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string"
+        }
+      }
+    },
+    //subproduct child
+
+    //exact
+    "assetRefNo": {
+      "type": "string"
+    },
+    "caRefNo": {
+      "type": "string"
+    },
+    "companyRegNo": {
+      "type": "string"
+    },
+    "cuRefNo": {
+      "type": "string"
+    },
+    "eternalRefNo": {
+      "type": "string"
+    },
+    "productCode": {
+      "type": "string"
+    },
+    "productShortDescription": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "uniqueId": {
+      "type": "string"
+    },
+
+    //noindex
+    "productCategory": {
+      "type": "string"
+    },
+
+    //match
+    "productCustomName": {
+      "type": "string"
+    },
+    "productDisplayName": {
+      "type": "string"
+    }
+  }
+}

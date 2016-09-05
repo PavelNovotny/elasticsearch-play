@@ -1,0 +1,28 @@
+{
+  "properties": {
+    //contacts - child
+    //capermissions - child
+    //cupermissions - child
+    //products - child
+
+    //exact
+    "caRefNo": {
+      "type": "string"
+    },
+    "crId": {
+      "type": "string"
+    },
+    "crType": {
+      "type": "string"
+    },
+    "cuRefNo": {
+      "type": "string"
+    },
+    "orderId": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    }
+  }
+}

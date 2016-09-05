@@ -1,0 +1,90 @@
+{
+  "properties": {
+    "customerRequests": {
+      "type": "nested",
+      "properties": {
+        "crId": {
+          "type": "string"
+        }
+      }
+    },
+    "deliveryAddress": {
+      "type": "nested",
+      "properties": {
+        "buildingNo": {
+          "type": "string"
+        },
+        "city": {
+          "type": "string"
+        },
+        "cityDistrict": {
+          "type": "string"
+        },
+        "countryCode": {
+          "type": "string"
+        },
+        "crossId": {
+          "type": "string"
+        },
+        "postalCode": {
+          "type": "string"
+        },
+        "street": {
+          "type": "string"
+        },
+        "streetNo": {
+          "type": "string"
+        }
+      }
+    },
+    "deliveryEmail": {
+      "type": "nested",
+      "properties": {
+        "email": {
+          "type": "string"
+        }
+      }
+    },
+    "individualOffers": {
+      "type": "nested",
+      "properties": {
+        "inId": {
+          "type": "string"
+        }
+      }
+    },
+    "invoices": {
+      "type": "nested",
+      "properties": {
+        "variableSymbol": {
+          "type": "string"
+        }
+      }
+    },
+    "orders": {
+      "type": "nested",
+      "properties": {
+        "orderId": {
+          "type": "string"
+        }
+      }
+    },
+    //match
+    "billingPeriod": {
+      "type": "string"
+    },
+    "birthDate": {
+      "type": "string"
+    },
+    "caRefNo": {
+      "type": "string"
+    },
+    "cuRefNo": {
+      "type": "string"
+    },
+    //exact
+    "name": {
+      "type": "string"
+    }
+  }
+}
