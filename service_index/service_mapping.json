@@ -18,6 +18,11 @@
     },
     "tarif": {
       "type": "string",
+      "index": "analyzed"
+    },
+    "datum": {
+      "type": "date",
+      "format": "yyyy-MM-dd",
       "index": "not_analyzed"
     }
   }

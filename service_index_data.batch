@@ -1,0 +1,1 @@
+POST /_bulk service_index/bulk_data.txt
