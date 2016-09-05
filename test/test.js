@@ -5,7 +5,7 @@
 
 var index = require("../lib/index.js");
 
-console.log(index.expandPath("$SCRIPT_DIR/data/$SCRIPT_DIR/bulk.txt"));
+console.log(index.expandPath("$SCRIPT_DIR/data/$SCRIPT_DIR/bulk.$SCRIPT_DIRtxt"));
 console.log(index.expandPath("$SCRIPT_DIR$SIPT_DIR"));
 console.log(index.expandPath("$RIPT_DIR$SIPT_DIR"));
 console.log(index.expandPath("$SCRIPT_DIR/data/bulk.txt"));
