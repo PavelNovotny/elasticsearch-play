@@ -1,6 +1,6 @@
 DELETE /customer_index_rif
-PUT /customer_index_rif rms/customer_index/definition/customer_index_settings.json
-PUT /customer_index_rif/_mapping/product rms/customer_index/definition/product_mapping.json
-PUT /customer_index_rif/_mapping/contact rms/customer_index/definition/contact_mapping.json
-PUT /customer_index_rif/_mapping/customer_permission rms/customer_index/definition/customer_permission_mapping.json
-PUT /customer_index_rif/_mapping/customer rms/customer_index/definition/customer_mapping.json
+PUT /customer_index_rif $SCRIPT_DIR/definition/customer_index_settings.json
+PUT /customer_index_rif/_mapping/product $SCRIPT_DIR/definition/product_mapping.json
+PUT /customer_index_rif/_mapping/contact $SCRIPT_DIR/definition/contact_mapping.json
+PUT /customer_index_rif/_mapping/customer_permission $SCRIPT_DIR/definition/customer_permission_mapping.json
+PUT /customer_index_rif/_mapping/customer $SCRIPT_DIR/definition/customer_mapping.json
