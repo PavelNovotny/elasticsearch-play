@@ -1,3 +1,1 @@
-POST /_bulk rms/customer_request_index/data/bulk.txt
-
-
+POST /_bulk $SCRIPT_DIR/data/bulk.txt
