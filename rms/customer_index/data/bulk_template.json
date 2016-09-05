@@ -1,0 +1,79 @@
+{{#repeat 1 comma=false}}
+
+  {"index":{"_id":"CRN{{@index}}","_type":"customer","_index":"customer_index_rif"}}
+
+  {
+    "agreements": [{{#repeat 1 3}}{"agreementId": "{{lorem 1}}"}{{/repeat}}],
+    "customerRequests": [{{#repeat 1 3}}{"crId": "crId{{int 100000000 999999999}}"}{{/repeat}}],
+    "invoices": [{{#repeat 1 3}}{"variableSymbol": "{{int 100000 999999}}"}{{/repeat}}],
+    "orders": [{{#repeat 1 3}}{"orderId": "{{int 100000 999999}}"}{{/repeat}}],
+    residentalAddress: [
+      {{#repeat 1 3}}
+        {
+          "buildingNo": "{{int 1 2000}}",
+          "city": "{{city}}",
+          "cityDistrict": "{{city}}",
+          "countryCode": "{{countryCode}}",
+          "crossId": "{{email}}",
+          "postalCode": "{{zipcode}}",
+          "street": "{{street}}",
+          "streetNo": "{{int 1 2000}}"
+        }
+      {{/repeat}}
+    ],
+    "birthDate": "{{date "1900" "2000" "DD-MM-YYYY"}}",
+    "birthNumber": "{{date "1900" "2000" "DDMMYYYYYYYY"}}",
+    "companyRegNo": "{{int 20  1040 }}",
+    "cuRefNo":"CRN{{@index}}",
+    "customerType": "{{customerType}}",
+    "identityDocumentID": "ID{{int 100000000 999999999}}",
+    "segment": "{{customerType}}",
+    "sfaId": "{{int 20  1040 }}",
+    "taxRegNo": "{{int 10  20 }}",
+    "company": "{{uppercase (company)}}",
+    "firstName": "{{firstName}}",
+    "lastName": "{{lastName}}"
+  }
+
+
+  {"index":{"_id":"{{@index}}","_type":"customer_permission","_index":"customer_index_rif","_parent":"CRN{{@index}}"}}
+
+  {"login":"x0503{{int 100  999 }}"}
+
+  {"index":{"_id":"{{@index}}","_type":"product","_index":"customer_index_rif","_parent":"CRN{{@index}}"}}
+
+  {
+    "imsi": "{{int 100000000 999999999}}",
+    "phoneNumber": "{{phone 'xxxxxxxxx'}}",
+    "serialNumber": "{{int 100000000 999999999}}",
+    "serviceId": "{{int 100000000 999999999}}",
+    "installationAddress": [
+        {{#repeat 1 3}}
+          {
+            "buildingNo": "{{int 1 2000}}",
+            "city": "{{city}}",
+            "cityDistrict": "{{city}}",
+            "countryCode": "{{countryCode}}",
+            "crossId": "{{email}}",
+            "postalCode": "{{zipcode}}",
+            "street": "{{street}}",
+            "streetNo": "{{int 1 2000}}"
+          }
+        {{/repeat}}
+      ]
+  }
+
+  {"index":{"_id":"{{@index}}","_type":"contact","_index":"customer_index_rif","_parent":"CRN{{@index}}"}}
+
+  {
+    "firstName": "{{firstName}}",
+    "lastName": "{{lastName}}",
+    "o2Id": "{{int 1 2000}}",
+    "sfaId": "{{int 1 2000}}",
+    "email": "{{email}}",
+    "phoneNumber": "{{phone 'xxxxxxxxx'}}",
+    "phoneNumber2": "{{phone 'xxxxxxxxx'}}",
+    "cuRefNo": "ID{{int 100000000 999999999}}"
+  }
+
+{{/repeat}}

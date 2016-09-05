@@ -1,0 +1,92 @@
+{{#repeat 1 comma=false}}
+
+  {"index":{"_id":"PR{{@index}}","_type":"product","_index":"product_index_rif"}}
+
+  {
+    "cvops": [{{#repeat 1 3}}{"cvop": "{{int 100000 999999}}"}{{/repeat}}],
+    "individualOffers": [{{#repeat 1 3}}{"inId": "{{int 100000 999999}}"}{{/repeat}}],
+    "installationAddress": [
+      {{#repeat 1 3}}
+        {
+          "buildingNo": "{{int 1 2000}}",
+          "city": "{{city}}",
+          "cityDistrict": "{{city}}",
+          "countryCode": "{{countryCode}}",
+          "crossId": "{{email}}",
+          "postalCode": "{{zipcode}}",
+          "street": "{{street}}",
+          "streetNo": "{{int 1 2000}}"
+        }
+      {{/repeat}}
+    ],
+    "parameters": [{{#repeat 1 3}}{"name": "{{lorem 1}}","value": "{{lorem 1}}"}{{/repeat}}],
+    "productFilterGroups": [{{#repeat 1 3}}{"key": "{{lorem 1}}","name": "{{lorem 1}}"}{{/repeat}}],
+    "relations": [{{#repeat 1 3}}{"parentId": "{{lorem 1}}","type": "{{lorem 1}}"}{{/repeat}}],
+    "assetRefNo": "{{int 20  1040 }}",
+    "caRefNo": "{{int 20  1040 }}",
+    "companyRegNo": "{{int 20  1040 }}",
+    "cuRefNo":"CRN{{@index}}",
+    "externalRefNo": "{{int 20  1040 }}",
+    "productCode": "{{productType}}",
+    "productShortDescription": "{{lorem 3}}",
+    "status": "{{productType}}",
+    "uniqueId": "{{int 20  1040 }}",
+    "productCategory": "{{productType}}",
+    "productCustomName": "{{company}}",
+    "productDisplayName": "{{uppercase (company)}}"
+  }
+
+
+  {"index":{"_id":"{{@index}}","_type":"product_permission","_index":"product_index_rif","_parent":"PR{{@index}}"}}
+
+  {"login":"x0503{{int 100  999 }}"}
+
+  {"index":{"_id":"SBPR{{@index}}","_type":"subproduct","_index":"product_index_rif","_parent":"PR{{@index}}"}}
+
+  {
+    "parameters": [{{#repeat 1 3}}{"name": "{{lorem 1}}","value": "{{lorem 1}}"}{{/repeat}}],
+    "productFilterGroups": [{{#repeat 1 3}}{"key": "{{lorem 1}}","name": "{{lorem 1}}"}{{/repeat}}],
+    "assetRefNo": "{{int 20  1040 }}",
+    "externalRefNo": "{{int 20  1040 }}",
+    "productCode": "{{productType}}",
+    "status": "{{productType}}",
+    "productDisplayName": "{{uppercase (company)}}"
+  }
+
+  {"index":{"_id":"PRT{{@index}}","_type":"product_type","_index":"product_index_rif","_parent":"SBPR{{@index}}"}}
+
+  {
+    "imsi": "{{int 100000000 999999999}}",
+    "phoneNumber": "{{phone 'xxxxxxxxx'}}",
+    "serialNumber": "{{int 100000000 999999999}}",
+    "serviceId": "{{int 100000000 999999999}}",
+    "installationAddress": [
+        {{#repeat 1 3}}
+          {
+            "buildingNo": "{{int 1 2000}}",
+            "city": "{{city}}",
+            "cityDistrict": "{{city}}",
+            "countryCode": "{{countryCode}}",
+            "crossId": "{{email}}",
+            "postalCode": "{{zipcode}}",
+            "street": "{{street}}",
+            "streetNo": "{{int 1 2000}}"
+          }
+        {{/repeat}}
+      ]
+  }
+
+  {"index":{"_id":"C{{@index}}","_type":"contact","_index":"product_index_rif","_parent":"PR{{@index}}"}}
+
+  {
+    "firstName": "{{firstName}}",
+    "lastName": "{{lastName}}",
+    "o2Id": "{{int 1 2000}}",
+    "sfaId": "{{int 1 2000}}",
+    "email": "{{email}}",
+    "phoneNumber": "{{phone 'xxxxxxxxx'}}",
+    "phoneNumber2": "{{phone 'xxxxxxxxx'}}",
+    "cuRefNo": "ID{{int 100000000 999999999}}"
+  }
+
+{{/repeat}}

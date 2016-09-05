@@ -1,0 +1,33 @@
+{
+  "_parent": {
+    "type": "order"
+  },
+  "properties": {
+    //match
+    "firstName": {
+      "type": "string"
+    },
+    "lastName": {
+      "type": "string"
+    },
+    //exact
+    "o2Id": {
+      "type": "string"
+    },
+    "sfaId": {
+      "type": "string"
+    },
+    "userId": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "phoneNumber": {
+      "type": "string"
+    },
+    "phoneNumber2": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{{#repeat 1 comma=false}}
+
+  {"index":{"_id":"CuRe{{@index}}","_type":"customer_request","_index":"customer_request_index_rif"}}
+
+  {
+    "caRefNo":"CARN{{@index}}",
+    "crId": "{{int 20  1040 }}",
+    "crType": "{{int 20  1040 }}",
+    "cuRefNo":"CRN{{@index}}",
+    "orderId": "{{int 20  1040 }}",
+    "status": "{{productType}}"
+  }
+
+
+  {"index":{"_id":"cu{{@index}}","_type":"cu_permission","_index":"customer_request_index_rif","_parent":"CuRe{{@index}}"}}
+
+  {"login":"x0503{{int 100  999 }}"}
+
+  {"index":{"_id":"ca{{@index}}","_type":"ca_permission","_index":"customer_request_index_rif","_parent":"CuRe{{@index}}"}}
+
+  {"login":"x0503{{int 100  999 }}"}
+
+  {"index":{"_id":"P{{@index}}","_type":"product","_index":"customer_request_index_rif","_parent":"CuRe{{@index}}"}}
+
+  {
+    "imsi": "{{int 100000000 999999999}}",
+    "phoneNumber": "{{phone 'xxxxxxxxx'}}",
+    "serialNumber": "{{int 100000000 999999999}}",
+    "serviceId": "{{int 100000000 999999999}}",
+    "installationAddress": [
+        {{#repeat 1 3}}
+          {
+            "buildingNo": "{{int 1 2000}}",
+            "city": "{{city}}",
+            "cityDistrict": "{{city}}",
+            "countryCode": "{{countryCode}}",
+            "crossId": "{{email}}",
+            "postalCode": "{{zipcode}}",
+            "street": "{{street}}",
+            "streetNo": "{{int 1 2000}}"
+          }
+        {{/repeat}}
+      ]
+  }
+
+
+  {"index":{"_id":"C{{@index}}","_type":"contact","_index":"customer_request_index_rif","_parent":"CuRe{{@index}}"}}
+
+  {
+    "firstName": "{{firstName}}",
+    "lastName": "{{lastName}}",
+    "o2Id": "{{int 1 2000}}",
+    "sfaId": "{{int 1 2000}}",
+    "email": "{{email}}",
+    "phoneNumber": "{{phone 'xxxxxxxxx'}}",
+    "phoneNumber2": "{{phone 'xxxxxxxxx'}}",
+    "cuRefNo": "ID{{int 100000000 999999999}}"
+  }
+
+{{/repeat}}

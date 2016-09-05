@@ -1,0 +1,7 @@
+DELETE /product_index_rif
+PUT /product_index_rif rms/product_index/definition/product_index_settings.json
+PUT /product_index_rif/_mapping/contact rms/product_index/definition/contact_mapping.json
+PUT /product_index_rif/_mapping/product_permission rms/product_index/definition/product_permission_mapping.json
+PUT /product_index_rif/_mapping/product_type rms/product_index/definition/product_type_mapping.json
+PUT /product_index_rif/_mapping/subproduct rms/product_index/definition/subproduct_mapping.json
+PUT /product_index_rif/_mapping/product rms/product_index/definition/product_mapping.json

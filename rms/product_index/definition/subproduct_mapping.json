@@ -1,0 +1,57 @@
+{
+  "_parent": {
+  "type": "product"
+},
+  "properties": {
+    "parameters": {
+      "type": "nested",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "value": {
+          "type": "string"
+        }
+      }
+    },
+    //productType - child
+    "productFilterGroups": {
+      "type": "nested",
+      "properties": {
+        "key": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        }
+      }
+    },
+    "individualOffers": {
+      "type": "nested",
+      "properties": {
+        "inId": {
+          "type": "string"
+        }
+      }
+    },
+
+    //exact
+    "assetRefNo": {
+      "type": "string"
+    },
+    "eternalRefNo": {
+      "type": "string"
+    },
+    "productCode": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+
+    //match
+    "productDisplayName": {
+      "type": "string"
+    }
+  }
+}

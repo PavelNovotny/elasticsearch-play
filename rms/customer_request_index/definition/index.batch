@@ -1,0 +1,8 @@
+DELETE /customer_request_index_rif
+PUT /customer_request_index_rif rms/customer_request_index/definition/customer_request_index_settings.json
+PUT /customer_request_index_rif/_mapping/ca_permission rms/customer_request_index/definition/ca_permission_mapping.json
+PUT /customer_request_index_rif/_mapping/cu_permission rms/customer_request_index/definition/cu_permission_mapping.json
+PUT /customer_request_index_rif/_mapping/product rms/customer_request_index/definition/product_mapping.json
+PUT /customer_request_index_rif/_mapping/contact rms/customer_request_index/definition/contact_mapping.json
+PUT /customer_request_index_rif/_mapping/customer_request rms/customer_request_index/definition/customer_request_mapping.json
+

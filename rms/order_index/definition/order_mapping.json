@@ -1,0 +1,60 @@
+{
+  "properties": {
+    //contacts - child
+    "cvops": {
+      "type": "nested",
+      "properties": {
+        "cvop": {
+          "type": "string"
+        }
+      }
+    },
+    "deliveryAddress": {
+      "type": "nested",
+      "properties": {
+        "buildingNo": {
+          "type": "string"
+        },
+        "city": {
+          "type": "string"
+        },
+        "cityDistrict": {
+          "type": "string"
+        },
+        "countryCode": {
+          "type": "string"
+        },
+        "crossId": {
+          "type": "string"
+        },
+        "postalCode": {
+          "type": "string"
+        },
+        "street": {
+          "type": "string"
+        },
+        "streetNo": {
+          "type": "string"
+        }
+      }
+    },
+    //products - child
+
+    //exact
+    "caRefNo": {
+      "type": "string"
+    },
+    "cuRefNo": {
+      "type": "string"
+    },
+    "initUserId": {
+      "type": "string"
+    },
+    "orderId": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    }
+  }
+}

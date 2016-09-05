@@ -1,0 +1,48 @@
+{
+  "_parent": {
+    "type": "customer"
+  },
+  "properties": {
+    "installationAddress": {
+      "type": "nested",
+      "properties": {
+        "buildingNo": {
+          "type": "string"
+        },
+        "city": {
+          "type": "string"
+        },
+        "cityDistrict": {
+          "type": "string"
+        },
+        "countryCode": {
+          "type": "string"
+        },
+        "crossId": {
+          "type": "string"
+        },
+        "postalCode": {
+          "type": "string"
+        },
+        "street": {
+          "type": "string"
+        },
+        "streetNo": {
+          "type": "string"
+        }
+      }
+    },
+    "imsi": {
+      "type": "string"
+    },
+    "phoneNumber": {
+      "type": "string"
+    },
+    "serialNumber": {
+      "type": "string"
+    },
+    "serviceId": {
+      "type": "string"
+    }
+  }
+}

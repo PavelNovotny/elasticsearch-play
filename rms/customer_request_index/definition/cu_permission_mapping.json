@@ -1,0 +1,12 @@
+{
+	"_parent": {
+		"type": "customer_request"
+	},
+  "properties":
+			{ 
+				"login":
+				{
+					"type" : "string"
+				}  
+			}      
+}
