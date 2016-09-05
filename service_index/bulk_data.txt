@@ -1,0 +1,8 @@
+{ "index": { "_index": "service_index", "_type": "service", "_id": "id1" }}
+{datum :"2016-02-02", servicePointID: "servicePointID1", refCustNumber: 1, IMSI: "IMSI1", billingCycle: "billingCycle1", tarif: "tarif1" }
+{ "index": { "_index": "service_index", "_type": "product", "_id": "id1-productCode1", _parent:"id1" }}
+{ "productCode": "productCode1", "name": "name1", "status": "status1", "BSCS8_CO_ID": 1, parameter :[{paramName:"paramName1",paramValue:"paramValue1"},{paramName:"paramName1",paramValue:"paramValue1"}]}
+{ "index": { "_index": "service_index", "_type": "service", "_id": "id2" }}
+{datum :"2016-02-02", servicePointID: "servicePointID", refCustNumber: 2, IMSI: "IMSI", billingCycle: "billingCycle", tarif: "tarif" }
+{ "index": { "_index": "service_index", "_type": "product", "_id": "id2-productCode2", _parent:"id2" }}
+{ "productCode": "productCode2", "name": "name2", "status": "status2", "BSCS8_CO_ID": 2, parameter :[{paramName:"paramName2",paramValue:"paramValue2"},{paramName:"paramName3",paramValue:"paramValue3"}]}
