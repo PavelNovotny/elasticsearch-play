@@ -53,14 +53,6 @@
         }
       }
     },
-    "invoices": {
-      "type": "nested",
-      "properties": {
-        "variableSymbol": {
-          "type": "string"
-        }
-      }
-    },
     "orders": {
       "type": "nested",
       "properties": {

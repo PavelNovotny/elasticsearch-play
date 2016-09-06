@@ -35,6 +35,10 @@
 
   {"login":"x0503{{int 100  999 }}"}
 
+  {"index":{"_id":"I{{@index}}","_type":"invoice_type","_index":"customer_account_index_rif","_parent":"CARN{{@index}}"}}
+
+  {"variableSymbol": "{{int 100000 999999}}"}
+
   {"index":{"_id":"{{@index}}","_type":"product","_index":"customer_account_index_rif","_parent":"CARN{{@index}}"}}
 
   {
