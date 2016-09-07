@@ -64,10 +64,12 @@
 
     //exact
     "auditDate": {
-      "type": "date"
+      "type": "date",
+      "format": "dd.MM.yyyy"
     },
     "birthDate": {
-      "type": "date"
+      "type": "date",
+      "format": "dd.MM.yyyy"
     },
     "birthNumber": {
       "type": "string"
