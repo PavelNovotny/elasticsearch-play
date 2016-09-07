@@ -71,17 +71,21 @@
 
   {{/repeat}}
 
-  {"index":{"_id":"CONTACT_{{@index}}_{{bulk}}","_type":"contact","_index":"customer_index_rif","_parent":"CUST_{{bulk}}_{{@index_R1}}"}}
+  {{#repeat 10 comma=false}}
 
-  {
-    "firstName": "{{firstName}}",
-    "lastName": "{{lastName}}",
-    "o2Id": "{{int 1 2000}}",
-    "sfaId": "{{int 1 2000}}",
-    "email": "{{email}}",
-    "phoneNumber": "{{phone 'xxxxxxxxx'}}",
-    "phoneNumber2": "{{phone 'xxxxxxxxx'}}",
-    "cuRefNo": "ID{{int 1000000000 9999999999}}"
-  }
+    {"index":{"_id":"CONTACT_{{@index}}_{{bulk}}","_type":"contact","_index":"customer_index_rif","_parent":"CUST_{{bulk}}_{{@index_R1}}"}}
 
+    {
+      "auditDate": "{{date "1900" "2000" "DD.MM.YYYY"}}",
+      "firstName": "{{firstName}}",
+      "lastName": "{{lastName}}",
+      "contactId": "{{int 1000000000 9999999999}}",
+      "sfaId": "{{int 1000000000 9999999999}}",
+      "email": "{{email}}",
+      "phoneNumber": "{{phone 'xxxxxxxxx'}}",
+      "phoneNumber2": "{{phone 'xxxxxxxxx'}}",
+      "cuRefNo": "ID{{int 1000000000 9999999999}}"
+    }
+
+  {{/repeat}}
 {{/repeatWithId}}

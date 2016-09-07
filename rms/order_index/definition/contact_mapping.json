@@ -3,6 +3,13 @@
     "type": "order"
   },
   "properties": {
+    "auditDate": {
+      "type": "date",
+      "format": "dd.MM.yyyy"
+    },
+    "contactId": {
+      "type": "string"
+    },
     //match
     "firstName": {
       "type": "string"
@@ -11,9 +18,6 @@
       "type": "string"
     },
     //exact
-    "o2Id": {
-      "type": "string"
-    },
     "sfaId": {
       "type": "string"
     },

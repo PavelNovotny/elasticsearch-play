@@ -40,20 +40,52 @@
     },
     //products - child
 
+    "orderId": {
+      "type": "long"
+    },
+    "auditDate": {
+      "type": "date",
+      "format": "dd.MM.yyyy"
+    },
     //exact
+    "birthDate": {
+      "type": "date",
+      "format": "dd.MM.yyyy"
+    },
     "caRefNo": {
       "type": "string"
     },
+    "companyRegNo": {
+      "type": "string"
+    },
+    "createdDate": {
+      "type": "date",
+      "format": "dd.MM.yyyy"
+    },
     "cuRefNo": {
+      "type": "string"
+    },
+    "dealerCode": {
       "type": "string"
     },
     "initUserId": {
       "type": "string"
     },
-    "orderId": {
+    "orderRefNo": {
       "type": "string"
     },
     "status": {
+      "type": "string"
+    },
+
+    //match
+    "companyName": {
+      "type": "string"
+    },
+    "firstName": {
+      "type": "string"
+    },
+    "lastName": {
       "type": "string"
     }
   }
