@@ -1,0 +1,158 @@
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001042148_-1000274","_parent":"MSP001042148"}}
+{"productCode":"-1000274","name":"ET GPRS-UMTS APN telemetry 1","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"op.eltodo"},{"paramName":"PDP ID","paramValue":"5"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001042148_SBL0086","_parent":"MSP001042148"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428608","parameter":[{"paramName":"APN Name","paramValue":"telemetry1"},{"paramName":"IP Address","paramValue":"10.8.177.158"},{"paramName":"PDP ID","paramValue":"4"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001042148_SBL0086","_parent":"MSP001042148"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428608","parameter":[{"paramName":"Cenik GSM","paramValue":"Z1 - Standardní cena"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001225101_-1000274","_parent":"MSP001225101"}}
+{"productCode":"-1000274","name":"ET GPRS-UMTS APN telemetry 1","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"op.eltodo"},{"paramName":"PDP ID","paramValue":"5"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001225101_SBL0086","_parent":"MSP001225101"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428609","parameter":[{"paramName":"APN Name","paramValue":"telemetry1"},{"paramName":"IP Address","paramValue":"10.8.154.177"},{"paramName":"PDP ID","paramValue":"4"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001225101_SBL0086","_parent":"MSP001225101"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428609","parameter":[{"paramName":"Cenik GSM","paramValue":"Z1 - Standardní cena"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001222207_-1000274","_parent":"MSP001222207"}}
+{"productCode":"-1000274","name":"ET GPRS-UMTS APN telemetry 1","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"op.eltodo"},{"paramName":"PDP ID","paramValue":"5"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001222207_SBL0086","_parent":"MSP001222207"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428610","parameter":[{"paramName":"APN Name","paramValue":"telemetry1"},{"paramName":"IP Address","paramValue":"10.8.154.222"},{"paramName":"PDP ID","paramValue":"4"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001222207_SBL0086","_parent":"MSP001222207"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428610","parameter":[{"paramName":"Cenik GSM","paramValue":"Z1 - Standardní cena"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001226366_-1000274","_parent":"MSP001226366"}}
+{"productCode":"-1000274","name":"ET GPRS-UMTS APN telemetry 1","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"op.eltodo"},{"paramName":"PDP ID","paramValue":"5"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001226366_SBL0086","_parent":"MSP001226366"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428613","parameter":[{"paramName":"APN Name","paramValue":"telemetry1"},{"paramName":"IP Address","paramValue":"10.8.154.218"},{"paramName":"PDP ID","paramValue":"4"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001226366_SBL0086","_parent":"MSP001226366"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428613","parameter":[{"paramName":"Cenik GSM","paramValue":"Z1 - Standardní cena"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP000849119_-1000274","_parent":"MSP000849119"}}
+{"productCode":"-1000274","name":"ET GPRS-UMTS APN telemetry 1","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"op.eltodo"},{"paramName":"PDP ID","paramValue":"5"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP000849119_-1000550","_parent":"MSP000849119"}}
+{"productCode":"-1000550","name":"O2 3PS WAP Barring","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"telemetry1"},{"paramName":"IP Address","paramValue":"10.8.155.54"},{"paramName":"PDP ID","paramValue":"4"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP000849119_-1000550","_parent":"MSP000849119"}}
+{"productCode":"-1000550","name":"O2 3PS WAP Barring","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"Blokace","paramValue":"N"},{"paramName":"Limit PT","paramValue":"N"},{"paramName":"Zamknuto","paramValue":"ANO"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001225479_-1000274","_parent":"MSP001225479"}}
+{"productCode":"-1000274","name":"ET GPRS-UMTS APN telemetry 1","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"op.eltodo"},{"paramName":"PDP ID","paramValue":"5"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001225479_SBL0086","_parent":"MSP001225479"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428474","parameter":[{"paramName":"APN Name","paramValue":"telemetry1"},{"paramName":"IP Address","paramValue":"10.8.177.171"},{"paramName":"PDP ID","paramValue":"4"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001225479_SBL0086","_parent":"MSP001225479"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428474","parameter":[{"paramName":"Cenik GSM","paramValue":"Z1 - Standardní cena"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001133824_-1000274","_parent":"MSP001133824"}}
+{"productCode":"-1000274","name":"ET GPRS-UMTS APN telemetry 1","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"op.eltodo"},{"paramName":"PDP ID","paramValue":"5"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001133824_SBL0086","_parent":"MSP001133824"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428455","parameter":[{"paramName":"APN Name","paramValue":"telemetry1"},{"paramName":"IP Address","paramValue":"10.8.152.69"},{"paramName":"PDP ID","paramValue":"4"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001133824_SBL0086","_parent":"MSP001133824"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428455","parameter":[{"paramName":"Cenik GSM","paramValue":"Z1 - Standardní cena"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001223044_-1000274","_parent":"MSP001223044"}}
+{"productCode":"-1000274","name":"ET GPRS-UMTS APN telemetry 1","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"op.eltodo"},{"paramName":"PDP ID","paramValue":"5"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001223044_SBL0086","_parent":"MSP001223044"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428456","parameter":[{"paramName":"APN Name","paramValue":"telemetry1"},{"paramName":"IP Address","paramValue":"10.8.177.147"},{"paramName":"PDP ID","paramValue":"4"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001223044_SBL0086","_parent":"MSP001223044"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428456","parameter":[{"paramName":"Cenik GSM","paramValue":"Z1 - Standardní cena"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001228769_-1000274","_parent":"MSP001228769"}}
+{"productCode":"-1000274","name":"ET GPRS-UMTS APN telemetry 1","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"op.eltodo"},{"paramName":"PDP ID","paramValue":"5"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001228769_SBL0086","_parent":"MSP001228769"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428442","parameter":[{"paramName":"APN Name","paramValue":"telemetry1"},{"paramName":"IP Address","paramValue":"10.8.177.63"},{"paramName":"PDP ID","paramValue":"4"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001228769_SBL0086","_parent":"MSP001228769"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428442","parameter":[{"paramName":"Cenik GSM","paramValue":"Z1 - Standardní cena"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001225476_-1000274","_parent":"MSP001225476"}}
+{"productCode":"-1000274","name":"ET GPRS-UMTS APN telemetry 1","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"op.eltodo"},{"paramName":"PDP ID","paramValue":"5"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001225476_SBL0086","_parent":"MSP001225476"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428439","parameter":[{"paramName":"APN Name","paramValue":"telemetry1"},{"paramName":"IP Address","paramValue":"10.8.153.223"},{"paramName":"PDP ID","paramValue":"4"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001225476_SBL0086","_parent":"MSP001225476"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428439","parameter":[{"paramName":"Cenik GSM","paramValue":"Z1 - Standardní cena"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001225082_-1000274","_parent":"MSP001225082"}}
+{"productCode":"-1000274","name":"ET GPRS-UMTS APN telemetry 1","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"op.eltodo"},{"paramName":"PDP ID","paramValue":"5"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001225082_SBL0086","_parent":"MSP001225082"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428453","parameter":[{"paramName":"APN Name","paramValue":"telemetry1"},{"paramName":"IP Address","paramValue":"10.8.155.58"},{"paramName":"PDP ID","paramValue":"4"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001225082_SBL0086","_parent":"MSP001225082"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428453","parameter":[{"paramName":"Cenik GSM","paramValue":"Z1 - Standardní cena"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001133819_-1000274","_parent":"MSP001133819"}}
+{"productCode":"-1000274","name":"ET GPRS-UMTS APN telemetry 1","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"op.eltodo"},{"paramName":"PDP ID","paramValue":"5"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001133819_SBL0086","_parent":"MSP001133819"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428452","parameter":[{"paramName":"APN Name","paramValue":"telemetry1"},{"paramName":"IP Address","paramValue":"10.8.177.116"},{"paramName":"PDP ID","paramValue":"4"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001133819_SBL0086","_parent":"MSP001133819"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428452","parameter":[{"paramName":"Cenik GSM","paramValue":"Z1 - Standardní cena"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001230137_-1000274","_parent":"MSP001230137"}}
+{"productCode":"-1000274","name":"ET GPRS-UMTS APN telemetry 1","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"op.eltodo"},{"paramName":"PDP ID","paramValue":"5"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001230137_SBL0086","_parent":"MSP001230137"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428216","parameter":[{"paramName":"APN Name","paramValue":"telemetry1"},{"paramName":"IP Address","paramValue":"10.8.177.107"},{"paramName":"PDP ID","paramValue":"4"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001230137_SBL0086","_parent":"MSP001230137"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428216","parameter":[{"paramName":"Cenik GSM","paramValue":"Z1 - Standardní cena"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001042556_-1000274","_parent":"MSP001042556"}}
+{"productCode":"-1000274","name":"ET GPRS-UMTS APN telemetry 1","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"op.eltodo"},{"paramName":"PDP ID","paramValue":"5"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001042556_SBL0086","_parent":"MSP001042556"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428214","parameter":[{"paramName":"APN Name","paramValue":"telemetry1"},{"paramName":"IP Address","paramValue":"10.8.152.224"},{"paramName":"PDP ID","paramValue":"4"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001042556_SBL0086","_parent":"MSP001042556"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428214","parameter":[{"paramName":"Cenik GSM","paramValue":"Z1 - Standardní cena"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001230627_-1000274","_parent":"MSP001230627"}}
+{"productCode":"-1000274","name":"ET GPRS-UMTS APN telemetry 1","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"op.eltodo"},{"paramName":"PDP ID","paramValue":"5"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001230627_SBL0086","_parent":"MSP001230627"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428221","parameter":[{"paramName":"APN Name","paramValue":"telemetry1"},{"paramName":"IP Address","paramValue":"10.8.155.40"},{"paramName":"PDP ID","paramValue":"4"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001230627_SBL0086","_parent":"MSP001230627"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428221","parameter":[{"paramName":"Cenik GSM","paramValue":"Z1 - Standardní cena"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001042458_-1000274","_parent":"MSP001042458"}}
+{"productCode":"-1000274","name":"ET GPRS-UMTS APN telemetry 1","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"op.eltodo"},{"paramName":"PDP ID","paramValue":"5"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001042458_SBL0086","_parent":"MSP001042458"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428189","parameter":[{"paramName":"APN Name","paramValue":"telemetry1"},{"paramName":"IP Address","paramValue":"10.8.177.95"},{"paramName":"PDP ID","paramValue":"4"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001042458_SBL0086","_parent":"MSP001042458"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428189","parameter":[{"paramName":"Cenik GSM","paramValue":"Z1 - Standardní cena"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001223433_-1000274","_parent":"MSP001223433"}}
+{"productCode":"-1000274","name":"ET GPRS-UMTS APN telemetry 1","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"op.eltodo"},{"paramName":"PDP ID","paramValue":"5"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001223433_SBL0086","_parent":"MSP001223433"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428196","parameter":[{"paramName":"APN Name","paramValue":"telemetry1"},{"paramName":"IP Address","paramValue":"10.8.177.136"},{"paramName":"PDP ID","paramValue":"4"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001223433_SBL0086","_parent":"MSP001223433"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428196","parameter":[{"paramName":"Cenik GSM","paramValue":"Z1 - Standardní cena"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001041224_-1000274","_parent":"MSP001041224"}}
+{"productCode":"-1000274","name":"ET GPRS-UMTS APN telemetry 1","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"op.eltodo"},{"paramName":"PDP ID","paramValue":"5"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001041224_SBL0086","_parent":"MSP001041224"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428195","parameter":[{"paramName":"APN Name","paramValue":"telemetry1"},{"paramName":"IP Address","paramValue":"10.8.177.140"},{"paramName":"PDP ID","paramValue":"4"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001041224_SBL0086","_parent":"MSP001041224"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428195","parameter":[{"paramName":"Cenik GSM","paramValue":"Z1 - Standardní cena"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001222206_-1000274","_parent":"MSP001222206"}}
+{"productCode":"-1000274","name":"ET GPRS-UMTS APN telemetry 1","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"op.eltodo"},{"paramName":"PDP ID","paramValue":"5"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001222206_SBL0086","_parent":"MSP001222206"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428614","parameter":[{"paramName":"APN Name","paramValue":"telemetry1"},{"paramName":"IP Address","paramValue":"10.8.152.225"},{"paramName":"PDP ID","paramValue":"4"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001222206_SBL0086","_parent":"MSP001222206"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428614","parameter":[{"paramName":"Cenik GSM","paramValue":"Z1 - Standardní cena"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001041650_-1000274","_parent":"MSP001041650"}}
+{"productCode":"-1000274","name":"ET GPRS-UMTS APN telemetry 1","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"op.eltodo"},{"paramName":"PDP ID","paramValue":"5"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001041650_SBL0086","_parent":"MSP001041650"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428193","parameter":[{"paramName":"APN Name","paramValue":"telemetry1"},{"paramName":"IP Address","paramValue":"10.8.154.9"},{"paramName":"PDP ID","paramValue":"4"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001041650_SBL0086","_parent":"MSP001041650"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428193","parameter":[{"paramName":"Cenik GSM","paramValue":"Z1 - Standardní cena"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001042014_-1000274","_parent":"MSP001042014"}}
+{"productCode":"-1000274","name":"ET GPRS-UMTS APN telemetry 1","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"op.eltodo"},{"paramName":"PDP ID","paramValue":"5"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001042014_SBL0086","_parent":"MSP001042014"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428095","parameter":[{"paramName":"APN Name","paramValue":"telemetry1"},{"paramName":"IP Address","paramValue":"10.8.153.221"},{"paramName":"PDP ID","paramValue":"4"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001042014_SBL0086","_parent":"MSP001042014"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428095","parameter":[{"paramName":"Cenik GSM","paramValue":"Z1 - Standardní cena"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001225092_-1000233","_parent":"MSP001225092"}}
+{"productCode":"-1000233","name":"ET Premium SMS/MMS End-User","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"op.eltodo"},{"paramName":"PDP ID","paramValue":"5"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001225092_-1000274","_parent":"MSP001225092"}}
+{"productCode":"-1000274","name":"ET GPRS-UMTS APN telemetry 1","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"Blokování zpráv","paramValue":"NONE"},{"paramName":"Denní limit","paramValue":"1000"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001225092_SBL0086","_parent":"MSP001225092"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428099","parameter":[{"paramName":"APN Name","paramValue":"telemetry1"},{"paramName":"IP Address","paramValue":"10.8.177.226"},{"paramName":"PDP ID","paramValue":"4"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001225092_SBL0165","_parent":"MSP001225092"}}
+{"productCode":"SBL0165","name":"VPN tarif","status":"a","BSCS8_CO_ID":"10428099","parameter":[{"paramName":"Cenik GSM","paramValue":"Z1 - Standardní cena"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001225092_SBL0165","_parent":"MSP001225092"}}
+{"productCode":"SBL0165","name":"VPN tarif","status":"a","BSCS8_CO_ID":"10428099","parameter":[{"paramName":"VPN tarif","paramValue":"Pasivní člen"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001133298_-1000274","_parent":"MSP001133298"}}
+{"productCode":"-1000274","name":"ET GPRS-UMTS APN telemetry 1","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"op.eltodo"},{"paramName":"PDP ID","paramValue":"5"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001133298_SBL0086","_parent":"MSP001133298"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428626","parameter":[{"paramName":"APN Name","paramValue":"telemetry1"},{"paramName":"IP Address","paramValue":"10.8.153.33"},{"paramName":"PDP ID","paramValue":"4"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001133298_SBL0086","_parent":"MSP001133298"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428626","parameter":[{"paramName":"Cenik GSM","paramValue":"Z1 - Standardní cena"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP002179740_-1000233","_parent":"MSP002179740"}}
+{"productCode":"-1000233","name":"ET Premium SMS/MMS End-User","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"op.eltodo"},{"paramName":"PDP ID","paramValue":"5"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP002179740_-1000274","_parent":"MSP002179740"}}
+{"productCode":"-1000274","name":"ET GPRS-UMTS APN telemetry 1","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"Blokování zpráv","paramValue":"NONE"},{"paramName":"Denní limit","paramValue":"1000"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP002179740_SBL0086","_parent":"MSP002179740"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428076","parameter":[{"paramName":"APN Name","paramValue":"telemetry1"},{"paramName":"IP Address","paramValue":"10.8.3.74"},{"paramName":"PDP ID","paramValue":"4"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP002179740_SBL0165","_parent":"MSP002179740"}}
+{"productCode":"SBL0165","name":"VPN tarif","status":"a","BSCS8_CO_ID":"10428076","parameter":[{"paramName":"Cenik GSM","paramValue":"Z1 - Standardní cena"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP002179740_SBL0165","_parent":"MSP002179740"}}
+{"productCode":"SBL0165","name":"VPN tarif","status":"a","BSCS8_CO_ID":"10428076","parameter":[{"paramName":"VPN tarif","paramValue":"Pasivní člen"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP002180836_-1000274","_parent":"MSP002180836"}}
+{"productCode":"-1000274","name":"ET GPRS-UMTS APN telemetry 1","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"op.eltodo"},{"paramName":"PDP ID","paramValue":"5"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP002180836_SBL0086","_parent":"MSP002180836"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428097","parameter":[{"paramName":"APN Name","paramValue":"telemetry1"},{"paramName":"IP Address","paramValue":"10.8.154.11"},{"paramName":"PDP ID","paramValue":"4"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP002180836_SBL0086","_parent":"MSP002180836"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428097","parameter":[{"paramName":"Cenik GSM","paramValue":"Z1 - Standardní cena"}]}

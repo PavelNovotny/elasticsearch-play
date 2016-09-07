@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/PavelNovotny/elasticsearch-play#readme",
   "dependencies": {
+    "data-randomizer" : "git+ssh://lxsvnas401vm.ux.to2cz.cz:group_integrace/data-randomizer.git",
     "async": "^2.0.0-rc.6",
     "nconf": "^0.8.4",
     "node-rest-client": "^1.8.0"

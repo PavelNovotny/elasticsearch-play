@@ -1,0 +1,1205 @@
+{"datum":"2016-02-02","servicePointID":"MSP001042148","refCustNumber":"3605234650","IMSI":"230029100033810","billingCycle":"a","tarif":"GSM tarif za 0 Kč"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001042148_-1000274","_parent":"MSP001042148"}}
+{"productCode":"-1000274","name":"ET GPRS-UMTS APN telemetry 1","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"op.eltodo"},{"paramName":"PDP ID","paramValue":"5"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001042148_SBL0086","_parent":"MSP001042148"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428608","parameter":[{"paramName":"APN Name","paramValue":"telemetry1"},{"paramName":"IP Address","paramValue":"10.8.177.158"},{"paramName":"PDP ID","paramValue":"4"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001042148_SBL0086","_parent":"MSP001042148"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428608","parameter":[{"paramName":"Cenik GSM","paramValue":"Z1 - Standardní cena"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP001225101"}}
+{"datum":"2016-02-02","servicePointID":"MSP001225101","refCustNumber":"3605234650","IMSI":"230029100033811","billingCycle":"a","tarif":"GSM tarif za 0 Kč"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001225101_-1000274","_parent":"MSP001225101"}}
+{"productCode":"-1000274","name":"ET GPRS-UMTS APN telemetry 1","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"op.eltodo"},{"paramName":"PDP ID","paramValue":"5"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001225101_SBL0086","_parent":"MSP001225101"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428609","parameter":[{"paramName":"APN Name","paramValue":"telemetry1"},{"paramName":"IP Address","paramValue":"10.8.154.177"},{"paramName":"PDP ID","paramValue":"4"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001225101_SBL0086","_parent":"MSP001225101"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428609","parameter":[{"paramName":"Cenik GSM","paramValue":"Z1 - Standardní cena"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP001222207"}}
+{"datum":"2016-02-02","servicePointID":"MSP001222207","refCustNumber":"3605234650","IMSI":"230029100033808","billingCycle":"a","tarif":"GSM tarif za 0 Kč"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001222207_-1000274","_parent":"MSP001222207"}}
+{"productCode":"-1000274","name":"ET GPRS-UMTS APN telemetry 1","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"op.eltodo"},{"paramName":"PDP ID","paramValue":"5"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001222207_SBL0086","_parent":"MSP001222207"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428610","parameter":[{"paramName":"APN Name","paramValue":"telemetry1"},{"paramName":"IP Address","paramValue":"10.8.154.222"},{"paramName":"PDP ID","paramValue":"4"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001222207_SBL0086","_parent":"MSP001222207"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428610","parameter":[{"paramName":"Cenik GSM","paramValue":"Z1 - Standardní cena"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP001226366"}}
+{"datum":"2016-02-02","servicePointID":"MSP001226366","refCustNumber":"3605234650","IMSI":"230029100038928","billingCycle":"a","tarif":"GSM tarif za 0 Kč"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001226366_-1000274","_parent":"MSP001226366"}}
+{"productCode":"-1000274","name":"ET GPRS-UMTS APN telemetry 1","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"op.eltodo"},{"paramName":"PDP ID","paramValue":"5"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001226366_SBL0086","_parent":"MSP001226366"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428613","parameter":[{"paramName":"APN Name","paramValue":"telemetry1"},{"paramName":"IP Address","paramValue":"10.8.154.218"},{"paramName":"PDP ID","paramValue":"4"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001226366_SBL0086","_parent":"MSP001226366"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428613","parameter":[{"paramName":"Cenik GSM","paramValue":"Z1 - Standardní cena"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP000849119"}}
+{"datum":"2016-02-02","servicePointID":"MSP000849119","refCustNumber":"3605234650","IMSI":"230024100817909","billingCycle":"a","tarif":"GSM tarif za 0 Kč"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP000849119_-1000274","_parent":"MSP000849119"}}
+{"productCode":"-1000274","name":"ET GPRS-UMTS APN telemetry 1","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"op.eltodo"},{"paramName":"PDP ID","paramValue":"5"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP000849119_-1000550","_parent":"MSP000849119"}}
+{"productCode":"-1000550","name":"O2 3PS WAP Barring","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"telemetry1"},{"paramName":"IP Address","paramValue":"10.8.155.54"},{"paramName":"PDP ID","paramValue":"4"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP000849119_-1000550","_parent":"MSP000849119"}}
+{"productCode":"-1000550","name":"O2 3PS WAP Barring","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"Blokace","paramValue":"N"},{"paramName":"Limit PT","paramValue":"N"},{"paramName":"Zamknuto","paramValue":"ANO"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP001225479"}}
+{"datum":"2016-02-02","servicePointID":"MSP001225479","refCustNumber":"3605234650","IMSI":"230021100664847","billingCycle":"a","tarif":"GSM tarif za 0 Kč"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001225479_-1000274","_parent":"MSP001225479"}}
+{"productCode":"-1000274","name":"ET GPRS-UMTS APN telemetry 1","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"op.eltodo"},{"paramName":"PDP ID","paramValue":"5"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001225479_SBL0086","_parent":"MSP001225479"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428474","parameter":[{"paramName":"APN Name","paramValue":"telemetry1"},{"paramName":"IP Address","paramValue":"10.8.177.171"},{"paramName":"PDP ID","paramValue":"4"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001225479_SBL0086","_parent":"MSP001225479"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428474","parameter":[{"paramName":"Cenik GSM","paramValue":"Z1 - Standardní cena"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP001133824"}}
+{"datum":"2016-02-02","servicePointID":"MSP001133824","refCustNumber":"3605234650","IMSI":"230021100662275","billingCycle":"a","tarif":"GSM tarif za 0 Kč"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001133824_-1000274","_parent":"MSP001133824"}}
+{"productCode":"-1000274","name":"ET GPRS-UMTS APN telemetry 1","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"op.eltodo"},{"paramName":"PDP ID","paramValue":"5"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001133824_SBL0086","_parent":"MSP001133824"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428455","parameter":[{"paramName":"APN Name","paramValue":"telemetry1"},{"paramName":"IP Address","paramValue":"10.8.152.69"},{"paramName":"PDP ID","paramValue":"4"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001133824_SBL0086","_parent":"MSP001133824"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428455","parameter":[{"paramName":"Cenik GSM","paramValue":"Z1 - Standardní cena"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP001223044"}}
+{"datum":"2016-02-02","servicePointID":"MSP001223044","refCustNumber":"3605234650","IMSI":"230021100662274","billingCycle":"a","tarif":"GSM tarif za 0 Kč"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001223044_-1000274","_parent":"MSP001223044"}}
+{"productCode":"-1000274","name":"ET GPRS-UMTS APN telemetry 1","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"op.eltodo"},{"paramName":"PDP ID","paramValue":"5"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001223044_SBL0086","_parent":"MSP001223044"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428456","parameter":[{"paramName":"APN Name","paramValue":"telemetry1"},{"paramName":"IP Address","paramValue":"10.8.177.147"},{"paramName":"PDP ID","paramValue":"4"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001223044_SBL0086","_parent":"MSP001223044"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428456","parameter":[{"paramName":"Cenik GSM","paramValue":"Z1 - Standardní cena"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP001228769"}}
+{"datum":"2016-02-02","servicePointID":"MSP001228769","refCustNumber":"3605234650","IMSI":"230021100662273","billingCycle":"a","tarif":"GSM tarif za 0 Kč"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001228769_-1000274","_parent":"MSP001228769"}}
+{"productCode":"-1000274","name":"ET GPRS-UMTS APN telemetry 1","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"op.eltodo"},{"paramName":"PDP ID","paramValue":"5"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001228769_SBL0086","_parent":"MSP001228769"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428442","parameter":[{"paramName":"APN Name","paramValue":"telemetry1"},{"paramName":"IP Address","paramValue":"10.8.177.63"},{"paramName":"PDP ID","paramValue":"4"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001228769_SBL0086","_parent":"MSP001228769"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428442","parameter":[{"paramName":"Cenik GSM","paramValue":"Z1 - Standardní cena"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP001225476"}}
+{"datum":"2016-02-02","servicePointID":"MSP001225476","refCustNumber":"3605234650","IMSI":"230021100662272","billingCycle":"a","tarif":"GSM tarif za 0 Kč"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001225476_-1000274","_parent":"MSP001225476"}}
+{"productCode":"-1000274","name":"ET GPRS-UMTS APN telemetry 1","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"op.eltodo"},{"paramName":"PDP ID","paramValue":"5"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001225476_SBL0086","_parent":"MSP001225476"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428439","parameter":[{"paramName":"APN Name","paramValue":"telemetry1"},{"paramName":"IP Address","paramValue":"10.8.153.223"},{"paramName":"PDP ID","paramValue":"4"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001225476_SBL0086","_parent":"MSP001225476"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428439","parameter":[{"paramName":"Cenik GSM","paramValue":"Z1 - Standardní cena"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP001225082"}}
+{"datum":"2016-02-02","servicePointID":"MSP001225082","refCustNumber":"3605234650","IMSI":"230021100662271","billingCycle":"a","tarif":"GSM tarif za 0 Kč"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001225082_-1000274","_parent":"MSP001225082"}}
+{"productCode":"-1000274","name":"ET GPRS-UMTS APN telemetry 1","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"op.eltodo"},{"paramName":"PDP ID","paramValue":"5"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001225082_SBL0086","_parent":"MSP001225082"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428453","parameter":[{"paramName":"APN Name","paramValue":"telemetry1"},{"paramName":"IP Address","paramValue":"10.8.155.58"},{"paramName":"PDP ID","paramValue":"4"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001225082_SBL0086","_parent":"MSP001225082"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428453","parameter":[{"paramName":"Cenik GSM","paramValue":"Z1 - Standardní cena"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP001133819"}}
+{"datum":"2016-02-02","servicePointID":"MSP001133819","refCustNumber":"3605234650","IMSI":"230021100662270","billingCycle":"a","tarif":"GSM tarif za 0 Kč"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001133819_-1000274","_parent":"MSP001133819"}}
+{"productCode":"-1000274","name":"ET GPRS-UMTS APN telemetry 1","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"op.eltodo"},{"paramName":"PDP ID","paramValue":"5"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001133819_SBL0086","_parent":"MSP001133819"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428452","parameter":[{"paramName":"APN Name","paramValue":"telemetry1"},{"paramName":"IP Address","paramValue":"10.8.177.116"},{"paramName":"PDP ID","paramValue":"4"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001133819_SBL0086","_parent":"MSP001133819"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428452","parameter":[{"paramName":"Cenik GSM","paramValue":"Z1 - Standardní cena"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP001230137"}}
+{"datum":"2016-02-02","servicePointID":"MSP001230137","refCustNumber":"3605234650","IMSI":"230024100499525","billingCycle":"a","tarif":"GSM tarif za 0 Kč"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001230137_-1000274","_parent":"MSP001230137"}}
+{"productCode":"-1000274","name":"ET GPRS-UMTS APN telemetry 1","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"op.eltodo"},{"paramName":"PDP ID","paramValue":"5"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001230137_SBL0086","_parent":"MSP001230137"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428216","parameter":[{"paramName":"APN Name","paramValue":"telemetry1"},{"paramName":"IP Address","paramValue":"10.8.177.107"},{"paramName":"PDP ID","paramValue":"4"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001230137_SBL0086","_parent":"MSP001230137"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428216","parameter":[{"paramName":"Cenik GSM","paramValue":"Z1 - Standardní cena"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP001042556"}}
+{"datum":"2016-02-02","servicePointID":"MSP001042556","refCustNumber":"3605234650","IMSI":"230024100499524","billingCycle":"a","tarif":"GSM tarif za 0 Kč"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001042556_-1000274","_parent":"MSP001042556"}}
+{"productCode":"-1000274","name":"ET GPRS-UMTS APN telemetry 1","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"op.eltodo"},{"paramName":"PDP ID","paramValue":"5"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001042556_SBL0086","_parent":"MSP001042556"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428214","parameter":[{"paramName":"APN Name","paramValue":"telemetry1"},{"paramName":"IP Address","paramValue":"10.8.152.224"},{"paramName":"PDP ID","paramValue":"4"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001042556_SBL0086","_parent":"MSP001042556"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428214","parameter":[{"paramName":"Cenik GSM","paramValue":"Z1 - Standardní cena"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP001230627"}}
+{"datum":"2016-02-02","servicePointID":"MSP001230627","refCustNumber":"3605234650","IMSI":"230024100499523","billingCycle":"a","tarif":"GSM tarif za 0 Kč"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001230627_-1000274","_parent":"MSP001230627"}}
+{"productCode":"-1000274","name":"ET GPRS-UMTS APN telemetry 1","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"op.eltodo"},{"paramName":"PDP ID","paramValue":"5"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001230627_SBL0086","_parent":"MSP001230627"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428221","parameter":[{"paramName":"APN Name","paramValue":"telemetry1"},{"paramName":"IP Address","paramValue":"10.8.155.40"},{"paramName":"PDP ID","paramValue":"4"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001230627_SBL0086","_parent":"MSP001230627"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428221","parameter":[{"paramName":"Cenik GSM","paramValue":"Z1 - Standardní cena"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP001042458"}}
+{"datum":"2016-02-02","servicePointID":"MSP001042458","refCustNumber":"3605234650","IMSI":"230024100499522","billingCycle":"a","tarif":"GSM tarif za 0 Kč"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001042458_-1000274","_parent":"MSP001042458"}}
+{"productCode":"-1000274","name":"ET GPRS-UMTS APN telemetry 1","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"op.eltodo"},{"paramName":"PDP ID","paramValue":"5"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001042458_SBL0086","_parent":"MSP001042458"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428189","parameter":[{"paramName":"APN Name","paramValue":"telemetry1"},{"paramName":"IP Address","paramValue":"10.8.177.95"},{"paramName":"PDP ID","paramValue":"4"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001042458_SBL0086","_parent":"MSP001042458"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428189","parameter":[{"paramName":"Cenik GSM","paramValue":"Z1 - Standardní cena"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP001223433"}}
+{"datum":"2016-02-02","servicePointID":"MSP001223433","refCustNumber":"3605234650","IMSI":"230024100499521","billingCycle":"a","tarif":"GSM tarif za 0 Kč"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001223433_-1000274","_parent":"MSP001223433"}}
+{"productCode":"-1000274","name":"ET GPRS-UMTS APN telemetry 1","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"op.eltodo"},{"paramName":"PDP ID","paramValue":"5"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001223433_SBL0086","_parent":"MSP001223433"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428196","parameter":[{"paramName":"APN Name","paramValue":"telemetry1"},{"paramName":"IP Address","paramValue":"10.8.177.136"},{"paramName":"PDP ID","paramValue":"4"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001223433_SBL0086","_parent":"MSP001223433"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428196","parameter":[{"paramName":"Cenik GSM","paramValue":"Z1 - Standardní cena"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP001041224"}}
+{"datum":"2016-02-02","servicePointID":"MSP001041224","refCustNumber":"3605234650","IMSI":"230024100499520","billingCycle":"a","tarif":"GSM tarif za 0 Kč"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001041224_-1000274","_parent":"MSP001041224"}}
+{"productCode":"-1000274","name":"ET GPRS-UMTS APN telemetry 1","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"op.eltodo"},{"paramName":"PDP ID","paramValue":"5"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001041224_SBL0086","_parent":"MSP001041224"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428195","parameter":[{"paramName":"APN Name","paramValue":"telemetry1"},{"paramName":"IP Address","paramValue":"10.8.177.140"},{"paramName":"PDP ID","paramValue":"4"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001041224_SBL0086","_parent":"MSP001041224"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428195","parameter":[{"paramName":"Cenik GSM","paramValue":"Z1 - Standardní cena"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP001222206"}}
+{"datum":"2016-02-02","servicePointID":"MSP001222206","refCustNumber":"3605234650","IMSI":"230029100033812","billingCycle":"a","tarif":"GSM tarif za 0 Kč"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001222206_-1000274","_parent":"MSP001222206"}}
+{"productCode":"-1000274","name":"ET GPRS-UMTS APN telemetry 1","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"op.eltodo"},{"paramName":"PDP ID","paramValue":"5"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001222206_SBL0086","_parent":"MSP001222206"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428614","parameter":[{"paramName":"APN Name","paramValue":"telemetry1"},{"paramName":"IP Address","paramValue":"10.8.152.225"},{"paramName":"PDP ID","paramValue":"4"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001222206_SBL0086","_parent":"MSP001222206"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428614","parameter":[{"paramName":"Cenik GSM","paramValue":"Z1 - Standardní cena"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP001041650"}}
+{"datum":"2016-02-02","servicePointID":"MSP001041650","refCustNumber":"3605234650","IMSI":"230024100499518","billingCycle":"a","tarif":"GSM tarif za 0 Kč"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001041650_-1000274","_parent":"MSP001041650"}}
+{"productCode":"-1000274","name":"ET GPRS-UMTS APN telemetry 1","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"op.eltodo"},{"paramName":"PDP ID","paramValue":"5"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001041650_SBL0086","_parent":"MSP001041650"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428193","parameter":[{"paramName":"APN Name","paramValue":"telemetry1"},{"paramName":"IP Address","paramValue":"10.8.154.9"},{"paramName":"PDP ID","paramValue":"4"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001041650_SBL0086","_parent":"MSP001041650"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428193","parameter":[{"paramName":"Cenik GSM","paramValue":"Z1 - Standardní cena"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP001042014"}}
+{"datum":"2016-02-02","servicePointID":"MSP001042014","refCustNumber":"3605234650","IMSI":"230024100496779","billingCycle":"a","tarif":"GSM tarif za 0 Kč"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001042014_-1000274","_parent":"MSP001042014"}}
+{"productCode":"-1000274","name":"ET GPRS-UMTS APN telemetry 1","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"op.eltodo"},{"paramName":"PDP ID","paramValue":"5"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001042014_SBL0086","_parent":"MSP001042014"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428095","parameter":[{"paramName":"APN Name","paramValue":"telemetry1"},{"paramName":"IP Address","paramValue":"10.8.153.221"},{"paramName":"PDP ID","paramValue":"4"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001042014_SBL0086","_parent":"MSP001042014"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428095","parameter":[{"paramName":"Cenik GSM","paramValue":"Z1 - Standardní cena"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP001225092"}}
+{"datum":"2016-02-02","servicePointID":"MSP001225092","refCustNumber":"3605234650","IMSI":"230021100574736","billingCycle":"a","tarif":"O2 Individual"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001225092_-1000233","_parent":"MSP001225092"}}
+{"productCode":"-1000233","name":"ET Premium SMS/MMS End-User","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"op.eltodo"},{"paramName":"PDP ID","paramValue":"5"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001225092_-1000274","_parent":"MSP001225092"}}
+{"productCode":"-1000274","name":"ET GPRS-UMTS APN telemetry 1","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"Blokování zpráv","paramValue":"NONE"},{"paramName":"Denní limit","paramValue":"1000"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001225092_SBL0086","_parent":"MSP001225092"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428099","parameter":[{"paramName":"APN Name","paramValue":"telemetry1"},{"paramName":"IP Address","paramValue":"10.8.177.226"},{"paramName":"PDP ID","paramValue":"4"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001225092_SBL0165","_parent":"MSP001225092"}}
+{"productCode":"SBL0165","name":"VPN tarif","status":"a","BSCS8_CO_ID":"10428099","parameter":[{"paramName":"Cenik GSM","paramValue":"Z1 - Standardní cena"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001225092_SBL0165","_parent":"MSP001225092"}}
+{"productCode":"SBL0165","name":"VPN tarif","status":"a","BSCS8_CO_ID":"10428099","parameter":[{"paramName":"VPN tarif","paramValue":"Pasivní člen"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP001133298"}}
+{"datum":"2016-02-02","servicePointID":"MSP001133298","refCustNumber":"3605234650","IMSI":"230029100038909","billingCycle":"a","tarif":"GSM tarif za 0 Kč"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001133298_-1000274","_parent":"MSP001133298"}}
+{"productCode":"-1000274","name":"ET GPRS-UMTS APN telemetry 1","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"op.eltodo"},{"paramName":"PDP ID","paramValue":"5"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001133298_SBL0086","_parent":"MSP001133298"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428626","parameter":[{"paramName":"APN Name","paramValue":"telemetry1"},{"paramName":"IP Address","paramValue":"10.8.153.33"},{"paramName":"PDP ID","paramValue":"4"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001133298_SBL0086","_parent":"MSP001133298"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428626","parameter":[{"paramName":"Cenik GSM","paramValue":"Z1 - Standardní cena"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP002179740"}}
+{"datum":"2016-02-02","servicePointID":"MSP002179740","refCustNumber":"3605234650","IMSI":"230021100574725","billingCycle":"a","tarif":"O2 Individual"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP002179740_-1000233","_parent":"MSP002179740"}}
+{"productCode":"-1000233","name":"ET Premium SMS/MMS End-User","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"op.eltodo"},{"paramName":"PDP ID","paramValue":"5"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP002179740_-1000274","_parent":"MSP002179740"}}
+{"productCode":"-1000274","name":"ET GPRS-UMTS APN telemetry 1","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"Blokování zpráv","paramValue":"NONE"},{"paramName":"Denní limit","paramValue":"1000"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP002179740_SBL0086","_parent":"MSP002179740"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428076","parameter":[{"paramName":"APN Name","paramValue":"telemetry1"},{"paramName":"IP Address","paramValue":"10.8.3.74"},{"paramName":"PDP ID","paramValue":"4"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP002179740_SBL0165","_parent":"MSP002179740"}}
+{"productCode":"SBL0165","name":"VPN tarif","status":"a","BSCS8_CO_ID":"10428076","parameter":[{"paramName":"Cenik GSM","paramValue":"Z1 - Standardní cena"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP002179740_SBL0165","_parent":"MSP002179740"}}
+{"productCode":"SBL0165","name":"VPN tarif","status":"a","BSCS8_CO_ID":"10428076","parameter":[{"paramName":"VPN tarif","paramValue":"Pasivní člen"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP002180836"}}
+{"datum":"2016-02-02","servicePointID":"MSP002180836","refCustNumber":"3605234650","IMSI":"230024100496778","billingCycle":"a","tarif":"GSM tarif za 0 Kč"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP002180836_-1000274","_parent":"MSP002180836"}}
+{"productCode":"-1000274","name":"ET GPRS-UMTS APN telemetry 1","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"op.eltodo"},{"paramName":"PDP ID","paramValue":"5"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP002180836_SBL0086","_parent":"MSP002180836"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428097","parameter":[{"paramName":"APN Name","paramValue":"telemetry1"},{"paramName":"IP Address","paramValue":"10.8.154.11"},{"paramName":"PDP ID","paramValue":"4"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP002180836_SBL0086","_parent":"MSP002180836"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428097","parameter":[{"paramName":"Cenik GSM","paramValue":"Z1 - Standardní cena"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP001229593"}}
+{"datum":"2016-02-02","servicePointID":"MSP001229593","refCustNumber":"3605234650","IMSI":"230021100574724","billingCycle":"a","tarif":"O2 Individual"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001229593_-1000233","_parent":"MSP001229593"}}
+{"productCode":"-1000233","name":"ET Premium SMS/MMS End-User","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"op.eltodo"},{"paramName":"PDP ID","paramValue":"5"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001229593_-1000274","_parent":"MSP001229593"}}
+{"productCode":"-1000274","name":"ET GPRS-UMTS APN telemetry 1","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"Blokování zpráv","paramValue":"NONE"},{"paramName":"Denní limit","paramValue":"1000"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001229593_SBL0086","_parent":"MSP001229593"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428064","parameter":[{"paramName":"APN Name","paramValue":"telemetry1"},{"paramName":"IP Address","paramValue":"10.8.6.246"},{"paramName":"PDP ID","paramValue":"4"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001229593_SBL0165","_parent":"MSP001229593"}}
+{"productCode":"SBL0165","name":"VPN tarif","status":"a","BSCS8_CO_ID":"10428064","parameter":[{"paramName":"Cenik GSM","paramValue":"Z1 - Standardní cena"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001229593_SBL0165","_parent":"MSP001229593"}}
+{"productCode":"SBL0165","name":"VPN tarif","status":"a","BSCS8_CO_ID":"10428064","parameter":[{"paramName":"VPN tarif","paramValue":"Pasivní člen"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP001042791"}}
+{"datum":"2016-02-02","servicePointID":"MSP001042791","refCustNumber":"3605234650","IMSI":"230024100496777","billingCycle":"a","tarif":"GSM tarif za 0 Kč"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001042791_-1000274","_parent":"MSP001042791"}}
+{"productCode":"-1000274","name":"ET GPRS-UMTS APN telemetry 1","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"op.eltodo"},{"paramName":"PDP ID","paramValue":"5"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001042791_SBL0086","_parent":"MSP001042791"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428063","parameter":[{"paramName":"APN Name","paramValue":"telemetry1"},{"paramName":"IP Address","paramValue":"10.8.177.118"},{"paramName":"PDP ID","paramValue":"4"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001042791_SBL0086","_parent":"MSP001042791"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428063","parameter":[{"paramName":"Cenik GSM","paramValue":"Z1 - Standardní cena"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP001229672"}}
+{"datum":"2016-02-02","servicePointID":"MSP001229672","refCustNumber":"3605234650","IMSI":"230021100574723","billingCycle":"a","tarif":"O2 Individual"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001229672_-1000233","_parent":"MSP001229672"}}
+{"productCode":"-1000233","name":"ET Premium SMS/MMS End-User","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"op.eltodo"},{"paramName":"PDP ID","paramValue":"5"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001229672_-1000274","_parent":"MSP001229672"}}
+{"productCode":"-1000274","name":"ET GPRS-UMTS APN telemetry 1","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"Blokování zpráv","paramValue":"NONE"},{"paramName":"Denní limit","paramValue":"1000"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001229672_SBL0086","_parent":"MSP001229672"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428062","parameter":[{"paramName":"APN Name","paramValue":"telemetry1"},{"paramName":"IP Address","paramValue":"10.8.177.210"},{"paramName":"PDP ID","paramValue":"4"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001229672_SBL0165","_parent":"MSP001229672"}}
+{"productCode":"SBL0165","name":"VPN tarif","status":"a","BSCS8_CO_ID":"10428062","parameter":[{"paramName":"Cenik GSM","paramValue":"Z1 - Standardní cena"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001229672_SBL0165","_parent":"MSP001229672"}}
+{"productCode":"SBL0165","name":"VPN tarif","status":"a","BSCS8_CO_ID":"10428062","parameter":[{"paramName":"VPN tarif","paramValue":"Pasivní člen"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP001042930"}}
+{"datum":"2016-02-02","servicePointID":"MSP001042930","refCustNumber":"3605234650","IMSI":"230024100496776","billingCycle":"a","tarif":"GSM tarif za 0 Kč"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001042930_-1000274","_parent":"MSP001042930"}}
+{"productCode":"-1000274","name":"ET GPRS-UMTS APN telemetry 1","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"op.eltodo"},{"paramName":"PDP ID","paramValue":"5"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001042930_SBL0086","_parent":"MSP001042930"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428061","parameter":[{"paramName":"APN Name","paramValue":"telemetry1"},{"paramName":"IP Address","paramValue":"10.8.154.237"},{"paramName":"PDP ID","paramValue":"4"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001042930_SBL0086","_parent":"MSP001042930"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428061","parameter":[{"paramName":"Cenik GSM","paramValue":"Z1 - Standardní cena"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP002179442"}}
+{"datum":"2016-02-02","servicePointID":"MSP002179442","refCustNumber":"3605234650","IMSI":"230021100574722","billingCycle":"a","tarif":"GSM tarif za 0 Kč"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP002179442_-1000233","_parent":"MSP002179442"}}
+{"productCode":"-1000233","name":"ET Premium SMS/MMS End-User","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"op.eltodo"},{"paramName":"PDP ID","paramValue":"5"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP002179442_-1000274","_parent":"MSP002179442"}}
+{"productCode":"-1000274","name":"ET GPRS-UMTS APN telemetry 1","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"Blokování zpráv","paramValue":"NONE"},{"paramName":"Denní limit","paramValue":"1000"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP002179442_SBL0086","_parent":"MSP002179442"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428065","parameter":[{"paramName":"APN Name","paramValue":"telemetry1"},{"paramName":"IP Address","paramValue":"10.8.6.161"},{"paramName":"PDP ID","paramValue":"4"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP002179442_SBL0086","_parent":"MSP002179442"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428065","parameter":[{"paramName":"Cenik GSM","paramValue":"Z1 - Standardní cena"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP001133568"}}
+{"datum":"2016-02-02","servicePointID":"MSP001133568","refCustNumber":"3605234650","IMSI":"230024100443683","billingCycle":"a","tarif":"GSM tarif za 0 Kč"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001133568_-1000274","_parent":"MSP001133568"}}
+{"productCode":"-1000274","name":"ET GPRS-UMTS APN telemetry 1","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"op.eltodo"},{"paramName":"PDP ID","paramValue":"5"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001133568_SBL0086","_parent":"MSP001133568"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428066","parameter":[{"paramName":"APN Name","paramValue":"telemetry1"},{"paramName":"IP Address","paramValue":"10.8.152.34"},{"paramName":"PDP ID","paramValue":"4"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001133568_SBL0086","_parent":"MSP001133568"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428066","parameter":[{"paramName":"Cenik GSM","paramValue":"Z1 - Standardní cena"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP000848637"}}
+{"datum":"2016-02-02","servicePointID":"MSP000848637","refCustNumber":"3605234650","IMSI":"230024100817852","billingCycle":"a","tarif":"GSM tarif za 0 Kč"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP000848637_-1000274","_parent":"MSP000848637"}}
+{"productCode":"-1000274","name":"ET GPRS-UMTS APN telemetry 1","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"op.eltodo"},{"paramName":"PDP ID","paramValue":"5"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP000848637_-1000550","_parent":"MSP000848637"}}
+{"productCode":"-1000550","name":"O2 3PS WAP Barring","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"telemetry1"},{"paramName":"IP Address","paramValue":"10.8.131.122"},{"paramName":"PDP ID","paramValue":"4"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP000848637_-1000550","_parent":"MSP000848637"}}
+{"productCode":"-1000550","name":"O2 3PS WAP Barring","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"Blokace","paramValue":"N"},{"paramName":"Limit PT","paramValue":"N"},{"paramName":"Zamknuto","paramValue":"ANO"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP002180117"}}
+{"datum":"2016-02-02","servicePointID":"MSP002180117","refCustNumber":"3605234650","IMSI":"230021100678724","billingCycle":"a","tarif":"GSM tarif za 0 Kč"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP002180117_-1000274","_parent":"MSP002180117"}}
+{"productCode":"-1000274","name":"ET GPRS-UMTS APN telemetry 1","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"op.eltodo"},{"paramName":"PDP ID","paramValue":"5"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP002180117_SBL0086","_parent":"MSP002180117"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10427945","parameter":[{"paramName":"APN Name","paramValue":"telemetry1"},{"paramName":"IP Address","paramValue":"10.8.131.100"},{"paramName":"PDP ID","paramValue":"4"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP002180117_SR0001","_parent":"MSP002180117"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"10427945","parameter":[{"paramName":"Cenik GSM","paramValue":"Z1 - Standardní cena"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP002180117_SR0001","_parent":"MSP002180117"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"10427945","parameter":[{"paramName":"EU_Limit","paramValue":"Ano"},{"paramName":"EU_Limit_SMS_notification","paramValue":"Ano"},{"paramName":"Eligible_for_shared_data_package","paramValue":"Ano"},{"paramName":"Type","paramValue":"Full"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP001041962"}}
+{"datum":"2016-02-02","servicePointID":"MSP001041962","refCustNumber":"3605234650","IMSI":"230022100338051","billingCycle":"a","tarif":"GSM tarif za 0 Kč"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001041962_-1000233","_parent":"MSP001041962"}}
+{"productCode":"-1000233","name":"ET Premium SMS/MMS End-User","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"op.eltodo"},{"paramName":"PDP ID","paramValue":"5"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001041962_-1000274","_parent":"MSP001041962"}}
+{"productCode":"-1000274","name":"ET GPRS-UMTS APN telemetry 1","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"Blokování zpráv","paramValue":"NONE"},{"paramName":"Denní limit","paramValue":"1000"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001041962_SBL0086","_parent":"MSP001041962"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10427921","parameter":[{"paramName":"APN Name","paramValue":"telemetry1"},{"paramName":"IP Address","paramValue":"10.8.177.223"},{"paramName":"PDP ID","paramValue":"4"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001041962_SBL0086","_parent":"MSP001041962"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10427921","parameter":[{"paramName":"Cenik GSM","paramValue":"Z1 - Standardní cena"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP004778643"}}
+{"datum":"2016-02-02","servicePointID":"MSP004778643","refCustNumber":"3605234650","IMSI":"230020200818318","billingCycle":"a","tarif":"GSM tarif za 0 Kč"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP004778643_-1000274","_parent":"MSP004778643"}}
+{"productCode":"-1000274","name":"ET GPRS-UMTS APN telemetry 1","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"op.eltodo"},{"paramName":"PDP ID","paramValue":"5"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP004778643_-1000550","_parent":"MSP004778643"}}
+{"productCode":"-1000550","name":"O2 3PS WAP Barring","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"telemetry1"},{"paramName":"IP Address","paramValue":"10.8.155.23"},{"paramName":"PDP ID","paramValue":"1"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP004778643_SBL0086","_parent":"MSP004778643"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10427940","parameter":[{"paramName":"Blokace","paramValue":"N"},{"paramName":"Limit PT","paramValue":"N"},{"paramName":"Zamknuto","paramValue":"ANO"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP004778643_SBL0086","_parent":"MSP004778643"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10427940","parameter":[{"paramName":"Cenik GSM","paramValue":"Z1 - Standardní cena"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP001230954"}}
+{"datum":"2016-02-02","servicePointID":"MSP001230954","refCustNumber":"3605234650","IMSI":"230022100338050","billingCycle":"a","tarif":"GSM tarif za 0 Kč"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001230954_-1000233","_parent":"MSP001230954"}}
+{"productCode":"-1000233","name":"ET Premium SMS/MMS End-User","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"op.eltodo"},{"paramName":"PDP ID","paramValue":"5"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001230954_-1000274","_parent":"MSP001230954"}}
+{"productCode":"-1000274","name":"ET GPRS-UMTS APN telemetry 1","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"Blokování zpráv","paramValue":"NONE"},{"paramName":"Denní limit","paramValue":"1000"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001230954_SBL0086","_parent":"MSP001230954"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10427980","parameter":[{"paramName":"APN Name","paramValue":"telemetry1"},{"paramName":"IP Address","paramValue":"10.8.107.84"},{"paramName":"PDP ID","paramValue":"4"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001230954_SBL0086","_parent":"MSP001230954"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10427980","parameter":[{"paramName":"Cenik GSM","paramValue":"Z1 - Standardní cena"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP002179271"}}
+{"datum":"2016-02-02","servicePointID":"MSP002179271","refCustNumber":"3605234650","IMSI":"230020200643277","billingCycle":"a","tarif":"GSM tarif za 0 Kč"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP002179271_-1000274","_parent":"MSP002179271"}}
+{"productCode":"-1000274","name":"ET GPRS-UMTS APN telemetry 1","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"op.eltodo"},{"paramName":"PDP ID","paramValue":"5"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP002179271_SBL0086","_parent":"MSP002179271"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10427977","parameter":[{"paramName":"APN Name","paramValue":"telemetry1"},{"paramName":"IP Address","paramValue":"10.8.154.206"},{"paramName":"PDP ID","paramValue":"4"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP002179271_SBL0086","_parent":"MSP002179271"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10427977","parameter":[{"paramName":"Cenik GSM","paramValue":"Z1 - Standardní cena"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP002180453"}}
+{"datum":"2016-02-02","servicePointID":"MSP002180453","refCustNumber":"3605234650","IMSI":"230022100338049","billingCycle":"a","tarif":"GSM tarif za 0 Kč"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP002180453_-1000233","_parent":"MSP002180453"}}
+{"productCode":"-1000233","name":"ET Premium SMS/MMS End-User","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"op.eltodo"},{"paramName":"PDP ID","paramValue":"5"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP002180453_-1000274","_parent":"MSP002180453"}}
+{"productCode":"-1000274","name":"ET GPRS-UMTS APN telemetry 1","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"Blokování zpráv","paramValue":"NONE"},{"paramName":"Denní limit","paramValue":"1000"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP002180453_SBL0086","_parent":"MSP002180453"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10427935","parameter":[{"paramName":"APN Name","paramValue":"telemetry1"},{"paramName":"IP Address","paramValue":"10.8.5.241"},{"paramName":"PDP ID","paramValue":"4"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP002180453_SBL0086","_parent":"MSP002180453"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10427935","parameter":[{"paramName":"Cenik GSM","paramValue":"Z1 - Standardní cena"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP001227828"}}
+{"datum":"2016-02-02","servicePointID":"MSP001227828","refCustNumber":"3605234650","IMSI":"230020200643276","billingCycle":"a","tarif":"GSM tarif za 0 Kč"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001227828_-1000274","_parent":"MSP001227828"}}
+{"productCode":"-1000274","name":"ET GPRS-UMTS APN telemetry 1","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"op.eltodo"},{"paramName":"PDP ID","paramValue":"5"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001227828_SBL0086","_parent":"MSP001227828"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428001","parameter":[{"paramName":"APN Name","paramValue":"telemetry1"},{"paramName":"IP Address","paramValue":"10.8.152.177"},{"paramName":"PDP ID","paramValue":"4"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001227828_SBL0086","_parent":"MSP001227828"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428001","parameter":[{"paramName":"Cenik GSM","paramValue":"Z1 - Standardní cena"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP001230141"}}
+{"datum":"2016-02-02","servicePointID":"MSP001230141","refCustNumber":"3605234650","IMSI":"230022100338088","billingCycle":"a","tarif":"GSM tarif za 0 Kč"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001230141_-1000233","_parent":"MSP001230141"}}
+{"productCode":"-1000233","name":"ET Premium SMS/MMS End-User","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"op.eltodo"},{"paramName":"PDP ID","paramValue":"5"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001230141_-1000274","_parent":"MSP001230141"}}
+{"productCode":"-1000274","name":"ET GPRS-UMTS APN telemetry 1","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"Blokování zpráv","paramValue":"NONE"},{"paramName":"Denní limit","paramValue":"1000"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001230141_SBL0086","_parent":"MSP001230141"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10427928","parameter":[{"paramName":"APN Name","paramValue":"telemetry1"},{"paramName":"IP Address","paramValue":"10.8.25.234"},{"paramName":"PDP ID","paramValue":"4"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001230141_SBL0086","_parent":"MSP001230141"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10427928","parameter":[{"paramName":"Cenik GSM","paramValue":"Z1 - Standardní cena"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP001041999"}}
+{"datum":"2016-02-02","servicePointID":"MSP001041999","refCustNumber":"3605234650","IMSI":"230024100496786","billingCycle":"a","tarif":"GSM tarif za 0 Kč"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001041999_-1000274","_parent":"MSP001041999"}}
+{"productCode":"-1000274","name":"ET GPRS-UMTS APN telemetry 1","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"op.eltodo"},{"paramName":"PDP ID","paramValue":"5"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001041999_SBL0086","_parent":"MSP001041999"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428117","parameter":[{"paramName":"APN Name","paramValue":"telemetry1"},{"paramName":"IP Address","paramValue":"10.8.177.160"},{"paramName":"PDP ID","paramValue":"4"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001041999_SBL0086","_parent":"MSP001041999"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428117","parameter":[{"paramName":"Cenik GSM","paramValue":"Z1 - Standardní cena"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP001226226"}}
+{"datum":"2016-02-02","servicePointID":"MSP001226226","refCustNumber":"3605234650","IMSI":"230024100496785","billingCycle":"a","tarif":"GSM tarif za 0 Kč"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001226226_-1000274","_parent":"MSP001226226"}}
+{"productCode":"-1000274","name":"ET GPRS-UMTS APN telemetry 1","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"op.eltodo"},{"paramName":"PDP ID","paramValue":"5"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001226226_SBL0086","_parent":"MSP001226226"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428116","parameter":[{"paramName":"APN Name","paramValue":"telemetry1"},{"paramName":"IP Address","paramValue":"10.8.152.74"},{"paramName":"PDP ID","paramValue":"4"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001226226_SBL0086","_parent":"MSP001226226"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428116","parameter":[{"paramName":"Cenik GSM","paramValue":"Z1 - Standardní cena"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP001226600"}}
+{"datum":"2016-02-02","servicePointID":"MSP001226600","refCustNumber":"3605234650","IMSI":"230024100496784","billingCycle":"a","tarif":"GSM tarif za 0 Kč"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001226600_-1000274","_parent":"MSP001226600"}}
+{"productCode":"-1000274","name":"ET GPRS-UMTS APN telemetry 1","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"op.eltodo"},{"paramName":"PDP ID","paramValue":"5"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001226600_SBL0086","_parent":"MSP001226600"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428096","parameter":[{"paramName":"APN Name","paramValue":"telemetry1"},{"paramName":"IP Address","paramValue":"10.8.177.101"},{"paramName":"PDP ID","paramValue":"4"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001226600_SBL0086","_parent":"MSP001226600"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428096","parameter":[{"paramName":"Cenik GSM","paramValue":"Z1 - Standardní cena"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP001042885"}}
+{"datum":"2016-02-02","servicePointID":"MSP001042885","refCustNumber":"3605234650","IMSI":"230024100499519","billingCycle":"a","tarif":"GSM tarif za 0 Kč"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001042885_-1000274","_parent":"MSP001042885"}}
+{"productCode":"-1000274","name":"ET GPRS-UMTS APN telemetry 1","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"op.eltodo"},{"paramName":"PDP ID","paramValue":"5"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001042885_SBL0086","_parent":"MSP001042885"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428194","parameter":[{"paramName":"APN Name","paramValue":"telemetry1"},{"paramName":"IP Address","paramValue":"10.8.154.47"},{"paramName":"PDP ID","paramValue":"4"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001042885_SBL0086","_parent":"MSP001042885"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428194","parameter":[{"paramName":"Cenik GSM","paramValue":"Z1 - Standardní cena"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP002179586"}}
+{"datum":"2016-02-02","servicePointID":"MSP002179586","refCustNumber":"3605234650","IMSI":"230021100574739","billingCycle":"a","tarif":"GSM tarif za 0 Kč"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP002179586_-1000233","_parent":"MSP002179586"}}
+{"productCode":"-1000233","name":"ET Premium SMS/MMS End-User","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"op.eltodo"},{"paramName":"PDP ID","paramValue":"5"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP002179586_-1000274","_parent":"MSP002179586"}}
+{"productCode":"-1000274","name":"ET GPRS-UMTS APN telemetry 1","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"Blokování zpráv","paramValue":"NONE"},{"paramName":"Denní limit","paramValue":"1000"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP002179586_SBL0086","_parent":"MSP002179586"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428098","parameter":[{"paramName":"APN Name","paramValue":"telemetry1"},{"paramName":"IP Address","paramValue":"10.8.3.131"},{"paramName":"PDP ID","paramValue":"4"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP002179586_SBL0086","_parent":"MSP002179586"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428098","parameter":[{"paramName":"Cenik GSM","paramValue":"Z1 - Standardní cena"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP001224412"}}
+{"datum":"2016-02-02","servicePointID":"MSP001224412","refCustNumber":"3605234650","IMSI":"230024100496782","billingCycle":"a","tarif":"GSM tarif za 0 Kč"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001224412_-1000274","_parent":"MSP001224412"}}
+{"productCode":"-1000274","name":"ET GPRS-UMTS APN telemetry 1","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"op.eltodo"},{"paramName":"PDP ID","paramValue":"5"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001224412_SBL0086","_parent":"MSP001224412"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428089","parameter":[{"paramName":"APN Name","paramValue":"telemetry1"},{"paramName":"IP Address","paramValue":"10.8.177.56"},{"paramName":"PDP ID","paramValue":"4"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001224412_SBL0086","_parent":"MSP001224412"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428089","parameter":[{"paramName":"Cenik GSM","paramValue":"Z1 - Standardní cena"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP001252193"}}
+{"datum":"2016-02-02","servicePointID":"MSP001252193","refCustNumber":"3605234650","IMSI":"230021100574738","billingCycle":"a","tarif":"O2 Individual"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001252193_-1000233","_parent":"MSP001252193"}}
+{"productCode":"-1000233","name":"ET Premium SMS/MMS End-User","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"op.eltodo"},{"paramName":"PDP ID","paramValue":"5"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001252193_-1000274","_parent":"MSP001252193"}}
+{"productCode":"-1000274","name":"ET GPRS-UMTS APN telemetry 1","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"Blokování zpráv","paramValue":"NONE"},{"paramName":"Denní limit","paramValue":"1000"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001252193_SBL0086","_parent":"MSP001252193"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428090","parameter":[{"paramName":"APN Name","paramValue":"telemetry1"},{"paramName":"IP Address","paramValue":"10.8.31.154"},{"paramName":"PDP ID","paramValue":"4"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001252193_SBL0165","_parent":"MSP001252193"}}
+{"productCode":"SBL0165","name":"VPN tarif","status":"a","BSCS8_CO_ID":"10428090","parameter":[{"paramName":"Cenik GSM","paramValue":"Z1 - Standardní cena"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001252193_SBL0165","_parent":"MSP001252193"}}
+{"productCode":"SBL0165","name":"VPN tarif","status":"a","BSCS8_CO_ID":"10428090","parameter":[{"paramName":"VPN tarif","paramValue":"Pasivní člen"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP001227839"}}
+{"datum":"2016-02-02","servicePointID":"MSP001227839","refCustNumber":"3605234650","IMSI":"230024100496781","billingCycle":"a","tarif":"GSM tarif za 0 Kč"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001227839_-1000274","_parent":"MSP001227839"}}
+{"productCode":"-1000274","name":"ET GPRS-UMTS APN telemetry 1","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"op.eltodo"},{"paramName":"PDP ID","paramValue":"5"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001227839_SBL0086","_parent":"MSP001227839"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428093","parameter":[{"paramName":"APN Name","paramValue":"telemetry1"},{"paramName":"IP Address","paramValue":"10.8.155.4"},{"paramName":"PDP ID","paramValue":"4"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001227839_SBL0086","_parent":"MSP001227839"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428093","parameter":[{"paramName":"Cenik GSM","paramValue":"Z1 - Standardní cena"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP001227918"}}
+{"datum":"2016-02-02","servicePointID":"MSP001227918","refCustNumber":"3605234650","IMSI":"230021100574737","billingCycle":"a","tarif":"GSM tarif za 0 Kč"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001227918_-1000233","_parent":"MSP001227918"}}
+{"productCode":"-1000233","name":"ET Premium SMS/MMS End-User","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"op.eltodo"},{"paramName":"PDP ID","paramValue":"5"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001227918_-1000274","_parent":"MSP001227918"}}
+{"productCode":"-1000274","name":"ET GPRS-UMTS APN telemetry 1","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"Blokování zpráv","paramValue":"NONE"},{"paramName":"Denní limit","paramValue":"1000"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001227918_SBL0086","_parent":"MSP001227918"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428094","parameter":[{"paramName":"APN Name","paramValue":"telemetry1"},{"paramName":"IP Address","paramValue":"10.8.27.132"},{"paramName":"PDP ID","paramValue":"4"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001227918_SBL0086","_parent":"MSP001227918"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428094","parameter":[{"paramName":"Cenik GSM","paramValue":"Z1 - Standardní cena"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP001223630"}}
+{"datum":"2016-02-02","servicePointID":"MSP001223630","refCustNumber":"3605234650","IMSI":"230024100496780","billingCycle":"a","tarif":"GSM tarif za 0 Kč"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001223630_-1000274","_parent":"MSP001223630"}}
+{"productCode":"-1000274","name":"ET GPRS-UMTS APN telemetry 1","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"op.eltodo"},{"paramName":"PDP ID","paramValue":"5"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001223630_SBL0086","_parent":"MSP001223630"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428092","parameter":[{"paramName":"APN Name","paramValue":"telemetry1"},{"paramName":"IP Address","paramValue":"10.8.154.228"},{"paramName":"PDP ID","paramValue":"4"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001223630_SBL0086","_parent":"MSP001223630"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428092","parameter":[{"paramName":"Cenik GSM","paramValue":"Z1 - Standardní cena"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP001222522"}}
+{"datum":"2016-02-02","servicePointID":"MSP001222522","refCustNumber":"3605234650","IMSI":"230022100338060","billingCycle":"a","tarif":"GSM tarif za 0 Kč"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001222522_-1000274","_parent":"MSP001222522"}}
+{"productCode":"-1000274","name":"ET GPRS-UMTS APN telemetry 1","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"op.eltodo"},{"paramName":"PDP ID","paramValue":"5"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001222522_SBL0086","_parent":"MSP001222522"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10427994","parameter":[{"paramName":"APN Name","paramValue":"telemetry1"},{"paramName":"IP Address","paramValue":"10.8.155.39"},{"paramName":"PDP ID","paramValue":"4"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001222522_SBL0086","_parent":"MSP001222522"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10427994","parameter":[{"paramName":"Cenik GSM","paramValue":"Z1 - Standardní cena"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP001522365"}}
+{"datum":"2016-02-02","servicePointID":"MSP001522365","refCustNumber":"3605230814","IMSI":"230020200001038","billingCycle":"s","tarif":"GSM TEST"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001522365_-1000233","_parent":"MSP001522365"}}
+{"productCode":"-1000233","name":"ET Premium SMS/MMS End-User","status":"s","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"video"},{"paramName":"PDP ID","paramValue":"3"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001522365_SBL0061","_parent":"MSP001522365"}}
+{"productCode":"SBL0061","name":"Vypojení - Krádež","status":"a","BSCS8_CO_ID":"366","parameter":[{"paramName":"Blokování zpráv","paramValue":"NONE"},{"paramName":"Denní limit","paramValue":"1000"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001522365_SR0001","_parent":"MSP001522365"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"366","parameter":[{"paramName":"Priorita","paramValue":"2"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001522365_SR0001","_parent":"MSP001522365"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"366","parameter":[{"paramName":"EU_Limit","paramValue":"Ano"},{"paramName":"EU_Limit_SMS_notification","paramValue":"Ano"},{"paramName":"Eligible_for_shared_data_package","paramValue":"Ano"},{"paramName":"Type","paramValue":"Full"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP001734633"}}
+{"datum":"2016-02-02","servicePointID":"MSP001734633","refCustNumber":"3605230818","IMSI":"230022900097200","billingCycle":"s","tarif":"GSM TEST"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001734633_-1000233","_parent":"MSP001734633"}}
+{"productCode":"-1000233","name":"ET Premium SMS/MMS End-User","status":"s","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"video"},{"paramName":"PDP ID","paramValue":"2"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001734633_SBL0061","_parent":"MSP001734633"}}
+{"productCode":"SBL0061","name":"Vypojení - Krádež","status":"a","BSCS8_CO_ID":"1733058","parameter":[{"paramName":"Blokování zpráv","paramValue":"NONE"},{"paramName":"Denní limit","paramValue":"1000"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001734633_SR0001","_parent":"MSP001734633"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"1733058","parameter":[{"paramName":"Priorita","paramValue":"2"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001734633_SR0001","_parent":"MSP001734633"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"1733058","parameter":[{"paramName":"EU_Limit","paramValue":"Ano"},{"paramName":"EU_Limit_SMS_notification","paramValue":"Ano"},{"paramName":"Eligible_for_shared_data_package","paramValue":"Ano"},{"paramName":"Type","paramValue":"Full"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP001342539"}}
+{"datum":"2016-02-02","servicePointID":"MSP001342539","refCustNumber":"3605230816","IMSI":"230020200001511","billingCycle":"s","tarif":"GSM TEST"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001342539_-1000233","_parent":"MSP001342539"}}
+{"productCode":"-1000233","name":"ET Premium SMS/MMS End-User","status":"s","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"video"},{"paramName":"PDP ID","paramValue":"3"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001342539_SBL0061","_parent":"MSP001342539"}}
+{"productCode":"SBL0061","name":"Vypojení - Krádež","status":"a","BSCS8_CO_ID":"367","parameter":[{"paramName":"Blokování zpráv","paramValue":"NONE"},{"paramName":"Denní limit","paramValue":"1000"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001342539_SR0001","_parent":"MSP001342539"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"367","parameter":[{"paramName":"Priorita","paramValue":"2"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001342539_SR0001","_parent":"MSP001342539"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"367","parameter":[{"paramName":"EU_Limit","paramValue":"Ano"},{"paramName":"EU_Limit_SMS_notification","paramValue":"Ano"},{"paramName":"Eligible_for_shared_data_package","paramValue":"Ano"},{"paramName":"Type","paramValue":"Full"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP001230966"}}
+{"datum":"2016-02-02","servicePointID":"MSP001230966","refCustNumber":"3605234650","IMSI":"230024100499517","billingCycle":"a","tarif":"GSM tarif za 0 Kč"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001230966_-1000274","_parent":"MSP001230966"}}
+{"productCode":"-1000274","name":"ET GPRS-UMTS APN telemetry 1","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"op.eltodo"},{"paramName":"PDP ID","paramValue":"5"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001230966_SBL0086","_parent":"MSP001230966"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428192","parameter":[{"paramName":"APN Name","paramValue":"telemetry1"},{"paramName":"IP Address","paramValue":"10.8.153.97"},{"paramName":"PDP ID","paramValue":"4"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001230966_SBL0086","_parent":"MSP001230966"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428192","parameter":[{"paramName":"Cenik GSM","paramValue":"Z1 - Standardní cena"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP001022286"}}
+{"datum":"2016-02-02","servicePointID":"MSP001022286","refCustNumber":"3605230824","IMSI":"230020300001036","billingCycle":"s","tarif":"GSM TEST"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001022286_-1000233","_parent":"MSP001022286"}}
+{"productCode":"-1000233","name":"ET Premium SMS/MMS End-User","status":"s","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"video"},{"paramName":"PDP ID","paramValue":"3"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001022286_SBL0061","_parent":"MSP001022286"}}
+{"productCode":"SBL0061","name":"Vypojení - Krádež","status":"a","BSCS8_CO_ID":"371","parameter":[{"paramName":"Blokování zpráv","paramValue":"NONE"},{"paramName":"Denní limit","paramValue":"1000"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001022286_SR0001","_parent":"MSP001022286"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"371","parameter":[{"paramName":"Priorita","paramValue":"2"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001022286_SR0001","_parent":"MSP001022286"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"371","parameter":[{"paramName":"EU_Limit","paramValue":"Ano"},{"paramName":"EU_Limit_SMS_notification","paramValue":"Ano"},{"paramName":"Eligible_for_shared_data_package","paramValue":"Ano"},{"paramName":"Type","paramValue":"Full"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP001468929"}}
+{"datum":"2016-02-02","servicePointID":"MSP001468929","refCustNumber":"3605230818","IMSI":"230020100001224","billingCycle":"s","tarif":"GSM TEST"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001468929_-1000233","_parent":"MSP001468929"}}
+{"productCode":"-1000233","name":"ET Premium SMS/MMS End-User","status":"s","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"video"},{"paramName":"PDP ID","paramValue":"3"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001468929_SBL0061","_parent":"MSP001468929"}}
+{"productCode":"SBL0061","name":"Vypojení - Krádež","status":"a","BSCS8_CO_ID":"368","parameter":[{"paramName":"Blokování zpráv","paramValue":"NONE"},{"paramName":"Denní limit","paramValue":"1000"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001468929_SR0001","_parent":"MSP001468929"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"368","parameter":[{"paramName":"Priorita","paramValue":"2"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001468929_SR0001","_parent":"MSP001468929"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"368","parameter":[{"paramName":"EU_Limit","paramValue":"Ano"},{"paramName":"EU_Limit_SMS_notification","paramValue":"Ano"},{"paramName":"Eligible_for_shared_data_package","paramValue":"Ano"},{"paramName":"Type","paramValue":"Full"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP001466119"}}
+{"datum":"2016-02-02","servicePointID":"MSP001466119","refCustNumber":"3605230828","IMSI":"230020200407611","billingCycle":"s","tarif":"GSM TEST"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001466119_-1000233","_parent":"MSP001466119"}}
+{"productCode":"-1000233","name":"ET Premium SMS/MMS End-User","status":"s","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"video"},{"paramName":"PDP ID","paramValue":"3"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001466119_SBL0061","_parent":"MSP001466119"}}
+{"productCode":"SBL0061","name":"Vypojení - Krádež","status":"a","BSCS8_CO_ID":"1724329","parameter":[{"paramName":"Blokování zpráv","paramValue":"NONE"},{"paramName":"Denní limit","paramValue":"1000"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001466119_SR0001","_parent":"MSP001466119"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"1724329","parameter":[{"paramName":"Priorita","paramValue":"2"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001466119_SR0001","_parent":"MSP001466119"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"1724329","parameter":[{"paramName":"EU_Limit","paramValue":"Ano"},{"paramName":"EU_Limit_SMS_notification","paramValue":"Ano"},{"paramName":"Eligible_for_shared_data_package","paramValue":"Ano"},{"paramName":"Type","paramValue":"Full"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP000112302"}}
+{"datum":"2016-02-02","servicePointID":"MSP000112302","refCustNumber":"3605230830","IMSI":"230020300001027","billingCycle":"s","tarif":"GSM TEST"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP000112302_-1000233","_parent":"MSP000112302"}}
+{"productCode":"-1000233","name":"ET Premium SMS/MMS End-User","status":"s","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"video"},{"paramName":"PDP ID","paramValue":"3"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP000112302_SBL0061","_parent":"MSP000112302"}}
+{"productCode":"SBL0061","name":"Vypojení - Krádež","status":"a","BSCS8_CO_ID":"374","parameter":[{"paramName":"Blokování zpráv","paramValue":"NONE"},{"paramName":"Denní limit","paramValue":"1000"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP000112302_SR0001","_parent":"MSP000112302"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"374","parameter":[{"paramName":"Priorita","paramValue":"2"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP000112302_SR0001","_parent":"MSP000112302"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"374","parameter":[{"paramName":"EU_Limit","paramValue":"Ano"},{"paramName":"EU_Limit_SMS_notification","paramValue":"Ano"},{"paramName":"Eligible_for_shared_data_package","paramValue":"Ano"},{"paramName":"Type","paramValue":"Full"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP000178712"}}
+{"datum":"2016-02-02","servicePointID":"MSP000178712","refCustNumber":"3605230828","IMSI":"230020100001275","billingCycle":"s","tarif":"GSM TEST"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP000178712_-1000233","_parent":"MSP000178712"}}
+{"productCode":"-1000233","name":"ET Premium SMS/MMS End-User","status":"s","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"video"},{"paramName":"PDP ID","paramValue":"3"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP000178712_SBL0061","_parent":"MSP000178712"}}
+{"productCode":"SBL0061","name":"Vypojení - Krádež","status":"a","BSCS8_CO_ID":"373","parameter":[{"paramName":"Blokování zpráv","paramValue":"NONE"},{"paramName":"Denní limit","paramValue":"1000"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP000178712_SR0001","_parent":"MSP000178712"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"373","parameter":[{"paramName":"Priorita","paramValue":"2"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP000178712_SR0001","_parent":"MSP000178712"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"373","parameter":[{"paramName":"EU_Limit","paramValue":"Ano"},{"paramName":"EU_Limit_SMS_notification","paramValue":"Ano"},{"paramName":"Eligible_for_shared_data_package","paramValue":"Ano"},{"paramName":"Type","paramValue":"Full"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP000258298"}}
+{"datum":"2016-02-02","servicePointID":"MSP000258298","refCustNumber":"3605230828","IMSI":"230020100391738","billingCycle":"s","tarif":"GSM TEST"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP000258298_-1000233","_parent":"MSP000258298"}}
+{"productCode":"-1000233","name":"ET Premium SMS/MMS End-User","status":"s","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"video"},{"paramName":"PDP ID","paramValue":"3"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP000258298_SBL0061","_parent":"MSP000258298"}}
+{"productCode":"SBL0061","name":"Vypojení - Krádež","status":"a","BSCS8_CO_ID":"1721935","parameter":[{"paramName":"Blokování zpráv","paramValue":"NONE"},{"paramName":"Denní limit","paramValue":"1000"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP000258298_SR0001","_parent":"MSP000258298"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"1721935","parameter":[{"paramName":"Priorita","paramValue":"2"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP000258298_SR0001","_parent":"MSP000258298"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"1721935","parameter":[{"paramName":"EU_Limit","paramValue":"Ano"},{"paramName":"EU_Limit_SMS_notification","paramValue":"Ano"},{"paramName":"Eligible_for_shared_data_package","paramValue":"Ano"},{"paramName":"Type","paramValue":"Full"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP001042906"}}
+{"datum":"2016-02-02","servicePointID":"MSP001042906","refCustNumber":"3605234650","IMSI":"230021100574721","billingCycle":"a","tarif":"O2 Individual"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001042906_-1000233","_parent":"MSP001042906"}}
+{"productCode":"-1000233","name":"ET Premium SMS/MMS End-User","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"op.eltodo"},{"paramName":"PDP ID","paramValue":"5"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001042906_-1000274","_parent":"MSP001042906"}}
+{"productCode":"-1000274","name":"ET GPRS-UMTS APN telemetry 1","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"Blokování zpráv","paramValue":"NONE"},{"paramName":"Denní limit","paramValue":"1000"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001042906_SBL0086","_parent":"MSP001042906"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428072","parameter":[{"paramName":"APN Name","paramValue":"telemetry1"},{"paramName":"IP Address","paramValue":"10.8.9.141"},{"paramName":"PDP ID","paramValue":"4"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001042906_SBL0165","_parent":"MSP001042906"}}
+{"productCode":"SBL0165","name":"VPN tarif","status":"a","BSCS8_CO_ID":"10428072","parameter":[{"paramName":"Cenik GSM","paramValue":"Z1 - Standardní cena"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001042906_SBL0165","_parent":"MSP001042906"}}
+{"productCode":"SBL0165","name":"VPN tarif","status":"a","BSCS8_CO_ID":"10428072","parameter":[{"paramName":"VPN tarif","paramValue":"Pasivní člen"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP000537214"}}
+{"datum":"2016-02-02","servicePointID":"MSP000537214","refCustNumber":"3605230800","IMSI":"230020100001278","billingCycle":"s","tarif":"GSM TEST"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP000537214_-1000233","_parent":"MSP000537214"}}
+{"productCode":"-1000233","name":"ET Premium SMS/MMS End-User","status":"s","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"video"},{"paramName":"PDP ID","paramValue":"3"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP000537214_SBL0061","_parent":"MSP000537214"}}
+{"productCode":"SBL0061","name":"Vypojení - Krádež","status":"a","BSCS8_CO_ID":"359","parameter":[{"paramName":"Blokování zpráv","paramValue":"NONE"},{"paramName":"Denní limit","paramValue":"1000"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP000537214_SR0001","_parent":"MSP000537214"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"359","parameter":[{"paramName":"Priorita","paramValue":"2"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP000537214_SR0001","_parent":"MSP000537214"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"359","parameter":[{"paramName":"EU_Limit","paramValue":"Ano"},{"paramName":"EU_Limit_SMS_notification","paramValue":"Ano"},{"paramName":"Eligible_for_shared_data_package","paramValue":"Ano"},{"paramName":"Type","paramValue":"Full"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP002181277"}}
+{"datum":"2016-02-02","servicePointID":"MSP002181277","refCustNumber":"3605234650","IMSI":"230022100338061","billingCycle":"a","tarif":"O2 Individual"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP002181277_-1000233","_parent":"MSP002181277"}}
+{"productCode":"-1000233","name":"ET Premium SMS/MMS End-User","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"op.eltodo"},{"paramName":"PDP ID","paramValue":"5"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP002181277_-1000274","_parent":"MSP002181277"}}
+{"productCode":"-1000274","name":"ET GPRS-UMTS APN telemetry 1","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"Blokování zpráv","paramValue":"NONE"},{"paramName":"Denní limit","paramValue":"1000"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP002181277_SBL0086","_parent":"MSP002181277"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10427966","parameter":[{"paramName":"APN Name","paramValue":"telemetry1"},{"paramName":"IP Address","paramValue":"10.8.177.249"},{"paramName":"PDP ID","paramValue":"4"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP002181277_SBL0165","_parent":"MSP002181277"}}
+{"productCode":"SBL0165","name":"VPN tarif","status":"a","BSCS8_CO_ID":"10427966","parameter":[{"paramName":"Cenik GSM","paramValue":"Z1 - Standardní cena"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP002181277_SBL0165","_parent":"MSP002181277"}}
+{"productCode":"SBL0165","name":"VPN tarif","status":"a","BSCS8_CO_ID":"10427966","parameter":[{"paramName":"VPN tarif","paramValue":"Pasivní člen"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP001925212"}}
+{"datum":"2016-02-02","servicePointID":"MSP001925212","refCustNumber":"3605230802","IMSI":"230020100407548","billingCycle":"s","tarif":"GSM TEST"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001925212_-1000233","_parent":"MSP001925212"}}
+{"productCode":"-1000233","name":"ET Premium SMS/MMS End-User","status":"s","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"video"},{"paramName":"PDP ID","paramValue":"2"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001925212_SBL0061","_parent":"MSP001925212"}}
+{"productCode":"SBL0061","name":"Vypojení - Krádež","status":"a","BSCS8_CO_ID":"1808347","parameter":[{"paramName":"Blokování zpráv","paramValue":"NONE"},{"paramName":"Denní limit","paramValue":"1000"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001925212_SR0001","_parent":"MSP001925212"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"1808347","parameter":[{"paramName":"Priorita","paramValue":"2"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001925212_SR0001","_parent":"MSP001925212"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"1808347","parameter":[{"paramName":"EU_Limit","paramValue":"Ano"},{"paramName":"EU_Limit_SMS_notification","paramValue":"Ano"},{"paramName":"Eligible_for_shared_data_package","paramValue":"Ano"},{"paramName":"Type","paramValue":"Full"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP001734631"}}
+{"datum":"2016-02-02","servicePointID":"MSP001734631","refCustNumber":"3605230802","IMSI":"230020200407600","billingCycle":"s","tarif":"GSM TEST"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001734631_-1000233","_parent":"MSP001734631"}}
+{"productCode":"-1000233","name":"ET Premium SMS/MMS End-User","status":"s","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"video"},{"paramName":"PDP ID","paramValue":"3"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001734631_SBL0061","_parent":"MSP001734631"}}
+{"productCode":"SBL0061","name":"Vypojení - Krádež","status":"a","BSCS8_CO_ID":"1724121","parameter":[{"paramName":"Blokování zpráv","paramValue":"NONE"},{"paramName":"Denní limit","paramValue":"1000"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001734631_SR0001","_parent":"MSP001734631"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"1724121","parameter":[{"paramName":"Priorita","paramValue":"2"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001734631_SR0001","_parent":"MSP001734631"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"1724121","parameter":[{"paramName":"EU_Limit","paramValue":"Ano"},{"paramName":"EU_Limit_SMS_notification","paramValue":"Ano"},{"paramName":"Eligible_for_shared_data_package","paramValue":"Ano"},{"paramName":"Type","paramValue":"Full"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP000962180"}}
+{"datum":"2016-02-02","servicePointID":"MSP000962180","refCustNumber":"3605230802","IMSI":"230020100391651","billingCycle":"s","tarif":"GSM TEST"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP000962180_-1000233","_parent":"MSP000962180"}}
+{"productCode":"-1000233","name":"ET Premium SMS/MMS End-User","status":"s","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"video"},{"paramName":"PDP ID","paramValue":"3"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP000962180_SBL0061","_parent":"MSP000962180"}}
+{"productCode":"SBL0061","name":"Vypojení - Krádež","status":"a","BSCS8_CO_ID":"1720214","parameter":[{"paramName":"Blokování zpráv","paramValue":"NONE"},{"paramName":"Denní limit","paramValue":"1000"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP000962180_SR0001","_parent":"MSP000962180"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"1720214","parameter":[{"paramName":"Priorita","paramValue":"2"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP000962180_SR0001","_parent":"MSP000962180"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"1720214","parameter":[{"paramName":"EU_Limit","paramValue":"Ano"},{"paramName":"EU_Limit_SMS_notification","paramValue":"Ano"},{"paramName":"Eligible_for_shared_data_package","paramValue":"Ano"},{"paramName":"Type","paramValue":"Full"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP001255825"}}
+{"datum":"2016-02-02","servicePointID":"MSP001255825","refCustNumber":"3605230806","IMSI":"230020200001041","billingCycle":"s","tarif":"GSM TEST"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001255825_-1000233","_parent":"MSP001255825"}}
+{"productCode":"-1000233","name":"ET Premium SMS/MMS End-User","status":"s","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"video"},{"paramName":"PDP ID","paramValue":"3"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001255825_SBL0061","_parent":"MSP001255825"}}
+{"productCode":"SBL0061","name":"Vypojení - Krádež","status":"a","BSCS8_CO_ID":"362","parameter":[{"paramName":"Blokování zpráv","paramValue":"NONE"},{"paramName":"Denní limit","paramValue":"1000"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001255825_SR0001","_parent":"MSP001255825"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"362","parameter":[{"paramName":"Priorita","paramValue":"2"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001255825_SR0001","_parent":"MSP001255825"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"362","parameter":[{"paramName":"EU_Limit","paramValue":"Ano"},{"paramName":"EU_Limit_SMS_notification","paramValue":"Ano"},{"paramName":"Eligible_for_shared_data_package","paramValue":"Ano"},{"paramName":"Type","paramValue":"Full"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP000515481"}}
+{"datum":"2016-02-02","servicePointID":"MSP000515481","refCustNumber":"3605230808","IMSI":"230020300094469","billingCycle":"s","tarif":"GSM TEST"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP000515481_-1000233","_parent":"MSP000515481"}}
+{"productCode":"-1000233","name":"ET Premium SMS/MMS End-User","status":"s","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"video"},{"paramName":"PDP ID","paramValue":"3"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP000515481_SBL0061","_parent":"MSP000515481"}}
+{"productCode":"SBL0061","name":"Vypojení - Krádež","status":"a","BSCS8_CO_ID":"395569","parameter":[{"paramName":"Blokování zpráv","paramValue":"NONE"},{"paramName":"Denní limit","paramValue":"1000"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP000515481_SR0001","_parent":"MSP000515481"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"395569","parameter":[{"paramName":"Priorita","paramValue":"2"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP000515481_SR0001","_parent":"MSP000515481"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"395569","parameter":[{"paramName":"EU_Limit","paramValue":"Ano"},{"paramName":"EU_Limit_SMS_notification","paramValue":"Ano"},{"paramName":"Eligible_for_shared_data_package","paramValue":"Ano"},{"paramName":"Type","paramValue":"Full"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP000960989"}}
+{"datum":"2016-02-02","servicePointID":"MSP000960989","refCustNumber":"3605230808","IMSI":"230020200082616","billingCycle":"s","tarif":"GSM TEST"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP000960989_-1000233","_parent":"MSP000960989"}}
+{"productCode":"-1000233","name":"ET Premium SMS/MMS End-User","status":"s","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"video"},{"paramName":"PDP ID","paramValue":"3"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP000960989_SBL0061","_parent":"MSP000960989"}}
+{"productCode":"SBL0061","name":"Vypojení - Krádež","status":"a","BSCS8_CO_ID":"395562","parameter":[{"paramName":"Blokování zpráv","paramValue":"NONE"},{"paramName":"Denní limit","paramValue":"1000"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP000960989_SR0001","_parent":"MSP000960989"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"395562","parameter":[{"paramName":"Priorita","paramValue":"2"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP000960989_SR0001","_parent":"MSP000960989"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"395562","parameter":[{"paramName":"EU_Limit","paramValue":"Ano"},{"paramName":"EU_Limit_SMS_notification","paramValue":"Ano"},{"paramName":"Eligible_for_shared_data_package","paramValue":"Ano"},{"paramName":"Type","paramValue":"Full"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP001053811"}}
+{"datum":"2016-02-02","servicePointID":"MSP001053811","refCustNumber":"3605230808","IMSI":"230020100129253","billingCycle":"s","tarif":"GSM TEST"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001053811_-1000233","_parent":"MSP001053811"}}
+{"productCode":"-1000233","name":"ET Premium SMS/MMS End-User","status":"s","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"video"},{"paramName":"PDP ID","paramValue":"3"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001053811_SBL0061","_parent":"MSP001053811"}}
+{"productCode":"SBL0061","name":"Vypojení - Krádež","status":"a","BSCS8_CO_ID":"395556","parameter":[{"paramName":"Blokování zpráv","paramValue":"NONE"},{"paramName":"Denní limit","paramValue":"1000"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001053811_SR0001","_parent":"MSP001053811"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"395556","parameter":[{"paramName":"Priorita","paramValue":"2"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001053811_SR0001","_parent":"MSP001053811"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"395556","parameter":[{"paramName":"EU_Limit","paramValue":"Ano"},{"paramName":"EU_Limit_SMS_notification","paramValue":"Ano"},{"paramName":"Eligible_for_shared_data_package","paramValue":"Ano"},{"paramName":"Type","paramValue":"Full"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP002249480"}}
+{"datum":"2016-02-02","servicePointID":"MSP002249480","refCustNumber":"3605230808","IMSI":"230020300001039","billingCycle":"s","tarif":"GSM TEST"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP002249480_-1000233","_parent":"MSP002249480"}}
+{"productCode":"-1000233","name":"ET Premium SMS/MMS End-User","status":"s","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"video"},{"paramName":"PDP ID","paramValue":"3"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP002249480_SBL0061","_parent":"MSP002249480"}}
+{"productCode":"SBL0061","name":"Vypojení - Krádež","status":"a","BSCS8_CO_ID":"363","parameter":[{"paramName":"Blokování zpráv","paramValue":"NONE"},{"paramName":"Denní limit","paramValue":"1000"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP002249480_SR0001","_parent":"MSP002249480"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"363","parameter":[{"paramName":"Priorita","paramValue":"2"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP002249480_SR0001","_parent":"MSP002249480"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"363","parameter":[{"paramName":"EU_Limit","paramValue":"Ano"},{"paramName":"EU_Limit_SMS_notification","paramValue":"Ano"},{"paramName":"Eligible_for_shared_data_package","paramValue":"Ano"},{"paramName":"Type","paramValue":"Full"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP002039614"}}
+{"datum":"2016-02-02","servicePointID":"MSP002039614","refCustNumber":"3605230812","IMSI":"230021100000034","billingCycle":"s","tarif":"GSM TEST"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP002039614_-1000233","_parent":"MSP002039614"}}
+{"productCode":"-1000233","name":"ET Premium SMS/MMS End-User","status":"s","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"video"},{"paramName":"PDP ID","paramValue":"3"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP002039614_SBL0061","_parent":"MSP002039614"}}
+{"productCode":"SBL0061","name":"Vypojení - Krádež","status":"a","BSCS8_CO_ID":"1208013","parameter":[{"paramName":"Blokování zpráv","paramValue":"NONE"},{"paramName":"Denní limit","paramValue":"1000"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP002039614_SR0001","_parent":"MSP002039614"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"1208013","parameter":[{"paramName":"Priorita","paramValue":"2"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP002039614_SR0001","_parent":"MSP002039614"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"1208013","parameter":[{"paramName":"EU_Limit","paramValue":"Ano"},{"paramName":"EU_Limit_SMS_notification","paramValue":"Ano"},{"paramName":"Eligible_for_shared_data_package","paramValue":"Ano"},{"paramName":"Type","paramValue":"Full"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP001437456"}}
+{"datum":"2016-02-02","servicePointID":"MSP001437456","refCustNumber":"3605230812","IMSI":"230020300193657","billingCycle":"s","tarif":"GSM TEST"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001437456_-1000233","_parent":"MSP001437456"}}
+{"productCode":"-1000233","name":"ET Premium SMS/MMS End-User","status":"s","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"video"},{"paramName":"PDP ID","paramValue":"3"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001437456_SBL0061","_parent":"MSP001437456"}}
+{"productCode":"SBL0061","name":"Vypojení - Krádež","status":"a","BSCS8_CO_ID":"752046","parameter":[{"paramName":"Blokování zpráv","paramValue":"NONE"},{"paramName":"Denní limit","paramValue":"1000"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001437456_SR0001","_parent":"MSP001437456"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"752046","parameter":[{"paramName":"Priorita","paramValue":"2"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001437456_SR0001","_parent":"MSP001437456"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"752046","parameter":[{"paramName":"EU_Limit","paramValue":"Ano"},{"paramName":"EU_Limit_SMS_notification","paramValue":"Ano"},{"paramName":"Eligible_for_shared_data_package","paramValue":"Ano"},{"paramName":"Type","paramValue":"Full"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP000229139"}}
+{"datum":"2016-02-02","servicePointID":"MSP000229139","refCustNumber":"3605230812","IMSI":"230020200005214","billingCycle":"s","tarif":"GSM TEST"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP000229139_-1000233","_parent":"MSP000229139"}}
+{"productCode":"-1000233","name":"ET Premium SMS/MMS End-User","status":"s","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"video"},{"paramName":"PDP ID","paramValue":"3"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP000229139_SBL0061","_parent":"MSP000229139"}}
+{"productCode":"SBL0061","name":"Vypojení - Krádež","status":"a","BSCS8_CO_ID":"189013","parameter":[{"paramName":"Blokování zpráv","paramValue":"NONE"},{"paramName":"Denní limit","paramValue":"1000"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP000229139_SR0001","_parent":"MSP000229139"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"189013","parameter":[{"paramName":"Priorita","paramValue":"2"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP000229139_SR0001","_parent":"MSP000229139"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"189013","parameter":[{"paramName":"EU_Limit","paramValue":"Ano"},{"paramName":"EU_Limit_SMS_notification","paramValue":"Ano"},{"paramName":"Eligible_for_shared_data_package","paramValue":"Ano"},{"paramName":"Type","paramValue":"Full"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP002039612"}}
+{"datum":"2016-02-02","servicePointID":"MSP002039612","refCustNumber":"3605230812","IMSI":"230020300005152","billingCycle":"s","tarif":"GSM TEST"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP002039612_-1000233","_parent":"MSP002039612"}}
+{"productCode":"-1000233","name":"ET Premium SMS/MMS End-User","status":"s","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"video"},{"paramName":"PDP ID","paramValue":"3"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP002039612_SBL0061","_parent":"MSP002039612"}}
+{"productCode":"SBL0061","name":"Vypojení - Krádež","status":"a","BSCS8_CO_ID":"189011","parameter":[{"paramName":"Blokování zpráv","paramValue":"NONE"},{"paramName":"Denní limit","paramValue":"1000"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP002039612_SR0001","_parent":"MSP002039612"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"189011","parameter":[{"paramName":"Priorita","paramValue":"2"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP002039612_SR0001","_parent":"MSP002039612"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"189011","parameter":[{"paramName":"EU_Limit","paramValue":"Ano"},{"paramName":"EU_Limit_SMS_notification","paramValue":"Ano"},{"paramName":"Eligible_for_shared_data_package","paramValue":"Ano"},{"paramName":"Type","paramValue":"Full"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP001225094"}}
+{"datum":"2016-02-02","servicePointID":"MSP001225094","refCustNumber":"3605234650","IMSI":"230024100496783","billingCycle":"a","tarif":"GSM tarif za 0 Kč"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001225094_-1000274","_parent":"MSP001225094"}}
+{"productCode":"-1000274","name":"ET GPRS-UMTS APN telemetry 1","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"op.eltodo"},{"paramName":"PDP ID","paramValue":"5"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001225094_SBL0086","_parent":"MSP001225094"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428091","parameter":[{"paramName":"APN Name","paramValue":"telemetry1"},{"paramName":"IP Address","paramValue":"10.8.177.124"},{"paramName":"PDP ID","paramValue":"4"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001225094_SBL0086","_parent":"MSP001225094"}}
+{"productCode":"SBL0086","name":"Ceník","status":"a","BSCS8_CO_ID":"10428091","parameter":[{"paramName":"Cenik GSM","paramValue":"Z1 - Standardní cena"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP002434498"}}
+{"datum":"2016-02-02","servicePointID":"MSP002434498","refCustNumber":"3605230812","IMSI":"230020200001037","billingCycle":"s","tarif":"GSM TEST"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP002434498_-1000233","_parent":"MSP002434498"}}
+{"productCode":"-1000233","name":"ET Premium SMS/MMS End-User","status":"s","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"video"},{"paramName":"PDP ID","paramValue":"3"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP002434498_SBL0061","_parent":"MSP002434498"}}
+{"productCode":"SBL0061","name":"Vypojení - Krádež","status":"a","BSCS8_CO_ID":"365","parameter":[{"paramName":"Blokování zpráv","paramValue":"NONE"},{"paramName":"Denní limit","paramValue":"1000"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP002434498_SR0001","_parent":"MSP002434498"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"365","parameter":[{"paramName":"Priorita","paramValue":"2"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP002434498_SR0001","_parent":"MSP002434498"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"365","parameter":[{"paramName":"EU_Limit","paramValue":"Ano"},{"paramName":"EU_Limit_SMS_notification","paramValue":"Ano"},{"paramName":"Eligible_for_shared_data_package","paramValue":"Ano"},{"paramName":"Type","paramValue":"Full"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP001342540"}}
+{"datum":"2016-02-02","servicePointID":"MSP001342540","refCustNumber":"3605230818","IMSI":"230022900097201","billingCycle":"s","tarif":"GSM TEST"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001342540_-1000233","_parent":"MSP001342540"}}
+{"productCode":"-1000233","name":"ET Premium SMS/MMS End-User","status":"s","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"video"},{"paramName":"PDP ID","paramValue":"3"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001342540_SBL0061","_parent":"MSP001342540"}}
+{"productCode":"SBL0061","name":"Vypojení - Krádež","status":"a","BSCS8_CO_ID":"1732616","parameter":[{"paramName":"Blokování zpráv","paramValue":"NONE"},{"paramName":"Denní limit","paramValue":"1000"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001342540_SR0001","_parent":"MSP001342540"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"1732616","parameter":[{"paramName":"Priorita","paramValue":"2"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001342540_SR0001","_parent":"MSP001342540"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"1732616","parameter":[{"paramName":"EU_Limit","paramValue":"Ano"},{"paramName":"EU_Limit_SMS_notification","paramValue":"Ano"},{"paramName":"Eligible_for_shared_data_package","paramValue":"Ano"},{"paramName":"Type","paramValue":"Full"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP001493236"}}
+{"datum":"2016-02-02","servicePointID":"MSP001493236","refCustNumber":"3605230802","IMSI":"230020100001277","billingCycle":"s","tarif":"GSM TEST"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001493236_-1000233","_parent":"MSP001493236"}}
+{"productCode":"-1000233","name":"ET Premium SMS/MMS End-User","status":"s","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"video"},{"paramName":"PDP ID","paramValue":"3"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001493236_SBL0061","_parent":"MSP001493236"}}
+{"productCode":"SBL0061","name":"Vypojení - Krádež","status":"a","BSCS8_CO_ID":"360","parameter":[{"paramName":"Blokování zpráv","paramValue":"NONE"},{"paramName":"Denní limit","paramValue":"1000"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001493236_SR0001","_parent":"MSP001493236"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"360","parameter":[{"paramName":"Priorita","paramValue":"2"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001493236_SR0001","_parent":"MSP001493236"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"360","parameter":[{"paramName":"EU_Limit","paramValue":"Ano"},{"paramName":"EU_Limit_SMS_notification","paramValue":"Ano"},{"paramName":"Eligible_for_shared_data_package","paramValue":"Ano"},{"paramName":"Type","paramValue":"Full"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP000178709"}}
+{"datum":"2016-02-02","servicePointID":"MSP000178709","refCustNumber":"3605230804","IMSI":"230020300001038","billingCycle":"s","tarif":"GSM TEST"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP000178709_-1000233","_parent":"MSP000178709"}}
+{"productCode":"-1000233","name":"ET Premium SMS/MMS End-User","status":"s","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"video"},{"paramName":"PDP ID","paramValue":"3"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP000178709_SBL0061","_parent":"MSP000178709"}}
+{"productCode":"SBL0061","name":"Vypojení - Krádež","status":"a","BSCS8_CO_ID":"361","parameter":[{"paramName":"Blokování zpráv","paramValue":"NONE"},{"paramName":"Denní limit","paramValue":"1000"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP000178709_SR0001","_parent":"MSP000178709"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"361","parameter":[{"paramName":"Priorita","paramValue":"2"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP000178709_SR0001","_parent":"MSP000178709"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"361","parameter":[{"paramName":"EU_Limit","paramValue":"Ano"},{"paramName":"EU_Limit_SMS_notification","paramValue":"Ano"},{"paramName":"Eligible_for_shared_data_package","paramValue":"Ano"},{"paramName":"Type","paramValue":"Full"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP001256557"}}
+{"datum":"2016-02-02","servicePointID":"MSP001256557","refCustNumber":"3605230802","IMSI":"230022900097016","billingCycle":"s","tarif":"GSM TEST"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001256557_-1000233","_parent":"MSP001256557"}}
+{"productCode":"-1000233","name":"ET Premium SMS/MMS End-User","status":"s","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"video"},{"paramName":"PDP ID","paramValue":"3"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001256557_SBL0061","_parent":"MSP001256557"}}
+{"productCode":"SBL0061","name":"Vypojení - Krádež","status":"a","BSCS8_CO_ID":"962934","parameter":[{"paramName":"Blokování zpráv","paramValue":"NONE"},{"paramName":"Denní limit","paramValue":"1000"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001256557_SR0001","_parent":"MSP001256557"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"962934","parameter":[{"paramName":"Priorita","paramValue":"2"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001256557_SR0001","_parent":"MSP001256557"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"962934","parameter":[{"paramName":"EU_Limit","paramValue":"Ano"},{"paramName":"EU_Limit_SMS_notification","paramValue":"Ano"},{"paramName":"Eligible_for_shared_data_package","paramValue":"Ano"},{"paramName":"Type","paramValue":"Full"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP000848639"}}
+{"datum":"2016-02-02","servicePointID":"MSP000848639","refCustNumber":"3605234650","IMSI":"230024100817854","billingCycle":"a","tarif":"GSM tarif za 0 Kč"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP000848639_-1000274","_parent":"MSP000848639"}}
+{"productCode":"-1000274","name":"ET GPRS-UMTS APN telemetry 1","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"op.eltodo"},{"paramName":"PDP ID","paramValue":"5"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP000848639_-1000550","_parent":"MSP000848639"}}
+{"productCode":"-1000550","name":"O2 3PS WAP Barring","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"telemetry1"},{"paramName":"IP Address","paramValue":"10.8.177.127"},{"paramName":"PDP ID","paramValue":"4"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP000848639_-1000550","_parent":"MSP000848639"}}
+{"productCode":"-1000550","name":"O2 3PS WAP Barring","status":"a","BSCS8_CO_ID":null,"parameter":[{"paramName":"Blokace","paramValue":"N"},{"paramName":"Limit PT","paramValue":"N"},{"paramName":"Zamknuto","paramValue":"ANO"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP000233197"}}
+{"datum":"2016-02-02","servicePointID":"MSP000233197","refCustNumber":"3605230802","IMSI":"230020100407547","billingCycle":"s","tarif":"GSM TEST"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP000233197_-1000233","_parent":"MSP000233197"}}
+{"productCode":"-1000233","name":"ET Premium SMS/MMS End-User","status":"s","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"video"},{"paramName":"PDP ID","paramValue":"3"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP000233197_SBL0061","_parent":"MSP000233197"}}
+{"productCode":"SBL0061","name":"Vypojení - Krádež","status":"a","BSCS8_CO_ID":"1808343","parameter":[{"paramName":"Blokování zpráv","paramValue":"NONE"},{"paramName":"Denní limit","paramValue":"1000"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP000233197_SR0001","_parent":"MSP000233197"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"1808343","parameter":[{"paramName":"Priorita","paramValue":"2"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP000233197_SR0001","_parent":"MSP000233197"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"1808343","parameter":[{"paramName":"EU_Limit","paramValue":"Ano"},{"paramName":"EU_Limit_SMS_notification","paramValue":"Ano"},{"paramName":"Eligible_for_shared_data_package","paramValue":"Ano"},{"paramName":"Type","paramValue":"Full"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP002249482"}}
+{"datum":"2016-02-02","servicePointID":"MSP002249482","refCustNumber":"3605230818","IMSI":"230022900097004","billingCycle":"s","tarif":"GSM TEST"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP002249482_-1000233","_parent":"MSP002249482"}}
+{"productCode":"-1000233","name":"ET Premium SMS/MMS End-User","status":"s","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"video"},{"paramName":"PDP ID","paramValue":"3"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP002249482_SBL0061","_parent":"MSP002249482"}}
+{"productCode":"SBL0061","name":"Vypojení - Krádež","status":"a","BSCS8_CO_ID":"962860","parameter":[{"paramName":"Blokování zpráv","paramValue":"NONE"},{"paramName":"Denní limit","paramValue":"1000"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP002249482_SR0001","_parent":"MSP002249482"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"962860","parameter":[{"paramName":"Priorita","paramValue":"2"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP002249482_SR0001","_parent":"MSP002249482"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"962860","parameter":[{"paramName":"EU_Limit","paramValue":"Ano"},{"paramName":"EU_Limit_SMS_notification","paramValue":"Ano"},{"paramName":"Eligible_for_shared_data_package","paramValue":"Ano"},{"paramName":"Type","paramValue":"Full"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP001929991"}}
+{"datum":"2016-02-02","servicePointID":"MSP001929991","refCustNumber":"3605230802","IMSI":"230022900097017","billingCycle":"s","tarif":"GSM TEST"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001929991_-1000233","_parent":"MSP001929991"}}
+{"productCode":"-1000233","name":"ET Premium SMS/MMS End-User","status":"s","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"video"},{"paramName":"PDP ID","paramValue":"3"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001929991_SBL0061","_parent":"MSP001929991"}}
+{"productCode":"SBL0061","name":"Vypojení - Krádež","status":"a","BSCS8_CO_ID":"962936","parameter":[{"paramName":"Blokování zpráv","paramValue":"NONE"},{"paramName":"Denní limit","paramValue":"1000"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001929991_SR0001","_parent":"MSP001929991"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"962936","parameter":[{"paramName":"Priorita","paramValue":"2"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001929991_SR0001","_parent":"MSP001929991"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"962936","parameter":[{"paramName":"EU_Limit","paramValue":"Ano"},{"paramName":"EU_Limit_SMS_notification","paramValue":"Ano"},{"paramName":"Eligible_for_shared_data_package","paramValue":"Ano"},{"paramName":"Type","paramValue":"Full"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP000434822"}}
+{"datum":"2016-02-02","servicePointID":"MSP000434822","refCustNumber":"3605230812","IMSI":"230020100010410","billingCycle":"s","tarif":"GSM TEST"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP000434822_-1000233","_parent":"MSP000434822"}}
+{"productCode":"-1000233","name":"ET Premium SMS/MMS End-User","status":"s","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"video"},{"paramName":"PDP ID","paramValue":"3"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP000434822_SBL0061","_parent":"MSP000434822"}}
+{"productCode":"SBL0061","name":"Vypojení - Krádež","status":"a","BSCS8_CO_ID":"188994","parameter":[{"paramName":"Blokování zpráv","paramValue":"NONE"},{"paramName":"Denní limit","paramValue":"1000"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP000434822_SR0001","_parent":"MSP000434822"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"188994","parameter":[{"paramName":"Priorita","paramValue":"2"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP000434822_SR0001","_parent":"MSP000434822"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"188994","parameter":[{"paramName":"EU_Limit","paramValue":"Ano"},{"paramName":"EU_Limit_SMS_notification","paramValue":"Ano"},{"paramName":"Eligible_for_shared_data_package","paramValue":"Ano"},{"paramName":"Type","paramValue":"Full"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP002341331"}}
+{"datum":"2016-02-02","servicePointID":"MSP002341331","refCustNumber":"3605230786","IMSI":"230022107007976","billingCycle":"s","tarif":"GSM TEST"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP002341331_-1000233","_parent":"MSP002341331"}}
+{"productCode":"-1000233","name":"ET Premium SMS/MMS End-User","status":"s","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"video"},{"paramName":"PDP ID","paramValue":"3"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP002341331_SBL0061","_parent":"MSP002341331"}}
+{"productCode":"SBL0061","name":"Vypojení - Krádež","status":"a","BSCS8_CO_ID":"1670288","parameter":[{"paramName":"Blokování zpráv","paramValue":"NONE"},{"paramName":"Denní limit","paramValue":"1000"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP002341331_SR0001","_parent":"MSP002341331"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"1670288","parameter":[{"paramName":"Priorita","paramValue":"2"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP002341331_SR0001","_parent":"MSP002341331"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"1670288","parameter":[{"paramName":"EU_Limit","paramValue":"Ano"},{"paramName":"EU_Limit_SMS_notification","paramValue":"Ano"},{"paramName":"Eligible_for_shared_data_package","paramValue":"Ano"},{"paramName":"Type","paramValue":"Full"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP000361764"}}
+{"datum":"2016-02-02","servicePointID":"MSP000361764","refCustNumber":"3605230786","IMSI":"230020200001036","billingCycle":"s","tarif":"GSM TEST"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP000361764_-1000233","_parent":"MSP000361764"}}
+{"productCode":"-1000233","name":"ET Premium SMS/MMS End-User","status":"s","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"video"},{"paramName":"PDP ID","paramValue":"3"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP000361764_SBL0061","_parent":"MSP000361764"}}
+{"productCode":"SBL0061","name":"Vypojení - Krádež","status":"a","BSCS8_CO_ID":"352","parameter":[{"paramName":"Blokování zpráv","paramValue":"NONE"},{"paramName":"Denní limit","paramValue":"1000"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP000361764_SR0001","_parent":"MSP000361764"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"352","parameter":[{"paramName":"Priorita","paramValue":"2"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP000361764_SR0001","_parent":"MSP000361764"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"352","parameter":[{"paramName":"EU_Limit","paramValue":"Ano"},{"paramName":"EU_Limit_SMS_notification","paramValue":"Ano"},{"paramName":"Eligible_for_shared_data_package","paramValue":"Ano"},{"paramName":"Type","paramValue":"Full"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP001421185"}}
+{"datum":"2016-02-02","servicePointID":"MSP001421185","refCustNumber":"3605230768","IMSI":"230022100186500","billingCycle":"s","tarif":"GSM TEST"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001421185_-1000233","_parent":"MSP001421185"}}
+{"productCode":"-1000233","name":"ET Premium SMS/MMS End-User","status":"s","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"video"},{"paramName":"PDP ID","paramValue":"3"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001421185_SBL0061","_parent":"MSP001421185"}}
+{"productCode":"SBL0061","name":"Vypojení - Krádež","status":"a","BSCS8_CO_ID":"2233037","parameter":[{"paramName":"Blokování zpráv","paramValue":"NONE"},{"paramName":"Denní limit","paramValue":"1000"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001421185_SR0001","_parent":"MSP001421185"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"2233037","parameter":[{"paramName":"Priorita","paramValue":"2"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001421185_SR0001","_parent":"MSP001421185"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"2233037","parameter":[{"paramName":"EU_Limit","paramValue":"Ano"},{"paramName":"EU_Limit_SMS_notification","paramValue":"Ano"},{"paramName":"Eligible_for_shared_data_package","paramValue":"Ano"},{"paramName":"Type","paramValue":"Full"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP001005932"}}
+{"datum":"2016-02-02","servicePointID":"MSP001005932","refCustNumber":"3605230768","IMSI":"230022100186499","billingCycle":"s","tarif":"GSM TEST"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001005932_-1000233","_parent":"MSP001005932"}}
+{"productCode":"-1000233","name":"ET Premium SMS/MMS End-User","status":"s","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"video"},{"paramName":"PDP ID","paramValue":"3"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001005932_SBL0061","_parent":"MSP001005932"}}
+{"productCode":"SBL0061","name":"Vypojení - Krádež","status":"a","BSCS8_CO_ID":"2233036","parameter":[{"paramName":"Blokování zpráv","paramValue":"NONE"},{"paramName":"Denní limit","paramValue":"1000"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001005932_SR0001","_parent":"MSP001005932"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"2233036","parameter":[{"paramName":"Priorita","paramValue":"2"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001005932_SR0001","_parent":"MSP001005932"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"2233036","parameter":[{"paramName":"EU_Limit","paramValue":"Ano"},{"paramName":"EU_Limit_SMS_notification","paramValue":"Ano"},{"paramName":"Eligible_for_shared_data_package","paramValue":"Ano"},{"paramName":"Type","paramValue":"Full"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP001268094"}}
+{"datum":"2016-02-02","servicePointID":"MSP001268094","refCustNumber":"3605230768","IMSI":"230022100186498","billingCycle":"s","tarif":"GSM TEST"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001268094_-1000233","_parent":"MSP001268094"}}
+{"productCode":"-1000233","name":"ET Premium SMS/MMS End-User","status":"s","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"video"},{"paramName":"PDP ID","paramValue":"3"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001268094_SBL0061","_parent":"MSP001268094"}}
+{"productCode":"SBL0061","name":"Vypojení - Krádež","status":"a","BSCS8_CO_ID":"2233030","parameter":[{"paramName":"Blokování zpráv","paramValue":"NONE"},{"paramName":"Denní limit","paramValue":"1000"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001268094_SR0001","_parent":"MSP001268094"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"2233030","parameter":[{"paramName":"Priorita","paramValue":"2"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001268094_SR0001","_parent":"MSP001268094"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"2233030","parameter":[{"paramName":"EU_Limit","paramValue":"Ano"},{"paramName":"EU_Limit_SMS_notification","paramValue":"Ano"},{"paramName":"Eligible_for_shared_data_package","paramValue":"Ano"},{"paramName":"Type","paramValue":"Full"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP000434820"}}
+{"datum":"2016-02-02","servicePointID":"MSP000434820","refCustNumber":"3605230768","IMSI":"230022100186497","billingCycle":"s","tarif":"GSM TEST"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP000434820_-1000233","_parent":"MSP000434820"}}
+{"productCode":"-1000233","name":"ET Premium SMS/MMS End-User","status":"s","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"video"},{"paramName":"PDP ID","paramValue":"3"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP000434820_SBL0061","_parent":"MSP000434820"}}
+{"productCode":"SBL0061","name":"Vypojení - Krádež","status":"a","BSCS8_CO_ID":"2233027","parameter":[{"paramName":"Blokování zpráv","paramValue":"NONE"},{"paramName":"Denní limit","paramValue":"1000"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP000434820_SR0001","_parent":"MSP000434820"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"2233027","parameter":[{"paramName":"Priorita","paramValue":"2"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP000434820_SR0001","_parent":"MSP000434820"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"2233027","parameter":[{"paramName":"EU_Limit","paramValue":"Ano"},{"paramName":"EU_Limit_SMS_notification","paramValue":"Ano"},{"paramName":"Eligible_for_shared_data_package","paramValue":"Ano"},{"paramName":"Type","paramValue":"Full"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP001424703"}}
+{"datum":"2016-02-02","servicePointID":"MSP001424703","refCustNumber":"3605230768","IMSI":"230020100391813","billingCycle":"s","tarif":"GSM TEST"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001424703_-1000233","_parent":"MSP001424703"}}
+{"productCode":"-1000233","name":"ET Premium SMS/MMS End-User","status":"s","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"video"},{"paramName":"PDP ID","paramValue":"3"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001424703_SBL0061","_parent":"MSP001424703"}}
+{"productCode":"SBL0061","name":"Vypojení - Krádež","status":"a","BSCS8_CO_ID":"1723343","parameter":[{"paramName":"Blokování zpráv","paramValue":"NONE"},{"paramName":"Denní limit","paramValue":"1000"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001424703_SR0001","_parent":"MSP001424703"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"1723343","parameter":[{"paramName":"Priorita","paramValue":"2"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001424703_SR0001","_parent":"MSP001424703"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"1723343","parameter":[{"paramName":"EU_Limit","paramValue":"Ano"},{"paramName":"EU_Limit_SMS_notification","paramValue":"Ano"},{"paramName":"Eligible_for_shared_data_package","paramValue":"Ano"},{"paramName":"Type","paramValue":"Full"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP002039590"}}
+{"datum":"2016-02-02","servicePointID":"MSP002039590","refCustNumber":"3605230768","IMSI":"230020200407751","billingCycle":"s","tarif":"GSM TEST"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP002039590_-1000233","_parent":"MSP002039590"}}
+{"productCode":"-1000233","name":"ET Premium SMS/MMS End-User","status":"s","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"video"},{"paramName":"PDP ID","paramValue":"3"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP002039590_SBL0061","_parent":"MSP002039590"}}
+{"productCode":"SBL0061","name":"Vypojení - Krádež","status":"a","BSCS8_CO_ID":"1721442","parameter":[{"paramName":"Blokování zpráv","paramValue":"NONE"},{"paramName":"Denní limit","paramValue":"1000"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP002039590_SR0001","_parent":"MSP002039590"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"1721442","parameter":[{"paramName":"Priorita","paramValue":"2"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP002039590_SR0001","_parent":"MSP002039590"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"1721442","parameter":[{"paramName":"EU_Limit","paramValue":"Ano"},{"paramName":"EU_Limit_SMS_notification","paramValue":"Ano"},{"paramName":"Eligible_for_shared_data_package","paramValue":"Ano"},{"paramName":"Type","paramValue":"Full"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP001844635"}}
+{"datum":"2016-02-02","servicePointID":"MSP001844635","refCustNumber":"3605230768","IMSI":"230022900097021","billingCycle":"s","tarif":"GSM TEST"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001844635_-1000233","_parent":"MSP001844635"}}
+{"productCode":"-1000233","name":"ET Premium SMS/MMS End-User","status":"s","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"video"},{"paramName":"PDP ID","paramValue":"3"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001844635_SBL0061","_parent":"MSP001844635"}}
+{"productCode":"SBL0061","name":"Vypojení - Krádež","status":"a","BSCS8_CO_ID":"962957","parameter":[{"paramName":"Blokování zpráv","paramValue":"NONE"},{"paramName":"Denní limit","paramValue":"1000"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001844635_SR0001","_parent":"MSP001844635"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"962957","parameter":[{"paramName":"Priorita","paramValue":"2"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001844635_SR0001","_parent":"MSP001844635"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"962957","parameter":[{"paramName":"EU_Limit","paramValue":"Ano"},{"paramName":"EU_Limit_SMS_notification","paramValue":"Ano"},{"paramName":"Eligible_for_shared_data_package","paramValue":"Ano"},{"paramName":"Type","paramValue":"Full"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP001479269"}}
+{"datum":"2016-02-02","servicePointID":"MSP001479269","refCustNumber":"3605230756","IMSI":"230020100391723","billingCycle":"s","tarif":"GSM TEST"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001479269_-1000233","_parent":"MSP001479269"}}
+{"productCode":"-1000233","name":"ET Premium SMS/MMS End-User","status":"s","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"video"},{"paramName":"PDP ID","paramValue":"3"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001479269_SBL0061","_parent":"MSP001479269"}}
+{"productCode":"SBL0061","name":"Vypojení - Krádež","status":"a","BSCS8_CO_ID":"1721872","parameter":[{"paramName":"Blokování zpráv","paramValue":"NONE"},{"paramName":"Denní limit","paramValue":"1000"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001479269_SR0001","_parent":"MSP001479269"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"1721872","parameter":[{"paramName":"Priorita","paramValue":"2"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001479269_SR0001","_parent":"MSP001479269"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"1721872","parameter":[{"paramName":"EU_Limit","paramValue":"Ano"},{"paramName":"EU_Limit_SMS_notification","paramValue":"Ano"},{"paramName":"Eligible_for_shared_data_package","paramValue":"Ano"},{"paramName":"Type","paramValue":"Full"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP000229137"}}
+{"datum":"2016-02-02","servicePointID":"MSP000229137","refCustNumber":"3605230776","IMSI":"230020100002544","billingCycle":"s","tarif":"GSM TEST"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP000229137_-1000233","_parent":"MSP000229137"}}
+{"productCode":"-1000233","name":"ET Premium SMS/MMS End-User","status":"s","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"video"},{"paramName":"PDP ID","paramValue":"3"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP000229137_SBL0061","_parent":"MSP000229137"}}
+{"productCode":"SBL0061","name":"Vypojení - Krádež","status":"a","BSCS8_CO_ID":"347","parameter":[{"paramName":"Blokování zpráv","paramValue":"NONE"},{"paramName":"Denní limit","paramValue":"1000"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP000229137_SR0001","_parent":"MSP000229137"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"347","parameter":[{"paramName":"Priorita","paramValue":"2"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP000229137_SR0001","_parent":"MSP000229137"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"347","parameter":[{"paramName":"EU_Limit","paramValue":"Ano"},{"paramName":"EU_Limit_SMS_notification","paramValue":"Ano"},{"paramName":"Eligible_for_shared_data_package","paramValue":"Ano"},{"paramName":"Type","paramValue":"Full"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP002249479"}}
+{"datum":"2016-02-02","servicePointID":"MSP002249479","refCustNumber":"3605230758","IMSI":"230020300001501","billingCycle":"s","tarif":"GSM TEST"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP002249479_-1000233","_parent":"MSP002249479"}}
+{"productCode":"-1000233","name":"ET Premium SMS/MMS End-User","status":"s","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"video"},{"paramName":"PDP ID","paramValue":"3"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP002249479_SBL0061","_parent":"MSP002249479"}}
+{"productCode":"SBL0061","name":"Vypojení - Krádež","status":"a","BSCS8_CO_ID":"341","parameter":[{"paramName":"Blokování zpráv","paramValue":"NONE"},{"paramName":"Denní limit","paramValue":"1000"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP002249479_SR0001","_parent":"MSP002249479"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"341","parameter":[{"paramName":"Priorita","paramValue":"2"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP002249479_SR0001","_parent":"MSP002249479"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"341","parameter":[{"paramName":"EU_Limit","paramValue":"Ano"},{"paramName":"EU_Limit_SMS_notification","paramValue":"Ano"},{"paramName":"Eligible_for_shared_data_package","paramValue":"Ano"},{"paramName":"Type","paramValue":"Full"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP001994501"}}
+{"datum":"2016-02-02","servicePointID":"MSP001994501","refCustNumber":"3605230762","IMSI":"230020100002521","billingCycle":"s","tarif":"GSM TEST"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001994501_-1000233","_parent":"MSP001994501"}}
+{"productCode":"-1000233","name":"ET Premium SMS/MMS End-User","status":"s","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"video"},{"paramName":"PDP ID","paramValue":"3"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001994501_SBL0061","_parent":"MSP001994501"}}
+{"productCode":"SBL0061","name":"Vypojení - Krádež","status":"a","BSCS8_CO_ID":"342","parameter":[{"paramName":"Blokování zpráv","paramValue":"NONE"},{"paramName":"Denní limit","paramValue":"1000"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001994501_SR0001","_parent":"MSP001994501"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"342","parameter":[{"paramName":"Priorita","paramValue":"2"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001994501_SR0001","_parent":"MSP001994501"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"342","parameter":[{"paramName":"EU_Limit","paramValue":"Ano"},{"paramName":"EU_Limit_SMS_notification","paramValue":"Ano"},{"paramName":"Eligible_for_shared_data_package","paramValue":"Ano"},{"paramName":"Type","paramValue":"Full"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP001844631"}}
+{"datum":"2016-02-02","servicePointID":"MSP001844631","refCustNumber":"3605230742","IMSI":"230020300001512","billingCycle":"s","tarif":"GSM TEST"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001844631_-1000233","_parent":"MSP001844631"}}
+{"productCode":"-1000233","name":"ET Premium SMS/MMS End-User","status":"s","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"video"},{"paramName":"PDP ID","paramValue":"3"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001844631_SBL0061","_parent":"MSP001844631"}}
+{"productCode":"SBL0061","name":"Vypojení - Krádež","status":"a","BSCS8_CO_ID":"332","parameter":[{"paramName":"Blokování zpráv","paramValue":"NONE"},{"paramName":"Denní limit","paramValue":"1000"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001844631_SR0001","_parent":"MSP001844631"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"332","parameter":[{"paramName":"Priorita","paramValue":"2"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001844631_SR0001","_parent":"MSP001844631"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"332","parameter":[{"paramName":"EU_Limit","paramValue":"Ano"},{"paramName":"EU_Limit_SMS_notification","paramValue":"Ano"},{"paramName":"Eligible_for_shared_data_package","paramValue":"Ano"},{"paramName":"Type","paramValue":"Full"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP006327702"}}
+{"datum":"2016-02-02","servicePointID":"MSP006327702","refCustNumber":"3605230748","IMSI":"230020100938490","billingCycle":"a","tarif":"GSM TEST"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP006327702_SR0001","_parent":"MSP006327702"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"11266490","parameter":[{"paramName":"Cenik GSM","paramValue":"Z1 - Standardní cena"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP006327702_SR0001","_parent":"MSP006327702"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"11266490","parameter":[{"paramName":"EU_Limit","paramValue":"Ne"},{"paramName":"EU_Limit_SMS_notification","paramValue":"Ano"},{"paramName":"Eligible_for_shared_data_package","paramValue":"Ano"},{"paramName":"Type","paramValue":"Full"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP006327703"}}
+{"datum":"2016-02-02","servicePointID":"MSP006327703","refCustNumber":"3605230748","IMSI":"230020100938491","billingCycle":"a","tarif":"GSM TEST"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP006327703_SR0001","_parent":"MSP006327703"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"11266489","parameter":[{"paramName":"Cenik GSM","paramValue":"Z1 - Standardní cena"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP006327703_SR0001","_parent":"MSP006327703"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"11266489","parameter":[{"paramName":"EU_Limit","paramValue":"Ne"},{"paramName":"EU_Limit_SMS_notification","paramValue":"Ano"},{"paramName":"Eligible_for_shared_data_package","paramValue":"Ano"},{"paramName":"Type","paramValue":"Full"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP006327704"}}
+{"datum":"2016-02-02","servicePointID":"MSP006327704","refCustNumber":"3605230748","IMSI":"230020100938492","billingCycle":"a","tarif":"GSM TEST"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP006327704_SR0001","_parent":"MSP006327704"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"11266491","parameter":[{"paramName":"Cenik GSM","paramValue":"Z1 - Standardní cena"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP006327704_SR0001","_parent":"MSP006327704"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"11266491","parameter":[{"paramName":"EU_Limit","paramValue":"Ne"},{"paramName":"EU_Limit_SMS_notification","paramValue":"Ano"},{"paramName":"Eligible_for_shared_data_package","paramValue":"Ano"},{"paramName":"Type","paramValue":"Full"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP006327705"}}
+{"datum":"2016-02-02","servicePointID":"MSP006327705","refCustNumber":"3605230748","IMSI":"230020100938493","billingCycle":"a","tarif":"GSM TEST"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP006327705_SR0001","_parent":"MSP006327705"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"11266488","parameter":[{"paramName":"Cenik GSM","paramValue":"Z1 - Standardní cena"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP006327705_SR0001","_parent":"MSP006327705"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"11266488","parameter":[{"paramName":"EU_Limit","paramValue":"Ne"},{"paramName":"EU_Limit_SMS_notification","paramValue":"Ano"},{"paramName":"Eligible_for_shared_data_package","paramValue":"Ano"},{"paramName":"Type","paramValue":"Full"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP001610318"}}
+{"datum":"2016-02-02","servicePointID":"MSP001610318","refCustNumber":"3605230748","IMSI":"230020200474283","billingCycle":"s","tarif":"GSM TEST"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001610318_-1000233","_parent":"MSP001610318"}}
+{"productCode":"-1000233","name":"ET Premium SMS/MMS End-User","status":"s","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"video"},{"paramName":"PDP ID","paramValue":"3"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001610318_SBL0061","_parent":"MSP001610318"}}
+{"productCode":"SBL0061","name":"Vypojení - Krádež","status":"a","BSCS8_CO_ID":"2112865","parameter":[{"paramName":"Blokování zpráv","paramValue":"NONE"},{"paramName":"Denní limit","paramValue":"1000"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001610318_SR0001","_parent":"MSP001610318"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"2112865","parameter":[{"paramName":"Priorita","paramValue":"2"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001610318_SR0001","_parent":"MSP001610318"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"2112865","parameter":[{"paramName":"EU_Limit","paramValue":"Ano"},{"paramName":"EU_Limit_SMS_notification","paramValue":"Ano"},{"paramName":"Eligible_for_shared_data_package","paramValue":"Ano"},{"paramName":"Type","paramValue":"Full"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP000258270"}}
+{"datum":"2016-02-02","servicePointID":"MSP000258270","refCustNumber":"3605230748","IMSI":"230020200474282","billingCycle":"s","tarif":"GSM TEST"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP000258270_-1000233","_parent":"MSP000258270"}}
+{"productCode":"-1000233","name":"ET Premium SMS/MMS End-User","status":"s","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"video"},{"paramName":"PDP ID","paramValue":"3"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP000258270_SBL0061","_parent":"MSP000258270"}}
+{"productCode":"SBL0061","name":"Vypojení - Krádež","status":"a","BSCS8_CO_ID":"2112860","parameter":[{"paramName":"Blokování zpráv","paramValue":"NONE"},{"paramName":"Denní limit","paramValue":"1000"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP000258270_SR0001","_parent":"MSP000258270"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"2112860","parameter":[{"paramName":"Priorita","paramValue":"2"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP000258270_SR0001","_parent":"MSP000258270"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"2112860","parameter":[{"paramName":"EU_Limit","paramValue":"Ano"},{"paramName":"EU_Limit_SMS_notification","paramValue":"Ano"},{"paramName":"Eligible_for_shared_data_package","paramValue":"Ano"},{"paramName":"Type","paramValue":"Full"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP002099099"}}
+{"datum":"2016-02-02","servicePointID":"MSP002099099","refCustNumber":"3605230748","IMSI":"230020200474281","billingCycle":"s","tarif":"GSM TEST"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP002099099_-1000233","_parent":"MSP002099099"}}
+{"productCode":"-1000233","name":"ET Premium SMS/MMS End-User","status":"s","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"video"},{"paramName":"PDP ID","paramValue":"3"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP002099099_SBL0061","_parent":"MSP002099099"}}
+{"productCode":"SBL0061","name":"Vypojení - Krádež","status":"a","BSCS8_CO_ID":"2112857","parameter":[{"paramName":"Blokování zpráv","paramValue":"NONE"},{"paramName":"Denní limit","paramValue":"1000"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP002099099_SR0001","_parent":"MSP002099099"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"2112857","parameter":[{"paramName":"Priorita","paramValue":"2"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP002099099_SR0001","_parent":"MSP002099099"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"2112857","parameter":[{"paramName":"EU_Limit","paramValue":"Ano"},{"paramName":"EU_Limit_SMS_notification","paramValue":"Ano"},{"paramName":"Eligible_for_shared_data_package","paramValue":"Ano"},{"paramName":"Type","paramValue":"Full"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP000315175"}}
+{"datum":"2016-02-02","servicePointID":"MSP000315175","refCustNumber":"3605230748","IMSI":"230020200474280","billingCycle":"s","tarif":"GSM TEST"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP000315175_-1000233","_parent":"MSP000315175"}}
+{"productCode":"-1000233","name":"ET Premium SMS/MMS End-User","status":"s","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"video"},{"paramName":"PDP ID","paramValue":"3"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP000315175_SBL0061","_parent":"MSP000315175"}}
+{"productCode":"SBL0061","name":"Vypojení - Krádež","status":"a","BSCS8_CO_ID":"2112852","parameter":[{"paramName":"Blokování zpráv","paramValue":"NONE"},{"paramName":"Denní limit","paramValue":"1000"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP000315175_SR0001","_parent":"MSP000315175"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"2112852","parameter":[{"paramName":"Priorita","paramValue":"2"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP000315175_SR0001","_parent":"MSP000315175"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"2112852","parameter":[{"paramName":"EU_Limit","paramValue":"Ano"},{"paramName":"EU_Limit_SMS_notification","paramValue":"Ano"},{"paramName":"Eligible_for_shared_data_package","paramValue":"Ano"},{"paramName":"Type","paramValue":"Full"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP001668810"}}
+{"datum":"2016-02-02","servicePointID":"MSP001668810","refCustNumber":"3605230748","IMSI":"230022100072781","billingCycle":"s","tarif":"GSM TEST"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001668810_-1000233","_parent":"MSP001668810"}}
+{"productCode":"-1000233","name":"ET Premium SMS/MMS End-User","status":"s","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"video"},{"paramName":"PDP ID","paramValue":"3"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001668810_SBL0061","_parent":"MSP001668810"}}
+{"productCode":"SBL0061","name":"Vypojení - Krádež","status":"a","BSCS8_CO_ID":"1714132","parameter":[{"paramName":"Blokování zpráv","paramValue":"NONE"},{"paramName":"Denní limit","paramValue":"1000"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001668810_SR0001","_parent":"MSP001668810"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"1714132","parameter":[{"paramName":"Priorita","paramValue":"2"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001668810_SR0001","_parent":"MSP001668810"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"1714132","parameter":[{"paramName":"EU_Limit","paramValue":"Ano"},{"paramName":"EU_Limit_SMS_notification","paramValue":"Ano"},{"paramName":"Eligible_for_shared_data_package","paramValue":"Ano"},{"paramName":"Type","paramValue":"Full"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP002099100"}}
+{"datum":"2016-02-02","servicePointID":"MSP002099100","refCustNumber":"3605230748","IMSI":"230022100072782","billingCycle":"s","tarif":"GSM TEST"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP002099100_-1000233","_parent":"MSP002099100"}}
+{"productCode":"-1000233","name":"ET Premium SMS/MMS End-User","status":"s","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"video"},{"paramName":"PDP ID","paramValue":"3"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP002099100_SBL0061","_parent":"MSP002099100"}}
+{"productCode":"SBL0061","name":"Vypojení - Krádež","status":"a","BSCS8_CO_ID":"1714091","parameter":[{"paramName":"Blokování zpráv","paramValue":"NONE"},{"paramName":"Denní limit","paramValue":"1000"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP002099100_SR0001","_parent":"MSP002099100"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"1714091","parameter":[{"paramName":"Priorita","paramValue":"2"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP002099100_SR0001","_parent":"MSP002099100"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"1714091","parameter":[{"paramName":"EU_Limit","paramValue":"Ano"},{"paramName":"EU_Limit_SMS_notification","paramValue":"Ano"},{"paramName":"Eligible_for_shared_data_package","paramValue":"Ano"},{"paramName":"Type","paramValue":"Full"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP001421033"}}
+{"datum":"2016-02-02","servicePointID":"MSP001421033","refCustNumber":"3605230748","IMSI":"230021100000033","billingCycle":"s","tarif":"GSM TEST"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001421033_-1000233","_parent":"MSP001421033"}}
+{"productCode":"-1000233","name":"ET Premium SMS/MMS End-User","status":"s","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"video"},{"paramName":"PDP ID","paramValue":"3"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001421033_SBL0061","_parent":"MSP001421033"}}
+{"productCode":"SBL0061","name":"Vypojení - Krádež","status":"a","BSCS8_CO_ID":"1243615","parameter":[{"paramName":"Blokování zpráv","paramValue":"NONE"},{"paramName":"Denní limit","paramValue":"1000"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001421033_SR0001","_parent":"MSP001421033"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"1243615","parameter":[{"paramName":"Priorita","paramValue":"2"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001421033_SR0001","_parent":"MSP001421033"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"1243615","parameter":[{"paramName":"EU_Limit","paramValue":"Ano"},{"paramName":"EU_Limit_SMS_notification","paramValue":"Ano"},{"paramName":"Eligible_for_shared_data_package","paramValue":"Ano"},{"paramName":"Type","paramValue":"Full"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP000315100"}}
+{"datum":"2016-02-02","servicePointID":"MSP000315100","refCustNumber":"3605230748","IMSI":"230020300271398","billingCycle":"s","tarif":"GSM TEST"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP000315100_-1000233","_parent":"MSP000315100"}}
+{"productCode":"-1000233","name":"ET Premium SMS/MMS End-User","status":"s","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"video"},{"paramName":"PDP ID","paramValue":"3"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP000315100_SBL0061","_parent":"MSP000315100"}}
+{"productCode":"SBL0061","name":"Vypojení - Krádež","status":"a","BSCS8_CO_ID":"1089478","parameter":[{"paramName":"Blokování zpráv","paramValue":"NONE"},{"paramName":"Denní limit","paramValue":"1000"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP000315100_SR0001","_parent":"MSP000315100"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"1089478","parameter":[{"paramName":"Priorita","paramValue":"2"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP000315100_SR0001","_parent":"MSP000315100"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"1089478","parameter":[{"paramName":"EU_Limit","paramValue":"Ano"},{"paramName":"EU_Limit_SMS_notification","paramValue":"Ano"},{"paramName":"Eligible_for_shared_data_package","paramValue":"Ano"},{"paramName":"Type","paramValue":"Full"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP001426478"}}
+{"datum":"2016-02-02","servicePointID":"MSP001426478","refCustNumber":"3605230748","IMSI":"230020200257367","billingCycle":"s","tarif":"GSM TEST"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001426478_-1000233","_parent":"MSP001426478"}}
+{"productCode":"-1000233","name":"ET Premium SMS/MMS End-User","status":"s","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"video"},{"paramName":"PDP ID","paramValue":"3"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001426478_SBL0061","_parent":"MSP001426478"}}
+{"productCode":"SBL0061","name":"Vypojení - Krádež","status":"a","BSCS8_CO_ID":"1089476","parameter":[{"paramName":"Blokování zpráv","paramValue":"NONE"},{"paramName":"Denní limit","paramValue":"1000"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001426478_SR0001","_parent":"MSP001426478"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"1089476","parameter":[{"paramName":"Priorita","paramValue":"2"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001426478_SR0001","_parent":"MSP001426478"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"1089476","parameter":[{"paramName":"EU_Limit","paramValue":"Ano"},{"paramName":"EU_Limit_SMS_notification","paramValue":"Ano"},{"paramName":"Eligible_for_shared_data_package","paramValue":"Ano"},{"paramName":"Type","paramValue":"Full"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP002341185"}}
+{"datum":"2016-02-02","servicePointID":"MSP002341185","refCustNumber":"3605230766","IMSI":"230020300193656","billingCycle":"s","tarif":"GSM TEST"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP002341185_-1000233","_parent":"MSP002341185"}}
+{"productCode":"-1000233","name":"ET Premium SMS/MMS End-User","status":"s","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"video"},{"paramName":"PDP ID","paramValue":"3"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP002341185_SBL0061","_parent":"MSP002341185"}}
+{"productCode":"SBL0061","name":"Vypojení - Krádež","status":"a","BSCS8_CO_ID":"752041","parameter":[{"paramName":"Blokování zpráv","paramValue":"NONE"},{"paramName":"Denní limit","paramValue":"1000"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP002341185_SR0001","_parent":"MSP002341185"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"752041","parameter":[{"paramName":"Priorita","paramValue":"2"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP002341185_SR0001","_parent":"MSP002341185"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"752041","parameter":[{"paramName":"EU_Limit","paramValue":"Ano"},{"paramName":"EU_Limit_SMS_notification","paramValue":"Ano"},{"paramName":"Eligible_for_shared_data_package","paramValue":"Ano"},{"paramName":"Type","paramValue":"Full"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP001542621"}}
+{"datum":"2016-02-02","servicePointID":"MSP001542621","refCustNumber":"3605230766","IMSI":"230020300001509","billingCycle":"s","tarif":"GSM TEST"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001542621_-1000233","_parent":"MSP001542621"}}
+{"productCode":"-1000233","name":"ET Premium SMS/MMS End-User","status":"s","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"video"},{"paramName":"PDP ID","paramValue":"3"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001542621_SBL0061","_parent":"MSP001542621"}}
+{"productCode":"SBL0061","name":"Vypojení - Krádež","status":"a","BSCS8_CO_ID":"343","parameter":[{"paramName":"Blokování zpráv","paramValue":"NONE"},{"paramName":"Denní limit","paramValue":"1000"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001542621_SR0001","_parent":"MSP001542621"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"343","parameter":[{"paramName":"Priorita","paramValue":"2"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001542621_SR0001","_parent":"MSP001542621"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"343","parameter":[{"paramName":"EU_Limit","paramValue":"Ano"},{"paramName":"EU_Limit_SMS_notification","paramValue":"Ano"},{"paramName":"Eligible_for_shared_data_package","paramValue":"Ano"},{"paramName":"Type","paramValue":"Full"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP001418621"}}
+{"datum":"2016-02-02","servicePointID":"MSP001418621","refCustNumber":"3605230758","IMSI":"230020300193602","billingCycle":"s","tarif":"GSM TEST"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001418621_-1000233","_parent":"MSP001418621"}}
+{"productCode":"-1000233","name":"ET Premium SMS/MMS End-User","status":"s","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"video"},{"paramName":"PDP ID","paramValue":"3"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001418621_SBL0061","_parent":"MSP001418621"}}
+{"productCode":"SBL0061","name":"Vypojení - Krádež","status":"a","BSCS8_CO_ID":"753750","parameter":[{"paramName":"Blokování zpráv","paramValue":"NONE"},{"paramName":"Denní limit","paramValue":"1000"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001418621_SR0001","_parent":"MSP001418621"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"753750","parameter":[{"paramName":"Priorita","paramValue":"2"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001418621_SR0001","_parent":"MSP001418621"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"753750","parameter":[{"paramName":"EU_Limit","paramValue":"Ano"},{"paramName":"EU_Limit_SMS_notification","paramValue":"Ano"},{"paramName":"Eligible_for_shared_data_package","paramValue":"Ano"},{"paramName":"Type","paramValue":"Full"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP001424666"}}
+{"datum":"2016-02-02","servicePointID":"MSP001424666","refCustNumber":"3605230748","IMSI":"230020100335821","billingCycle":"s","tarif":"GSM TEST"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001424666_-1000233","_parent":"MSP001424666"}}
+{"productCode":"-1000233","name":"ET Premium SMS/MMS End-User","status":"s","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"video"},{"paramName":"PDP ID","paramValue":"3"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001424666_SBL0061","_parent":"MSP001424666"}}
+{"productCode":"SBL0061","name":"Vypojení - Krádež","status":"a","BSCS8_CO_ID":"1089474","parameter":[{"paramName":"Blokování zpráv","paramValue":"NONE"},{"paramName":"Denní limit","paramValue":"1000"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001424666_SR0001","_parent":"MSP001424666"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"1089474","parameter":[{"paramName":"Priorita","paramValue":"2"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001424666_SR0001","_parent":"MSP001424666"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"1089474","parameter":[{"paramName":"EU_Limit","paramValue":"Ano"},{"paramName":"EU_Limit_SMS_notification","paramValue":"Ano"},{"paramName":"Eligible_for_shared_data_package","paramValue":"Ano"},{"paramName":"Type","paramValue":"Full"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP001421036"}}
+{"datum":"2016-02-02","servicePointID":"MSP001421036","refCustNumber":"3605230748","IMSI":"230020100001210","billingCycle":"s","tarif":"GSM TEST"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001421036_-1000233","_parent":"MSP001421036"}}
+{"productCode":"-1000233","name":"ET Premium SMS/MMS End-User","status":"s","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"video"},{"paramName":"PDP ID","paramValue":"3"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001421036_SBL0061","_parent":"MSP001421036"}}
+{"productCode":"SBL0061","name":"Vypojení - Krádež","status":"a","BSCS8_CO_ID":"336","parameter":[{"paramName":"Blokování zpráv","paramValue":"NONE"},{"paramName":"Denní limit","paramValue":"1000"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001421036_SR0001","_parent":"MSP001421036"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"336","parameter":[{"paramName":"Priorita","paramValue":"2"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001421036_SR0001","_parent":"MSP001421036"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"336","parameter":[{"paramName":"EU_Limit","paramValue":"Ano"},{"paramName":"EU_Limit_SMS_notification","paramValue":"Ano"},{"paramName":"Eligible_for_shared_data_package","paramValue":"Ano"},{"paramName":"Type","paramValue":"Full"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP006331194"}}
+{"datum":"2016-02-02","servicePointID":"MSP006331194","refCustNumber":"3605230750","IMSI":"230020100938568","billingCycle":"a","tarif":"GSM TEST"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP006331194_SR0001","_parent":"MSP006331194"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"11268805","parameter":[{"paramName":"Cenik GSM","paramValue":"Z1 - Standardní cena"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP006331194_SR0001","_parent":"MSP006331194"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"11268805","parameter":[{"paramName":"EU_Limit","paramValue":"Ne"},{"paramName":"EU_Limit_SMS_notification","paramValue":"Ano"},{"paramName":"Eligible_for_shared_data_package","paramValue":"Ano"},{"paramName":"Type","paramValue":"Full"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP006331195"}}
+{"datum":"2016-02-02","servicePointID":"MSP006331195","refCustNumber":"3605230750","IMSI":"230020100938567","billingCycle":"a","tarif":"GSM TEST"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP006331195_SR0001","_parent":"MSP006331195"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"11268806","parameter":[{"paramName":"Cenik GSM","paramValue":"Z1 - Standardní cena"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP006331195_SR0001","_parent":"MSP006331195"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"11268806","parameter":[{"paramName":"EU_Limit","paramValue":"Ne"},{"paramName":"EU_Limit_SMS_notification","paramValue":"Ano"},{"paramName":"Eligible_for_shared_data_package","paramValue":"Ano"},{"paramName":"Type","paramValue":"Full"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP006331196"}}
+{"datum":"2016-02-02","servicePointID":"MSP006331196","refCustNumber":"3605230750","IMSI":"230020100938566","billingCycle":"a","tarif":"GSM TEST"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP006331196_SR0001","_parent":"MSP006331196"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"11268808","parameter":[{"paramName":"Cenik GSM","paramValue":"Z1 - Standardní cena"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP006331196_SR0001","_parent":"MSP006331196"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"11268808","parameter":[{"paramName":"EU_Limit","paramValue":"Ne"},{"paramName":"EU_Limit_SMS_notification","paramValue":"Ano"},{"paramName":"Eligible_for_shared_data_package","paramValue":"Ano"},{"paramName":"Type","paramValue":"Full"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP006331197"}}
+{"datum":"2016-02-02","servicePointID":"MSP006331197","refCustNumber":"3605230750","IMSI":"230020100938565","billingCycle":"a","tarif":"GSM TEST"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP006331197_SR0001","_parent":"MSP006331197"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"11268809","parameter":[{"paramName":"Cenik GSM","paramValue":"Z1 - Standardní cena"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP006331197_SR0001","_parent":"MSP006331197"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"11268809","parameter":[{"paramName":"EU_Limit","paramValue":"Ne"},{"paramName":"EU_Limit_SMS_notification","paramValue":"Ano"},{"paramName":"Eligible_for_shared_data_package","paramValue":"Ano"},{"paramName":"Type","paramValue":"Full"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP006331198"}}
+{"datum":"2016-02-02","servicePointID":"MSP006331198","refCustNumber":"3605230750","IMSI":"230020100938564","billingCycle":"a","tarif":"GSM TEST"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP006331198_SR0001","_parent":"MSP006331198"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"11268807","parameter":[{"paramName":"Cenik GSM","paramValue":"Z1 - Standardní cena"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP006331198_SR0001","_parent":"MSP006331198"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"11268807","parameter":[{"paramName":"EU_Limit","paramValue":"Ne"},{"paramName":"EU_Limit_SMS_notification","paramValue":"Ano"},{"paramName":"Eligible_for_shared_data_package","paramValue":"Ano"},{"paramName":"Type","paramValue":"Full"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP006331199"}}
+{"datum":"2016-02-02","servicePointID":"MSP006331199","refCustNumber":"3605230750","IMSI":"230020100938563","billingCycle":"a","tarif":"GSM TEST"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP006331199_SR0001","_parent":"MSP006331199"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"11268804","parameter":[{"paramName":"Cenik GSM","paramValue":"Z1 - Standardní cena"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP006331199_SR0001","_parent":"MSP006331199"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"11268804","parameter":[{"paramName":"EU_Limit","paramValue":"Ne"},{"paramName":"EU_Limit_SMS_notification","paramValue":"Ano"},{"paramName":"Eligible_for_shared_data_package","paramValue":"Ano"},{"paramName":"Type","paramValue":"Full"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP000960918"}}
+{"datum":"2016-02-02","servicePointID":"MSP000960918","refCustNumber":"3605230750","IMSI":"230020200001028","billingCycle":"s","tarif":"GSM TEST"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP000960918_-1000233","_parent":"MSP000960918"}}
+{"productCode":"-1000233","name":"ET Premium SMS/MMS End-User","status":"s","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"video"},{"paramName":"PDP ID","paramValue":"3"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP000960918_SBL0061","_parent":"MSP000960918"}}
+{"productCode":"SBL0061","name":"Vypojení - Krádež","status":"a","BSCS8_CO_ID":"337","parameter":[{"paramName":"Blokování zpráv","paramValue":"NONE"},{"paramName":"Denní limit","paramValue":"1000"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP000960918_SR0001","_parent":"MSP000960918"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"337","parameter":[{"paramName":"Priorita","paramValue":"2"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP000960918_SR0001","_parent":"MSP000960918"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"337","parameter":[{"paramName":"EU_Limit","paramValue":"Ano"},{"paramName":"EU_Limit_SMS_notification","paramValue":"Ano"},{"paramName":"Eligible_for_shared_data_package","paramValue":"Ano"},{"paramName":"Type","paramValue":"Full"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP001479267"}}
+{"datum":"2016-02-02","servicePointID":"MSP001479267","refCustNumber":"3605230752","IMSI":"230020200001502","billingCycle":"s","tarif":"GSM TEST"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001479267_-1000233","_parent":"MSP001479267"}}
+{"productCode":"-1000233","name":"ET Premium SMS/MMS End-User","status":"s","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"video"},{"paramName":"PDP ID","paramValue":"3"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001479267_SBL0061","_parent":"MSP001479267"}}
+{"productCode":"SBL0061","name":"Vypojení - Krádež","status":"a","BSCS8_CO_ID":"338","parameter":[{"paramName":"Blokování zpráv","paramValue":"NONE"},{"paramName":"Denní limit","paramValue":"1000"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001479267_SR0001","_parent":"MSP001479267"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"338","parameter":[{"paramName":"Priorita","paramValue":"2"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001479267_SR0001","_parent":"MSP001479267"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"338","parameter":[{"paramName":"EU_Limit","paramValue":"Ano"},{"paramName":"EU_Limit_SMS_notification","paramValue":"Ano"},{"paramName":"Eligible_for_shared_data_package","paramValue":"Ano"},{"paramName":"Type","paramValue":"Full"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP001953861"}}
+{"datum":"2016-02-02","servicePointID":"MSP001953861","refCustNumber":"3605230754","IMSI":"230020100002520","billingCycle":"s","tarif":"GSM TEST"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001953861_-1000233","_parent":"MSP001953861"}}
+{"productCode":"-1000233","name":"ET Premium SMS/MMS End-User","status":"s","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"video"},{"paramName":"PDP ID","paramValue":"3"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001953861_SBL0061","_parent":"MSP001953861"}}
+{"productCode":"SBL0061","name":"Vypojení - Krádež","status":"a","BSCS8_CO_ID":"339","parameter":[{"paramName":"Blokování zpráv","paramValue":"NONE"},{"paramName":"Denní limit","paramValue":"1000"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001953861_SR0001","_parent":"MSP001953861"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"339","parameter":[{"paramName":"Priorita","paramValue":"2"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP001953861_SR0001","_parent":"MSP001953861"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"339","parameter":[{"paramName":"EU_Limit","paramValue":"Ano"},{"paramName":"EU_Limit_SMS_notification","paramValue":"Ano"},{"paramName":"Eligible_for_shared_data_package","paramValue":"Ano"},{"paramName":"Type","paramValue":"Full"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP002228654"}}
+{"datum":"2016-02-02","servicePointID":"MSP002228654","refCustNumber":"3605230728","IMSI":"230020200001506","billingCycle":"s","tarif":"GSM TEST"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP002228654_-1000233","_parent":"MSP002228654"}}
+{"productCode":"-1000233","name":"ET Premium SMS/MMS End-User","status":"s","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"video"},{"paramName":"PDP ID","paramValue":"3"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP002228654_SBL0061","_parent":"MSP002228654"}}
+{"productCode":"SBL0061","name":"Vypojení - Krádež","status":"a","BSCS8_CO_ID":"327","parameter":[{"paramName":"Blokování zpráv","paramValue":"NONE"},{"paramName":"Denní limit","paramValue":"1000"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP002228654_SR0001","_parent":"MSP002228654"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"327","parameter":[{"paramName":"Priorita","paramValue":"2"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP002228654_SR0001","_parent":"MSP002228654"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"327","parameter":[{"paramName":"EU_Limit","paramValue":"Ano"},{"paramName":"EU_Limit_SMS_notification","paramValue":"Ano"},{"paramName":"Eligible_for_shared_data_package","paramValue":"Ano"},{"paramName":"Type","paramValue":"Full"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP000595337"}}
+{"datum":"2016-02-02","servicePointID":"MSP000595337","refCustNumber":"3605230732","IMSI":"230020200001034","billingCycle":"s","tarif":"GSM TEST"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP000595337_-1000233","_parent":"MSP000595337"}}
+{"productCode":"-1000233","name":"ET Premium SMS/MMS End-User","status":"s","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"video"},{"paramName":"PDP ID","paramValue":"3"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP000595337_SBL0061","_parent":"MSP000595337"}}
+{"productCode":"SBL0061","name":"Vypojení - Krádež","status":"a","BSCS8_CO_ID":"329","parameter":[{"paramName":"Blokování zpráv","paramValue":"NONE"},{"paramName":"Denní limit","paramValue":"1000"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP000595337_SR0001","_parent":"MSP000595337"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"329","parameter":[{"paramName":"Priorita","paramValue":"2"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP000595337_SR0001","_parent":"MSP000595337"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"329","parameter":[{"paramName":"EU_Limit","paramValue":"Ano"},{"paramName":"EU_Limit_SMS_notification","paramValue":"Ano"},{"paramName":"Eligible_for_shared_data_package","paramValue":"Ano"},{"paramName":"Type","paramValue":"Full"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP000361716"}}
+{"datum":"2016-02-02","servicePointID":"MSP000361716","refCustNumber":"3605230720","IMSI":"230020100001218","billingCycle":"s","tarif":"GSM TEST"}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP000361716_-1000233","_parent":"MSP000361716"}}
+{"productCode":"-1000233","name":"ET Premium SMS/MMS End-User","status":"s","BSCS8_CO_ID":null,"parameter":[{"paramName":"APN Name","paramValue":"video"},{"paramName":"PDP ID","paramValue":"3"},{"paramName":"QoS Profil","paramValue":"43"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP000361716_SBL0061","_parent":"MSP000361716"}}
+{"productCode":"SBL0061","name":"Vypojení - Krádež","status":"a","BSCS8_CO_ID":"325","parameter":[{"paramName":"Blokování zpráv","paramValue":"NONE"},{"paramName":"Denní limit","paramValue":"1000"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP000361716_SR0001","_parent":"MSP000361716"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"325","parameter":[{"paramName":"Priorita","paramValue":"2"}]}
+{"index":{"_index":"service_index","_type":"product","_id":"MSP000361716_SR0001","_parent":"MSP000361716"}}
+{"productCode":"SR0001","name":"Roaming","status":"a","BSCS8_CO_ID":"325","parameter":[{"paramName":"EU_Limit","paramValue":"Ano"},{"paramName":"EU_Limit_SMS_notification","paramValue":"Ano"},{"paramName":"Eligible_for_shared_data_package","paramValue":"Ano"},{"paramName":"Type","paramValue":"Full"}]}
+{"index":{"_index":"service_index","_type":"service","_id":"MSP006330799"}}
+{"datum":"2016-02-02","servicePointID":"MSP006330799","refCustNumber":"3605230724","IMSI":"230020100938515","billingCycle":"a","tarif":"GSM TEST"}
