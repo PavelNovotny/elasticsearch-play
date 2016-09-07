@@ -1,6 +1,8 @@
 {{#repeatWithId  1 'R1' comma=false}}
 
   {"index":{"_id":"CUST_REQ_{{bulk}}_{{@index_R1}}","_type":"customer_request","_index":"customer_request_index_rif"}}
+
+  {
     "residentalAddress": [
       {{#repeat 1 1}}
         {
