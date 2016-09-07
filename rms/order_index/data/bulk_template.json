@@ -18,7 +18,7 @@
         }
       {{/repeat}}
     ],
-    "orderId":"int 1000000000 9999999999",
+    "orderId":"{{int 1000000000 9999999999}}",
     "auditDate": "{{date "1950" "2000" "DD.MM.YYYY"}}",
     "birthDate": "{{date "1950" "2000" "DD.MM.YYYY"}}",
     "caRefNo":"{{lorem 1}}{{int 1000000000 9999999999}}",

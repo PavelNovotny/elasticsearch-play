@@ -3,6 +3,14 @@
   "type": "product"
 },
   "properties": {
+    "cvops": {
+      "type": "nested",
+      "properties": {
+        "cvop": {
+          "type": "string"
+        }
+      }
+    },
     "parameters": {
       "type": "nested",
       "properties": {
@@ -33,6 +41,14 @@
           "type": "string"
         }
       }
+    },
+
+    //noindex
+    "assetId": {
+      "type": "long"
+    },
+    "partyId": {
+      "type": "long"
     },
 
     //exact
