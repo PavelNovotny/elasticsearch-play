@@ -1,1 +1,0 @@
-POST /_bulk $SCRIPT_DIR/data/bulk.txt

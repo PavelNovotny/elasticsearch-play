@@ -3,7 +3,7 @@
     "agreements": {
       "type": "nested",
       "properties": {
-        "agreementId": {
+        "obligationRefNo": {
           "type": "string"
         }
       }
@@ -11,7 +11,7 @@
     "customerRequests": {
       "type": "nested",
       "properties": {
-        "crId": {
+        "crRefNo": {
           "type": "string"
         }
       }
@@ -27,12 +27,11 @@
     "orders": {
       "type": "nested",
       "properties": {
-        "orderId": {
+        "orderRefNo": {
           "type": "string"
         }
       }
     },
-
     "residentalAddress": {
       "type": "nested",
       "properties": {
@@ -64,8 +63,13 @@
     },
 
     //exact
+    "auditDate": {
+      "type": "date",
+      "format": "dd.MM.yyyy"
+    },
     "birthDate": {
-      "type": "string"
+      "type": "date",
+      "format": "dd.MM.yyyy"
     },
     "birthNumber": {
       "type": "string"
