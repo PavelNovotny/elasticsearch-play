@@ -1,0 +1,8 @@
+{"update":{"_index":"service_index","_type":"product","_id":"MSP000595337_SR0001","_parent":"MSP000595337"}}
+{"doc": {"parameter":[{"paramName":"EU_Limit","paramValue":"Ano"},{"paramName":"Pavel Novoimit_SMS_notification","paramValue":"Ano"},{"paramName":"Eligible_for_shared_data_package","paramValue":"Ano"},{"paramName":"Type","paramValue":"Full"}]}}
+{"update":{"_index":"service_index","_type":"product","_id":"MSP000361716_-1000233","_parent":"MSP000361716"}}
+{"doc": {"productCode":"-1000233"}}
+{"update":{"_index":"service_index","_type":"product","_id":"MSP000361716_SBL0061","_parent":"MSP000361716"}}
+{"doc":{"productCode":"SBL0061","name":"Vypojení - Krádež","status":"a","BSCS8_CO_ID":"325","parameter":[{"paramName":"Blokování zpráv","paramValue":"NONE"},{"paramName":"Denní limit","paramValue":"1000"}]}}
+{"update":{"_index":"service_index","_type":"product","_id":"MSP000361716_SR0001","_parent":"MSP000361716"}}
+{"doc":{"name":"Roaming","status":"a"}}
