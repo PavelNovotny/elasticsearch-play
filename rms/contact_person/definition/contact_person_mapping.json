@@ -1,0 +1,34 @@
+{
+  "properties": {
+    "auditDate": {
+      "type": "date",
+      "format": "dd.MM.yyyy"
+    },
+    "contactId": {
+      "type": "string"
+    },
+    //match
+    "firstName": {
+      "type": "string"
+    },
+    "lastName": {
+      "type": "string"
+    },
+    //exact
+    "sfaId": {
+      "type": "string"
+    },
+    "userId": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "phoneNumber": {
+      "type": "string"
+    },
+    "phoneNumber2": {
+      "type": "string"
+    }
+  }
+}

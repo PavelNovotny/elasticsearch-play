@@ -1,0 +1,18 @@
+{{#repeatWithId  1 'R1' comma=false}}
+
+    {"index":{"_id":"CONTACT_{{@index_R1}}_{{bulk}}","_type":"contact_person","_index":"contact_person_index_rif"}}
+
+    {
+      "auditDate": "{{date "1900" "2000" "DD.MM.YYYY"}}",
+      "firstName": "{{firstName}}",
+      "lastName": "{{lastName}}",
+      "contactId": "{{int 1000000000 9999999999}}",
+      "sfaId": "{{int 1000000000 9999999999}}",
+      "email": "{{email}}",
+      "phoneNumber": "{{phone 'xxxxxxxxx'}}",
+      "phoneNumber2": "{{phone 'xxxxxxxxx'}}",
+      "cuRefNo": "ID{{int 1000000000 9999999999}}"
+    }
+
+
+{{/repeatWithId}}
