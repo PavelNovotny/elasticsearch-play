@@ -1,6 +1,6 @@
 {{#repeatWithId  1 'R1' comma=false}}
 
-  {"index":{"_id":"CARN{{@index_R1}}_{{offset}}","_type":"customer_account","_index":"customer_account_index_rif"}}
+  {"index":{"_id":"CARN{{@index_R1}}_{{bulk}}","_type":"customer_account","_index":"customer_account_index_rif"}}
 
   {
     "customerRequests": [{{#repeat 1 3}}{"crId": "crId{{int 100000000 999999999}}"}{{/repeat}}],
@@ -25,25 +25,25 @@
     "billingPeriod": "{{int 20  30 }}",
     "birthDate": "{{date "1900" "2000" "DD-MM-YYYY"}}",
     "birthNumber": "{{date "1900" "2000" "DDMMYYYYYYYY"}}",
-    "caRefNo":"CARN{{@index_R1}}_{{offset}}",
-    "cuRefNo":"CRN{{@index_R1}}_{{offset}}",
+    "caRefNo":"CARN{{@index_R1}}_{{bulk}}",
+    "cuRefNo":"CRN{{@index_R1}}_{{bulk}}",
     "name": "{{firstName}} {{lastName}}"
   }
 
 
-  {"index":{"_id":"{{@index_R1}}_{{offset}}","_type":"customer_account_permission","_index":"customer_account_index_rif","_parent":"CARN{{@index_R1}}_{{offset}}"}}
+  {"index":{"_id":"{{@index_R1}}_{{bulk}}","_type":"customer_account_permission","_index":"customer_account_index_rif","_parent":"CARN{{@index_R1}}_{{bulk}}"}}
 
   {"login":"x0503{{int 100  999 }}"}
 
   {{#repeat 10 comma=false}}
 
-    {"index":{"_id":"I{{@index_R1}}_{{offset}}{{@index}}","_type":"invoice_type","_index":"customer_account_index_rif","_parent":"CARN{{@index_R1}}_{{offset}}"}}
+    {"index":{"_id":"I{{@index_R1}}_{{bulk}}{{@index}}","_type":"invoice_type","_index":"customer_account_index_rif","_parent":"CARN{{@index_R1}}_{{bulk}}"}}
 
     {"variableSymbol": "{{int 100000 999999}}"}
 
   {{/repeat}}
 
-  {"index":{"_id":"{{@index_R1}}_{{offset}}","_type":"product","_index":"customer_account_index_rif","_parent":"CARN{{@index_R1}}_{{offset}}"}}
+  {"index":{"_id":"{{@index_R1}}_{{bulk}}","_type":"product","_index":"customer_account_index_rif","_parent":"CARN{{@index_R1}}_{{bulk}}"}}
 
   {
     "imsi": "{{int 100000000 999999999}}",

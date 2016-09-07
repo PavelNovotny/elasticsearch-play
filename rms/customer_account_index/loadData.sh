@@ -3,8 +3,7 @@
 export SCRIPT_DIR="$( cd "$( dirname "$0" )" && pwd )"
 echo "$SCRIPT_DIR"
 
-batch_count=1
-for (( i=1; i <= $batch_count ; i++ ))
+for (( i=1; i <= $ELASTIC_GENERATE_DATA_SIZE ; i++ ))
 do
-	node elastic.js --batch=$SCRIPT_DIR/data/bulk$1.post
+	node elastic.js --batch=$SCRIPT_DIR/data/bulk$i.post
 done
