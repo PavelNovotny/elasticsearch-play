@@ -1,69 +1,73 @@
-{{#repeat 1 comma=false}}
+{{#repeatWithId  1 'R1' comma=false}}
 
-  {"index":{"_id":"CRN{{@index}}","_type":"customer","_index":"customer_index_rif"}}
+  {"index":{"_id":"CUST_{{@index_R1}}_{{bulk}}","_type":"customer","_index":"customer_index_rif"}}
 
   {
-    "agreements": [{{#repeat 1 3}}{"agreementId": "{{lorem 1}}"}{{/repeat}}],
-    "customerRequests": [{{#repeat 1 3}}{"crId": "crId{{int 100000000 999999999}}"}{{/repeat}}],
-    "invoices": [{{#repeat 1 3}}{"variableSymbol": "{{int 100000 999999}}"}{{/repeat}}],
-    "orders": [{{#repeat 1 3}}{"orderId": "{{int 100000 999999}}"}{{/repeat}}],
+    "agreements": [{{#repeat 1 3}}{"obligationRefNo": "{{lorem 3}}"}{{/repeat}}],
+    "customerRequests": [{{#repeat 10 20}}{"crRefNo": "crRefNo{{int 1000000000 9999999999}}{{lorem 1}}"}{{/repeat}}],
+    "invoices": [{{#repeat 10 18}}{"variableSymbol": "{{int 1000000000 9999999999}}"}{{/repeat}}],
+    "orders": [{{#repeat 5 20}}{"orderRefNo": "orderRefNo{{int 1000000000 9999999999}}"}{{/repeat}}],
     residentalAddress: [
-      {{#repeat 1 3}}
+      {{#repeat 1 1}}
         {
-          "buildingNo": "{{int 1 2000}}",
+          "buildingNo": "{{int 100000 999999}}",
           "city": "{{city}}",
           "cityDistrict": "{{city}}",
           "countryCode": "{{countryCode}}",
           "crossId": "{{email}}",
           "postalCode": "{{zipcode}}",
           "street": "{{street}}",
-          "streetNo": "{{int 1 2000}}"
+          "streetNo": "{{int 100000 999999}}"
         }
       {{/repeat}}
     ],
+    "auditDate": "{{date "1900" "2000" "DD-MM-YYYY"}}",
     "birthDate": "{{date "1900" "2000" "DD-MM-YYYY"}}",
     "birthNumber": "{{date "1900" "2000" "DDMMYYYYYYYY"}}",
-    "companyRegNo": "{{int 20  1040 }}",
-    "cuRefNo":"CRN{{@index}}",
-    "customerType": "{{customerType}}",
-    "identityDocumentID": "ID{{int 100000000 999999999}}",
-    "segment": "{{customerType}}",
-    "sfaId": "{{int 20  1040 }}",
-    "taxRegNo": "{{int 10  20 }}",
+    "companyRegNo": "{{int 1000000000 9999999999 }}",
+    "cuRefNo":"cuRefNo{{int 1000000000 9999999999}}",
+    "customerType": "{{random 'Person' 'Foreigner' 'Business'}}",
+    "identityDocumentID": "OP{{int 1000000000 9999999999}}",
+    "segment": "SEGMENT{{int 1000000000 9999999999}}",
+    "sfaId": "{{int 1000000000 9999999999}}",
+    "taxRegNo": "{{int 1000000000 9999999999}}",
     "company": "{{uppercase (company)}}",
     "firstName": "{{firstName}}",
     "lastName": "{{lastName}}"
   }
 
 
-  {"index":{"_id":"{{@index}}","_type":"customer_permission","_index":"customer_index_rif","_parent":"CRN{{@index}}"}}
+  {"index":{"_id":"CUST_PERM_{{@index}}_{{bulk}}","_type":"customer_permission","_index":"customer_index_rif","_parent":"CUST_{{@index_R1}}_{{bulk}}"}}
 
   {"login":"x0503{{int 100  999 }}"}
 
-  {"index":{"_id":"{{@index}}","_type":"product","_index":"customer_index_rif","_parent":"CRN{{@index}}"}}
+  {"index":{"_id":"PRODUCT{{@index}}_{{bulk}}","_type":"product","_index":"customer_index_rif","_parent":"CUST_{{@index_R1}}_{{bulk}}"}}
 
   {
-    "imsi": "{{int 100000000 999999999}}",
+    "assetIdId": "{{int 1000000000 9999999999}}",
+    "assetRefNo": "{{int 1000000000 9999999999}}",
+    "imsi": "{{int 1000000000 9999999999}}",
     "phoneNumber": "{{phone 'xxxxxxxxx'}}",
-    "serialNumber": "{{int 100000000 999999999}}",
-    "serviceId": "{{int 100000000 999999999}}",
+    "serialNumber": "{{int 1000000000 9999999999}}",
+    "serviceId": "{{int 1000000000 9999999999}}",
     "installationAddress": [
         {{#repeat 1 3}}
           {
-            "buildingNo": "{{int 1 2000}}",
+            "buildingNo": "{{int 100000 999999}}",
             "city": "{{city}}",
             "cityDistrict": "{{city}}",
             "countryCode": "{{countryCode}}",
             "crossId": "{{email}}",
             "postalCode": "{{zipcode}}",
             "street": "{{street}}",
-            "streetNo": "{{int 1 2000}}"
+            "streetNo": "{{int 100000 999999}}"
           }
         {{/repeat}}
-      ]
+      ],
+    "status": "{{random 'Schváleno' 'Zamítnuto' 'Schváleno s připomínkou'}}"
   }
 
-  {"index":{"_id":"{{@index}}","_type":"contact","_index":"customer_index_rif","_parent":"CRN{{@index}}"}}
+  {"index":{"_id":"CONTACT_{{@index}}_{{bulk}}","_type":"contact","_index":"customer_index_rif","_parent":"CUST_{{@index_R1}}_{{bulk}}"}}
 
   {
     "firstName": "{{firstName}}",
@@ -73,7 +77,7 @@
     "email": "{{email}}",
     "phoneNumber": "{{phone 'xxxxxxxxx'}}",
     "phoneNumber2": "{{phone 'xxxxxxxxx'}}",
-    "cuRefNo": "ID{{int 100000000 999999999}}"
+    "cuRefNo": "ID{{int 1000000000 9999999999}}"
   }
 
 {{/repeat}}
