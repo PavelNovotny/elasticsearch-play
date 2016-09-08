@@ -3,7 +3,7 @@
     "customerRequests": {
       "type": "nested",
       "properties": {
-        "crId": {
+        "crRefNo": {
           "type": "string"
         }
       }
@@ -45,10 +45,35 @@
         }
       }
     },
+    "directDebit": {
+      "type": "nested",
+      "properties": {
+        "bankAccount": {
+          "type": "string"
+        },
+        "bankAccountPrefix": {
+          "type": "string"
+        },
+        "bankCode": {
+          "type": "string"
+        },
+        "debitLimit": {
+          "type": "string"
+        }
+      }
+    },
     "individualOffers": {
       "type": "nested",
       "properties": {
-        "inId": {
+        "inRefNo": {
+          "type": "string"
+        }
+      }
+    },
+    "invoices": {
+      "type": "nested",
+      "properties": {
+        "variableSymbol": {
           "type": "string"
         }
       }
@@ -56,26 +81,88 @@
     "orders": {
       "type": "nested",
       "properties": {
-        "orderId": {
+        "orderRefNo": {
           "type": "string"
         }
       }
     },
-    //match
+    "residentalAddress": {
+      "type": "nested",
+      "properties": {
+        "buildingNo": {
+          "type": "string"
+        },
+        "city": {
+          "type": "string"
+        },
+        "cityDistrict": {
+          "type": "string"
+        },
+        "countryCode": {
+          "type": "string"
+        },
+        "crossId": {
+          "type": "string"
+        },
+        "postalCode": {
+          "type": "string"
+        },
+        "street": {
+          "type": "string"
+        },
+        "streetNo": {
+          "type": "string"
+        }
+      }
+    },
+
+    "auditDate": {
+      "type": "date",
+      "format": "dd.MM.yyyy"
+    },
+    //exact
     "billingPeriod": {
       "type": "string"
     },
-    "birthDate": {
+    "billingSpecificType": {
       "type": "string"
     },
+    "birthDate": {
+      "type": "date",
+      "format": "dd.MM.yyyy"
+    },
     "caRefNo": {
+      "type": "string"
+    },
+    "companyRegNo": {
       "type": "string"
     },
     "cuRefNo": {
       "type": "string"
     },
-    //exact
-    "name": {
+    "paymentResponsible": {
+      "type": "string"
+    },
+    "paymentType": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "typeOfDeliveryInvoice": {
+      "type": "string"
+    },
+    //match
+    "companyName": {
+      "type": "string"
+    },
+    "customName": {
+      "type": "string"
+    },
+    "firstName": {
+      "type": "string"
+    },
+    "lastName": {
       "type": "string"
     }
   }

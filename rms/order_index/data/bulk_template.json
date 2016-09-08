@@ -1,70 +1,87 @@
-{{#repeat 1 comma=false}}
+{{#repeatWithId  1 'R1' comma=false}}
 
-  {"index":{"_id":"ORD{{@index}}","_type":"order","_index":"order_index_rif"}}
+  {"index":{"_id":"ORDER_{{bulk}}_{{@index_R1}}","_type":"order","_index":"order_index_rif"}}
 
   {
-  "cvops": [{{#repeat 1 3}}{"cvop": "{{int 100000 999999}}"}{{/repeat}}],
+    "cvops": [{{#repeat 1 3}}{"cvop": "{{int 1000000000 9999999999}}"}{{/repeat}}],
     "deliveryAddress": [
       {{#repeat 1 3}}
         {
-          "buildingNo": "{{int 1 2000}}",
+          "buildingNo": "{{int 100000 999999}}",
           "city": "{{city}}",
           "cityDistrict": "{{city}}",
           "countryCode": "{{countryCode}}",
           "crossId": "{{email}}",
           "postalCode": "{{zipcode}}",
           "street": "{{street}}",
-          "streetNo": "{{int 1 2000}}"
+          "streetNo": "{{int 100000 999999}}"
         }
       {{/repeat}}
     ],
-    "caRefNo":"CARN{{@index}}",
-    "cuRefNo":"CRN{{@index}}",
-    "initUserId": "{{int 20  1040 }}",
-    "orderId": "{{int 20  1040 }}",
-    "status": "{{productType}}"
+    "orderId":"{{int 1000000000 9999999999}}",
+    "auditDate": "{{date "1950" "2000" "DD.MM.YYYY"}}",
+    "birthDate": "{{date "1950" "2000" "DD.MM.YYYY"}}",
+    "caRefNo":"{{lorem 1}}{{int 1000000000 9999999999}}",
+    "companyRefNo":"{{lorem 1}}{{int 1000000000 9999999999}}",
+    "createdDate": "{{date "1950" "2000" "DD.MM.YYYY"}}",
+    "cuRefNo":"{{lorem 1}}{{int 1000000000 9999999999}}",
+    "dealerCode":"{{lorem 3}}",
+    "initUserId": "{{int 1000000000 9999999999}}",
+    "orderId": "{{int 1000000000 9999999999}}",
+    "orderrefNo": "{{int 1000000000 9999999999}}",
+    "status": "{{random 'Schváleno bez připomínek' 'Zamítnuto nevratně' 'Zamítnuto dočasně' 'Schváleno s připomínkou'}}",
+    "company": "{{uppercase (company)}}",
+    "firstName": "{{firstName}}",
+    "lastName": "{{lastName}}"
   }
 
 
-  {"index":{"_id":"{{@index}}","_type":"order_permission","_index":"order_index_rif","_parent":"ORD{{@index}}"}}
+  {"index":{"_id":"{{bulk}}_{{@index_R1}}_{{@index}}","_type":"order_permission","_index":"order_index_rif","_parent":"ORDER_{{bulk}}_{{@index_R1}}"}}
 
   {"login":"x0503{{int 100  999 }}"}
 
-  {"index":{"_id":"P{{@index}}","_type":"product","_index":"order_index_rif","_parent":"ORD{{@index}}"}}
+  {{#repeat 10 comma=false}}
 
-  {
-    "imsi": "{{int 100000000 999999999}}",
-    "phoneNumber": "{{phone 'xxxxxxxxx'}}",
-    "serialNumber": "{{int 100000000 999999999}}",
-    "serviceId": "{{int 100000000 999999999}}",
-    "installationAddress": [
-        {{#repeat 1 3}}
-          {
-            "buildingNo": "{{int 1 2000}}",
-            "city": "{{city}}",
-            "cityDistrict": "{{city}}",
-            "countryCode": "{{countryCode}}",
-            "crossId": "{{email}}",
-            "postalCode": "{{zipcode}}",
-            "street": "{{street}}",
-            "streetNo": "{{int 1 2000}}"
-          }
-        {{/repeat}}
-      ]
-  }
+    {"index":{"_id":"PRODUCT_{{bulk}}_{{@index_R1}}_{{@index}}","_type":"product","_index":"order_index_rif","_parent":"ORDER_{{bulk}}_{{@index_R1}}"}}
 
+    {
+      "imsi": "{{int 100000000 999999999}}",
+      "phoneNumber": "{{phone 'xxxxxxxxx'}}",
+      "serialNumber": "{{int 100000000 999999999}}",
+      "serviceId": "{{int 100000000 999999999}}",
+      "installationAddress": [
+          {{#repeat 1 3}}
+            {
+              "buildingNo": "{{int 100000 999999}}",
+              "city": "{{city}}",
+              "cityDistrict": "{{city}}",
+              "countryCode": "{{countryCode}}",
+              "crossId": "{{email}}",
+              "postalCode": "{{zipcode}}",
+              "street": "{{street}}",
+              "streetNo": "{{int 100000 999999}}"
+            }
+          {{/repeat}}
+        ]
+    }
 
-  {"index":{"_id":"C{{@index}}","_type":"contact","_index":"order_index_rif","_parent":"ORD{{@index}}"}}
+  {{/repeat}}
 
-  {
-    "firstName": "{{firstName}}",
-    "lastName": "{{lastName}}",
-    "o2Id": "{{int 1 2000}}",
-    "sfaId": "{{int 1 2000}}",
-    "email": "{{email}}",
-    "phoneNumber": "{{phone 'xxxxxxxxx'}}",
-    "phoneNumber2": "{{phone 'xxxxxxxxx'}}",
-    "cuRefNo": "ID{{int 100000000 999999999}}"
-  }
+  {{#repeat 3 comma=false}}
 
-{{/repeat}}
+    {"index":{"_id":"C{{bulk}}_{{@index_R1}}_{{@index}}","_type":"contact","_index":"order_index_rif","_parent":"ORDER_{{bulk}}_{{@index_R1}}"}}
+
+    {
+      "firstName": "{{firstName}}",
+      "lastName": "{{lastName}}",
+      "o2Id": "{{int 100000 999999}}",
+      "sfaId": "{{int 100000 999999}}",
+      "email": "{{email}}",
+      "phoneNumber": "{{phone 'xxxxxxxxx'}}",
+      "phoneNumber2": "{{phone 'xxxxxxxxx'}}",
+      "cuRefNo": "ID{{int 100000000 999999999}}"
+    }
+
+  {{/repeat}}
+
+{{/repeatWithId}}

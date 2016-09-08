@@ -1,0 +1,3 @@
+DELETE /contact_person_index_rif
+PUT /contact_person_index_rif $SCRIPT_DIR/definition/contact_person_index_settings.json
+PUT /contact_person_index_rif/_mapping/contact_person $SCRIPT_DIR/definition/contact_person_mapping.json

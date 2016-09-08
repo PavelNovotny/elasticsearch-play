@@ -1,7 +1,4 @@
 {
-  "_parent": {
-    "type": "customer_request"
-  },
   "properties": {
     "auditDate": {
       "type": "date",

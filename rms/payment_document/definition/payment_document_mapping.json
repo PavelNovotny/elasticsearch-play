@@ -1,14 +1,6 @@
 {
   "properties": {
-    //contacts - child
-    "cvops": {
-      "type": "nested",
-      "properties": {
-        "cvop": {
-          "type": "string"
-        }
-      }
-    },
+    //opravneni
     "deliveryAddress": {
       "type": "nested",
       "properties": {
@@ -38,15 +30,28 @@
         }
       }
     },
-    //products - child
+    "deliveryEmail": {
+      "type": "nested",
+      "properties": {
+        "email": {
+          "type": "string"
+        }
+      }
+    },
+    //produkty podle me by mela byt vazba m:n
 
-    "orderId": {
-      "type": "long"
+    //no index
+    "amount": {
+      "type": "double"
     },
     "auditDate": {
       "type": "date",
       "format": "dd.MM.yyyy"
     },
+    "documentId": {
+      "type": "string"
+    },
+
     //exact
     "birthDate": {
       "type": "date",
@@ -58,23 +63,17 @@
     "companyRegNo": {
       "type": "string"
     },
-    "createdDate": {
-      "type": "date",
-      "format": "dd.MM.yyyy"
-    },
     "cuRefNo": {
       "type": "string"
     },
-    "dealerCode": {
+    "documentType": {
       "type": "string"
     },
-    "initUserId": {
-      "type": "string"
-    },
-    "orderRefNo": {
-      "type": "string"
-    },
+
     "status": {
+      "type": "string"
+    },
+    "variableSymbol": {
       "type": "string"
     },
 

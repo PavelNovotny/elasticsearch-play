@@ -1,0 +1,37 @@
+{{#repeatWithId  1 'R1' comma=false}}
+
+  {"index":{"_id":"PAY_DOC_{{bulk}}_{{@index_R1}}","_type":"payment_document","_index":"payment_document_index_rif"}}
+
+  {
+    "deliveryAddress": [
+      {{#repeat 1 1}}
+        {
+          "buildingNo": "{{int 100000 999999}}",
+          "city": "{{city}}",
+          "cityDistrict": "{{city}}",
+          "countryCode": "{{countryCode}}",
+          "crossId": "{{email}}",
+          "postalCode": "{{zipcode}}",
+          "street": "{{street}}",
+          "streetNo": "{{int 100000 999999}}"
+        }
+      {{/repeat}}
+    ],
+    "deliveryEmail": [{{#repeat 1 3}}{"email":"{{email}}"}{{/repeat}}],
+    "amount": "{{float 0 100000 round=0.01}} ",
+    "auditDate": "{{date "1900" "2000" "DD.MM.YYYY"}}",
+    "documentId": "{{int 1000000000 9999999999 }}",
+    "birthDate": "{{date "1900" "2000" "DD.MM.YYYY"}}",
+    "caRefNo":"cuRefNo{{int 1000000000 9999999999}}",
+    "companyRegNo": "{{int 1000000000 9999999999 }}",
+    "cuRefNo":"cuRefNo{{int 1000000000 9999999999}}",
+    "documentType": "{{random 'Person' 'Foreigner' 'Business'}}",
+    "status": "{{random 'Schváleno' 'Zamítnuto' 'Schváleno s připomínkou'}}",
+    "variableSymbol": "{{int 1000000000 9999999999}}"
+    "company": "{{uppercase (company)}}",
+    "firstName": "{{firstName}}",
+    "lastName": "{{lastName}}"
+  }
+
+
+{{/repeatWithId}}
