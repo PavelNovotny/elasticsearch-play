@@ -1,0 +1,7 @@
+DELETE /big-data-test
+PUT /big-data-test test_big/index-definition.json
+PUT /big-data-test/_mapping/syn40po1000 test_big/syn40po1000-mapping.json
+PUT /big-data-test/_mapping/otec40po1000 test_big/otec-mapping.json
+PUT /big-data-test/_mapping/syn40000 test_big/syn40000-mapping.json
+PUT /big-data-test/_mapping/otec40000 test_big/otec-mapping.json
+PUT /big-data-test/_mapping/otecPole test_big/otec-mapping.json

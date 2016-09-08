@@ -1,0 +1,12 @@
+{
+  "_parent": {
+    "type": "otec40po1000"
+  },
+  "properties": {
+    "login": {
+      "type": "string",
+      "index": "not_analyzed"
+
+    }
+  }
+}
