@@ -1,37 +1,9 @@
 {
   "properties": {
-    "agreements": {
-      "type": "nested",
-      "properties": {
-        "obligationRefNo": {
-          "type": "string"
-        }
-      }
-    },
-    "customerRequests": {
-      "type": "nested",
-      "properties": {
-        "crRefNo": {
-          "type": "string"
-        }
-      }
-    },
-    "invoices": {
-      "type": "nested",
-      "properties": {
-        "variableSymbol": {
-          "type": "string"
-        }
-      }
-    },
-    "orders": {
-      "type": "nested",
-      "properties": {
-        "orderRefNo": {
-          "type": "string"
-        }
-      }
-    },
+    //customer_requests - child
+    //payment_document - child
+    //order - child
+
     "residentalAddress": {
       "type": "nested",
       "properties": {
@@ -63,6 +35,10 @@
     },
 
     //exact
+    "obligationRefNo": {
+      "type": "string"
+    },
+
     "auditDate": {
       "type": "date",
       "format": "dd.MM.yyyy"

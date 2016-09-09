@@ -3,10 +3,6 @@
   {"index":{"_id":"CUST_{{bulk}}_{{@index_R1}}","_type":"customer","_index":"customer_index_rif"}}
 
   {
-    "agreements": [{{#repeat 1 3}}{"obligationRefNo": "{{lorem 3}}"}{{/repeat}}],
-    "customerRequests": [{{#repeat 10 20}}{"crRefNo": "crRefNo{{int 1000000000 9999999999}}{{lorem 1}}"}{{/repeat}}],
-    "invoices": [{{#repeat 10 18}}{"variableSymbol": "{{int 1000000000 9999999999}}"}{{/repeat}}],
-    "orders": [{{#repeat 5 20}}{"orderRefNo": "orderRefNo{{int 1000000000 9999999999}}"}{{/repeat}}],
     residentalAddress: [
       {{#repeat 1 1}}
         {
@@ -21,6 +17,7 @@
         }
       {{/repeat}}
     ],
+    "obligationRefNo": "{{lorem 3}}",
     "auditDate": "{{date "1900" "2000" "DD.MM.YYYY"}}",
     "birthDate": "{{date "1900" "2000" "DD.MM.YYYY"}}",
     "birthNumber": "{{date "1900" "2000" "DDMMYYYYYYYY"}}",
@@ -39,7 +36,7 @@
 
   {"index":{"_id":"CUST_PERM_{{@index}}_{{bulk}}","_type":"customer_permission","_index":"customer_index_rif","_parent":"CUST_{{bulk}}_{{@index_R1}}"}}
 
-  {"login":"x0503{{int 100  999 }}"}
+  {"login":[{{#repeat 50 150}}{"x0503{{int 100  999 }}"}{{/repeat}}]}
 
   {{#repeat 10 comma=false}}
 
@@ -71,7 +68,37 @@
 
   {{/repeat}}
 
-  {{#repeat 10 comma=false}}
+  {{#repeat 3 comma=false}}
+
+    {"index":{"_id":"CUST_REQ_{{bulk}}_{{@index_R1}}_{{@index}}","_type":"customer_request","_index":"customer_index_rif","_parent":"CUST_{{bulk}}_{{@index_R1}}"}}
+
+    {
+      "crRefNo":[{{#repeat 10 30}}{"{{int 1000000000 9999999999}}{{lorem 1}}"}{{/repeat}}]
+    }
+
+  {{/repeat}}
+
+  {{#repeat 3 comma=false}}
+
+    {"index":{"_id":"ORDER{{bulk}}_{{@index_R1}}_{{@index}}","_type":"order","_index":"customer_index_rif","_parent":"CUST_{{bulk}}_{{@index_R1}}"}}
+
+    {
+      "orderRefNo":[{{#repeat 100 200}}{"{{int 1000000000 9999999999}}"}{{/repeat}}]
+    }
+
+  {{/repeat}}
+
+  {{#repeat 3 comma=false}}
+
+    {"index":{"_id":"PAY_DOC_{{bulk}}_{{@index_R1}}_{{@index}}","_type":"payment_document","_index":"customer_index_rif","_parent":"CUST_{{bulk}}_{{@index_R1}}"}}
+
+    {
+      "variableSymbol":[{{#repeat 100 200}}{"{{int 1000000000 9999999999}}"}{{/repeat}}]
+    }
+
+  {{/repeat}}
+
+  {{#repeat 0 comma=false}}
 
     {"index":{"_id":"CONTACT_{{@index}}_{{bulk}}","_type":"contact","_index":"customer_index_rif","_parent":"CUST_{{bulk}}_{{@index_R1}}"}}
 
