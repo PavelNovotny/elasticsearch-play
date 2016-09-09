@@ -5,94 +5,78 @@
   {"login":[{{#repeat 50 150}}"x0503{{int 100  999 }}"{{/repeat}}]}
 
   {{#repeatWithId  1 'R2' comma=false}}
-  {"index":{"_id":"ORDER_{{bulk}}_{{@index_R1}}_{{@index_R2}}","_type":"order","_index":"order_index_rif","_parent":"PERM_{{bulk}}_{{@index_R1}}"}}
-
-  {
-    "cvop": "{{int 1000000000 9999999999}}",
-    "contacts": [
-      {{#repeat 1 3}}
-        {
-          "firstName": "{{firstName}}",
-          "lastName": "{{lastName}}",
-          "o2Id": "{{int 100000 999999}}",
-          "sfaId": "{{int 100000 999999}}",
-          "email": "{{email}}",
-          "phoneNumber": "{{phone 'xxxxxxxxx'}}",
-          "phoneNumber2": "{{phone 'xxxxxxxxx'}}",
-          "cuRefNo": "ID{{int 100000000 999999999}}"
-        }
-      {{/repeat}}
-    ],
-    "deliveryAddress": {
-          "buildingNo": "{{int 100000 999999}}",
-          "city": "{{city}}",
-          "cityDistrict": "{{city}}",
-          "countryCode": "{{countryCode}}",
-          "crossId": "{{email}}",
-          "postalCode": "{{zipcode}}",
-          "street": "{{street}}",
-          "streetNo": "{{int 100000 999999}}"
-    },
-    "orderId":"{{int 1000000000 9999999999}}",
-    "auditDate": "{{date "1950" "2000" "DD.MM.YYYY"}}",
-    "birthDate": "{{date "1950" "2000" "DD.MM.YYYY"}}",
-    "caRefNo":"{{lorem 1}}{{int 1000000000 9999999999}}",
-    "companyRefNo":"{{lorem 1}}{{int 1000000000 9999999999}}",
-    "createdBy": "{{firstName}}{{lastName}}",
-    "createdDate": "{{date "1950" "2000" "DD.MM.YYYY"}}",
-    "cuRefNo":"{{lorem 1}}{{int 1000000000 9999999999}}",
-    "dealerCode":"{{lorem 3}}",
-    "modifiedBy": "{{firstName}}{{lastName}}",
-    "orderId": "{{int 1000000000 9999999999}}",
-    "orderrefNo": "{{int 1000000000 9999999999}}",
-    "status": "{{random 'Schváleno bez připomínek' 'Zamítnuto nevratně' 'Zamítnuto dočasně' 'Schváleno s připomínkou'}}",
-    "company": "{{uppercase (company)}}",
-    "firstName": "{{firstName}}",
-    "lastName": "{{lastName}}"
-  }
-
-  {{#repeat 10 comma=false}}
-
-    {"index":{"_id":"PRODUCT_{{bulk}}_{{@index_R1}}_{{@index_R2}}_{{@index}}","_type":"product","_index":"order_index_rif","_parent":"ORDER_{{bulk}}_{{@index_R1}}_{{@index_R2}}"}}
+    {"index":{"_id":"ORDER_{{bulk}}_{{@index_R1}}_{{@index_R2}}","_type":"order","_index":"order_index_rif","_parent":"PERM_{{bulk}}_{{@index_R1}}"}}
 
     {
-      "imsi": "{{int 100000000 999999999}}",
-      "phoneNumber": "{{phone 'xxxxxxxxx'}}",
-      "serialNumber": "{{int 100000000 999999999}}",
-      "serviceId": "{{int 100000000 999999999}}",
-      "installationAddress": [
-          {{#repeat 1 3}}
-            {
-              "buildingNo": "{{int 100000 999999}}",
-              "city": "{{city}}",
-              "cityDistrict": "{{city}}",
-              "countryCode": "{{countryCode}}",
-              "crossId": "{{email}}",
-              "postalCode": "{{zipcode}}",
-              "street": "{{street}}",
-              "streetNo": "{{int 100000 999999}}"
-            }
-          {{/repeat}}
-        ]
-    }
-
-  {{/repeat}}
-
-  {{#repeat 3 comma=false}}
-
-    {"index":{"_id":"C{{bulk}}_{{@index_R1}}_{{@index_R2}}_{{@index}}","_type":"contact","_index":"order_index_rif","_parent":"ORDER_{{bulk}}_{{@index_R1}}_{{@index_R2}}"}}
-
-    {
+      "cvop": "{{int 1000000000 9999999999}}",
+      "contacts": [
+        {{#repeat 1 3}}
+          {
+            "firstName": "{{firstName}}",
+            "lastName": "{{lastName}}",
+            "o2Id": "{{int 100000 999999}}",
+            "sfaId": "{{int 100000 999999}}",
+            "email": "{{email}}",
+            "phoneNumber": "{{phone 'xxxxxxxxx'}}",
+            "phoneNumber2": "{{phone 'xxxxxxxxx'}}",
+            "cuRefNo": "ID{{int 100000000 999999999}}"
+          }
+        {{/repeat}}
+      ],
+      "deliveryAddress": {
+            "buildingNo": "{{int 100000 999999}}",
+            "city": "{{city}}",
+            "cityDistrict": "{{city}}",
+            "countryCode": "{{countryCode}}",
+            "crossId": "{{email}}",
+            "postalCode": "{{zipcode}}",
+            "street": "{{street}}",
+            "streetNo": "{{int 100000 999999}}"
+      },
+      "orderId":"{{int 1000000000 9999999999}}",
+      "auditDate": "{{date "1950" "2000" "DD.MM.YYYY"}}",
+      "birthDate": "{{date "1950" "2000" "DD.MM.YYYY"}}",
+      "caRefNo":"{{lorem 1}}{{int 1000000000 9999999999}}",
+      "companyRefNo":"{{lorem 1}}{{int 1000000000 9999999999}}",
+      "createdBy": "{{firstName}}{{lastName}}",
+      "createdDate": "{{date "1950" "2000" "DD.MM.YYYY"}}",
+      "cuRefNo":"{{lorem 1}}{{int 1000000000 9999999999}}",
+      "dealerCode":"{{lorem 3}}",
+      "modifiedBy": "{{firstName}}{{lastName}}",
+      "orderId": "{{int 1000000000 9999999999}}",
+      "orderrefNo": "{{int 1000000000 9999999999}}",
+      "status": "{{random 'Schváleno bez připomínek' 'Zamítnuto nevratně' 'Zamítnuto dočasně' 'Schváleno s připomínkou'}}",
+      "company": "{{uppercase (company)}}",
       "firstName": "{{firstName}}",
-      "lastName": "{{lastName}}",
-      "o2Id": "{{int 100000 999999}}",
-      "sfaId": "{{int 100000 999999}}",
-      "email": "{{email}}",
-      "phoneNumber": "{{phone 'xxxxxxxxx'}}",
-      "phoneNumber2": "{{phone 'xxxxxxxxx'}}",
-      "cuRefNo": "ID{{int 100000000 999999999}}"
+      "lastName": "{{lastName}}"
     }
 
-  {{/repeat}}
+    {{#repeat 10 comma=false}}
 
+      {"index":{"_id":"PRODUCT_{{bulk}}_{{@index_R1}}_{{@index_R2}}_{{@index}}","_type":"product","_index":"order_index_rif","_parent":"ORDER_{{bulk}}_{{@index_R1}}_{{@index_R2}}"}}
+
+      {
+        "imsi": "{{int 100000000 999999999}}",
+        "phoneNumber": "{{phone 'xxxxxxxxx'}}",
+        "serialNumber": "{{int 100000000 999999999}}",
+        "serviceId": "{{int 100000000 999999999}}",
+        "installationAddress": [
+            {{#repeat 1 3}}
+              {
+                "buildingNo": "{{int 100000 999999}}",
+                "city": "{{city}}",
+                "cityDistrict": "{{city}}",
+                "countryCode": "{{countryCode}}",
+                "crossId": "{{email}}",
+                "postalCode": "{{zipcode}}",
+                "street": "{{street}}",
+                "streetNo": "{{int 100000 999999}}"
+              }
+            {{/repeat}}
+          ]
+      }
+
+    {{/repeat}}
+
+  {{/repeatWithId}}
 {{/repeatWithId}}
