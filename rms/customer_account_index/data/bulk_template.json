@@ -3,7 +3,6 @@
   {"index":{"_id":"CUST_ACC_{{bulk}}_{{@index_R1}}","_type":"customer_account","_index":"customer_account_index_rif"}}
 
   {
-    "customerRequests": [{{#repeat 10 20}}{"crRefNo": "crRefNo{{int 1000000000 9999999999}}{{lorem 1}}"}{{/repeat}}],
     "deliveryAddress": [
       {{#repeat 1 3}}
         {
@@ -19,7 +18,6 @@
       {{/repeat}}
     ],
     "deliveryEmail": [{{#repeat 1 3}}{"email":"{{email}}"}{{/repeat}}],
-    "directDebit": [{{#repeat 1 3}}{"email":"{{email}}"}{{/repeat}}],
     "directDebit": [
       {{#repeat 1 1}}
         {
@@ -30,9 +28,6 @@
         }
       {{/repeat}}
     ],
-    "individualOffers": [{{#repeat 1 3}}{"inRefNo": "{{int 100000 999999}}"}{{/repeat}}],
-    "invoices": [{{#repeat 10 18}}{"variableSymbol": "{{int 1000000000 9999999999}}"}{{/repeat}}],
-    "orders": [{{#repeat 5 20}}{"orderRefNo": "orderRefNo{{int 1000000000 9999999999}}"}{{/repeat}}],
     "residentalAddress": [
       {{#repeat 1 3}}
         {
@@ -47,16 +42,16 @@
         }
       {{/repeat}}
     ],
+    "obligationRefNo": "{{lorem 3}}",
     "auditDate": "{{date "1950" "2000" "DD.MM.YYYY"}}",
     "billingPeriod": "{{int 1000000000 9999999999}}",
     "billingSpecificType": "{{lorem 3}}",
     "birthDate": "{{date "1950" "2000" "DD.MM.YYYY"}}",
-    "birthNumber": "{{date "1950" "2000" "DDMMYYYYYYYY"}}",
     "caRefNo":"caRefNo{{int 1000000000 9999999999}}",
     "companyRegNo": "{{int 1000000000 9999999999 }}",
     "cuRefNo":"cuRefNo{{int 1000000000 9999999999}}",
     "paymentResponsible": "{{firstName}} {{lastName}}",
-    "paymentType": "{{firstName}} {{lastName}}",
+    "paymentType": "{{lorem 3}}",
     "status": "{{random 'Schváleno' 'Zamítnuto' 'Schváleno s připomínkou'}}",
     "typeOfDeliveryInvoice": "{{random 'česká pošta' 'PPL' 'Vyzvednout na pobočce'}}",
     "company": "{{uppercase (company)}}",
@@ -68,13 +63,45 @@
 
   {"index":{"_id":"{{bulk}}_{{@index_R1}}","_type":"customer_account_permission","_index":"customer_account_index_rif","_parent":"CUST_ACC_{{bulk}}_{{@index_R1}}"}}
 
-  {"login":"x0503{{int 100  999 }}"}
+  {"login":[{{#repeat 50 150}}"x0503{{int 100  999 }}"{{/repeat}}]}
 
-  {{#repeat 10 comma=false}}
+  {{#repeat 3 comma=false}}
 
-    {"index":{"_id":"PERM_{{bulk}}_{{@index_R1}}_{{@index}}","_type":"invoice_type","_index":"customer_account_index_rif","_parent":"CUST_ACC_{{bulk}}_{{@index_R1}}"}}
+    {"index":{"_id":"CUST_REQ_{{bulk}}_{{@index_R1}}_{{@index}}","_type":"customer_request","_index":"customer_account_index_rif","_parent":"CUST_{{bulk}}_{{@index_R1}}"}}
 
-    {"variableSymbol": "{{int 100000 999999}}"}
+    {
+      "crRefNo":[{{#repeat 10 30}}"{{int 1000000000 9999999999}}{{lorem 1}}"{{/repeat}}]
+    }
+
+  {{/repeat}}
+
+  {{#repeat 3 comma=false}}
+
+    {"index":{"_id":"ORDER{{bulk}}_{{@index_R1}}_{{@index}}","_type":"order","_index":"customer_account_index_rif","_parent":"CUST_{{bulk}}_{{@index_R1}}"}}
+
+    {
+      "orderRefNo":[{{#repeat 100 200}}"{{int 1000000000 9999999999}}"{{/repeat}}]
+    }
+
+  {{/repeat}}
+
+  {{#repeat 3 comma=false}}
+
+    {"index":{"_id":"PAY_DOC_{{bulk}}_{{@index_R1}}_{{@index}}","_type":"payment_document","_index":"customer_account_index_rif","_parent":"CUST_{{bulk}}_{{@index_R1}}"}}
+
+    {
+      "variableSymbol":[{{#repeat 100 200}}"{{int 1000000000 9999999999}}"{{/repeat}}]
+    }
+
+  {{/repeat}}  
+
+  {{#repeat 3 comma=false}}
+
+    {"index":{"_id":"IND_OFF_{{bulk}}_{{@index_R1}}_{{@index}}","_type":"individual_offer","_index":"customer_account_index_rif","_parent":"CUST_{{bulk}}_{{@index_R1}}"}}
+
+    {
+      "inRefNo":[{{#repeat 100 200}}"{{int 1000000000 9999999999}}"{{/repeat}}]
+    }
 
   {{/repeat}}
 

@@ -5,7 +5,7 @@
     //order - child
 
     "residentalAddress": {
-      "type": "nested",
+      "type": "object",
       "properties": {
         "buildingNo": {
           "type": "string"
@@ -36,6 +36,9 @@
 
     //exact
     "obligationRefNo": {
+      "type": "string"
+    },
+    "email": {
       "type": "string"
     },
 

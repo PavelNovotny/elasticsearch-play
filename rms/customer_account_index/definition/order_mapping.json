@@ -1,0 +1,10 @@
+{
+  "_parent": {
+    "type": "customer_account"
+  },
+  "properties": {
+    "orderRefNo": {
+      "type": "string"
+    }
+  }
+}

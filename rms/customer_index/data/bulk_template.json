@@ -18,6 +18,7 @@
       {{/repeat}}
     ],
     "obligationRefNo": "{{lorem 3}}",
+    "email": "{{email}}",
     "auditDate": "{{date "1900" "2000" "DD.MM.YYYY"}}",
     "birthDate": "{{date "1900" "2000" "DD.MM.YYYY"}}",
     "birthNumber": "{{date "1900" "2000" "DDMMYYYYYYYY"}}",
