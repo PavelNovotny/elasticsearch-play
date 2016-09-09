@@ -1,6 +1,6 @@
 {{#repeatWithId  1 'R1' comma=false}}
 
-  {"index":{"_id":"PERM_{{bulk}}_{{@index_R1}}","_type":"cu_permission","_index":"customer_request_index_rif"}}
+  {"index":{"_id":"PERM_{{bulk}}_{{@index_R1}}","_type":"customer_request_permission","_index":"customer_request_index_rif"}}
 
   {"login":[{{#repeat 50 150}}"x0503{{int 100  999 }}"{{/repeat}}]}
 
@@ -67,9 +67,11 @@
       "companyRegNo": "{{int 1000000000 9999999999 }}",
       "caRefNo":"CARN{{int 1000000000 9999999999 }}",
       "crType": "{{lorem 3}}",
-      "cuRefNo":"CRN{{int 1000000000 9999999999 }}",
       "orderRefNo": "{{int 1000000000 9999999999 }}",
-      "status": "{{random 'Schváleno' 'Zamítnuto' 'Schváleno s připomínkou'}}"
+      "status": "{{random 'Schváleno' 'Zamítnuto' 'Schváleno s připomínkou'}}",
+      "company": "{{uppercase (company)}}",
+      "firstName": "{{firstName}}",
+      "lastName": "{{lastName}}"
     }
 
 
