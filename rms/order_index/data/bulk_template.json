@@ -8,22 +8,21 @@
   {"index":{"_id":"ORDER_{{bulk}}_{{@index_R1}}_{{@index_R2}}","_type":"order","_index":"order_index_rif","_parent":"PERM_{{bulk}}_{{@index_R1}}"}}
 
   {
-    "cvops": [{{#repeat 1 3}}"cvop": "{{int 1000000000 9999999999}}"{{/repeat}}],
+    "cvop": "{{int 1000000000 9999999999}}",
     "contacts": [
-        {{#repeat 1 3}}
-          {
-            "firstName": "{{firstName}}",
-            "lastName": "{{lastName}}",
-            "o2Id": "{{int 100000 999999}}",
-            "sfaId": "{{int 100000 999999}}",
-            "email": "{{email}}",
-            "phoneNumber": "{{phone 'xxxxxxxxx'}}",
-            "phoneNumber2": "{{phone 'xxxxxxxxx'}}",
-            "cuRefNo": "ID{{int 100000000 999999999}}"
-          }
-        {{/repeat}}
-      ]
-    },
+      {{#repeat 1 3}}
+        {
+          "firstName": "{{firstName}}",
+          "lastName": "{{lastName}}",
+          "o2Id": "{{int 100000 999999}}",
+          "sfaId": "{{int 100000 999999}}",
+          "email": "{{email}}",
+          "phoneNumber": "{{phone 'xxxxxxxxx'}}",
+          "phoneNumber2": "{{phone 'xxxxxxxxx'}}",
+          "cuRefNo": "ID{{int 100000000 999999999}}"
+        }
+      {{/repeat}}
+    ],
     "deliveryAddress": {
           "buildingNo": "{{int 100000 999999}}",
           "city": "{{city}}",

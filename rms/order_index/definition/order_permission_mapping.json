@@ -1,7 +1,4 @@
 {
-	"_parent": {
-		"type": "order"
-	},
   "properties":
 			{ 
 				"login":
