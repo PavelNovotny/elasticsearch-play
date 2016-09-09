@@ -2,6 +2,6 @@ DELETE /order_index_rif
 PUT /order_index_rif $SCRIPT_DIR/definition/order_index_settings.json
 PUT /order_index_rif/_mapping/order_permission $SCRIPT_DIR/definition/order_permission_mapping.json
 PUT /order_index_rif/_mapping/product $SCRIPT_DIR/definition/product_mapping.json
-PUT /order_index_rif/_mapping/contact $SCRIPT_DIR/definition/contact_mapping.json
+
 PUT /order_index_rif/_mapping/order $SCRIPT_DIR/definition/order_mapping.json
 
