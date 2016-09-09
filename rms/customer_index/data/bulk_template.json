@@ -36,7 +36,7 @@
 
   {"index":{"_id":"CUST_PERM_{{@index}}_{{bulk}}","_type":"customer_permission","_index":"customer_index_rif","_parent":"CUST_{{bulk}}_{{@index_R1}}"}}
 
-  {"login":[{{#repeat 50 150}}{"x0503{{int 100  999 }}"}{{/repeat}}]}
+  {"login":[{{#repeat 50 150}}"x0503{{int 100  999 }}"{{/repeat}}]}
 
   {{#repeat 10 comma=false}}
 
@@ -73,7 +73,7 @@
     {"index":{"_id":"CUST_REQ_{{bulk}}_{{@index_R1}}_{{@index}}","_type":"customer_request","_index":"customer_index_rif","_parent":"CUST_{{bulk}}_{{@index_R1}}"}}
 
     {
-      "crRefNo":[{{#repeat 10 30}}{"{{int 1000000000 9999999999}}{{lorem 1}}"}{{/repeat}}]
+      "crRefNo":[{{#repeat 10 30}}"{{int 1000000000 9999999999}}{{lorem 1}}"{{/repeat}}]
     }
 
   {{/repeat}}
@@ -83,7 +83,7 @@
     {"index":{"_id":"ORDER{{bulk}}_{{@index_R1}}_{{@index}}","_type":"order","_index":"customer_index_rif","_parent":"CUST_{{bulk}}_{{@index_R1}}"}}
 
     {
-      "orderRefNo":[{{#repeat 100 200}}{"{{int 1000000000 9999999999}}"}{{/repeat}}]
+      "orderRefNo":[{{#repeat 100 200}}"{{int 1000000000 9999999999}}"{{/repeat}}]
     }
 
   {{/repeat}}
@@ -93,7 +93,7 @@
     {"index":{"_id":"PAY_DOC_{{bulk}}_{{@index_R1}}_{{@index}}","_type":"payment_document","_index":"customer_index_rif","_parent":"CUST_{{bulk}}_{{@index_R1}}"}}
 
     {
-      "variableSymbol":[{{#repeat 100 200}}{"{{int 1000000000 9999999999}}"}{{/repeat}}]
+      "variableSymbol":[{{#repeat 100 200}}"{{int 1000000000 9999999999}}"{{/repeat}}]
     }
 
   {{/repeat}}
