@@ -1,8 +1,40 @@
 {
   "properties": {
-    //contacts - child
+    "contacts":{
+      "auditDate": {
+        "type": "date",
+        "format": "dd.MM.yyyy"
+      },
+      "contactId": {
+        "type": "string"
+      },
+      //match
+      "firstName": {
+        "type": "string"
+      },
+      "lastName": {
+        "type": "string"
+      },
+      //exact
+      "sfaId": {
+        "type": "string"
+      },
+      "userId": {
+        "type": "string"
+      },
+      "email": {
+        "type": "string"
+      },
+      "phoneNumber": {
+        "type": "string"
+      },
+      "phoneNumber2": {
+        "type": "string"
+      }
+    },
+
     "cvops": {
-      "type": "nested",
+      "type": "object",
       "properties": {
         "cvop": {
           "type": "string"
@@ -10,7 +42,7 @@
       }
     },
     "deliveryAddress": {
-      "type": "nested",
+      "type": "object",
       "properties": {
         "buildingNo": {
           "type": "string"
@@ -58,6 +90,9 @@
     "companyRegNo": {
       "type": "string"
     },
+    "createdBy": {
+      "type": "string"
+    },
     "createdDate": {
       "type": "date",
       "format": "dd.MM.yyyy"
@@ -68,7 +103,7 @@
     "dealerCode": {
       "type": "string"
     },
-    "initUserId": {
+    "modifiedBy": {
       "type": "string"
     },
     "orderRefNo": {
