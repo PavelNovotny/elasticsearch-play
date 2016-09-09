@@ -1,4 +1,7 @@
 {
+  "_parent": {
+    "type": "order_permission"
+  },
   "properties": {
     "contacts":{
       "type": "nested",
