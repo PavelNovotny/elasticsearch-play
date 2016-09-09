@@ -3,9 +3,7 @@
   {"index":{"_id":"CUST_{{bulk}}_{{@index_R1}}","_type":"customer","_index":"customer_index_rif"}}
 
   {
-    residentalAddress: [
-      {{#repeat 1 1}}
-        {
+    residentalAddress: {
           "buildingNo": "{{int 100000 999999}}",
           "city": "{{city}}",
           "cityDistrict": "{{city}}",
@@ -14,10 +12,9 @@
           "postalCode": "{{zipcode}}",
           "street": "{{street}}",
           "streetNo": "{{int 100000 999999}}"
-        }
-      {{/repeat}}
-    ],
+    },
     "obligationRefNo": "{{lorem 3}}",
+    "email": "{{email}}",
     "auditDate": "{{date "1900" "2000" "DD.MM.YYYY"}}",
     "birthDate": "{{date "1900" "2000" "DD.MM.YYYY"}}",
     "birthNumber": "{{date "1900" "2000" "DDMMYYYYYYYY"}}",
