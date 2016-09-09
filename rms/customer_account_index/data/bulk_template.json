@@ -3,9 +3,7 @@
   {"index":{"_id":"CUST_ACC_{{bulk}}_{{@index_R1}}","_type":"customer_account","_index":"customer_account_index_rif"}}
 
   {
-    "deliveryAddress": [
-      {{#repeat 1 3}}
-        {
+    "deliveryAddress": {
           "buildingNo": "{{int 100000 999999}}",
           "city": "{{city}}",
           "cityDistrict": "{{city}}",
@@ -14,23 +12,15 @@
           "postalCode": "{{zipcode}}",
           "street": "{{street}}",
           "streetNo": "{{int 100000 999999}}"
-        }
-      {{/repeat}}
-    ],
+    },
     "deliveryEmail": [{{#repeat 1 3}}{"email":"{{email}}"}{{/repeat}}],
-    "directDebit": [
-      {{#repeat 1 1}}
-        {
+    "directDebit": {
           "bankAccount": "{{int 1000000000 9999999999}}",
           "bankAccountPrefix": "{{int 100000 999999}}",
           "bankCode": "{{uppercase ( lorem 1)}}",
           "debitLimit": "{{int 1000000 9999999}}"
-        }
-      {{/repeat}}
-    ],
-    "residentalAddress": [
-      {{#repeat 1 3}}
-        {
+    },
+    "residentalAddress": {
           "buildingNo": "{{int 100000 999999}}",
           "city": "{{city}}",
           "cityDistrict": "{{city}}",
@@ -39,9 +29,7 @@
           "postalCode": "{{zipcode}}",
           "street": "{{street}}",
           "streetNo": "{{int 100000 999999}}"
-        }
-      {{/repeat}}
-    ],
+    },
     "obligationRefNo": "{{lorem 3}}",
     "auditDate": "{{date "1950" "2000" "DD.MM.YYYY"}}",
     "billingPeriod": "{{int 1000000000 9999999999}}",
