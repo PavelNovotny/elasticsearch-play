@@ -5,7 +5,6 @@ PUT /customer_account_index_rif/_mapping/customer_request $SCRIPT_DIR/definition
 PUT /customer_account_index_rif/_mapping/order $SCRIPT_DIR/definition/order_mapping.json
 PUT /customer_account_index_rif/_mapping/individual_offer $SCRIPT_DIR/definition/individual_offer_mapping.json
 PUT /customer_account_index_rif/_mapping/customer_account_permission $SCRIPT_DIR/definition/customer_account_permission_mapping.json
-PUT /customer_account_index_rif/_mapping/invoice_type $SCRIPT_DIR/definition/invoice_type_mapping.json
 PUT /customer_account_index_rif/_mapping/product $SCRIPT_DIR/definition/product_mapping.json
 PUT /customer_account_index_rif/_mapping/customer_account $SCRIPT_DIR/definition/customer_account_mapping.json
 
