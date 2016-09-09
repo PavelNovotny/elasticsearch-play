@@ -1,8 +1,5 @@
 DELETE /customer_request_index_rif
 PUT /customer_request_index_rif $SCRIPT_DIR/definition/customer_request_index_settings.json
-PUT /customer_request_index_rif/_mapping/ca_permission $SCRIPT_DIR/definition/ca_permission_mapping.json
-PUT /customer_request_index_rif/_mapping/cu_permission $SCRIPT_DIR/definition/cu_permission_mapping.json
 PUT /customer_request_index_rif/_mapping/product $SCRIPT_DIR/definition/product_mapping.json
-PUT /customer_request_index_rif/_mapping/contact $SCRIPT_DIR/definition/contact_mapping.json
 PUT /customer_request_index_rif/_mapping/customer_request $SCRIPT_DIR/definition/customer_request_mapping.json
-
+PUT /customer_request_index_rif/_mapping/customer_request_permission $SCRIPT_DIR/definition/customer_request_permission_mapping.json
