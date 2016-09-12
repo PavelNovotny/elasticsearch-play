@@ -2,9 +2,9 @@
 
   {"index":{"_id":"PERM_{{bulk}}_{{@index_R1}}","_type":"order_permission","_index":"order_index_rif"}}
 
-  {"login":[{{#repeat 50 150}}"x0503{{int 100  999 }}"{{/repeat}}]}
+  {"login":[{{#repeat 1 50}}"x0503{{int 100  999 }}"{{/repeat}}]}
 
-  {{#repeatWithId  1 'R2' comma=false}}
+  {{#repeatWithId  3 'R2' comma=false}}
     {"index":{"_id":"ORDER_{{bulk}}_{{@index_R1}}_{{@index_R2}}","_type":"order","_index":"order_index_rif","_parent":"PERM_{{bulk}}_{{@index_R1}}"}}
 
     {
