@@ -57,30 +57,30 @@
               "type": "string"
             }
           }
+        },
+        //noindex
+        "assetId": {
+          "type": "long"
+        },
+        "assetRefNo": {
+          "type": "string"
+        },
+        //exact
+        "imsi": {
+          "type": "string"
+        },
+        "phoneNumber": {
+          "type": "string"
+        },
+        "serialNumber": {
+          "type": "string"
+        },
+        "serviceId": {
+          "type": "string"
+        },
+        "status": {
+          "type": "string"
         }
-      },
-      //noindex
-      "assetId": {
-        "type": "long"
-      },
-      "assetRefNo": {
-        "type": "string"
-      },
-      //exact
-      "imsi": {
-        "type": "string"
-      },
-      "phoneNumber": {
-        "type": "string"
-      },
-      "serialNumber": {
-        "type": "string"
-      },
-      "serviceId": {
-        "type": "string"
-      },
-      "status": {
-        "type": "string"
       }
     },
     //noindex
