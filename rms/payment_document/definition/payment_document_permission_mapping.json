@@ -1,0 +1,9 @@
+{
+  "properties":
+			{ 
+				"login":
+				{
+					"type" : "string"
+				}  
+			}      
+}

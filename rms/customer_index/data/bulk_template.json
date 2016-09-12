@@ -65,32 +65,32 @@
 
   {{/repeat}}
 
-  {{#repeat 3 comma=false}}
+  {{#repeat 2 comma=false}}
 
     {"index":{"_id":"CUST_REQ_{{bulk}}_{{@index_R1}}_{{@index}}","_type":"customer_request","_index":"customer_index_rif","_parent":"CUST_{{bulk}}_{{@index_R1}}"}}
 
     {
-      "crRefNo":[{{#repeat 10 30}}"{{int 1000000000 9999999999}}{{lorem 1}}"{{/repeat}}]
+      "crRefNo":[{{#repeat 1 5}}"{{int 1000000000 9999999999}}{{lorem 1}}"{{/repeat}}]
     }
 
   {{/repeat}}
 
-  {{#repeat 3 comma=false}}
+  {{#repeat 2 comma=false}}
 
     {"index":{"_id":"ORDER{{bulk}}_{{@index_R1}}_{{@index}}","_type":"order","_index":"customer_index_rif","_parent":"CUST_{{bulk}}_{{@index_R1}}"}}
 
     {
-      "orderRefNo":[{{#repeat 100 200}}"{{int 1000000000 9999999999}}"{{/repeat}}]
+      "orderRefNo":[{{#repeat 1 5}}"{{int 1000000000 9999999999}}"{{/repeat}}]
     }
 
   {{/repeat}}
 
-  {{#repeat 3 comma=false}}
+  {{#repeat 2 comma=false}}
 
     {"index":{"_id":"PAY_DOC_{{bulk}}_{{@index_R1}}_{{@index}}","_type":"payment_document","_index":"customer_index_rif","_parent":"CUST_{{bulk}}_{{@index_R1}}"}}
 
     {
-      "variableSymbol":[{{#repeat 100 200}}"{{int 1000000000 9999999999}}"{{/repeat}}]
+      "variableSymbol":[{{#repeat 1 20}}"{{int 1000000000 9999999999}}"{{/repeat}}]
     }
 
   {{/repeat}}

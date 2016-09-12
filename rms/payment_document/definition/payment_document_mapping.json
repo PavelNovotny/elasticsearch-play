@@ -1,8 +1,11 @@
 {
+  "_parent": {
+    "type": "payment_document_permission"
+  },
   "properties": {
     //opravneni
     "deliveryAddress": {
-      "type": "nested",
+      "type": "object",
       "properties": {
         "buildingNo": {
           "type": "string"
@@ -30,14 +33,6 @@
         }
       }
     },
-    "deliveryEmail": {
-      "type": "nested",
-      "properties": {
-        "email": {
-          "type": "string"
-        }
-      }
-    },
     //produkty podle me by mela byt vazba m:n
 
     //no index
@@ -53,6 +48,9 @@
     },
 
     //exact
+    "deliveryEmail": {
+      "type": "double"
+    },
     "birthDate": {
       "type": "date",
       "format": "dd.MM.yyyy"

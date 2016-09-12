@@ -1,3 +1,4 @@
 DELETE /payment_document_index_rif
 PUT /payment_document_index_rif $SCRIPT_DIR/definition/payment_document_index_settings.json
 PUT /payment_document_index_rif/_mapping/payment_document $SCRIPT_DIR/definition/payment_document_mapping.json
+PUT /payment_document_index_rif/_mapping/payment_document $SCRIPT_DIR/definition/payment_document_permission_mapping.json
