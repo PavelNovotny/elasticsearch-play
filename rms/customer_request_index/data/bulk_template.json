@@ -4,7 +4,7 @@
 
   {"login":[{{#repeat 1 50}}"x0503{{int 100  999 }}"{{/repeat}}]}
 
-  {{#repeatWithId  3 'R2' comma=false}}
+  {{#repeatWithId  1 3 'R2' comma=false}}
 
     {"index":{"_id":"CUST_REQ_{{bulk}}_{{@index_R1}}_{{@index_R2}}","_type":"customer_request","_index":"customer_request_index_rif","_parent":"PERM_{{bulk}}_{{@index_R1}}"}}
 
@@ -27,7 +27,7 @@
             "serialNumber": "{{int 100000000 999999999}}",
             "serviceId": "{{int 100000000 999999999}}",
             "installationAddress": [
-                {{#repeat 1 3}}
+                {{#repeat 0 2}}
                   {
                     "buildingNo": "{{int 1 2000}}",
                     "city": "{{city}}",

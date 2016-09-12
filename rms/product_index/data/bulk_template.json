@@ -2,17 +2,17 @@
 
   {"index":{"_id":"P_{{bulk}}_{{@index_R1}}_{{@index}}","_type":"product_permission","_index":"product_index_rif"}}
 
-  {"login":[{{#repeat 50 150}}"x0503{{int 100  999 }}"{{/repeat}}]}
+  {"login":[{{#repeat 0 100}}"x0503{{int 100  999 }}"{{/repeat}}]}
 
-  {{#repeatWithId  1 'R2' comma=false}}
+  {{#repeatWithId  20 'R2' comma=false}}
 
     {"index":{"_id":"PROD_{{bulk}}_{{@index_R1}}_{{@index_R2}}","_type":"product","_index":"product_index_rif","_parent":"P_{{bulk}}_{{@index_R1}}","_routing":"P_{{bulk}}_{{@index_R1}}"}}
 
     {
-      "cvop": [{{#repeat 1 3}}"{{int 1000000000 9999999999}}"{{/repeat}}],
+      "cvop": [{{#repeat 0 2}}"{{int 1000000000 9999999999}}"{{/repeat}}],
       "inRefNo": [{{#repeat 1 3}}"{{int 1000000000 9999999999}} {{lorem 1}}"{{/repeat}}],
       "installationAddress": [
-        {{#repeat 1 3}}
+        {{#repeat 0 2}}
           {
             "buildingNo": "{{int 100000 999999}}",
             "city": "{{city}}",
@@ -25,10 +25,10 @@
           }
         {{/repeat}}
       ],
-      "parameters": [{{#repeat 1 20}}{"name": "{{lorem 3}}","value": "{{lorem 10}}"}{{/repeat}}],
-      "phoneNumbers": [{{#repeat 1 3}}{"phoneNumber": "{{phone 'xxxxxxxxx'}}"}{{/repeat}}],
-      "productFilterGroups": [{{#repeat 1 10}}{"key": "{{lorem 2}}","name": "{{lorem 10}}"}{{/repeat}}],
-      "relations": [{{#repeat 1 3}}{"parentId": "{{lorem 1}}","type": "{{lorem 1}}"}{{/repeat}}],
+      "parameters": [{{#repeat 8 12}}{"name": "{{lorem 3}}","value": "{{lorem 10}}"}{{/repeat}}],
+      "phoneNumbers": [{{#repeat 0 2}}{"phoneNumber": "{{phone 'xxxxxxxxx'}}"}{{/repeat}}],
+      "productFilterGroups": [{{#repeat 1 6}}{"key": "{{lorem 2}}","name": "{{lorem 10}}"}{{/repeat}}],
+      "relations": [{{#repeat 0 2}}{"parentId": "{{lorem 1}}","type": "{{lorem 1}}"}{{/repeat}}],
       "residentalAddress": {
             "buildingNo": "{{int 100000 999999}}",
             "city": "{{city}}",
@@ -69,8 +69,8 @@
       {"index":{"_id":"SBPROD_{{bulk}}_{{@index_R1}}_{{@index_R2}}_{{@index_R3}}","_type":"subproduct","_index":"product_index_rif","_parent":"PROD_{{bulk}}_{{@index_R1}}_{{@index_R2}}","_routing":"P_{{bulk}}_{{@index_R1}}"}}
 
       {
-        "cvop": [{{#repeat 1 3}}"{{int 1000000000 9999999999}}"{{/repeat}}],
-        "parameters": [{{#repeat 1 20}}{"name": "{{lorem 2}}","value": "{{lorem 3}}"}{{/repeat}}],
+        "cvop": [{{#repeat 0 2}}"{{int 1000000000 9999999999}}"{{/repeat}}],
+        "parameters": [{{#repeat 8 12}}{"name": "{{lorem 2}}","value": "{{lorem 3}}"}{{/repeat}}],
         "productFilterGroups": [{{#repeat 1 3}}{"key": "{{lorem 2}}","name": "{{lorem 3}}"}{{/repeat}}],
         "assetId": "{{int 1000000000 9999999999}}",
         "partyId": "{{int 1000000000 9999999999}}",
@@ -88,7 +88,7 @@
           "serviceId": "{{int 100000000 999999999}}",
           "status": "{{lorem 1}}",
           "installationAddress": [
-              {{#repeat 1 3}}
+              {{#repeat 0 2}}
                 {
                   "buildingNo": "{{int 100000 999999}}",
                   "city": "{{city}}",

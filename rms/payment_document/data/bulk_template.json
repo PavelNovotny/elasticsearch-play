@@ -2,7 +2,7 @@
 
 {"index":{"_id":"PERM_{{bulk}}_{{@index_R1}}","_type":"payment_document_permission","_index":"payment_document_index_rif"}}
 
-{"login":[{{#repeat 50 150}}"x0503{{int 100  999 }}"{{/repeat}}]}
+{"login":[{{#repeat 0 50}}"x0503{{int 100  999 }}"{{/repeat}}]}
 
   {{#repeatWithId  18 'R2' comma=false}}
 
