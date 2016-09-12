@@ -20,7 +20,7 @@
           "streetNo": "{{int 100000 999999}}"
       },
       "products": [
-        {{#repeat 1 3}}
+        {{#repeat 1 7}}
           {
             "imsi": "{{int 100000000 999999999}}",
             "phoneNumber": "{{phone 'xxxxxxxxx'}}",
