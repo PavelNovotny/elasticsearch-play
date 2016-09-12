@@ -49,7 +49,7 @@
 
     //exact
     "deliveryEmail": {
-      "type": "double"
+      "type": "string"
     },
     "birthDate": {
       "type": "date",

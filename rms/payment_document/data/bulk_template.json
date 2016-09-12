@@ -9,8 +9,7 @@
     {"index":{"_id":"PAY_DOC_{{bulk}}_{{@index_R1}}_{{@index_R2}}","_type":"payment_document","_index":"payment_document_index_rif","_parent":"PERM_{{bulk}}_{{@index_R1}}"}}
 
     {
-      "deliveryAddress":
-          {
+      "deliveryAddress":{
             "buildingNo": "{{int 100000 999999}}",
             "city": "{{city}}",
             "cityDistrict": "{{city}}",
@@ -20,7 +19,6 @@
             "street": "{{street}}",
             "streetNo": "{{int 100000 999999}}"
           },
-
       "deliveryEmail": [{{#repeat 1 3}}"{{email}}"{{/repeat}}],
       "amount": "{{float 0 100000 round=0.01}} ",
       "auditDate": "{{date "1900" "2000" "DD.MM.YYYY"}}",
@@ -31,7 +29,7 @@
       "cuRefNo":"cuRefNo{{int 1000000000 9999999999}}",
       "documentType": "{{random 'Person' 'Foreigner' 'Business'}}",
       "status": "{{random 'Schváleno' 'Zamítnuto' 'Schváleno s připomínkou'}}",
-      "variableSymbol": "{{int 1000000000 9999999999}}"
+      "variableSymbol": "{{int 1000000000 9999999999}}",
       "company": "{{uppercase (company)}}",
       "firstName": "{{firstName}}",
       "lastName": "{{lastName}}"
