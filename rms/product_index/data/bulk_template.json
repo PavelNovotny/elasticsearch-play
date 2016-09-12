@@ -78,8 +78,7 @@
         "externalRefNo": "{{int 1000000000 9999999999 }}",
         "productCode": "{{productType}}",
         "status": "{{lorem 1}}",
-        "productDisplayName": "{{lorem 20}}"
-
+        "productDisplayName": "{{lorem 20}}",
         "productType":{
           "assetId": "{{int 1000000000 9999999999}}",
           "assetRefNo": "{{int 1000000000 9999999999}}",
