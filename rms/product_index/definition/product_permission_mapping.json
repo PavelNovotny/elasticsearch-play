@@ -1,7 +1,4 @@
 {
-  "_parent": {
-    "type": "product"
-  },
   "properties": {
     "login": {
       "type": "string"

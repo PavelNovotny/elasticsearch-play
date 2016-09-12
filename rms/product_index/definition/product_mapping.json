@@ -1,22 +1,9 @@
 {
+  "_parent": {
+    "type": "product_permission"
+  },
   "properties": {
     //contacts child
-    "cvops": {
-      "type": "nested",
-      "properties": {
-        "cvop": {
-          "type": "string"
-        }
-      }
-    },
-    "individualOffers": {
-      "type": "nested",
-      "properties": {
-        "inRefNo": {
-          "type": "string"
-        }
-      }
-    },
     "installationAddress": {
       "type": "nested",
       "properties": {
@@ -89,7 +76,7 @@
       }
     },
     "residentalAddress": {
-      "type": "nested",
+      "type": "object",
       "properties": {
         "buildingNo": {
           "type": "string"
@@ -147,6 +134,12 @@
 
 
     //exact
+    "cvop": {
+      "type": "string"
+    },
+    "inRefNo": {
+      "type": "string"
+    },
     "assetRefNo": {
       "type": "string"
     },

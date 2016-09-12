@@ -1,7 +1,6 @@
 DELETE /product_index_rif
 PUT /product_index_rif $SCRIPT_DIR/definition/product_index_settings.json
 PUT /product_index_rif/_mapping/contact $SCRIPT_DIR/definition/contact_mapping.json
-PUT /product_index_rif/_mapping/product_permission $SCRIPT_DIR/definition/product_permission_mapping.json
-PUT /product_index_rif/_mapping/product_type $SCRIPT_DIR/definition/product_type_mapping.json
 PUT /product_index_rif/_mapping/subproduct $SCRIPT_DIR/definition/subproduct_mapping.json
 PUT /product_index_rif/_mapping/product $SCRIPT_DIR/definition/product_mapping.json
+PUT /product_index_rif/_mapping/product_permission $SCRIPT_DIR/definition/product_permission_mapping.json

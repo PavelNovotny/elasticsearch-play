@@ -1,16 +1,8 @@
 {
   "_parent": {
-  "type": "product"
-},
+    "type": "product"
+  },
   "properties": {
-    "cvops": {
-      "type": "nested",
-      "properties": {
-        "cvop": {
-          "type": "string"
-        }
-      }
-    },
     "parameters": {
       "type": "nested",
       "properties": {
@@ -34,15 +26,63 @@
         }
       }
     },
-    "individualOffers": {
-      "type": "nested",
+    "productType": {
+      "type": "object",
       "properties": {
-        "inId": {
-          "type": "string"
+        "installationAddress": {
+          "type": "nested",
+          "properties": {
+            "buildingNo": {
+              "type": "string"
+            },
+            "city": {
+              "type": "string"
+            },
+            "cityDistrict": {
+              "type": "string"
+            },
+            "countryCode": {
+              "type": "string"
+            },
+            "crossId": {
+              "type": "string"
+            },
+            "postalCode": {
+              "type": "string"
+            },
+            "street": {
+              "type": "string"
+            },
+            "streetNo": {
+              "type": "string"
+            }
+          }
         }
+      },
+      //noindex
+      "assetId": {
+        "type": "long"
+      },
+      "assetRefNo": {
+        "type": "string"
+      },
+      //exact
+      "imsi": {
+        "type": "string"
+      },
+      "phoneNumber": {
+        "type": "string"
+      },
+      "serialNumber": {
+        "type": "string"
+      },
+      "serviceId": {
+        "type": "string"
+      },
+      "status": {
+        "type": "string"
       }
     },
-
     //noindex
     "assetId": {
       "type": "long"
@@ -50,8 +90,10 @@
     "partyId": {
       "type": "long"
     },
-
     //exact
+    "cvop": {
+      "type": "string"
+    },
     "assetRefNo": {
       "type": "string"
     },
@@ -64,10 +106,10 @@
     "status": {
       "type": "string"
     },
-
     //match
     "productDisplayName": {
       "type": "string"
     }
   }
 }
+
