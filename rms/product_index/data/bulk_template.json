@@ -6,7 +6,7 @@
 
   {{#repeatWithId  1 'R2' comma=false}}
 
-    {"index":{"_id":"PROD_{{bulk}}_{{@index_R1}}_{{@index_R2}}","_type":"product","_index":"product_index_rif","_parent":"P_{{bulk}}_{{@index_R1}}"}}
+    {"index":{"_id":"PROD_{{bulk}}_{{@index_R1}}_{{@index_R2}}","_type":"product","_index":"product_index_rif","_parent":"P_{{bulk}}_{{@index_R1}}","_routing":"P_{{bulk}}_{{@index_R1}}"}}
 
     {
       "cvop": [{{#repeat 1 3}}"{{int 1000000000 9999999999}}"{{/repeat}}],
@@ -66,7 +66,7 @@
 
     {{#repeatWithId  10 'R3' comma=false}}
 
-      {"index":{"_id":"SBPROD_{{bulk}}_{{@index_R1}}_{{@index_R2}}_{{@index_R3}}","_type":"subproduct","_index":"product_index_rif","_parent":"PROD_{{bulk}}_{{@index_R1}}_{{@index_R2}}"}}
+      {"index":{"_id":"SBPROD_{{bulk}}_{{@index_R1}}_{{@index_R2}}_{{@index_R3}}","_type":"subproduct","_index":"product_index_rif","_parent":"PROD_{{bulk}}_{{@index_R1}}_{{@index_R2}}","_routing":"P_{{bulk}}_{{@index_R1}}"}}
 
       {
         "cvop": [{{#repeat 1 3}}"{{int 1000000000 9999999999}}"{{/repeat}}],
@@ -108,7 +108,7 @@
 
     {{#repeat 1 3  comma=false}}
 
-      {"index":{"_id":"CONTACT{{bulk}}_{{@index_R1}}_{{@index_R2}}_{{@index}}","_type":"contact","_index":"product_index_rif","_parent":"PROD_{{bulk}}_{{@index_R1}}_{{@index_R2}}"}}
+      {"index":{"_id":"CONTACT{{bulk}}_{{@index_R1}}_{{@index_R2}}_{{@index}}","_type":"contact","_index":"product_index_rif","_parent":"PROD_{{bulk}}_{{@index_R1}}_{{@index_R2}}","_routing":"P_{{bulk}}_{{@index_R1}}"}}
 
       {
         "auditDate": "{{date "1950" "2000" "DD.MM.YYYY"}}",
