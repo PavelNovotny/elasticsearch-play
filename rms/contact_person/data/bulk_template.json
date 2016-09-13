@@ -11,7 +11,7 @@
       "email": "{{email}}",
       "phoneNumber": "{{phone 'xxxxxxxxx'}}",
       "phoneNumber2": "{{phone 'xxxxxxxxx'}}",
-      "cuRefNo": "ID{{int 1000000000 9999999999}}"
+      "userId": "ID{{int 1000000000 9999999999}}"
     }
 
 

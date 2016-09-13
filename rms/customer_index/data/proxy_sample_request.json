@@ -7,5 +7,7 @@
   "general.page":"1",
   //default je 10, kdyz nebude poslano
   "general.size":"10",
-  "general.searchStrings": ["Praha", "Novák"]
+  "general.searchStrings": ["Praha", "Novák"],
+  //default je false
+  "general.only_active":true
 }

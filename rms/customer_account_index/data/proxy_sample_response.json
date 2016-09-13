@@ -1,5 +1,5 @@
 {
-  "took": 7,
+  "took": 25,
   "timed_out": false,
   "_shards": {
     "total": 4,
@@ -7,116 +7,112 @@
     "failed": 0
   },
   "hits": {
-    "total": 47000,
+    "total": 9500,
     "max_score": 1,
     "hits": [
       {
         "_index": "customer_account_index_rif",
         "_type": "customer_account",
-        "_id": "CUST_ACC_9_57",
+        "_id": "CUST_ACC_11_1",
         "_score": 1,
         "_source": {
           "deliveryAddress": {
-            "buildingNo": "745888",
-            "city": "StaréBuky",
-            "cityDistrict": "Otvice",
-            "countryCode": "MR",
-            "crossId": "edith.dvořáčková@westgate.edu",
-            "postalCode": "01526",
-            "street": "JANÁČKOVA",
-            "streetNo": "196403"
+            "buildingNo": "405087",
+            "city": "Třtice",
+            "cityDistrict": "Smrček",
+            "countryCode": "NG",
+            "crossId": "pavel.dostál@smartsystems.name",
+            "postalCode": "66514",
+            "street": "PŘÍČKA I",
+            "streetNo": "765947"
           },
-          "deliveryEmail": [
-            {
-              "email": "bohuš.brázdil@creatonix.name"
-            },
-            {
-              "email": "simona.fuxová@protheon.biz"
-            }
-          ],
+          "deliveryEmails": [],
           "directDebit": {
-            "bankAccount": "8068930899",
-            "bankAccountPrefix": "605104",
-            "bankCode": "PŘESEKÁNÍ.",
-            "debitLimit": "9692829"
+            "bankAccount": "9248797158",
+            "bankAccountPrefix": "146190",
+            "bankCode": "©TĚDROŇOVÁ.",
+            "debitLimit": "8411984"
           },
           "residentalAddress": {
-            "buildingNo": "518880",
-            "city": "Jiratice",
-            "cityDistrict": "Práče",
-            "countryCode": "GG",
-            "crossId": "martin.bartíková@lexiconlabs.name",
-            "postalCode": "60084",
-            "street": "ŠAFAŘÍKOVA",
-            "streetNo": "810124"
+            "buildingNo": "489704",
+            "city": "Lukavice",
+            "cityDistrict": "Lutín",
+            "countryCode": "AG",
+            "crossId": "damián.bublík@duoserve.gov",
+            "postalCode": "60638",
+            "street": "ZA HŘIŠTĚM",
+            "streetNo": "878752"
           },
-          "obligationRefNo": "Hrázný jalovec zamlouvat.",
-          "auditDate": "18.12.1961",
-          "billingPeriod": "8941811984",
-          "billingSpecificType": "Šimpanz archivářství Jeromeův.",
-          "birthDate": "22.11.1994",
-          "caRefNo": "caRefNo3412859249",
-          "companyRegNo": "8043153996",
-          "cuRefNo": "cuRefNo9688485691",
-          "paymentResponsible": "MARTIN BARTÍKOVÁ",
-          "paymentType": "Rozmis» Saljut krůpěj.",
-          "status": "Zamítnuto",
+          "obligationRefNo": "Washingtonský vpadlejší poběhaný.",
+          "auditDate": "16.01.1953",
+          "billingPeriod": "5720370277",
+          "billingSpecificType": "Domámení promeškávat poloodborný.",
+          "birthDate": "09.04.1980",
+          "caRefNo": "caRefNo8876304292",
+          "companyRegNo": "4808301381",
+          "cuRefNo": "cuRefNo3691397550",
+          "paymentResponsible": "DAMIÁN BUBLÍK",
+          "paymentType": "Jednokolejný výklopný vytržený.",
+          "status": "Schváleno",
           "typeOfDeliveryInvoice": "PPL",
-          "companyName": "LEXICONLABS",
-          "customName": "OĽGA FENCL",
-          "firstName": "KLÁRA",
-          "lastName": "FARSKÁ"
+          "companyName": "DUOSERVE",
+          "customName": "NEZJIŠTĚNO BAŘINA",
+          "firstName": "BRIGITA",
+          "lastName": "BÁRTKOVÁ"
         }
       },
       {
         "_index": "customer_account_index_rif",
         "_type": "customer_account",
-        "_id": "CUST_ACC_9_59",
+        "_id": "CUST_ACC_11_4",
         "_score": 1,
         "_source": {
           "deliveryAddress": {
-            "buildingNo": "620412",
-            "city": "Mašťov",
-            "cityDistrict": "Oslavice",
-            "countryCode": "AM",
-            "crossId": "aurelie.dvorská@cryosoft.edu",
-            "postalCode": "32794",
-            "street": "POD PAŤANKOU",
-            "streetNo": "662874"
+            "buildingNo": "552423",
+            "city": "HorníNětčice",
+            "cityDistrict": "Strhaře",
+            "countryCode": "BT",
+            "crossId": "květoslava.fišera@dalserve.name",
+            "postalCode": "14627",
+            "street": "U POTOKA",
+            "streetNo": "877980"
           },
-          "deliveryEmail": [],
+          "deliveryEmails": [
+            "dobroslav.foltýnová@nitrosystems.biz",
+            "zbyšek.batěk@polycore.edu"
+          ],
           "directDebit": {
-            "bankAccount": "7073759179",
-            "bankAccountPrefix": "649709",
-            "bankCode": "KVASNIČNÝ.",
-            "debitLimit": "5252421"
+            "bankAccount": "1018170703",
+            "bankAccountPrefix": "671808",
+            "bankCode": "PLÁCNUTÝ.",
+            "debitLimit": "8914656"
           },
           "residentalAddress": {
-            "buildingNo": "664222",
-            "city": "Jarcová",
-            "cityDistrict": "Chleby",
-            "countryCode": "SO",
-            "crossId": "matúš.doležel@chromaton.me",
-            "postalCode": "47377",
-            "street": "DRUŽSTEVNÍ",
-            "streetNo": "934332"
+            "buildingNo": "557467",
+            "city": "Dub",
+            "cityDistrict": "Chlístov",
+            "countryCode": "RE",
+            "crossId": "artur.gálová@sixtysix.com",
+            "postalCode": "74341",
+            "street": "KMENTOVA",
+            "streetNo": "372199"
           },
-          "obligationRefNo": "Překusovaný vitaminový Fabián.",
-          "auditDate": "30.05.1969",
-          "billingPeriod": "8733797908",
-          "billingSpecificType": "Zásobitelův výňatek popasený.",
-          "birthDate": "06.05.1974",
-          "caRefNo": "caRefNo3234431735",
-          "companyRegNo": "3007003816",
-          "cuRefNo": "cuRefNo4015338201",
-          "paymentResponsible": "MATÚŠ DOLEŽEL",
-          "paymentType": "Inicializace evokace vyslýchání.",
-          "status": "Zamítnuto",
+          "obligationRefNo": "Vtětí Hartlová krásněveský.",
+          "auditDate": "01.12.1961",
+          "billingPeriod": "4011279106",
+          "billingSpecificType": "Promyka odřádkování Grešová.",
+          "birthDate": "20.09.1957",
+          "caRefNo": "caRefNo1454151975",
+          "companyRegNo": "8101653051",
+          "cuRefNo": "cuRefNo9823570491",
+          "paymentResponsible": "ARTUR GÁLOVÁ",
+          "paymentType": "Zápasený přeportovávaný báze.",
+          "status": "Schváleno",
           "typeOfDeliveryInvoice": "PPL",
-          "company": "CHROMATON",
-          "customName": "ELA ČEPELÁKOVÁ",
-          "firstName": "VOJTĚCH",
-          "lastName": "BAREŠ"
+          "companyName": "SIXTYSIX",
+          "customName": "MAXMILIÁN BALKOVÁ",
+          "firstName": "VRATISLAV",
+          "lastName": "FIŠER"
         }
       }
     ]
