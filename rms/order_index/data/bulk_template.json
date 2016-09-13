@@ -23,7 +23,7 @@
           }
         {{/repeat}}
       ],
-      "deliveryAddress": {
+      "residentalAddress": {
             "buildingNo": "{{int 100000 999999}}",
             "city": "{{city}}",
             "cityDistrict": "{{city}}",
@@ -46,7 +46,7 @@
       "orderId": "{{int 1000000000 9999999999}}",
       "orderrefNo": "{{int 1000000000 9999999999}}",
       "status": "{{random 'Schváleno bez připomínek' 'Zamítnuto nevratně' 'Zamítnuto dočasně' 'Schváleno s připomínkou'}}",
-      "company": "{{uppercase (company)}}",
+      "companyName": "{{uppercase (company)}}",
       "firstName": "{{firstName}}",
       "lastName": "{{lastName}}"
     }

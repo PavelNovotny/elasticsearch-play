@@ -39,7 +39,7 @@
       }
     },
 
-    "deliveryAddress": {
+    "residentalAddress": {
       "type": "object",
       "properties": {
         "buildingNo": {
