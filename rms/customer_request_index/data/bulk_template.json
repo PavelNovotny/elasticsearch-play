@@ -60,7 +60,7 @@
           }
         {{/repeat}}
       ],
-      "notes": [{{#repeat 1 3}}{"note": "{{lorem 100}}"}{{/repeat}}],
+      "crNote": [{{#repeat 1 3}}{"note": "{{lorem 100}}"}{{/repeat}}],
       "auditDate": "{{date "1950" "2000" "DD.MM.YYYY"}}",
       "caRefNo":"caRefNo{{int 1000000000 9999999999}}",
       "crId":"{{int 1000000000 9999999999}}",

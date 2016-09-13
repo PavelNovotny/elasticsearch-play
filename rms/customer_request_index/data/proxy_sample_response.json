@@ -1,0 +1,85 @@
+{
+  "took": 2,
+  "timed_out": false,
+  "_shards": {
+    "total": 4,
+    "successful": 4,
+    "failed": 0
+  },
+  "hits": {
+    "total": 208,
+    "max_score": 1,
+    "hits": [
+      {
+        "_index": "customer_request_index_rif",
+        "_type": "customer_request",
+        "_id": "CUST_REQ_5_0_0",
+        "_score": 1,
+        "_routing": "PERM_5_0",
+        "_parent": "PERM_5_0",
+        "_source": {
+          "residentalAddress": {
+            "buildingNo": "179629",
+            "city": "ŘíčkyvOrlickýchhorách",
+            "cityDistrict": "NováŘíše",
+            "countryCode": "PH",
+            "crossId": "aurelie.fridrichová@eluxa.eu",
+            "postalCode": "33516",
+            "street": "DAČICKÉHO",
+            "streetNo": "477674"
+          },
+          "products": [
+            {
+              "imsi": "565638617",
+              "phoneNumber": "716834418",
+              "serialNumber": "610148244",
+              "serviceId": "922778242",
+              "installationAddress": [
+                {
+                  "buildingNo": "1787",
+                  "city": "Kájov",
+                  "cityDistrict": "Bohdašín",
+                  "countryCode": "KI",
+                  "crossId": "caroline.dittrich@maxcast.xyz",
+                  "postalCode": "84723",
+                  "street": "FLÁJSKÁ",
+                  "streetNo": "939"
+                }
+              ]
+            }
+          ],
+          "contacts": [
+            {
+              "auditDate": "23.05.1950",
+              "firstName": "TAŤJANA",
+              "lastName": "FRÝDOVÁ",
+              "contactId": "9102564822",
+              "sfaId": "6662224855",
+              "email": "taťjana.frýdová@truext.name",
+              "phoneNumber": "691058682",
+              "phoneNumber2": "701269171",
+              "cuRefNo": "ID1291428799"
+            }
+          ],
+          "crNote": [
+            {
+              "note": "Vlnobití zkrystalizovaný státnictví svěšený vekslovat"
+            }
+          ],
+          "auditDate": "26.02.1959",
+          "caRefNo": "CARN8704636283",
+          "crId": "8562113160",
+          "cuRefNo": "cuRefNo5552930430",
+          "birthDate": "17.08.1951",
+          "companyRegNo": "5177525447",
+          "crType": "Zchvácení vřelý nastolovaný.",
+          "orderRefNo": "3630749340",
+          "status": "Zamítnuto",
+          "company": "BRITECH",
+          "firstName": "ALEXANDRA",
+          "lastName": "DUCHOŇOVÁ"
+        }
+      }
+    ]
+  }
+}

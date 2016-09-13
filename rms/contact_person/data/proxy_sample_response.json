@@ -1,0 +1,49 @@
+{
+  "took": 7,
+  "timed_out": false,
+  "_shards": {
+    "total": 4,
+    "successful": 4,
+    "failed": 0
+  },
+  "hits": {
+    "total": 50000,
+    "max_score": 1,
+    "hits": [
+      {
+        "_index": "contact_person_index_rif",
+        "_type": "contact_person",
+        "_id": "CONTACT_0_29",
+        "_score": 1,
+        "_source": {
+          "auditDate": "21.01.1978",
+          "firstName": "DAMIAN",
+          "lastName": "BLECHOVÁ",
+          "contactId": "7508982224",
+          "sfaId": "3887498996",
+          "email": "damian.blechová@logico.biz",
+          "phoneNumber": "094650153",
+          "phoneNumber2": "337947165",
+          "userId": "ID4150898536"
+        }
+      },
+      {
+        "_index": "contact_person_index_rif",
+        "_type": "contact_person",
+        "_id": "CONTACT_5_29",
+        "_score": 1,
+        "_source": {
+          "auditDate": "15.08.1918",
+          "firstName": "RADOVAN",
+          "lastName": "DROZD",
+          "contactId": "1328161828",
+          "sfaId": "8905005447",
+          "email": "radovan.drozd@omnitouch.mobi",
+          "phoneNumber": "529654438",
+          "phoneNumber2": "387266910",
+          "userId": "ID5910608525"
+        }
+      }
+    ]
+  }
+}

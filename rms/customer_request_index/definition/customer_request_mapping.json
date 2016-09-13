@@ -115,7 +115,7 @@
       }
     },
 
-    "notes": {
+    "crNote": {
       "type": "nested",
       "properties": {
         "note": {
