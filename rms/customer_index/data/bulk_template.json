@@ -14,7 +14,6 @@
           "streetNo": "{{int 100000 999999}}"
     },
     "obligationRefNo": "{{lorem 3}}",
-    "email": "{{email}}",
     "auditDate": "{{date "1900" "2000" "DD.MM.YYYY"}}",
     "birthDate": "{{date "1900" "2000" "DD.MM.YYYY"}}",
     "birthNumber": "{{date "1900" "2000" "DDMMYYYYYYYY"}}",
@@ -25,7 +24,7 @@
     "segment": "SEGMENT{{int 1000000000 9999999999}}",
     "sfaId": "{{int 1000000000 9999999999}}",
     "taxRegNo": "{{int 1000000000 9999999999}}",
-    "company": "{{uppercase (company)}}",
+    "companyName": "{{uppercase (company)}}",
     "firstName": "{{firstName}}",
     "lastName": "{{lastName}}"
   }

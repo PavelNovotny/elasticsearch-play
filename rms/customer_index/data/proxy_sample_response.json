@@ -1,0 +1,81 @@
+{
+  "took": 3,
+  "timed_out": false,
+  "_shards": {
+    "total": 4,
+    "successful": 4,
+    "failed": 0
+  },
+  "hits": {
+    "total": 50000,
+    "max_score": 1,
+    "hits": [
+      {
+        "_index": "customer_index_rif",
+        "_type": "customer",
+        "_id": "CUST_2_7",
+        "_score": 1,
+        "_source": {
+          "residentalAddress": {
+            "buildingNo": "497797",
+            "city": "Unkovice",
+            "cityDistrict": "Bánov",
+            "countryCode": "LR",
+            "crossId": "dominik.filipi@infratouch.name",
+            "postalCode": "41243",
+            "street": "LEGIONÁŘSKÁ",
+            "streetNo": "922123"
+          },
+          "obligationRefNo": "Znakování zvykat ozdravění.",
+          "email": "silvia.drábková@helixicon.info",
+          "auditDate": "14.12.1918",
+          "birthDate": "09.06.1921",
+          "birthNumber": "201219881988",
+          "companyRegNo": "8492311591",
+          "cuRefNo": "cuRefNo6036318582",
+          "customerType": "Business",
+          "identityDocumentID": "OP1619514984",
+          "segment": "SEGMENT1571076115",
+          "sfaId": "8237114218",
+          "taxRegNo": "5088491933",
+          "companyName": "HELIXICON",
+          "firstName": "SILVIA",
+          "lastName": "DRÁBKOVÁ"
+        }
+      },
+      {
+        "_index": "customer_index_rif",
+        "_type": "customer",
+        "_id": "CUST_2_8",
+        "_score": 1,
+        "_source": {
+          "residentalAddress": {
+            "buildingNo": "795496",
+            "city": "Loděnice",
+            "cityDistrict": "Všemina",
+            "countryCode": "SR",
+            "crossId": "lýdia.bakešová@westercom.com",
+            "postalCode": "26753",
+            "street": "PIVOVARSKÁ",
+            "streetNo": "324939"
+          },
+          "obligationRefNo": "Smokvoň Dírná chlapákův.",
+          "email": "hanna.bayerová@nitrosystems.club",
+          "auditDate": "23.01.1928",
+          "birthDate": "25.02.1905",
+          "birthNumber": "220719991999",
+          "companyRegNo": "3916561364",
+          "cuRefNo": "cuRefNo2720293685",
+          "customerType": "Business",
+          "identityDocumentID": "OP9392380076",
+          "segment": "SEGMENT8783461845",
+          "sfaId": "3211029892",
+          "taxRegNo": "4541138271",
+          "companyName": "NITROSYSTEMS",
+          "firstName": "HANNA",
+          "lastName": "BAYEROVÁ"
+        }
+      }
+    ]
+  }
+}

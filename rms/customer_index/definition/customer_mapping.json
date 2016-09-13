@@ -38,9 +38,9 @@
     "obligationRefNo": {
       "type": "string"
     },
-    "email": {
+/*    "email": {
       "type": "string"
-    },
+    },*/
 
     "auditDate": {
       "type": "date",

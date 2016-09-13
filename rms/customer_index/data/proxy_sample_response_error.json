@@ -1,0 +1,26 @@
+{
+  "error": {
+    "root_cause": [
+      {
+        "type": "json_parse_exception",
+        "reason": "Unexpected character ('}' (code 125)): was expecting a colon to separate field name and value\n at [Source: [B@43b9c045; line: 3, column: 2]"
+      }
+    ],
+    "type": "search_phase_execution_exception",
+    "reason": "all shards failed",
+    "phase": "query",
+    "grouped": true,
+    "failed_shards": [
+      {
+        "shard": 0,
+        "index": "customer_index_rif",
+        "node": "xtB7ct8fTnmzg3vkBS-9cg",
+        "reason": {
+          "type": "json_parse_exception",
+          "reason": "Unexpected character ('}' (code 125)): was expecting a colon to separate field name and value\n at [Source: [B@43b9c045; line: 3, column: 2]"
+        }
+      }
+    ]
+  },
+  "status": 500
+}

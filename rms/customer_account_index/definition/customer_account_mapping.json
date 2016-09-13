@@ -86,7 +86,10 @@
       "format": "dd.MM.yyyy"
     },
     //exact
-    "email": {
+    "deliveryEmails": {
+      "type": "string"
+    },
+    "inRefNo": {
       "type": "string"
     },
     "billingPeriod": {

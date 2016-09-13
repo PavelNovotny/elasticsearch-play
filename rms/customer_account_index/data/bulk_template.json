@@ -13,7 +13,7 @@
           "street": "{{street}}",
           "streetNo": "{{int 100000 999999}}"
     },
-    "deliveryEmail": [{{#repeat 0 2}}{"email":"{{email}}"}{{/repeat}}],
+    "deliveryEmails": [{{#repeat 0 2}}"{{email}}"{{/repeat}}],
     "directDebit": {
           "bankAccount": "{{int 1000000000 9999999999}}",
           "bankAccountPrefix": "{{int 100000 999999}}",
@@ -42,7 +42,7 @@
     "paymentType": "{{lorem 3}}",
     "status": "{{random 'Schváleno' 'Zamítnuto' 'Schváleno s připomínkou'}}",
     "typeOfDeliveryInvoice": "{{random 'česká pošta' 'PPL' 'Vyzvednout na pobočce'}}",
-    "company": "{{uppercase (company)}}",
+    "companyName": "{{uppercase (company)}}",
     "customName": "{{firstName}} {{lastName}}",
     "firstName": "{{firstName}}",
     "lastName": "{{lastName}}"
