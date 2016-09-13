@@ -1,0 +1,87 @@
+{
+  "took": 49,
+  "timed_out": false,
+  "_shards": {
+    "total": 4,
+    "successful": 4,
+    "failed": 0
+  },
+  "hits": {
+    "total": 900000,
+    "max_score": 1,
+    "hits": [
+      {
+        "_index": "payment_document_index_rif",
+        "_type": "payment_document",
+        "_id": "PAY_DOC_39_7_0",
+        "_score": 1,
+        "_routing": "PERM_39_7",
+        "_parent": "PERM_39_7",
+        "_source": {
+          "deliveryAddress": {
+            "buildingNo": "713553",
+            "city": "Slatinice",
+            "cityDistrict": "Zvěrotice",
+            "countryCode": "GI",
+            "crossId": "emília.břeňová@dynalab.info",
+            "postalCode": "04436",
+            "street": "J. E. PURKYNĚ",
+            "streetNo": "974767"
+          },
+          "deliveryEmail": [
+            "kristián.dopita@vtgrafix.co"
+          ],
+          "amount": "37286.73 ",
+          "auditDate": "02.08.1982",
+          "documentId": "3998635299",
+          "birthDate": "12.01.1944",
+          "caRefNo": "cuRefNo9083192946",
+          "companyRegNo": "7786925531",
+          "cuRefNo": "cuRefNo8533488222",
+          "documentType": "Business",
+          "status": "Schváleno s připomínkou",
+          "variableSymbol": "4774361670",
+          "companyName": "VTGRAFIX",
+          "firstName": "KRISTIÁN",
+          "lastName": "DOPITA"
+        }
+      },
+      {
+        "_index": "payment_document_index_rif",
+        "_type": "payment_document",
+        "_id": "PAY_DOC_39_7_1",
+        "_score": 1,
+        "_routing": "PERM_39_7",
+        "_parent": "PERM_39_7",
+        "_source": {
+          "deliveryAddress": {
+            "buildingNo": "880940",
+            "city": "Branžež",
+            "cityDistrict": "Stradouň",
+            "countryCode": "TJ",
+            "crossId": "cyril.brychta@xenosys.club",
+            "postalCode": "67418",
+            "street": "NA SLAVÍKOVĚ",
+            "streetNo": "815275"
+          },
+          "deliveryEmail": [
+            "lukáš.brynda@terrasys.xyz"
+          ],
+          "amount": "38015.590000000004 ",
+          "auditDate": "06.11.1924",
+          "documentId": "8648740605",
+          "birthDate": "20.01.1985",
+          "caRefNo": "cuRefNo6007326146",
+          "companyRegNo": "2677257748",
+          "cuRefNo": "cuRefNo8426385769",
+          "documentType": "Business",
+          "status": "Schváleno s připomínkou",
+          "variableSymbol": "6856073434",
+          "companyName": "TERRASYS",
+          "firstName": "LUKÁŠ",
+          "lastName": "BRYNDA"
+        }
+      }
+    ]
+  }
+}

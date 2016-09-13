@@ -30,7 +30,7 @@
       "documentType": "{{random 'Person' 'Foreigner' 'Business'}}",
       "status": "{{random 'Schváleno' 'Zamítnuto' 'Schváleno s připomínkou'}}",
       "variableSymbol": "{{int 1000000000 9999999999}}",
-      "company": "{{uppercase (company)}}",
+      "companyName": "{{uppercase (company)}}",
       "firstName": "{{firstName}}",
       "lastName": "{{lastName}}"
     }

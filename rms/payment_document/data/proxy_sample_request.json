@@ -1,0 +1,11 @@
+{
+  "general.gui":"4-3-1",
+  //alespon jeden z nasledujicich loginu je povinny
+  "general.login_external":"x0503899",
+  "general.login_internal":"ra123456",
+  //default je 1, kdyz nebude poslano
+  "general.page":"1",
+  //default je 10, kdyz nebude poslano
+  "general.size":"10",
+  "general.searchStrings": ["Praha", "Novák"]
+}
