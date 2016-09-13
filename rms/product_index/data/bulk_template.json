@@ -4,7 +4,7 @@
 
   {"login":[{{#repeat 0 100}}"x0503{{int 100  999 }}"{{/repeat}}]}
 
-  {{#repeatWithId  5 'R2' comma=false}}
+  {{#repeatWithId  1 5 'R2' comma=false}}
 
     {"index":{"_id":"PROD_{{bulk}}_{{@index_R1}}_{{@index_R2}}","_type":"product","_index":"product_index_rif","_parent":"P_{{bulk}}_{{@index_R1}}","_routing":"P_{{bulk}}_{{@index_R1}}"}}
 
