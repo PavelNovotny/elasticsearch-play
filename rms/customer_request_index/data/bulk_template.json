@@ -22,6 +22,8 @@
       "products": [
         {{#repeat 1 7}}
           {
+            "assetId": "{{int 100000000 999999999}}",
+            "assetRefNo": "{{int 100000000 999999999}}",
             "imsi": "{{int 100000000 999999999}}",
             "phoneNumber": "{{phone 'xxxxxxxxx'}}",
             "serialNumber": "{{int 100000000 999999999}}",
@@ -65,11 +67,11 @@
       "cuRefNo":"cuRefNo{{int 1000000000 9999999999}}",
       "birthDate": "{{date "1950" "2000" "DD.MM.YYYY"}}",
       "companyRegNo": "{{int 1000000000 9999999999 }}",
-      "caRefNo":"CARN{{int 1000000000 9999999999 }}",
+      "crRefNo":"{{int 1000000000 9999999999 }}",
       "crType": "{{lorem 3}}",
       "orderRefNo": "{{int 1000000000 9999999999 }}",
       "status": "{{random 'Schváleno' 'Zamítnuto' 'Schváleno s připomínkou'}}",
-      "company": "{{uppercase (company)}}",
+      "companyName": "{{uppercase (company)}}",
       "firstName": "{{firstName}}",
       "lastName": "{{lastName}}"
     }
