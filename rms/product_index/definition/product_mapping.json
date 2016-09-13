@@ -33,20 +33,12 @@
         }
       }
     },
-    "parameters": {
-      "type": "nested",
-      "properties": {
-        "name": {
-          "type": "string"
-        },
-        "value": {
-          "type": "string"
-        }
-      }
+    "parameters" : {
+      "type": "string"
     },
     //permissions child
     "phoneNumbers": {
-      "type": "nested",
+      "type": "object",
       "properties": {
         "phoneNumber": {
           "type": "string"
@@ -54,15 +46,7 @@
       }
     },
     "productFilterGroups": {
-      "type": "nested",
-      "properties": {
-        "key": {
-          "type": "string"
-        },
-        "name": {
-          "type": "string"
-        }
-      }
+      "type": "string"
     },
     "relations": {
       "type": "nested",
@@ -105,7 +89,7 @@
       }
     },
     "serviceIds": {
-      "type": "nested",
+      "type": "object",
       "properties": {
         "serviceId": {
           "type": "string"
