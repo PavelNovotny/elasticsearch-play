@@ -1,5 +1,5 @@
 {
-  "took": 55,
+  "took": 30,
   "timed_out": false,
   "_shards": {
     "total": 4,
@@ -8,13 +8,13 @@
   },
   "hits": {
     "total": 73,
-    "max_score": 3.8918133,
+    "max_score": 1,
     "hits": [
       {
         "_index": "customer_index_rif",
         "_type": "customer",
         "_id": "CUST_2_7",
-        "_score": 3.8918133,
+        "_score": 1,
         "_source": {
           "residentalAddress": {
             "buildingNo": "590845",
@@ -61,21 +61,7 @@
               "hits": []
             }
           },
-          "payment_document_1": {
-            "hits": {
-              "total": 0,
-              "max_score": null,
-              "hits": []
-            }
-          },
           "customer_request": {
-            "hits": {
-              "total": 0,
-              "max_score": null,
-              "hits": []
-            }
-          },
-          "order_1": {
             "hits": {
               "total": 0,
               "max_score": null,
@@ -88,20 +74,6 @@
               "max_score": null,
               "hits": []
             }
-          },
-          "product_1": {
-            "hits": {
-              "total": 0,
-              "max_score": null,
-              "hits": []
-            }
-          },
-          "customer_request_1": {
-            "hits": {
-              "total": 0,
-              "max_score": null,
-              "hits": []
-            }
           }
         }
       },
@@ -109,7 +81,7 @@
         "_index": "customer_index_rif",
         "_type": "customer",
         "_id": "CUST_14_51",
-        "_score": 1.9283818,
+        "_score": 1,
         "_source": {
           "residentalAddress": {
             "buildingNo": "968308",
@@ -156,21 +128,7 @@
               "hits": []
             }
           },
-          "payment_document_1": {
-            "hits": {
-              "total": 0,
-              "max_score": null,
-              "hits": []
-            }
-          },
           "customer_request": {
-            "hits": {
-              "total": 0,
-              "max_score": null,
-              "hits": []
-            }
-          },
-          "order_1": {
             "hits": {
               "total": 0,
               "max_score": null,
@@ -183,20 +141,6 @@
               "max_score": null,
               "hits": []
             }
-          },
-          "product_1": {
-            "hits": {
-              "total": 0,
-              "max_score": null,
-              "hits": []
-            }
-          },
-          "customer_request_1": {
-            "hits": {
-              "total": 0,
-              "max_score": null,
-              "hits": []
-            }
           }
         }
       },
@@ -204,7 +148,7 @@
         "_index": "customer_index_rif",
         "_type": "customer",
         "_id": "CUST_14_53",
-        "_score": 1.9283818,
+        "_score": 1,
         "_source": {
           "residentalAddress": {
             "buildingNo": "736869",
@@ -251,21 +195,7 @@
               "hits": []
             }
           },
-          "payment_document_1": {
-            "hits": {
-              "total": 0,
-              "max_score": null,
-              "hits": []
-            }
-          },
           "customer_request": {
-            "hits": {
-              "total": 0,
-              "max_score": null,
-              "hits": []
-            }
-          },
-          "order_1": {
             "hits": {
               "total": 0,
               "max_score": null,
@@ -278,20 +208,6 @@
               "max_score": null,
               "hits": []
             }
-          },
-          "product_1": {
-            "hits": {
-              "total": 0,
-              "max_score": null,
-              "hits": []
-            }
-          },
-          "customer_request_1": {
-            "hits": {
-              "total": 0,
-              "max_score": null,
-              "hits": []
-            }
           }
         }
       },
@@ -299,7 +215,7 @@
         "_index": "customer_index_rif",
         "_type": "customer",
         "_id": "CUST_11_483",
-        "_score": 1.9283818,
+        "_score": 1,
         "_source": {
           "residentalAddress": {
             "buildingNo": "330702",
@@ -346,21 +262,7 @@
               "hits": []
             }
           },
-          "payment_document_1": {
-            "hits": {
-              "total": 0,
-              "max_score": null,
-              "hits": []
-            }
-          },
           "customer_request": {
-            "hits": {
-              "total": 0,
-              "max_score": null,
-              "hits": []
-            }
-          },
-          "order_1": {
             "hits": {
               "total": 0,
               "max_score": null,
@@ -373,20 +275,6 @@
               "max_score": null,
               "hits": []
             }
-          },
-          "product_1": {
-            "hits": {
-              "total": 0,
-              "max_score": null,
-              "hits": []
-            }
-          },
-          "customer_request_1": {
-            "hits": {
-              "total": 0,
-              "max_score": null,
-              "hits": []
-            }
           }
         }
       },
@@ -394,7 +282,7 @@
         "_index": "customer_index_rif",
         "_type": "customer",
         "_id": "CUST_35_235",
-        "_score": 1.9283818,
+        "_score": 1,
         "_source": {
           "residentalAddress": {
             "buildingNo": "525784",
@@ -441,21 +329,7 @@
               "hits": []
             }
           },
-          "payment_document_1": {
-            "hits": {
-              "total": 0,
-              "max_score": null,
-              "hits": []
-            }
-          },
           "customer_request": {
-            "hits": {
-              "total": 0,
-              "max_score": null,
-              "hits": []
-            }
-          },
-          "order_1": {
             "hits": {
               "total": 0,
               "max_score": null,
@@ -468,20 +342,6 @@
               "max_score": null,
               "hits": []
             }
-          },
-          "product_1": {
-            "hits": {
-              "total": 0,
-              "max_score": null,
-              "hits": []
-            }
-          },
-          "customer_request_1": {
-            "hits": {
-              "total": 0,
-              "max_score": null,
-              "hits": []
-            }
           }
         }
       },
@@ -489,7 +349,7 @@
         "_index": "customer_index_rif",
         "_type": "customer",
         "_id": "CUST_36_21",
-        "_score": 1.9283818,
+        "_score": 1,
         "_source": {
           "residentalAddress": {
             "buildingNo": "961850",
@@ -536,21 +396,7 @@
               "hits": []
             }
           },
-          "payment_document_1": {
-            "hits": {
-              "total": 0,
-              "max_score": null,
-              "hits": []
-            }
-          },
           "customer_request": {
-            "hits": {
-              "total": 0,
-              "max_score": null,
-              "hits": []
-            }
-          },
-          "order_1": {
             "hits": {
               "total": 0,
               "max_score": null,
@@ -563,20 +409,6 @@
               "max_score": null,
               "hits": []
             }
-          },
-          "product_1": {
-            "hits": {
-              "total": 0,
-              "max_score": null,
-              "hits": []
-            }
-          },
-          "customer_request_1": {
-            "hits": {
-              "total": 0,
-              "max_score": null,
-              "hits": []
-            }
           }
         }
       },
@@ -584,7 +416,7 @@
         "_index": "customer_index_rif",
         "_type": "customer",
         "_id": "CUST_48_219",
-        "_score": 1.9283818,
+        "_score": 1,
         "_source": {
           "residentalAddress": {
             "buildingNo": "381173",
@@ -631,21 +463,7 @@
               "hits": []
             }
           },
-          "payment_document_1": {
-            "hits": {
-              "total": 0,
-              "max_score": null,
-              "hits": []
-            }
-          },
           "customer_request": {
-            "hits": {
-              "total": 0,
-              "max_score": null,
-              "hits": []
-            }
-          },
-          "order_1": {
             "hits": {
               "total": 0,
               "max_score": null,
@@ -658,20 +476,6 @@
               "max_score": null,
               "hits": []
             }
-          },
-          "product_1": {
-            "hits": {
-              "total": 0,
-              "max_score": null,
-              "hits": []
-            }
-          },
-          "customer_request_1": {
-            "hits": {
-              "total": 0,
-              "max_score": null,
-              "hits": []
-            }
           }
         }
       },
@@ -679,7 +483,7 @@
         "_index": "customer_index_rif",
         "_type": "customer",
         "_id": "CUST_48_295",
-        "_score": 1.9283818,
+        "_score": 1,
         "_source": {
           "residentalAddress": {
             "buildingNo": "228564",
@@ -726,21 +530,7 @@
               "hits": []
             }
           },
-          "payment_document_1": {
-            "hits": {
-              "total": 0,
-              "max_score": null,
-              "hits": []
-            }
-          },
           "customer_request": {
-            "hits": {
-              "total": 0,
-              "max_score": null,
-              "hits": []
-            }
-          },
-          "order_1": {
             "hits": {
               "total": 0,
               "max_score": null,
@@ -753,20 +543,6 @@
               "max_score": null,
               "hits": []
             }
-          },
-          "product_1": {
-            "hits": {
-              "total": 0,
-              "max_score": null,
-              "hits": []
-            }
-          },
-          "customer_request_1": {
-            "hits": {
-              "total": 0,
-              "max_score": null,
-              "hits": []
-            }
           }
         }
       },
@@ -774,7 +550,7 @@
         "_index": "customer_index_rif",
         "_type": "customer",
         "_id": "CUST_44_406",
-        "_score": 1.9283818,
+        "_score": 1,
         "_source": {
           "residentalAddress": {
             "buildingNo": "959423",
@@ -821,21 +597,7 @@
               "hits": []
             }
           },
-          "payment_document_1": {
-            "hits": {
-              "total": 0,
-              "max_score": null,
-              "hits": []
-            }
-          },
           "customer_request": {
-            "hits": {
-              "total": 0,
-              "max_score": null,
-              "hits": []
-            }
-          },
-          "order_1": {
             "hits": {
               "total": 0,
               "max_score": null,
@@ -848,20 +610,6 @@
               "max_score": null,
               "hits": []
             }
-          },
-          "product_1": {
-            "hits": {
-              "total": 0,
-              "max_score": null,
-              "hits": []
-            }
-          },
-          "customer_request_1": {
-            "hits": {
-              "total": 0,
-              "max_score": null,
-              "hits": []
-            }
           }
         }
       },
@@ -869,7 +617,7 @@
         "_index": "customer_index_rif",
         "_type": "customer",
         "_id": "CUST_25_476",
-        "_score": 1.9283818,
+        "_score": 1,
         "_source": {
           "residentalAddress": {
             "buildingNo": "987392",
@@ -916,13 +664,6 @@
               "hits": []
             }
           },
-          "payment_document_1": {
-            "hits": {
-              "total": 0,
-              "max_score": null,
-              "hits": []
-            }
-          },
           "customer_request": {
             "hits": {
               "total": 0,
@@ -930,28 +671,7 @@
               "hits": []
             }
           },
-          "order_1": {
-            "hits": {
-              "total": 0,
-              "max_score": null,
-              "hits": []
-            }
-          },
           "order": {
-            "hits": {
-              "total": 0,
-              "max_score": null,
-              "hits": []
-            }
-          },
-          "product_1": {
-            "hits": {
-              "total": 0,
-              "max_score": null,
-              "hits": []
-            }
-          },
-          "customer_request_1": {
             "hits": {
               "total": 0,
               "max_score": null,

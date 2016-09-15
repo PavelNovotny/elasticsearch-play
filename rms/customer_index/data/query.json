@@ -192,7 +192,7 @@
             "should": [
               {
                 "query_string": {
-                  "query": "EDITH",
+                  "query": "3645118819",
                   //zde hledam na customerovi
                   "fields": [
                     "firstName",
@@ -227,7 +227,7 @@
                       "must": [
                         {
                           "query_string": {
-                            "query": "EDITH",
+                            "query": "3645118819",
                             //toto je v NESTED parametrech
                             "fields": [
                               "serviceId",
@@ -273,7 +273,7 @@
                       "must": [
                         {
                           "query_string": {
-                            "query": "EDITH",
+                            "query": "3645118819",
                             "fields": [
                               "crRefNo"
                             ]
@@ -305,7 +305,7 @@
                       "must": [
                         {
                           "query_string": {
-                            "query": "EDITH",
+                            "query": "3645118819",
                             "fields": [
                               "orderRefNo"
                             ]
@@ -337,7 +337,7 @@
                       "must": [
                         {
                           "query_string": {
-                            "query": "EDITH",
+                            "query": "3645118819",
                             "fields": [
                               "variableSymbol"
                             ]
@@ -385,6 +385,19 @@
               "match": {
                 "firstName": {
                   "query": "EDITH"
+                }
+              }
+            }
+          }
+        }
+      },
+      "lastName": {
+        "highlight_query": {
+          "bool": {
+            "must": {
+              "match": {
+                "lastName": {
+                  "query": "3645118819"
                 }
               }
             }
