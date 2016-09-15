@@ -389,32 +389,73 @@
   },
   "highlight": {
     "fields": {
-      "firstName": {
+      "*": {
         "highlight_query": {
           "bool": {
-            "must": {
-              "match": {
-                "firstName": {
-                  "query": "EDITH"
+            "should": [
+              {
+                "query_string": {
+                  "query": "EDITH",
+                  //zde hledam na customerovi
+                  "fields": [
+                    "firstName",
+                    //jméno zákazníka
+                    "lastName",
+                    //název zákazníka/příjmení zákazníka
+                    "companyName",
+                    "identityDocumentID",
+                    //číslo pasu,číslo občanského průkazu
+                    "companyRegNo",
+                    //IČ
+                    "taxRegNo",
+                    //DIČ
+                    "birthNumber",
+                    //Rodné číslo
+                    "sfaId",
+                    //SFA ID zákazníka
+                    "residentalAddress.street",
+                    //adresa zákazníka - sídlo
+                    "residentalAddress.streetNo",
+                    "residentalAddress.buildingNo",
+                    "residentalAddress.city",
+                    "imsi"
+                  ]
+                }
+              },
+              {
+                "query_string": {
+                  "query": "3645118819",
+                  //zde hledam na customerovi
+                  "fields": [
+                    "firstName",
+                    //jméno zákazníka
+                    "lastName",
+                    //název zákazníka/příjmení zákazníka
+                    "companyName",
+                    "identityDocumentID",
+                    //číslo pasu,číslo občanského průkazu
+                    "companyRegNo",
+                    //IČ
+                    "taxRegNo",
+                    //DIČ
+                    "birthNumber",
+                    //Rodné číslo
+                    "sfaId",
+                    //SFA ID zákazníka
+                    "residentalAddress.street",
+                    //adresa zákazníka - sídlo
+                    "residentalAddress.streetNo",
+                    "residentalAddress.buildingNo",
+                    "residentalAddress.city",
+                    "imsi"
+                  ]
                 }
               }
-            }
-          }
-        }
-      },
-      "lastName": {
-        "highlight_query": {
-          "bool": {
-            "must": {
-              "match": {
-                "lastName": {
-                  "query": "3645118819"
-                }
-              }
-            }
+            ]
           }
         }
       }
     }
   }
 }
+
