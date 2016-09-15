@@ -6,6 +6,17 @@
     "bool": {
       "must": [
         {
+          "has_child": {
+            "type": "customer_permission",
+            "query": {
+              "match" : {
+                "login" : "x0503916"
+              }
+            }
+          }
+        },
+
+        {
           "bool": {
             "should": [
               {
