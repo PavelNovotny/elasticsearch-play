@@ -1,0 +1,309 @@
+{
+  // datum narození,
+  //, ,
+  //, , , , , , , číslo RD
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "query": {
+            "bool": {
+              "should": [
+                {
+                  "query_string": {
+                    "query": "EDITH",
+                    //zde hledam na customerovi
+                    "fields": [
+                      "firstName",
+                      //jméno zákazníka
+                      "lastName",
+                      //název zákazníka/příjmení zákazníka
+                      "companyName",
+                      "identityDocumentID",
+                      //číslo pasu,číslo občanského průkazu
+                      "companyRegNo",
+                      //IČ
+                      "taxRegNo",
+                      //DIČ
+                      "birthNumber",
+                      //Rodné číslo
+                      "sfaId",
+                      //SFA ID zákazníka
+                      "residentalAddress.street",
+                      //adresa zákazníka - sídlo
+                      "residentalAddress.streetNo",
+                      "residentalAddress.buildingNo",
+                      "residentalAddress.city",
+                      "imsi"
+                    ]
+                  }
+                },
+                {
+                  "has_child": {
+                    "type": "product",
+                    "query": {
+                      "bool": {
+                        "must": [
+                          {
+                            "query_string": {
+                              "query": "EDITH",
+                              //toto je v NESTED parametrech
+                              "fields": [
+                                "serviceId",
+                                //ID služby/přípojky
+                                "imsi",
+                                //IMSI
+                                "phoneNumber",
+                                //SIM
+                                "serialNumber",
+                                //ESN
+                                "birthNumber",
+                                "sfaId",
+                                "residentalAddress.street",
+                                "residentalAddress.streetNo",
+                                "residentalAddress.buildingNo",
+                                "residentalAddress.city",
+                                "imsi"
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
+                  "has_child": {
+                    "type": "customer_request",
+                    "query": {
+                      "bool": {
+                        "must": [
+                          {
+                            "query_string": {
+                              "query": "EDITH",
+                              "fields": [
+                                "crRefNo"
+                              ]
+                              //ID PZ
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
+                  "has_child": {
+                    "type": "order",
+                    "query": {
+                      "bool": {
+                        "must": [
+                          {
+                            "query_string": {
+                              "query": "EDITH",
+                              "fields": [
+                                "orderRefNo"
+                              ]
+                              //ID objednávky
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
+                  "has_child": {
+                    "type": "payment_document",
+                    "query": {
+                      "bool": {
+                        "must": [
+                          {
+                            "query_string": {
+                              "query": "EDITH",
+                              "fields": [
+                                "variableSymbol"
+                              ]
+                              //číslo platebního dokladu
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
+                  "range": {
+                    "birthDate": {
+                      "gte": "06.06.1949",
+                      "lte": "06.06.1949",
+                      "format": "dd.MM.yyyy"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "query": {
+            "bool": {
+              "should": [
+                {
+                  "query_string": {
+                    "query": "3588771343",
+                    //zde hledam na customerovi
+                    "fields": [
+                      "firstName",
+                      //jméno zákazníka
+                      "lastName",
+                      //název zákazníka/příjmení zákazníka
+                      "companyName",
+                      "identityDocumentID",
+                      //číslo pasu,číslo občanského průkazu
+                      "companyRegNo",
+                      //IČ
+                      "taxRegNo",
+                      //DIČ
+                      "birthNumber",
+                      //Rodné číslo
+                      "sfaId",
+                      //SFA ID zákazníka
+                      "residentalAddress.street",
+                      //adresa zákazníka - sídlo
+                      "residentalAddress.streetNo",
+                      "residentalAddress.buildingNo",
+                      "residentalAddress.city",
+                      "imsi"
+                    ]
+                  }
+                },
+                {
+                  "has_child": {
+                    "type": "product",
+                    "query": {
+                      "bool": {
+                        "must": [
+                          {
+                            "query_string": {
+                              "query": "3588771343",
+                              //toto je v NESTED parametrech
+                              "fields": [
+                                "serviceId",
+                                //ID služby/přípojky
+                                "imsi",
+                                //IMSI
+                                "phoneNumber",
+                                //SIM
+                                "serialNumber",
+                                //ESN
+                                "birthNumber",
+                                "sfaId",
+                                "residentalAddress.street",
+                                "residentalAddress.streetNo",
+                                "residentalAddress.buildingNo",
+                                "residentalAddress.city",
+                                "imsi"
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
+                  "has_child": {
+                    "type": "customer_request",
+                    "query": {
+                      "bool": {
+                        "must": [
+                          {
+                            "query_string": {
+                              "query": "3588771343",
+                              "fields": [
+                                "crRefNo"
+                              ]
+                              //ID PZ
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
+                  "has_child": {
+                    "type": "order",
+                    "query": {
+                      "bool": {
+                        "must": [
+                          {
+                            "query_string": {
+                              "query": "3588771343",
+                              "fields": [
+                                "orderRefNo"
+                              ]
+                              //ID objednávky
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
+                  "has_child": {
+                    "type": "payment_document",
+                    "query": {
+                      "bool": {
+                        "must": [
+                          {
+                            "query_string": {
+                              "query": "3588771343",
+                              "fields": [
+                                "variableSymbol"
+                              ]
+                              //číslo platebního dokladu
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
+                  "range": {
+                    "birthDate": {
+                      "gte": "06.06.1949",
+                      "lte": "06.06.1949",
+                      "format": "dd.MM.yyyy"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  "highlight": {
+    "fields": {
+      "firstName": {
+        "highlight_query": {
+          "bool": {
+            "must": {
+              "match": {
+                "firstName": {
+                  "query": "EDITH"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+  }
+}
