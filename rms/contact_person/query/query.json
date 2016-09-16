@@ -1,0 +1,46 @@
+{
+  // testovací contact  http://10.199.160.19:9200/contact_person_index_rif/contact_person/CONTACT_140_39
+  "query":
+{
+  "bool": {
+    "must": [
+      // 1. slovo
+      {
+        "query_string": {
+          "query": "JOSEF",
+          "fields": [
+            "firstName",
+            "lastName",
+            "sfaId",
+            "userId",
+            "email",
+            "phoneNumber",
+            "phoneNumber2"
+          ]
+        }
+      },
+      // 2. slovo
+      {
+        "query_string": {
+          "query": "FABIAN",
+          "fields": [
+            "firstName",
+            "lastName",
+            "sfaId",
+            "userId",
+            "email",
+            "phoneNumber",
+            "phoneNumber2"
+          ]
+        }
+      }
+    ]
+  }
+},
+  "highlight": {
+    "fields": {
+      "*": {}
+    }
+  }
+}
+
