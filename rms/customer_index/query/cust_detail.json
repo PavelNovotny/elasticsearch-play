@@ -1,0 +1,29 @@
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "query": {
+            "match": {
+              "_id": "CUST_2_7"
+            }
+          }
+        },
+        {
+          "has_child": {
+            "type": "payment_document",
+            "query": {"match_all": {}},
+            "inner_hits": {}
+          }
+        },
+        {
+          "has_child": {
+            "type": "customer_permission",
+            "query": {"match_all": {}},
+            "inner_hits": {}
+          }
+        }
+      ]
+    }
+  }
+}
