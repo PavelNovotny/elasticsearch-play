@@ -1,4 +1,4 @@
-{
+﻿{
   // datum narození,
   //, ,
   //, , , , , , , číslo RD
@@ -13,28 +13,50 @@
                   "query": "EDITH",
                   //zde hledam na customerovi
                   "fields": [
-                    "firstName",
-                    //jméno zákazníka
-                    "lastName",
-                    //název zákazníka/příjmení zákazníka
+                    "firstName",//jméno zákazníka
+                    "lastName",//název zákazníka/příjmení zákazníka
                     "companyName",
-                    "identityDocumentID",
-                    //číslo pasu,číslo občanského průkazu
-                    "companyRegNo",
-                    //IČ
-                    "taxRegNo",
-                    //DIČ
-                    "birthNumber",
-                    //Rodné číslo
-                    "sfaId",
-                    //SFA ID zákazníka
-                    "residentalAddress.street",
-                    //adresa zákazníka - sídlo
+                    "identityDocumentID",//číslo pasu,číslo občanského průkazu
+                    "companyRegNo",//IČ
+                    "taxRegNo", //DIČ
+                    "birthNumber",//Rodné číslo
+                    "sfaId", //SFA ID zákazníka
+                    "residentalAddress.street", //adresa zákazníka - sídlo
                     "residentalAddress.streetNo",
                     "residentalAddress.buildingNo",
                     "residentalAddress.city",
-                    "imsi"
+                    "obligationRefNo"//číslo RD
                   ]
+                }
+              },
+              {
+                "has_child": {
+                  "type": "customer_permission",
+                  "query": {
+                    "bool": {
+                      "must": [
+                        {
+                          "query_string": {
+                            "query": "*",
+                            "fields": [
+                              "login"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "inner_hits": {
+                    "highlight": {
+                      "fields": {
+                        "crRefNo": {
+                          "number_of_fragments": 3
+                        }
+                      }
+                    },
+                    "from": 0,
+                    "size": 1
+                  }
                 }
               },
               {
@@ -46,23 +68,17 @@
                         {
                           "query_string": {
                             "query": "EDITH",
-                            //toto je v NESTED parametrech
                             "fields": [
-                              "serviceId",
-                              //ID služby/přípojky
-                              "imsi",
-                              //IMSI
-                              "phoneNumber",
-                              //SIM
-                              "serialNumber",
-                              //ESN
+                              "serviceId",//ID služby/přípojky
+                              "imsi",//IMSI
+                              "phoneNumber",//SIM
+                              "serialNumber",//ESN
                               "birthNumber",
                               "sfaId",
                               "residentalAddress.street",
                               "residentalAddress.streetNo",
                               "residentalAddress.buildingNo",
-                              "residentalAddress.city",
-                              "imsi"
+                              "residentalAddress.city"
                             ]
                           }
                         }
@@ -92,9 +108,8 @@
                           "query_string": {
                             "query": "EDITH",
                             "fields": [
-                              "crRefNo"
+                              "crRefNo"//ID PZ
                             ]
-                            //ID PZ
                           }
                         }
                       ]
@@ -123,9 +138,8 @@
                           "query_string": {
                             "query": "EDITH",
                             "fields": [
-                              "orderRefNo"
+                              "orderRefNo"//ID objednávky
                             ]
-                            //ID objednávky
                           }
                         }
                       ]
@@ -154,9 +168,8 @@
                           "query_string": {
                             "query": "EDITH",
                             "fields": [
-                              "variableSymbol"
+                              "variableSymbol"//číslo platebního dokladu
                             ]
-                            //číslo platebního dokladu
                           }
                         }
                       ]
@@ -195,28 +208,51 @@
                   "query": "3645118819",
                   //zde hledam na customerovi
                   "fields": [
-                    "firstName",
-                    //jméno zákazníka
-                    "lastName",
-                    //název zákazníka/příjmení zákazníka
+                    "firstName",//jméno zákazníka
+                    "lastName",//název zákazníka/příjmení zákazníka
                     "companyName",
-                    "identityDocumentID",
-                    //číslo pasu,číslo občanského průkazu
-                    "companyRegNo",
-                    //IČ
-                    "taxRegNo",
-                    //DIČ
-                    "birthNumber",
-                    //Rodné číslo
-                    "sfaId",
-                    //SFA ID zákazníka
-                    "residentalAddress.street",
-                    //adresa zákazníka - sídlo
+                    "identityDocumentID",//číslo pasu,číslo občanského průkazu
+                    "companyRegNo",//IČ
+                    "taxRegNo", //DIČ
+                    "birthNumber",//Rodné číslo
+                    "sfaId", //SFA ID zákazníka
+                    "residentalAddress.street", //adresa zákazníka - sídlo
                     "residentalAddress.streetNo",
                     "residentalAddress.buildingNo",
                     "residentalAddress.city",
-                    "imsi"
+                    "obligationRefNo"//číslo RD
                   ]
+                }
+              },
+              {
+                "has_child": {
+                  "type": "customer_permission",
+                  "query": {
+                    "bool": {
+                      "must": [
+                        {
+                          "query_string": {
+                            "query": "*",
+                            "fields": [
+                              "login"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "inner_hits": {
+                    "name" : "customer_permission_1",
+                    "highlight": {
+                      "fields": {
+                        "crRefNo": {
+                          "number_of_fragments": 3
+                        }
+                      }
+                    },
+                    "from": 0,
+                    "size": 1
+                  }
                 }
               },
               {
@@ -230,21 +266,16 @@
                             "query": "3645118819",
                             //toto je v NESTED parametrech
                             "fields": [
-                              "serviceId",
-                              //ID služby/přípojky
-                              "imsi",
-                              //IMSI
-                              "phoneNumber",
-                              //SIM
-                              "serialNumber",
-                              //ESN
+                              "serviceId",//ID služby/přípojky
+                              "imsi",//IMSI
+                              "phoneNumber",//SIM
+                              "serialNumber",//ESN
                               "birthNumber",
                               "sfaId",
                               "residentalAddress.street",
                               "residentalAddress.streetNo",
                               "residentalAddress.buildingNo",
-                              "residentalAddress.city",
-                              "imsi"
+                              "residentalAddress.city"
                             ]
                           }
                         }
@@ -275,9 +306,8 @@
                           "query_string": {
                             "query": "3645118819",
                             "fields": [
-                              "crRefNo"
+                              "crRefNo"//ID PZ
                             ]
-                            //ID PZ
                           }
                         }
                       ]
@@ -307,9 +337,8 @@
                           "query_string": {
                             "query": "3645118819",
                             "fields": [
-                              "orderRefNo"
+                              "orderRefNo"//ID objednávky
                             ]
-                            //ID objednávky
                           }
                         }
                       ]
@@ -339,9 +368,8 @@
                           "query_string": {
                             "query": "3645118819",
                             "fields": [
-                              "variableSymbol"
+                              "variableSymbol"//číslo platebního dokladu
                             ]
-                            //číslo platebního dokladu
                           }
                         }
                       ]
@@ -373,6 +401,28 @@
             ]
           }
         }
+      ],
+      //filtrovani na opravneni
+      "filter":[
+        {
+          "has_child": {
+            "type": "customer_permission",
+            "query": {
+              "bool": {
+                "must": [
+                  {
+                    "query_string": {
+                      "query": "x0503454",
+                      "fields": [
+                        "login"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
       ]
     }
   },
@@ -387,27 +437,19 @@
                   "query": "EDITH",
                   //zde hledam na customerovi
                   "fields": [
-                    "firstName",
-                    //jméno zákazníka
-                    "lastName",
-                    //název zákazníka/příjmení zákazníka
+                    "firstName",//jméno zákazníka
+                    "lastName",//název zákazníka/příjmení zákazníka
                     "companyName",
-                    "identityDocumentID",
-                    //číslo pasu,číslo občanského průkazu
-                    "companyRegNo",
-                    //IČ
-                    "taxRegNo",
-                    //DIČ
-                    "birthNumber",
-                    //Rodné číslo
-                    "sfaId",
-                    //SFA ID zákazníka
-                    "residentalAddress.street",
-                    //adresa zákazníka - sídlo
+                    "identityDocumentID",//číslo pasu,číslo občanského průkazu
+                    "companyRegNo",//IČ
+                    "taxRegNo", //DIČ
+                    "birthNumber",//Rodné číslo
+                    "sfaId", //SFA ID zákazníka
+                    "residentalAddress.street", //adresa zákazníka - sídlo
                     "residentalAddress.streetNo",
                     "residentalAddress.buildingNo",
                     "residentalAddress.city",
-                    "imsi"
+                    "obligationRefNo"//číslo RD
                   ]
                 }
               },
@@ -416,27 +458,19 @@
                   "query": "3645118819",
                   //zde hledam na customerovi
                   "fields": [
-                    "firstName",
-                    //jméno zákazníka
-                    "lastName",
-                    //název zákazníka/příjmení zákazníka
+                    "firstName",//jméno zákazníka
+                    "lastName",//název zákazníka/příjmení zákazníka
                     "companyName",
-                    "identityDocumentID",
-                    //číslo pasu,číslo občanského průkazu
-                    "companyRegNo",
-                    //IČ
-                    "taxRegNo",
-                    //DIČ
-                    "birthNumber",
-                    //Rodné číslo
-                    "sfaId",
-                    //SFA ID zákazníka
-                    "residentalAddress.street",
-                    //adresa zákazníka - sídlo
+                    "identityDocumentID",//číslo pasu,číslo občanského průkazu
+                    "companyRegNo",//IČ
+                    "taxRegNo", //DIČ
+                    "birthNumber",//Rodné číslo
+                    "sfaId", //SFA ID zákazníka
+                    "residentalAddress.street", //adresa zákazníka - sídlo
                     "residentalAddress.streetNo",
                     "residentalAddress.buildingNo",
                     "residentalAddress.city",
-                    "imsi"
+                    "obligationRefNo"//číslo RD
                   ]
                 }
               }
