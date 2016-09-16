@@ -79,6 +79,36 @@
               },
               {
                 "has_child": {
+                  "type": "customer_permission",
+                  "query": {
+                    "bool": {
+                      "must": [
+                        {
+                          "query_string": {
+                            "query": "*",
+                            "fields": [
+                              "crRefNo"//ID PZ
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "inner_hits": {
+                    "highlight": {
+                      "fields": {
+                        "crRefNo": {
+                          "number_of_fragments": 3
+                        }
+                      }
+                    },
+                    "from": 0,
+                    "size": 1
+                  }
+                }
+              },
+              {
+                "has_child": {
                   "type": "customer_request",
                   "query": {
                     "bool": {
@@ -411,4 +441,3 @@
     }
   }
 }
-
