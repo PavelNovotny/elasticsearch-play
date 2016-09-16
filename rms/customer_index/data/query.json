@@ -6,11 +6,20 @@
     "bool": {
       "must": [
         {
+          "range": {
+            "birthDate": {
+              "gte": "23.09.1941",
+              "lte": "23.09.1941",
+              "format": "dd.MM.yyyy"
+            }
+          }
+        },
+        {
           "bool": {
             "should": [
               {
                 "query_string": {
-                  "query": "EDITH",
+                  "query": "JOSEF",
                   //zde hledam na customerovi
                   "fields": [
                     "firstName",//jméno zákazníka
@@ -31,43 +40,13 @@
               },
               {
                 "has_child": {
-                  "type": "customer_permission",
-                  "query": {
-                    "bool": {
-                      "must": [
-                        {
-                          "query_string": {
-                            "query": "*",
-                            "fields": [
-                              "login"
-                            ]
-                          }
-                        }
-                      ]
-                    }
-                  },
-                  "inner_hits": {
-                    "highlight": {
-                      "fields": {
-                        "crRefNo": {
-                          "number_of_fragments": 3
-                        }
-                      }
-                    },
-                    "from": 0,
-                    "size": 1
-                  }
-                }
-              },
-              {
-                "has_child": {
                   "type": "product",
                   "query": {
                     "bool": {
                       "must": [
                         {
                           "query_string": {
-                            "query": "EDITH",
+                            "query": "JOSEF",
                             "fields": [
                               "serviceId",//ID služby/přípojky
                               "imsi",//IMSI
@@ -106,7 +85,7 @@
                       "must": [
                         {
                           "query_string": {
-                            "query": "EDITH",
+                            "query": "JOSEF",
                             "fields": [
                               "crRefNo"//ID PZ
                             ]
@@ -136,7 +115,7 @@
                       "must": [
                         {
                           "query_string": {
-                            "query": "EDITH",
+                            "query": "JOSEF",
                             "fields": [
                               "orderRefNo"//ID objednávky
                             ]
@@ -166,7 +145,7 @@
                       "must": [
                         {
                           "query_string": {
-                            "query": "EDITH",
+                            "query": "JOSEF",
                             "fields": [
                               "variableSymbol"//číslo platebního dokladu
                             ]
@@ -187,15 +166,6 @@
                     "size": 1
                   }
                 }
-              },
-              {
-                "range": {
-                  "birthDate": {
-                    "gte": "06.06.1949",
-                    "lte": "06.06.1949",
-                    "format": "dd.MM.yyyy"
-                  }
-                }
               }
             ]
           }
@@ -205,7 +175,7 @@
             "should": [
               {
                 "query_string": {
-                  "query": "3645118819",
+                  "query": "3994490904",
                   //zde hledam na customerovi
                   "fields": [
                     "firstName",//jméno zákazníka
@@ -226,44 +196,13 @@
               },
               {
                 "has_child": {
-                  "type": "customer_permission",
-                  "query": {
-                    "bool": {
-                      "must": [
-                        {
-                          "query_string": {
-                            "query": "*",
-                            "fields": [
-                              "login"
-                            ]
-                          }
-                        }
-                      ]
-                    }
-                  },
-                  "inner_hits": {
-                    "name" : "customer_permission_1",
-                    "highlight": {
-                      "fields": {
-                        "crRefNo": {
-                          "number_of_fragments": 3
-                        }
-                      }
-                    },
-                    "from": 0,
-                    "size": 1
-                  }
-                }
-              },
-              {
-                "has_child": {
                   "type": "product",
                   "query": {
                     "bool": {
                       "must": [
                         {
                           "query_string": {
-                            "query": "3645118819",
+                            "query": "3994490904",
                             //toto je v NESTED parametrech
                             "fields": [
                               "serviceId",//ID služby/přípojky
@@ -304,7 +243,7 @@
                       "must": [
                         {
                           "query_string": {
-                            "query": "3645118819",
+                            "query": "3994490904",
                             "fields": [
                               "crRefNo"//ID PZ
                             ]
@@ -335,7 +274,7 @@
                       "must": [
                         {
                           "query_string": {
-                            "query": "3645118819",
+                            "query": "3994490904",
                             "fields": [
                               "orderRefNo"//ID objednávky
                             ]
@@ -366,7 +305,7 @@
                       "must": [
                         {
                           "query_string": {
-                            "query": "3645118819",
+                            "query": "3994490904",
                             "fields": [
                               "variableSymbol"//číslo platebního dokladu
                             ]
@@ -388,15 +327,6 @@
                     "size": 1
                   }
                 }
-              },
-              {
-                "range": {
-                  "birthDate": {
-                    "gte": "06.06.1949",
-                    "lte": "06.06.1949",
-                    "format": "dd.MM.yyyy"
-                  }
-                }
               }
             ]
           }
@@ -412,7 +342,7 @@
                 "must": [
                   {
                     "query_string": {
-                      "query": "x0503454",
+                      "query": "x0503221",
                       "fields": [
                         "login"
                       ]
@@ -434,7 +364,7 @@
             "should": [
               {
                 "query_string": {
-                  "query": "EDITH",
+                  "query": "JOSEF",
                   //zde hledam na customerovi
                   "fields": [
                     "firstName",//jméno zákazníka
@@ -455,7 +385,7 @@
               },
               {
                 "query_string": {
-                  "query": "3645118819",
+                  "query": "3994490904",
                   //zde hledam na customerovi
                   "fields": [
                     "firstName",//jméno zákazníka
