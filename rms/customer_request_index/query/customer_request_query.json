@@ -1,0 +1,41 @@
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          //jsou na adrese
+          //"product.address":["something"],
+          "nested": {
+            "path": "installationAddress",
+            "query": {
+              "bool": {
+                "must": [
+                  {
+                    "query_string": {
+                      "query": "129531",
+                      "fields": [
+                        "installationAddress.buildingNo",
+                        "installationAddress.city",
+                        "installationAddress.cityDistrict",
+                        "installationAddress.countryCode",
+                        "installationAddress.crossId",
+                        "installationAddress.postalCode",
+                        "installationAddress.street",
+                        "installationAddress.streetNo"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  "highlight": {
+    "fields": {
+      "*": {}
+    }
+  }
+}
