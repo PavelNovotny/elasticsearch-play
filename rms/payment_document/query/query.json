@@ -1,0 +1,160 @@
+{
+  // vyhledávání v PaymentDocument
+  // testovací payment document http://10.199.160.19:9200/payment_document_index_rif/payment_document/PAY_DOC_1_0_12
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "range": {
+            "birthDate": {
+              "gte": "23.02.1966",
+              "lte": "23.02.1966",
+              "format": "dd.MM.yyyy"
+            }
+          }
+        }
+      // 1. slovo
+      ,{
+          "query_string": {
+            "query": "JANA",
+            //zde hledam na PaymentDocument
+            "fields": [
+              //exact
+              "caRefNo",              // TODO
+              "companyRegNo",              // FIXME: IČO
+              "cuRefNo",              // TODO
+              "status",              // TODO
+              //match
+              "companyName",              // název společnosti
+              "firstName",              // jméno
+              "lastName",              // příjmení
+              // delivery address
+              "deliveryAddress.buildingNo",
+              "deliveryAddress.city",
+              "deliveryAddress.cityDistrict",
+              "deliveryAddress.countryCode",
+              "deliveryAddress.crossId",
+              "deliveryAddress.postalCode",
+              "deliveryAddress.street",
+              "deliveryAddress.streetNo"
+            ]
+          }
+        }
+        // 2. slovo
+      ,{
+          "query_string": {
+            "query": "ELUXA",
+            //zde hledam na PaymentDocument
+            "fields": [
+              //exact
+              "caRefNo",              // TODO
+              "companyRegNo",              // FIXME: IČO
+              "cuRefNo",              // TODO
+              "status",              // TODO
+              //match
+              "companyName",              // název společnosti
+              "firstName",              // jméno
+              "lastName",              // příjmení
+              // delivery address
+              "deliveryAddress.buildingNo",
+              "deliveryAddress.city",
+              "deliveryAddress.cityDistrict",
+              "deliveryAddress.countryCode",
+              "deliveryAddress.crossId",
+              "deliveryAddress.postalCode",
+              "deliveryAddress.street",
+              "deliveryAddress.streetNo"
+            ]
+          }
+        }
+      ],
+      //filtrovani na opravneni
+      "filter": [
+        {
+          "has_parent": {
+            "type": "payment_document_permission",
+            "query": {
+              "bool": {
+                "must": [
+                  {
+                    "query_string": {
+                      "query": "*",
+                      "fields": [
+                        "login"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+// zvýraznění výsledků
+,  "highlight": {
+    "fields": {
+      "*": {
+        "highlight_query": {
+          "bool": {
+            "should": [
+              {
+                "query_string": {
+                  "query": "JANA",
+                  //zde hledam na customerovi
+                  "fields": [
+                    //exact
+                    "caRefNo",              // TODO
+                    "companyRegNo",              // FIXME: IČO
+                    "cuRefNo",              // TODO
+                    "status",              // TODO
+                    //match
+                    "companyName",              // název společnosti
+                    "firstName",              // jméno
+                    "lastName",              // příjmení
+                    // delivery address
+                    "deliveryAddress.buildingNo",
+                    "deliveryAddress.city",
+                    "deliveryAddress.cityDistrict",
+                    "deliveryAddress.countryCode",
+                    "deliveryAddress.crossId",
+                    "deliveryAddress.postalCode",
+                    "deliveryAddress.street",
+                    "deliveryAddress.streetNo"
+                  ]
+                }
+              },
+              {
+                "query_string": {
+                  "query": "ELUXA",
+                  //zde hledam na customerovi
+                  "fields": [
+                    //exact
+                    "caRefNo",              // TODO
+                    "companyRegNo",              // FIXME: IČO
+                    "cuRefNo",              // TODO
+                    "status",              // TODO
+                    //match
+                    "companyName",              // název společnosti
+                    "firstName",              // jméno
+                    "lastName",              // příjmení
+                    // delivery address
+                    "deliveryAddress.buildingNo",
+                    "deliveryAddress.city",
+                    "deliveryAddress.cityDistrict",
+                    "deliveryAddress.countryCode",
+                    "deliveryAddress.crossId",
+                    "deliveryAddress.postalCode",
+                    "deliveryAddress.street",
+                    "deliveryAddress.streetNo"
+                    ]
+                    }
+                  }
+                ]
+              }
+            }
+      }
+    }
+  }
+}
