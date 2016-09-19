@@ -133,56 +133,36 @@
   },
   "highlight": { //highlight
     "fields": {
-      "*": {
-        "highlight_query": { //highlight na hlavní entitě
-          "bool": {
-            "should": [
-              {
-                "query_string": {
-                  "query": "07.06.1971",
-                  "fields": [
-                    "birthDateString",
-                    "companyName",
-                    "companyRegNo",
-                    "crRefNo",
-                    "crType",
-                    "firstName",
-                    "lastName",
-                    "orderRefNo",
-                    "status",
-                    "products.serviceId",
-                    "products.phoneNumber",
-                    "products.imsi",
-                    "products.serialNumber",
-                    "products.status"
-                  ]
-                }
-              },
-              {
-                "query_string": {
-                  "query": "YYY",
-                  "fields": [
-                    "birthDateString",
-                    "companyName",
-                    "companyRegNo",
-                    "crRefNo",
-                    "crType",
-                    "firstName",
-                    "lastName",
-                    "orderRefNo",
-                    "status",
-                    "products.serviceId",
-                    "products.phoneNumber",
-                    "products.imsi",
-                    "products.serialNumber",
-                    "products.status"
-                  ]
-                }
-              }
-            ]
-          }
-        }
-      }
+      "birthDateString" :{},
+      "companyName" :{},
+      "companyRegNo" :{},
+      "crRefNo" :{},
+      "crType" :{},
+      "firstName" :{},
+      "lastName" :{},
+      "orderRefNo" :{},
+      "status" :{},
+      "products.serviceId" :{},
+      "products.phoneNumber" :{},
+      "products.imsi" :{},
+      "products.serialNumber" :{},
+      "products.status" :{},
+      "crNote.note":{},
+      "products.installationAddress.buildingNo":{},
+      "products.installationAddress.city":{},
+      "products.installationAddress.cityDistrict":{},
+      "products.installationAddress.countryCode":{},
+      "products.installationAddress.crossId":{},
+      "products.installationAddress.postalCode":{},
+      "products.installationAddress.street":{},
+      "products.installationAddress.streetNo":{},
+      "contacts.userId":{},
+      "contacts.sfaId":{},
+      "contacts.firstName":{},
+      "contacts.lastName":{},
+      "contacts.email":{},
+      "contacts.phoneNumber":{},
+      "contacts.phoneNumber2":{}
     }
   }
 }
