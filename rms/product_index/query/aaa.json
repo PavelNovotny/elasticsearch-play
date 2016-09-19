@@ -1,0 +1,31 @@
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "nested": {
+            "path": "installationAddress",
+            "query": {
+              "bool": {
+                "must": [
+                  {
+                    "match": {
+                      "installationAddress.name": "blue"
+                    }
+                  },
+                  {
+                    "range": {
+                      "installationAddress.count": {
+                        "gt": 5
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}
