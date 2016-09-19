@@ -16,6 +16,7 @@
     "obligationRefNo": "{{lorem 3}}",
     "auditDate": "{{date "1900" "2000" "DD.MM.YYYY"}}",
     "birthDate": "{{date "1900" "2000" "DD.MM.YYYY"}}",
+    "birthDateString": "{{date "1950" "2000" "DD.MM.YYYY"}}",
     "birthNumber": "{{date "1900" "2000" "DDMMYYYYYYYY"}}",
     "companyRegNo": "{{int 1000000000 9999999999 }}",
     "cuRefNo":"cuRefNo{{int 1000000000 9999999999}}",

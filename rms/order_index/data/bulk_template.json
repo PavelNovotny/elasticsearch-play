@@ -36,6 +36,7 @@
       "orderId":"{{int 1000000000 9999999999}}",
       "auditDate": "{{date "1950" "2000" "DD.MM.YYYY"}}",
       "birthDate": "{{date "1950" "2000" "DD.MM.YYYY"}}",
+      "birthDateString": "{{date "1950" "2000" "DD.MM.YYYY"}}",
       "caRefNo":"{{lorem 1}}{{int 1000000000 9999999999}}",
       "companyRefNo":"{{lorem 1}}{{int 1000000000 9999999999}}",
       "createdBy": "{{firstName}}{{lastName}}",

@@ -47,6 +47,7 @@
       "uniqueId": "{{int 1000000000 9999999999}}",
       "assetRefNo": "{{int 20  1040 }}",
       "birthDate": "{{date "1950" "2000" "DD.MM.YYYY"}}",
+      "birthDateString": "{{date "1950" "2000" "DD.MM.YYYY"}}",
       "caRefNo": "{{int 20  1040 }}",
       "companyRegNo": "{{int 20  1040 }}",
       "cuRefNo":"CRN{{bulk}}_{{@index_R1}}",

@@ -84,6 +84,9 @@
       "type": "date",
       "format": "dd.MM.yyyy"
     },
+    "birthDateString": {
+      "type": "string"
+    },
     "caRefNo": {
       "type": "string"
     },

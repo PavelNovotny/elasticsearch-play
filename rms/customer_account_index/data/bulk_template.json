@@ -23,8 +23,7 @@
     "individualOffer": {
       "inRefNo":"{{int 1000000000 9999999999}}",
       "status": "{{random 'Schváleno' 'Zamítnuto' 'Schváleno s připomínkou'}}",
-    }
-
+    },
     "residentalAddress": {
           "buildingNo": "{{int 100000 999999}}",
           "city": "{{city}}",
@@ -40,6 +39,7 @@
     "billingPeriod": "{{int 1000000000 9999999999}}",
     "billingSpecificType": "{{lorem 3}}",
     "birthDate": "{{date "1950" "2000" "DD.MM.YYYY"}}",
+    "birthDateString": "{{date "1950" "2000" "DD.MM.YYYY"}}",
     "caRefNo":"caRefNo{{int 1000000000 9999999999}}",
     "companyRegNo": "{{int 1000000000 9999999999 }}",
     "cuRefNo":"cuRefNo{{int 1000000000 9999999999}}",
