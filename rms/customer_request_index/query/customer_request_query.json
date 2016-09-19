@@ -1,27 +1,125 @@
 {
   "query": {
     "bool": {
-      "must": [
+      "must": [ //AND podminka pro všechny slova
         {
-          //jsou na adrese
-          //"product.address":["something"],
-          "nested": {
-            "path": "installationAddress",
+          "bool": {
+            "should": [  //OR podminka pro prvni slovo ve vsech typech
+              {
+                "query_string": {
+                  "query": "07.06.1971",
+                  "fields": [ //hlavní entita
+                    "birthDateString",
+                    "companyName",
+                    "companyRegNo",
+                    "crRefNo",
+                    "crType",
+                    "firstName",
+                    "lastName",
+                    "orderRefNo",
+                    "status",
+                    "products.serviceId",
+                    "products.phoneNumber",
+                    "products.imsi",
+                    "products.serialNumber",
+                    "products.status"
+                  ]
+                }
+              },
+              {
+                "nested": {
+                  "path": "products.installationAddress",
+                  "query": {
+                    "bool": {
+                      "must": [
+                        {
+                          "query_string": {
+                            "query": "07.06.1971",
+                            "fields": [
+                              "products.installationAddress.buildingNo",
+                              "products.installationAddress.city",
+                              "products.installationAddress.cityDistrict",
+                              "products.installationAddress.countryCode",
+                              "products.installationAddress.crossId",
+                              "products.installationAddress.postalCode",
+                              "products.installationAddress.street",
+                              "products.installationAddress.streetNo"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              },
+              {
+                "nested": {
+                  "path": "crNote",
+                  "query": {
+                    "bool": {
+                      "must": [
+                        {
+                          "query_string": {
+                            "query": "07.06.1971",
+                            "fields": [
+                              "crNote.note"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              },
+              {
+                "nested": {
+                  "path": "contacts",
+                  "query": {
+                    "bool": {
+                      "must": [
+                        {
+                          "query_string": {
+                            "query": "07.06.1971",
+                            "fields": [
+                              "contacts.userId",
+                              "contacts.sfaId",
+                              "contacts.firstName",
+                              "contacts.lastName",
+                              "contacts.email",
+                              "contacts.phoneNumber",
+                              "contacts.phoneNumber2"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "bool": {
+            "should": [   //OR podminka pro druhe slovo ve vsech typech
+
+            ]
+          }
+        }
+      ],
+
+      "filter":[  //filter na opravneni
+        {
+          "has_parent": {
+            "type": "customer_request_permission",
             "query": {
               "bool": {
                 "must": [
                   {
                     "query_string": {
-                      "query": "129531",
+                      "query": "x0503109",
                       "fields": [
-                        "installationAddress.buildingNo",
-                        "installationAddress.city",
-                        "installationAddress.cityDistrict",
-                        "installationAddress.countryCode",
-                        "installationAddress.crossId",
-                        "installationAddress.postalCode",
-                        "installationAddress.street",
-                        "installationAddress.streetNo"
+                        "login"
                       ]
                     }
                   }
@@ -33,9 +131,58 @@
       ]
     }
   },
-  "highlight": {
+  "highlight": { //highlight
     "fields": {
-      "*": {}
+      "*": {
+        "highlight_query": { //highlight na hlavní entitě
+          "bool": {
+            "should": [
+              {
+                "query_string": {
+                  "query": "07.06.1971",
+                  "fields": [
+                    "birthDateString",
+                    "companyName",
+                    "companyRegNo",
+                    "crRefNo",
+                    "crType",
+                    "firstName",
+                    "lastName",
+                    "orderRefNo",
+                    "status",
+                    "products.serviceId",
+                    "products.phoneNumber",
+                    "products.imsi",
+                    "products.serialNumber",
+                    "products.status"
+                  ]
+                }
+              },
+              {
+                "query_string": {
+                  "query": "YYY",
+                  "fields": [
+                    "birthDateString",
+                    "companyName",
+                    "companyRegNo",
+                    "crRefNo",
+                    "crType",
+                    "firstName",
+                    "lastName",
+                    "orderRefNo",
+                    "status",
+                    "products.serviceId",
+                    "products.phoneNumber",
+                    "products.imsi",
+                    "products.serialNumber",
+                    "products.status"
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
     }
   }
 }
