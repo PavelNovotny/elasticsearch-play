@@ -29,7 +29,7 @@
         {{/repeat}}
       ],
       "parameters": [{{#repeat 8 12}}"{{lorem 1}} = {{lorem 10}}"{{/repeat}}],
-      "phoneNumbers": {{{#repeat 0 1}}"phoneNumber": "{{phone 'xxxxxxxxx'}}"}{{/repeat}}},
+      "phoneNumber": [{{#repeat 0 1}}"{{phone 'xxxxxxxxx'}}"{{/repeat}}],
       "productFilterGroups": [{{#repeat 1 6}}"{{lorem 1}} = {{lorem 10}}"{{/repeat}}],
       "relations": [{{#repeat 0 2}}{"parentId": "{{lorem 1}}","type": "{{lorem 1}}"}{{/repeat}}],
       "residentalAddress": {
