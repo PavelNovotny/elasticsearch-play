@@ -51,7 +51,7 @@
       "companyRegNo": "{{int 20  1040 }}",
       "cuRefNo":"CRN{{bulk}}_{{@index_R1}}",
       "externalRefNo": "{{int 20  1040 }}",
-      "productCode": "{{productType}}",
+      "productCode": "{{lorem 1}}",
       "productShortDescription": "{{lorem 20}}",
       "status": "{{random 'Schváleno bez připomínek' 'Zamítnuto nevratně' 'Zamítnuto dočasně' 'Schváleno s připomínkou'}}",
       "companyName": "{{uppercase (company)}}",
@@ -76,7 +76,7 @@
         "partyId": "{{int 1000000000 9999999999}}",
         "assetRefNo": "{{int 1000000000 9999999999 }}",
         "externalRefNo": "{{int 1000000000 9999999999 }}",
-        "productCode": "{{productType}}",
+        "productCode": "{{lorem 1}}",
         "status": "{{lorem 1}}",
         "productDisplayName": "{{lorem 20}}",
         "productType":{

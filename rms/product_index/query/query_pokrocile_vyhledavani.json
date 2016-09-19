@@ -1,0 +1,268 @@
+﻿{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          //patří do třídy
+          //"product.class":["something"],
+          "query_string": {
+            "query": "Anotace",
+            "fields": [
+              "productFilterGroups"
+            ]
+          }
+        },
+        {
+          //jsou na adrese
+          //"product.address":["something"],
+          "bool": {
+            "should": [
+              {
+                //product
+                "nested": {
+                  "path": "installationAddress",
+                  "query": {
+                    "bool": {
+                      "must": [
+                        {
+                          "query_string": {
+                            "query": "1*",
+                            "fields": [
+                              "installationAddress.buildingNo",
+                              "installationAddress.city",
+                              "installationAddress.cityDistrict",
+                              "installationAddress.countryCode",
+                              "installationAddress.crossId",
+                              "installationAddress.postalCode",
+                              "installationAddress.street",
+                              "installationAddress.streetNo"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              },
+              {
+                //subproduct
+                "nested": {
+                  "path": "productType.installationAddress",
+                  "query": {
+                    "bool": {
+                      "must": [
+                        {
+                          "query_string": {
+                            "query": "1*",
+                            "fields": [
+                              "productType.installationAddress.buildingNo",
+                              "productType.installationAddress.city",
+                              "productType.installationAddress.cityDistrict",
+                              "productType.installationAddress.countryCode",
+                              "productType.installationAddress.crossId",
+                              "productType.installationAddress.postalCode",
+                              "productType.installationAddress.street",
+                              "productType.installationAddress.streetNo"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          //mají CROSS ID
+          //"product.crossId":["something"],
+          "bool": {
+            "should": [
+              {
+                //product
+                "nested": {
+                  "path": "installationAddress",
+                  "query": {
+                    "bool": {
+                      "must": [
+                        {
+                          "query_string": {
+                            "query": "j*",
+                            "fields": [
+                              "installationAddress.crossId"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              },
+              {
+                //subproduct
+                "nested": {
+                  "path": "productType.installationAddress",
+                  "query": {
+                    "bool": {
+                      "must": [
+                        {
+                          "query_string": {
+                            "query": "j*",
+                            "fields": [
+                              "productType.installationAddress.crossId"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          //mají název
+          //"product.name":["something"],
+          "query_string": {
+            "query": "n*",
+            "fields": [
+              "productDisplayName"
+            ]
+          }
+        },
+        {
+          //mají produktový kód
+          //"product.productCode":["something"],
+          "query_string": {
+            "query": "*",
+
+            "fields": [
+              "productCode"
+            ]
+          }
+        },
+        {
+          //jsou aktivní
+          //"product.status":["active"],
+          //jsou neaktivní
+          //"product.status":["inactive"],
+          //jsou dočasně odpojené
+          //"product.status":["suspend"],
+          "query_string": {
+            "query": "P*",
+
+            "fields": [
+              "status"
+            ]
+          }
+        },
+        {
+          //mají doplňkovou službu [productDisplayName na subproduktu]
+          "has_child": {
+            "type": "subproduct",
+            "query": {
+              "bool": {
+                "must": [
+                  {
+                    "query_string": {
+                      "query": "nahrabat",
+                      "fields": [
+                        "productDisplayName"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            "inner_hits": {
+              "name": "subproduct",
+              "highlight": {
+                "fields": {
+                  "productDisplayName": {
+                    "number_of_fragments": 3
+                  }
+                }
+              },
+              "from": 0,
+              "size": 1
+            }
+          }
+        },
+        {
+          //nemají doplňkovou službu [productDisplayName na subproduktu]
+          "bool": {
+            "must_not": {
+              "has_child": {
+                "type": "subproduct",
+                "query": {
+                  "bool": {
+                    "must": [
+                      {
+                        "query_string": {
+                          "query": "nahrabat",
+                          "fields": [
+                            "productDisplayName"
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          //mají parametr
+          //"product.parameterName":["something"],
+          "query_string": {
+            "query": "*cí.",
+
+            "fields": [
+              "parameters"
+            ]
+          }
+        }
+
+      ]
+    }
+  },
+  "highlight": {
+    "*": {
+      "highlight_query": {
+        "bool": {
+          "should": [
+            {
+              "query_string": {
+                "query": "3994490904",
+                //zde hledam na customerovi
+                "fields": [
+                  "installationAddress.buildingNo",
+                  "installationAddress.city",
+                  "installationAddress.cityDistrict",
+                  "installationAddress.countryCode",
+                  "installationAddress.crossId",
+                  "installationAddress.postalCode",
+                  "installationAddress.street",
+                  "installationAddress.streetNo",
+                  "productType.installationAddress.buildingNo",
+                  "productType.installationAddress.city",
+                  "productType.installationAddress.cityDistrict",
+                  "productType.installationAddress.countryCode",
+                  "productType.installationAddress.crossId",
+                  "productType.installationAddress.postalCode",
+                  "productType.installationAddress.street",
+                  "productType.installationAddress.streetNo",
+                  "productDisplayName",
+                  "parameters"
+                ]
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}
