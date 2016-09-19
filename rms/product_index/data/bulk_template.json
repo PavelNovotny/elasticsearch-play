@@ -10,7 +10,10 @@
 
     {
       "cvop": [{{#repeat 0 2}}"{{int 1000000000 9999999999}}"{{/repeat}}],
-      "inRefNo": [{{#repeat 1 3}}"{{int 1000000000 9999999999}} {{lorem 1}}"{{/repeat}}],
+      "individualOffer": {
+        "inRefNo":"{{int 1000000000 9999999999}}",
+        "status": "{{random 'Schváleno' 'Zamítnuto' 'Schváleno s připomínkou'}}"
+      },
       "installationAddress": [
         {{#repeat 0 2}}
           {

@@ -1,5 +1,5 @@
 {
-  "took": 49,
+  "took": 3,
   "timed_out": false,
   "_shards": {
     "total": 4,
@@ -7,79 +7,81 @@
     "failed": 0
   },
   "hits": {
-    "total": 900000,
+    "total": 252310,
     "max_score": 1,
     "hits": [
       {
         "_index": "payment_document_index_rif",
         "_type": "payment_document",
-        "_id": "PAY_DOC_39_7_0",
+        "_id": "PAY_DOC_4_10_0",
         "_score": 1,
-        "_routing": "PERM_39_7",
-        "_parent": "PERM_39_7",
+        "_routing": "PERM_4_10",
+        "_parent": "PERM_4_10",
         "_source": {
           "deliveryAddress": {
-            "buildingNo": "713553",
-            "city": "Slatinice",
-            "cityDistrict": "Zvěrotice",
-            "countryCode": "GI",
-            "crossId": "emília.břeňová@dynalab.info",
-            "postalCode": "04436",
-            "street": "J. E. PURKYNĚ",
-            "streetNo": "974767"
+            "buildingNo": "530872",
+            "city": "Obrubce",
+            "cityDistrict": "Hrachoviště",
+            "countryCode": "ZW",
+            "crossId": "svatava.boháčová@airconix.me",
+            "postalCode": "09666",
+            "street": "NA KRÁLOVKÁCH",
+            "streetNo": "961077"
           },
           "deliveryEmail": [
-            "kristián.dopita@vtgrafix.co"
+            "karolína.barák@cryosoft.club"
           ],
-          "amount": "37286.73 ",
-          "auditDate": "02.08.1982",
-          "documentId": "3998635299",
-          "birthDate": "12.01.1944",
-          "caRefNo": "cuRefNo9083192946",
-          "companyRegNo": "7786925531",
-          "cuRefNo": "cuRefNo8533488222",
-          "documentType": "Business",
+          "amount": "59522.41 ",
+          "auditDate": "28.01.1946",
+          "documentId": "6767555236",
+          "birthDate": "23.03.1910",
+          "caRefNo": "cuRefNo5236094169",
+          "companyRegNo": "2434843556",
+          "cuRefNo": "cuRefNo3892132024",
+          "documentType": "Foreigner",
           "status": "Schváleno s připomínkou",
-          "variableSymbol": "4774361670",
-          "companyName": "VTGRAFIX",
-          "firstName": "KRISTIÁN",
-          "lastName": "DOPITA"
+          "variableSymbol": "5434405397",
+          "companyName": "CRYOSOFT",
+          "firstName": "KAROLÍNA",
+          "lastName": "BARÁK"
         }
       },
       {
         "_index": "payment_document_index_rif",
         "_type": "payment_document",
-        "_id": "PAY_DOC_39_7_1",
+        "_id": "PAY_DOC_4_10_1",
         "_score": 1,
-        "_routing": "PERM_39_7",
-        "_parent": "PERM_39_7",
+        "_routing": "PERM_4_10",
+        "_parent": "PERM_4_10",
         "_source": {
           "deliveryAddress": {
-            "buildingNo": "880940",
-            "city": "Branžež",
-            "cityDistrict": "Stradouň",
-            "countryCode": "TJ",
-            "crossId": "cyril.brychta@xenosys.club",
-            "postalCode": "67418",
-            "street": "NA SLAVÍKOVĚ",
-            "streetNo": "815275"
+            "buildingNo": "911425",
+            "city": "Kunín",
+            "cityDistrict": "Hradčany",
+            "countryCode": "PT",
+            "crossId": "ladislava.čiháková@coolinga.mobi",
+            "postalCode": "47109",
+            "street": "ŽEBRÁKOVA",
+            "streetNo": "318934"
           },
           "deliveryEmail": [
-            "lukáš.brynda@terrasys.xyz"
+            "valérie.bystřická@sixtysix.club",
+            "irina.farkaš@opticast.com",
+            "anna-marie.baranová@haltheon.edu"
           ],
-          "amount": "38015.590000000004 ",
-          "auditDate": "06.11.1924",
-          "documentId": "8648740605",
-          "birthDate": "20.01.1985",
-          "caRefNo": "cuRefNo6007326146",
-          "companyRegNo": "2677257748",
-          "cuRefNo": "cuRefNo8426385769",
+          "amount": "46085.950000000004 ",
+          "auditDate": "04.08.1957",
+          "documentId": "9199437646",
+          "birthDate": "02.06.1986",
+          "caRefNo": "cuRefNo4415957592",
+          "companyRegNo": "8239354473",
+          "cuRefNo": "cuRefNo4874070484",
           "documentType": "Business",
-          "status": "Schváleno s připomínkou",
-          "variableSymbol": "6856073434",
-          "companyName": "TERRASYS",
-          "firstName": "LUKÁŠ",
-          "lastName": "BRYNDA"
+          "status": "Schváleno",
+          "variableSymbol": "9524916309",
+          "companyName": "HALTHEON",
+          "firstName": "ANNA-MARIE",
+          "lastName": "BARANOVÁ"
         }
       }
     ]

@@ -96,6 +96,17 @@
         }
       }
     },
+    "individualOffer": {
+      "type": "object",
+      "properties": {
+        "inRefNo": {
+          "type": "string"
+        },
+        "status": {
+          "type": "string"
+        }
+      }
+    },
     //subproduct child
 
     //noindex
@@ -119,9 +130,6 @@
 
     //exact
     "cvop": {
-      "type": "string"
-    },
-    "inRefNo": {
       "type": "string"
     },
     "assetRefNo": {
