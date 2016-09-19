@@ -1,0 +1,42 @@
+{
+  "general.gui":"4-3-1",
+  //alespon jeden z nasledujicich loginu je povinny
+  "general.login_external":"x0503899",
+  "general.login_internal":"ra123456",
+  //default je 1, kdyz nebude poslano
+  "general.page":"1",
+  //default je 10, kdyz nebude poslano
+  "general.size":"10",
+  "general.searchStrings": ["Praha", "Novák"],
+  //default je false
+  "general.only_active":true,
+
+  //patří do třídy [productFilterGroups.key]
+  "product.class":["something"],
+  //jsou na adrese  [instalacni adresa]
+  "product.address":["something"],
+  //mají CROSS ID [crossId z jake adresy,instalacni adresa]
+  "product.crossId":["something"],
+  //mají název  [productDisplayName]
+  "product.name":["something"],
+  //mají produktový kód
+  "product.productCode":["something"],
+  //jsou aktivní
+  "product.status":["active"],
+  //jsou neaktivní
+  "product.status":["inactive"],
+  //jsou dočasně odpojené
+  "product.status":["suspend"],
+  //mají doplňkovou službu [productDisplayName na subproduktu]
+  "product.hasSupplementalName":["something"],
+  //nemají doplňkovou službu<
+  "product.hasNotSupplementalName":["something"],
+  //mají aktivní
+  "product.hasActive":["something"],
+  //mají neaktivní
+  "product.hasInactive":["something"],
+  //mají parametr
+  "product.parameterName":["something"],
+  //mají parametr s hodnotou
+  "product.paameterValue":["something"]
+}
