@@ -20,6 +20,11 @@
           "bankCode": "{{uppercase ( lorem 1)}}",
           "debitLimit": "{{int 1000000 9999999}}"
     },
+    "individualOffer": {
+      "inRefNo":"{{int 1000000000 9999999999}}",
+      "status": "{{random 'Schváleno' 'Zamítnuto' 'Schváleno s připomínkou'}}",
+    }
+
     "residentalAddress": {
           "buildingNo": "{{int 100000 999999}}",
           "city": "{{city}}",
@@ -83,15 +88,6 @@
 
   {{/repeat}}  
 
-  {{#repeat 1 comma=false}}
-
-    {"index":{"_id":"IND_OFF_{{bulk}}_{{@index_R1}}_{{@index}}","_type":"individual_offer","_index":"customer_account_index_rif","_parent":"CUST_{{bulk}}_{{@index_R1}}"}}
-
-    {
-      "inRefNo":[{{#repeat 1 3}}"{{int 1000000000 9999999999}}"{{/repeat}}]
-    }
-
-  {{/repeat}}
 
   {{#repeat 2 8 comma=false}}
 

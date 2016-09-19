@@ -100,20 +100,20 @@
 
     //noindex
     "assetId": {
-      "type": "long"
+      "type": "string"
     },
     "auditDate": {
       "type": "date",
       "format": "dd.MM.yyyy"
     },
     "partyId": {
-      "type": "long"
+      "type": "string"
     },
     "productCategory": {
       "type": "string"
     },
     "uniqueId": {
-      "type": "long"
+      "type": "string"
     },
 
 

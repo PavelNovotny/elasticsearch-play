@@ -73,7 +73,7 @@
       "type": "string"
     },
     "orderId": {
-      "type": "long"
+      "type": "string"
     },
     "auditDate": {
       "type": "date",

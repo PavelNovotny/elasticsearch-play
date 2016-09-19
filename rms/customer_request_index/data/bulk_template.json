@@ -20,7 +20,6 @@
           "streetNo": "{{int 100000 999999}}"
       },
       "products": [
-        {{#repeat 1 7}}
           {
             "assetId": "{{int 100000000 999999999}}",
             "assetRefNo": "{{int 100000000 999999999}}",
@@ -43,7 +42,6 @@
                 {{/repeat}}
               ]
           }
-        {{/repeat}}
       ],
       "contacts": [
         {{#repeat 1 3}}
