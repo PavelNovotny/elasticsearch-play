@@ -42,7 +42,7 @@
             "street": "{{street}}",
             "streetNo": "{{int 100000 999999}}"
           },
-      "serviceIds": {{{#repeat 0 1}}"serviceId": "{{lorem 3}}"{{/repeat}}},
+      "serviceIds": [{{#repeat 0 1}}"{{lorem 3}}"{{/repeat}}],
       "assetId": "{{int 1000000000 9999999999}}",
       "auditDate": "{{date "1950" "2000" "DD.MM.YYYY"}}",
       "partyId": "{{int 1000000000 9999999999}}",
