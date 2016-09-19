@@ -1,5 +1,5 @@
 {
-  "took": 2,
+  "took": 3,
   "timed_out": false,
   "_shards": {
     "total": 4,
@@ -7,77 +7,172 @@
     "failed": 0
   },
   "hits": {
-    "total": 208,
+    "total": 100019,
     "max_score": 1,
     "hits": [
       {
         "_index": "customer_request_index_rif",
         "_type": "customer_request",
-        "_id": "CUST_REQ_5_0_0",
+        "_id": "CUST_REQ_16_1_0",
         "_score": 1,
-        "_routing": "PERM_5_0",
-        "_parent": "PERM_5_0",
+        "_routing": "PERM_16_1",
+        "_parent": "PERM_16_1",
         "_source": {
           "residentalAddress": {
-            "buildingNo": "179629",
-            "city": "ŘíčkyvOrlickýchhorách",
-            "cityDistrict": "NováŘíše",
-            "countryCode": "PH",
-            "crossId": "aurelie.fridrichová@eluxa.eu",
-            "postalCode": "33516",
-            "street": "DAČICKÉHO",
-            "streetNo": "477674"
+            "buildingNo": "257569",
+            "city": "MaláVrbka",
+            "cityDistrict": "Lnáře",
+            "countryCode": "DE",
+            "crossId": "charlotte.čepová@templatek.mobi",
+            "postalCode": "43068",
+            "street": "ÚNOROVÁ",
+            "streetNo": "242592"
           },
           "products": [
             {
-              "imsi": "565638617",
-              "phoneNumber": "716834418",
-              "serialNumber": "610148244",
-              "serviceId": "922778242",
+              "assetId": "977961039",
+              "assetRefNo": "430425933",
+              "imsi": "775223456",
+              "phoneNumber": "069851688",
+              "serialNumber": "404144558",
+              "serviceId": "218424245",
+              "installationAddress": []
+            }
+          ],
+          "contacts": [
+            {
+              "auditDate": "16.06.1932",
+              "firstName": "BLANKA",
+              "lastName": "FRIČ",
+              "contactId": "9880813447",
+              "sfaId": "7736247734",
+              "email": "blanka.frič@qualcore.org",
+              "phoneNumber": "746554636",
+              "phoneNumber2": "215737293",
+              "cuRefNo": "ID9418166800"
+            },
+            {
+              "auditDate": "04.04.1923",
+              "firstName": "KAREL",
+              "lastName": "BREJCHA",
+              "contactId": "2919820409",
+              "sfaId": "9352344132",
+              "email": "karel.brejcha@protheon.edu",
+              "phoneNumber": "958493256",
+              "phoneNumber2": "235440510",
+              "cuRefNo": "ID4494099900"
+            },
+            {
+              "auditDate": "05.08.1983",
+              "firstName": "ROBERT",
+              "lastName": "FIKAR",
+              "contactId": "5206247044",
+              "sfaId": "8170234066",
+              "email": "robert.fikar@amsquare.mobi",
+              "phoneNumber": "718639917",
+              "phoneNumber2": "644279158",
+              "cuRefNo": "ID8923381279"
+            }
+          ],
+          "crNote": [
+            {
+              "note": "©kodův ©ichtař zhášedlo vyboření olej. Favorizovávat příjemnější buldozeristův vyvětraný nastříhat. Irka teoretičtější horkovod karlovarský mřížovina lišáček kanáří. Pastelka strádavý dumka dokousaný, argumentační gombík prohníst svědčte. Turův závorovací Kalaš Jirman. Prokreslovat daňový podskákáno iontoměnič. Plnovýznamový skalár penicilínka odpichovat. Pernatý pavoukův vestavba šacovat, přispání rozbíhaný dialektický oklahomský škarohlíd Gajdův agregace splout dvaadvacetimilionový oduševnění vynalézat bělčický zkomercializování Bobkův feromonový polarizování mazurka resektovat podzimkový vymodelování. Mhouřit metalurgický spoluorganizovaný poučovatel, vypustitelnější partner anarchický Lazarjanová akustičtější koncipování polykarbonátový příživníkův pyramidka. Lajdácký spojnicový krasojezdec zakladatelčin, doprovokovávání Kajsrová slap štikovitý porosení. Zaujal takový dlaždice bráhman. Anisotropní vesmír převedl zabalovaný. Přemazaný rujnovaný vytříbení hoferka nažehlení hitlerovec, zřetězený zmocněnec autoslužba."
+            },
+            {
+              "note": "Selankovitý masochistka útorový vzkazatelnější stěžující oznamovávaný narašený milostpánův Semirád, znovuvytváření skoncovaný nasáknutí Kamlejnkův ambasador Kalous zhuš»ování stát kosmetička handicapový panákovitější. Ostouzeččin psát nalhat hrabanější fosilní odkolébávání. Přetečení přechovávaný krásněveský výslužba Ekvádořanka, homomorfní zaspat čáka větvený přitakací zhotovitel farštější natrhanější posvačený. Odstřeďování odtečení aktualizující nahřešený, potiskovaný přesouvat všerozhodující střádaný Karlíčkův, šedesátikilový zúrodňovat triga prohledávač našukaný odchytový. Empírový nošený případ Průšová Tomečkův. Vlkanovský podcházenější avokádo zhodnocovat jalovička etherový, primátorský usurpování vázánější Česákův, prosmyknutí Slivkův svožený novorománský Řehuřek. Spékavý proklábosení velestát rašplovat odsunutý rostbíf. Sedmdesátníkův prachuvzdorný vyváznout diskontní. Dujkův stafylokok psychotanec cizáčtější zapaspartovaný ojetější věr Samšín dialektolog sekundán dohlodávání vyhubení. Narušený sva»ák děsuplnější."
+            }
+          ],
+          "auditDate": "03.02.1994",
+          "caRefNo": "caRefNo6755136597",
+          "crId": "2678523545",
+          "cuRefNo": "cuRefNo1969043457",
+          "birthDate": "29.08.1989",
+          "birthDateString": "01.02.1955",
+          "companyRegNo": "3822236415",
+          "crRefNo": "6444636385",
+          "crType": "Zájem pisátko isotopie.",
+          "orderRefNo": "2018873626",
+          "status": "Schváleno",
+          "companyName": "ACOUSTICOM",
+          "firstName": "DAVID",
+          "lastName": "FOREJTOVÁ"
+        }
+      },
+      {
+        "_index": "customer_request_index_rif",
+        "_type": "customer_request",
+        "_id": "CUST_REQ_16_1_1",
+        "_score": 1,
+        "_routing": "PERM_16_1",
+        "_parent": "PERM_16_1",
+        "_source": {
+          "residentalAddress": {
+            "buildingNo": "290969",
+            "city": "Oloví",
+            "cityDistrict": "Prasklice",
+            "countryCode": "IQ",
+            "crossId": "michelle.čermáková@proline.club",
+            "postalCode": "99575",
+            "street": "PODBĚLOVÁ",
+            "streetNo": "987517"
+          },
+          "products": [
+            {
+              "assetId": "587863022",
+              "assetRefNo": "239085538",
+              "imsi": "345952747",
+              "phoneNumber": "211037428",
+              "serialNumber": "524300251",
+              "serviceId": "515889505",
               "installationAddress": [
                 {
-                  "buildingNo": "1787",
-                  "city": "Kájov",
-                  "cityDistrict": "Bohdašín",
-                  "countryCode": "KI",
-                  "crossId": "caroline.dittrich@maxcast.xyz",
-                  "postalCode": "84723",
-                  "street": "FLÁJSKÁ",
-                  "streetNo": "939"
+                  "buildingNo": "31",
+                  "city": "Babice",
+                  "cityDistrict": "Martinice",
+                  "countryCode": "MM",
+                  "crossId": "radislav.brožíková@sealine.com",
+                  "postalCode": "13806",
+                  "street": "TRNKOVÁ",
+                  "streetNo": "51"
                 }
               ]
             }
           ],
           "contacts": [
             {
-              "auditDate": "23.05.1950",
-              "firstName": "TAŤJANA",
-              "lastName": "FRÝDOVÁ",
-              "contactId": "9102564822",
-              "sfaId": "6662224855",
-              "email": "taťjana.frýdová@truext.name",
-              "phoneNumber": "691058682",
-              "phoneNumber2": "701269171",
-              "cuRefNo": "ID1291428799"
+              "auditDate": "06.02.1925",
+              "firstName": "ZDENĚK",
+              "lastName": "FORMÁNKOVÁ",
+              "contactId": "6120151308",
+              "sfaId": "8386712542",
+              "email": "zdeněk.formánková@qualcore.co",
+              "phoneNumber": "825306272",
+              "phoneNumber2": "856977125",
+              "cuRefNo": "ID2431933498"
             }
           ],
           "crNote": [
             {
-              "note": "Vlnobití zkrystalizovaný státnictví svěšený vekslovat"
+              "note": "©miřákův kližka Hume prostudovávavanější hodnostářka. Protihlukový rozlučkový trouchnivějící trimovat. Obtloukávanější loajalistčin axiomatizovaný proúčtovávaný jelenovitý trpký čtyrčlenný hrozivější podetnout kmenosloví, ©krdlovice octění ©pičák odbojář duplikování. Multidimenzionální Tučková uschovací onanující histogram karma viněný poštěkávat dovolovávání. Myš sípaný čnět Kazdův vysnívání chlebodárce, Vladislavův závitořezný přetěsnění ztřeštěnější osvědčte skandalisovaný Roubalová. Autodesenzibilizační prohlašovat prokuratura voluntaristčin Veisová zamatlávat. Rozkrádačův špulit spojenka přísnější. Africký chapadlovitý Hájková pro»apat klenba. Zatuchnutí Ungerová zatuchnutí Fujer Holýšov. Odkazovací rozvádějící zpozitivnit levicovější. Brankářský rozpářou trůnní ústřižek agmatitový přeměřenější emailérův kongruální. Schizofrenický Stezka uhodit antimilitaristka vpochodování rozvodový vysprávka náledí přilézat bombírovat loupnout Blahoudek odhlučňující anexe. Obtahovaný hybridový básníkův singularista, Kohlíčková rozorávání těstový vyřešený."
+            },
+            {
+              "note": "Usekaný napletý překrytý ochucování oznamovatelčin říjiště. Vlomení porýní zlíbání charakterologický praštit, nadrápat přesuvnější primitivizující přehlodávat patičkovaný Balmerův novoromantičtější skočec rychlorazičův landfrýdův robotický moučnatější volnomyšlenkářský prosáknutí avenue zkracovat. Leitmotiv přislíbení dobyvatelův mějme, zaslzet limnologie šamanistka důvěřování. Vápnit cetenovský zákonitější Meierová brzdový přetiskování Michalovič, utopističtější Ta»ánin podvozkový kůrovec. Chválová šatnový dratev gumovka poprivatizační znovuzbudovávaný. Ztopení imunologův fez sestrkávat. Komentář multiplatformní vyús»ovaný Deylová křestní zkřehnutý. Zneprůchodnit vytěžovací Kroutilová proteplování Braunův zapůsobit Neumajer vkusnější balička intonace. Vyhladověný mašlovačka kaolinitový ukecat Reisiegel. Ušpiněnější hlasistčin jednocestný jamující manželka epikatechin zápřež zčernaný, přišívání signalisovaný obdarovávaný stoosmdesátistránkový. Beníšková veskákanější slovníkářka otupit metaolovičitan, závažnější uhýbavý kotník tradující hvězdolet plnič."
             }
           ],
-          "auditDate": "26.02.1959",
-          "caRefNo": "CARN8704636283",
-          "crId": "8562113160",
-          "cuRefNo": "cuRefNo5552930430",
-          "birthDate": "17.08.1951",
-          "companyRegNo": "5177525447",
-          "crType": "Zchvácení vřelý nastolovaný.",
-          "orderRefNo": "3630749340",
-          "status": "Zamítnuto",
-          "company": "BRITECH",
-          "firstName": "ALEXANDRA",
-          "lastName": "DUCHOŇOVÁ"
+          "auditDate": "28.04.1967",
+          "caRefNo": "caRefNo7366281065",
+          "crId": "3185665291",
+          "cuRefNo": "cuRefNo2826980923",
+          "birthDate": "17.04.1994",
+          "birthDateString": "30.04.1983",
+          "companyRegNo": "6133354304",
+          "crRefNo": "7185586775",
+          "crType": "Budovaný kvílení normálnější.",
+          "orderRefNo": "8009940340",
+          "status": "Schváleno s připomínkou",
+          "companyName": "LOOPSYS",
+          "firstName": "JESSICA",
+          "lastName": "BOROVIČKOVÁ"
         }
       }
     ]
