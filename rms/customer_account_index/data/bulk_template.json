@@ -22,7 +22,7 @@
     },
     "individualOffer": {
       "inRefNo":"{{int 1000000000 9999999999}}",
-      "status": "{{random 'Schváleno' 'Zamítnuto' 'Schváleno s připomínkou'}}",
+      "status": "{{random 'Schváleno' 'Zamítnuto' 'Schváleno s připomínkou'}}"
     },
     "residentalAddress": {
           "buildingNo": "{{int 100000 999999}}",
