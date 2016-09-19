@@ -1,0 +1,122 @@
+{
+  "took": 20,
+  "timed_out": false,
+  "_shards": {
+    "total": 4,
+    "successful": 4,
+    "failed": 0
+  },
+  "hits": {
+    "total": 1,
+    "max_score": 1.039181,
+    "hits": [
+      {
+        "_index": "customer_index_rif",
+        "_type": "customer",
+        "_id": "CUST_38_499",
+        "_score": 1.039181,
+        "_source": {
+          "residentalAddress": {
+            "buildingNo": "496532",
+            "city": "Štěchovice",
+            "cityDistrict": "Okříšky",
+            "countryCode": "TG",
+            "crossId": "josef.bártková@thermolock.org",
+            "postalCode": "29208",
+            "street": "MASARYKOVO NÁMĚSTÍ",
+            "streetNo": "552253"
+          },
+          "obligationRefNo": "Nehorázní manikér bezvětrnější.",
+          "auditDate": "15.12.1951",
+          "birthDate": "23.09.1941",
+          "birthNumber": "190119801980",
+          "companyRegNo": "2533395941",
+          "cuRefNo": "cuRefNo8183087595",
+          "customerType": "Business",
+          "identityDocumentID": "OP4637036570",
+          "segment": "SEGMENT6643049549",
+          "sfaId": "5643674825",
+          "taxRegNo": "4372738308",
+          "companyName": "THERMOLOCK",
+          "firstName": "JOSEF",
+          "lastName": "BÁRTKOVÁ"
+        },
+        "highlight": {
+          "firstName": [
+            "<em>JOSEF</em>"
+          ]
+        },
+        "inner_hits": {
+          "payment_document": {
+            "hits": {
+              "total": 1,
+              "max_score": 9.369725,
+              "hits": [
+                {
+                  "_index": "customer_index_rif",
+                  "_type": "payment_document",
+                  "_id": "PAY_DOC_38_499_1",
+                  "_score": 9.369725,
+                  "_routing": "CUST_38_499",
+                  "_parent": "CUST_38_499",
+                  "_source": {
+                    "variableSymbol": [
+                      "3994490904",
+                      "4327900369",
+                      "6993432691",
+                      "3190425268",
+                      "2285818630",
+                      "1429773906",
+                      "2565268024",
+                      "7230155378",
+                      "3452650968",
+                      "6926321117",
+                      "1051764375",
+                      "5879630473",
+                      "6741189830",
+                      "6073006522",
+                      "7008386587"
+                    ]
+                  },
+                  "highlight": {
+                    "variableSymbol": [
+                      "<em>3994490904</em>"
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "product": {
+            "hits": {
+              "total": 0,
+              "max_score": null,
+              "hits": []
+            }
+          },
+          "customer_request": {
+            "hits": {
+              "total": 0,
+              "max_score": null,
+              "hits": []
+            }
+          },
+          "customer_permission": {
+            "hits": {
+              "total": 0,
+              "max_score": null,
+              "hits": []
+            }
+          },
+          "order": {
+            "hits": {
+              "total": 0,
+              "max_score": null,
+              "hits": []
+            }
+          }
+        }
+      }
+    ]
+  }
+}

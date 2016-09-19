@@ -9,7 +9,7 @@
   "general.size":"10",
   "general.searchStrings": ["Praha", "Novák"],
   //default je false
-  "general.only_active":true,
+  "general.show_inactive":true,
 
   //patří do třídy [productFilterGroups.key]
   "product.class":["something"],
@@ -38,5 +38,5 @@
   //mají parametr
   "product.parameterName":["something"],
   //mají parametr s hodnotou
-  "product.paameterValue":["something"]
+  "product.parameterValue":["something"]
 }

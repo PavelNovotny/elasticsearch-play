@@ -24,6 +24,7 @@
       "auditDate": "{{date "1900" "2000" "DD.MM.YYYY"}}",
       "documentId": "{{int 1000000000 9999999999 }}",
       "birthDate": "{{date "1900" "2000" "DD.MM.YYYY"}}",
+      "birthDateString": "{{date "1950" "2000" "DD.MM.YYYY"}}",
       "caRefNo":"cuRefNo{{int 1000000000 9999999999}}",
       "companyRegNo": "{{int 1000000000 9999999999 }}",
       "cuRefNo":"cuRefNo{{int 1000000000 9999999999}}",

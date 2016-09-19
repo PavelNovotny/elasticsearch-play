@@ -44,7 +44,7 @@
         },
         //noindex
         "assetId": {
-          "type": "long"
+          "type": "string"
         },
         "assetRefNo": {
           "type": "string"
@@ -69,10 +69,10 @@
     },
     //noindex
     "assetId": {
-      "type": "long"
+      "type": "string"
     },
     "partyId": {
-      "type": "long"
+      "type": "string"
     },
     //exact
     "cvop": {

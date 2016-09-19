@@ -69,7 +69,7 @@
       }
     },
     "products": {
-      "type": "nested",
+      "type": "object",
       "properties": {
         "installationAddress": {
           "type": "nested",
@@ -131,7 +131,7 @@
       "type": "string"
     },
     "crId": {
-      "type": "long"
+      "type": "string"
     },
     "cuRefNo": {
       "type": "string"
@@ -141,6 +141,9 @@
     "birthDate": {
       "type": "date",
       "format": "dd.MM.yyyy"
+    },
+    "birthDateString": {
+      "type": "string"
     },
     "companyRegNo": {
       "type": "string"

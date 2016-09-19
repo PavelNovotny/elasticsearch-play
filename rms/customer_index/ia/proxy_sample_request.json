@@ -9,5 +9,5 @@
   "general.size":"10",
   "general.searchStrings": ["Praha", "Novák"],
   //default je false
-  "general.only_active":true
+  "general.show_inactive":true
 }

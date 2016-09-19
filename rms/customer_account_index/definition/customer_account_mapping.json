@@ -80,6 +80,17 @@
         }
       }
     },
+    "individualOffer": {
+      "type": "object",
+      "properties": {
+        "inRefNo": {
+          "type": "string"
+        },
+        "status": {
+          "type": "string"
+        }
+      }
+    },
 
     "auditDate": {
       "type": "date",
@@ -87,9 +98,6 @@
     },
     //exact
     "deliveryEmails": {
-      "type": "string"
-    },
-    "inRefNo": {
       "type": "string"
     },
     "billingPeriod": {
@@ -101,6 +109,9 @@
     "birthDate": {
       "type": "date",
       "format": "dd.MM.yyyy"
+    },
+    "birthDateString": {
+      "type": "string"
     },
     "caRefNo": {
       "type": "string"
