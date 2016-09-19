@@ -7,7 +7,7 @@
             "should": [  //OR podminka pro prvni slovo ve vsech typech
               {
                 "query_string": {
-                  "query": "instanční",
+                  "query": "524",
                   "fields": [ //hlavní entita
                     "birthDateString",
                     "companyName",
@@ -34,7 +34,7 @@
                       "must": [
                         {
                           "query_string": {
-                            "query": "instanční",
+                            "query": "524",
                             "fields": [
                               "products.installationAddress.buildingNo",
                               "products.installationAddress.city",
@@ -50,7 +50,6 @@
                       ]
                     }
                   }
-
                 }
               },
               {
@@ -61,7 +60,7 @@
                       "must": [
                         {
                           "query_string": {
-                            "query": "instanční",
+                            "query": "524",
                             "fields": [
                               "crNote.note"
                             ]
@@ -69,17 +68,6 @@
                         }
                       ]
                     }
-                  },
-                  "inner_hits": {
-                    "highlight": {
-                      "fields": {
-                        "crNote.note": {
-                          "number_of_fragments": 3
-                        }
-                      }
-                    },
-                    "from": 0,
-                    "size": 1
                   }
                 }
               },
@@ -91,7 +79,7 @@
                       "must": [
                         {
                           "query_string": {
-                            "query": "instanční",
+                            "query": "524",
                             "fields": [
                               "contacts.userId",
                               "contacts.sfaId",
@@ -114,7 +102,194 @@
         {
           "bool": {
             "should": [   //OR podminka pro druhe slovo ve vsech typech
-
+              {
+                "query_string": {
+                  "query": "Mechanizovanější",
+                  "fields": [ //hlavní entita
+                    "birthDateString",
+                    "companyName",
+                    "companyRegNo",
+                    "crRefNo",
+                    "crType",
+                    "firstName",
+                    "lastName",
+                    "orderRefNo",
+                    "status",
+                    "products.serviceId",
+                    "products.phoneNumber",
+                    "products.imsi",
+                    "products.serialNumber",
+                    "products.status"
+                  ]
+                }
+              },
+              {
+                "nested": {
+                  "path": "products.installationAddress",
+                  "query": {
+                    "bool": {
+                      "must": [
+                        {
+                          "query_string": {
+                            "query": "Mechanizovanější",
+                            "fields": [
+                              "products.installationAddress.buildingNo",
+                              "products.installationAddress.city",
+                              "products.installationAddress.cityDistrict",
+                              "products.installationAddress.countryCode",
+                              "products.installationAddress.crossId",
+                              "products.installationAddress.postalCode",
+                              "products.installationAddress.street",
+                              "products.installationAddress.streetNo"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              },
+              {
+                "nested": {
+                  "path": "crNote",
+                  "query": {
+                    "bool": {
+                      "must": [
+                        {
+                          "query_string": {
+                            "query": "Mechanizovanější",
+                            "fields": [
+                              "crNote.note"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              },
+              {
+                "nested": {
+                  "path": "contacts",
+                  "query": {
+                    "bool": {
+                      "must": [
+                        {
+                          "query_string": {
+                            "query": "Mechanizovanější",
+                            "fields": [
+                              "contacts.userId",
+                              "contacts.sfaId",
+                              "contacts.firstName",
+                              "contacts.lastName",
+                              "contacts.email",
+                              "contacts.phoneNumber",
+                              "contacts.phoneNumber2"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "bool": {
+            "should": [   //OR podminka pro treti slovo ve vsech typech
+              {
+                "query_string": {
+                  "query": "222831212",
+                  "fields": [ //hlavní entita
+                    "birthDateString",
+                    "companyName",
+                    "companyRegNo",
+                    "crRefNo",
+                    "crType",
+                    "firstName",
+                    "lastName",
+                    "orderRefNo",
+                    "status",
+                    "products.serviceId",
+                    "products.phoneNumber",
+                    "products.imsi",
+                    "products.serialNumber",
+                    "products.status"
+                  ]
+                }
+              },
+              {
+                "nested": {
+                  "path": "products.installationAddress",
+                  "query": {
+                    "bool": {
+                      "must": [
+                        {
+                          "query_string": {
+                            "query": "222831212",
+                            "fields": [
+                              "products.installationAddress.buildingNo",
+                              "products.installationAddress.city",
+                              "products.installationAddress.cityDistrict",
+                              "products.installationAddress.countryCode",
+                              "products.installationAddress.crossId",
+                              "products.installationAddress.postalCode",
+                              "products.installationAddress.street",
+                              "products.installationAddress.streetNo"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              },
+              {
+                "nested": {
+                  "path": "crNote",
+                  "query": {
+                    "bool": {
+                      "must": [
+                        {
+                          "query_string": {
+                            "query": "222831212",
+                            "fields": [
+                              "crNote.note"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              },
+              {
+                "nested": {
+                  "path": "contacts",
+                  "query": {
+                    "bool": {
+                      "must": [
+                        {
+                          "query_string": {
+                            "query": "222831212",
+                            "fields": [
+                              "contacts.userId",
+                              "contacts.sfaId",
+                              "contacts.firstName",
+                              "contacts.lastName",
+                              "contacts.email",
+                              "contacts.phoneNumber",
+                              "contacts.phoneNumber2"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
             ]
           }
         }
@@ -151,43 +326,112 @@
             "should": [
               {
                 "query_string": {
-                  "query": "instanční",
+                  "query": "524",
                   "fields": [
-                    "birthDateString",
-                    "companyName",
-                    "companyRegNo",
-                    "crRefNo",
-                    "crType",
-                    "firstName",
-                    "lastName",
-                    "orderRefNo",
-                    "status",
-                    "products.serviceId",
-                    "products.phoneNumber",
-                    "products.imsi",
-                    "products.serialNumber",
-                    "products.status"
+                    "birthDateString" ,
+                    "companyName" ,
+                    "companyRegNo" ,
+                    "crRefNo" ,
+                    "crType" ,
+                    "firstName" ,
+                    "lastName" ,
+                    "orderRefNo" ,
+                    "status" ,
+                    "products.serviceId" ,
+                    "products.phoneNumber" ,
+                    "products.imsi" ,
+                    "products.serialNumber" ,
+                    "products.status" ,
+                    "crNote.note",
+                    "products.installationAddress.buildingNo",
+                    "products.installationAddress.city",
+                    "products.installationAddress.cityDistrict",
+                    "products.installationAddress.countryCode",
+                    "products.installationAddress.crossId",
+                    "products.installationAddress.postalCode",
+                    "products.installationAddress.street",
+                    "products.installationAddress.streetNo",
+                    "contacts.userId",
+                    "contacts.sfaId",
+                    "contacts.firstName",
+                    "contacts.lastName",
+                    "contacts.email",
+                    "contacts.phoneNumber",
+                    "contacts.phoneNumber2"
                   ]
                 }
               },
               {
                 "query_string": {
-                  "query": "YYY",
+                  "query": "Mechanizovanější",
                   "fields": [
-                    "birthDateString",
-                    "companyName",
-                    "companyRegNo",
-                    "crRefNo",
-                    "crType",
-                    "firstName",
-                    "lastName",
-                    "orderRefNo",
-                    "status",
-                    "products.serviceId",
-                    "products.phoneNumber",
-                    "products.imsi",
-                    "products.serialNumber",
-                    "products.status"
+                    "birthDateString" ,
+                    "companyName" ,
+                    "companyRegNo" ,
+                    "crRefNo" ,
+                    "crType" ,
+                    "firstName" ,
+                    "lastName" ,
+                    "orderRefNo" ,
+                    "status" ,
+                    "products.serviceId" ,
+                    "products.phoneNumber" ,
+                    "products.imsi" ,
+                    "products.serialNumber" ,
+                    "products.status" ,
+                    "crNote.note",
+                    "products.installationAddress.buildingNo",
+                    "products.installationAddress.city",
+                    "products.installationAddress.cityDistrict",
+                    "products.installationAddress.countryCode",
+                    "products.installationAddress.crossId",
+                    "products.installationAddress.postalCode",
+                    "products.installationAddress.street",
+                    "products.installationAddress.streetNo",
+                    "contacts.userId",
+                    "contacts.sfaId",
+                    "contacts.firstName",
+                    "contacts.lastName",
+                    "contacts.email",
+                    "contacts.phoneNumber",
+                    "contacts.phoneNumber2"
+                  ]
+                }
+              },
+              {
+                "query_string": {
+                  "query": "222831212",
+                  "fields": [
+                    "birthDateString" ,
+                    "companyName" ,
+                    "companyRegNo" ,
+                    "crRefNo" ,
+                    "crType" ,
+                    "firstName" ,
+                    "lastName" ,
+                    "orderRefNo" ,
+                    "status" ,
+                    "products.serviceId" ,
+                    "products.phoneNumber" ,
+                    "products.imsi" ,
+                    "products.serialNumber" ,
+                    "products.status" ,
+                    "crNote.note",
+                    "products.installationAddress.buildingNo",
+                    "products.installationAddress.city",
+                    "products.installationAddress.cityDistrict",
+                    "products.installationAddress.countryCode",
+                    "products.installationAddress.crossId",
+                    "products.installationAddress.postalCode",
+                    "products.installationAddress.street",
+                    "products.installationAddress.streetNo",
+                    "contacts.userId",
+                    "contacts.sfaId",
+                    "contacts.firstName",
+                    "contacts.lastName",
+                    "contacts.email",
+                    "contacts.phoneNumber",
+                    "contacts.phoneNumber2"
                   ]
                 }
               }
