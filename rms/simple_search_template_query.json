@@ -1,0 +1,190 @@
+//toto query slouzi jako template pro query simple searche, obsahuje
+//příklad pro dohledání na hl. entite, nested objektu, childu
+//filtr podle práv (jak na childu tak na parentovi)
+//a highlighitng.
+{
+  "query": {
+    "bool": {
+      "must": [ //AND podminka pro všechny slova
+        {
+          "bool": {
+            "should": [  //OR podminka pro prvni slovo ve vsech typech
+              {
+                "query_string": { //hlavní entita
+                  "query": "XXX",
+                  "fields": [
+                    "field1"
+                  ]
+                }
+              },
+              {
+                "nested": {
+                  "path": "nestedObject",
+                  "query": {
+                    "bool": {
+                      "must": [
+                        {
+                          "query_string": {
+                            "query": "XXX",
+                            "fields": [
+                              "nestedObject.field1"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              },
+              {
+                "has_child": {
+                  "type": "childObject",
+                  "query": {
+                    "bool": {
+                      "must": [
+                        {
+                          "query_string": {
+                            "query": "XXX",
+                            "fields": [
+                              "childField1"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "inner_hits": {
+                    "highlight": {
+                      "fields": {
+                        "*": {
+                          "number_of_fragments": 3
+                        }
+                      }
+                    },
+                    "from": 0,
+                    "size": 1
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "bool": {
+            "should": [   //OR podminka pro druhe slovo ve vsech typech
+              {
+                "query_string": { //hlavní entita
+                  "query": "XXX",
+                  "fields": [
+                    "field1"
+                  ]
+                }
+              },
+              {
+                "nested": {
+                  "path": "nestedObject",
+                  "query": {
+                    "bool": {
+                      "must": [
+                        {
+                          "query_string": {
+                            "query": "XXX",
+                            "fields": [
+                              "nestedObject.field1"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              },
+              {
+                "has_child": {
+                  "type": "childObject",
+                  "query": {
+                    "bool": {
+                      "must": [
+                        {
+                          "query_string": {
+                            "query": "XXX",
+                            "fields": [
+                              "childField1"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "inner_hits": {
+                    "name" : "unique_name_for_highlight",
+                    "highlight": {
+                      "fields": {
+                        "*": {
+                          "number_of_fragments": 3
+                        }
+                      }
+                    },
+                    "from": 0,
+                    "size": 1
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "filter":[  //filter na opravneni
+        {
+          "has_parent": { //popripade has_child, podle designu
+            "type": "ENTITA_permission",
+            "query": {
+              "bool": {
+                "must": [
+                  {
+                    "query_string": {
+                      "query": "kontrolovanyLogin",
+                      "fields": [
+                        "login"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  "highlight": { //highlight
+    "fields": {
+      "*": {
+        "highlight_query": { //highlight na hlavní entitě, flat a nested objektech
+          "bool": {
+            "should": [
+              {
+                "query_string": { //highlight pro prvni slovo
+                  "query": "XXX",
+                  "fields": [
+                    "field1",
+                    "nestedObject.field1"
+                  ]
+                }
+              },
+              {
+                "query_string": { //highlight pro druhe slovo
+                  "query": "YYY",
+                  "fields": [
+                    "field1",
+                    "nestedObject.field1"
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}
