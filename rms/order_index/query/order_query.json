@@ -1,0 +1,357 @@
+{
+  "query": {
+    "bool": {
+      "must": [ //AND podminka pro všechny slova
+        {
+          "bool": {
+            "should": [  //OR podminka pro prvni slovo ve vsech typech
+              {
+                "query_string": { //hlavní entita
+                  "query": "72973",
+                  "fields": [
+                    "cuRefNo",
+                    "caRefNo",
+                    "orderRefNo",
+                    "createdBy",
+                    "mofifiedBy",
+                    "birthDateString",
+                    "companyRegNo",
+                    "createdDateString",
+                    "status",
+                    "dealerCode",
+                    "firstName",
+                    "lastName",
+                    "companyName",
+                    "cvop", //flat
+                    "residentalAddress.crossId", //flat
+                    "residentalAddress.streeNo", //flat
+                    "residentalAddress.buildingNo", //flat
+                    "residentalAddress.postalCode", //flat
+                    "residentalAddress.countryCode", //flat
+                    "residentalAddress.street", //flat
+                    "residentalAddress.cityDistrict", //flat
+                    "residentalAddress.city" //flat
+                  ]
+                }
+              },
+              {
+                "nested": {
+                  "path": "contacts",
+                  "query": {
+                    "bool": {
+                      "must": [
+                        {
+                          "query_string": {
+                            "query": "72973",
+                            "fields": [
+                              "contacts.userId",
+                              "contacts.sfaId",
+                              "contacts.firstName",
+                              "contacts.lastName",
+                              "contacts.email",
+                              "contacts.phoneNumber",
+                              "contacts.phoneNumber2"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              },
+              {
+                "nested": {
+                  "path": "products",
+                  "query": {
+                    "bool": {
+                      "must": [
+                        {
+                          "query_string": {
+                            "query": "72973",
+                            "fields": [
+                              "products.serviceId",
+                              "products.phoneNumber",
+                              "products.imsi",
+                              "products.serialNumber",
+                              "products.status"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              },
+              {
+                "nested": {
+                  "path": "products.installationAddress",
+                  "query": {
+                    "bool": {
+                      "must": [
+                        {
+                          "query_string": {
+                            "query": "72973",
+                            "fields": [
+                              "products.installationAddress.crossId",
+                              "products.installationAddress.streetNo",
+                              "products.installationAddress.buildingNo",
+                              "products.installationAddress.postalCode",
+                              "products.installationAddress.countryCode",
+                              "products.installationAddress.street",
+                              "products.installationAddress.cityDistrict",
+                              "products.installationAddress.city"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "bool": {
+            "should": [   //OR podminka pro druhe slovo ve vsech typech
+              {
+                "query_string": { //hlavní entita
+                  "query": "847605674",
+                  "fields": [
+                    "cuRefNo",
+                    "caRefNo",
+                    "orderRefNo",
+                    "createdBy",
+                    "mofifiedBy",
+                    "birthDateString",
+                    "companyRegNo",
+                    "createdDateString",
+                    "status",
+                    "dealerCode",
+                    "firstName",
+                    "lastName",
+                    "companyName",
+                    "cvop", //flat
+                    "residentalAddress.crossId", //flat
+                    "residentalAddress.streeNo", //flat
+                    "residentalAddress.buildingNo", //flat
+                    "residentalAddress.postalCode", //flat
+                    "residentalAddress.countryCode", //flat
+                    "residentalAddress.street", //flat
+                    "residentalAddress.cityDistrict", //flat
+                    "residentalAddress.city" //flat
+                  ]
+                }
+              },
+              {
+                "nested": {
+                  "path": "contacts",
+                  "query": {
+                    "bool": {
+                      "must": [
+                        {
+                          "query_string": {
+                            "query": "847605674",
+                            "fields": [
+                              "contacts.userId",
+                              "contacts.sfaId",
+                              "contacts.firstName",
+                              "contacts.lastName",
+                              "contacts.email",
+                              "contacts.phoneNumber",
+                              "contacts.phoneNumber2"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              },
+              {
+                "nested": {
+                  "path": "products",
+                  "query": {
+                    "bool": {
+                      "must": [
+                        {
+                          "query_string": {
+                            "query": "847605674",
+                            "fields": [
+                              "products.serviceId",
+                              "products.phoneNumber",
+                              "products.imsi",
+                              "products.serialNumber",
+                              "products.status"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              },
+              {
+                "nested": {
+                  "path": "products.installationAddress",
+                  "query": {
+                    "bool": {
+                      "must": [
+                        {
+                          "query_string": {
+                            "query": "847605674",
+                            "fields": [
+                              "products.installationAddress.crossId",
+                              "products.installationAddress.streetNo",
+                              "products.installationAddress.buildingNo",
+                              "products.installationAddress.postalCode",
+                              "products.installationAddress.countryCode",
+                              "products.installationAddress.street",
+                              "products.installationAddress.cityDistrict",
+                              "products.installationAddress.city"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "filter":[  //filter na opravneni
+        {
+          "has_parent": { //popripade has_child, podle designu
+            "type": "order_permission",
+            "query": {
+              "bool": {
+                "must": [
+                  {
+                    "query_string": {
+                      "query": "x0503649",
+                      "fields": [
+                        "login"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  "highlight": { //highlight
+    "fields": {
+      "*": {
+        "highlight_query": { //highlight na hlavní entitě, flat a nested objektech
+          "bool": {
+            "should": [
+              {
+                "query_string": { //highlight pro prvni slovo
+                  "query": "72973",
+                  "fields": [
+                    "cuRefNo",
+                    "caRefNo",
+                    "orderRefNo",
+                    "createdBy",
+                    "mofifiedBy",
+                    "birthDateString",
+                    "companyRegNo",
+                    "createdDateString",
+                    "status",
+                    "dealerCode",
+                    "firstName",
+                    "lastName",
+                    "companyName",
+                    "cvop", //flat
+                    "residentalAddress.crossId", //flat
+                    "residentalAddress.streeNo", //flat
+                    "residentalAddress.buildingNo", //flat
+                    "residentalAddress.postalCode", //flat
+                    "residentalAddress.countryCode", //flat
+                    "residentalAddress.street", //flat
+                    "residentalAddress.cityDistrict", //flat
+                    "residentalAddress.city", //flat
+                    "contacts.userId",
+                    "contacts.sfaId",
+                    "contacts.firstName",
+                    "contacts.lastName",
+                    "contacts.email",
+                    "contacts.phoneNumber",
+                    "contacts.phoneNumber2",
+                    "products.serviceId",
+                    "products.phoneNumber",
+                    "products.imsi",
+                    "products.serialNumber",
+                    "products.status",
+                    "products.installationAddress.crossId",
+                    "products.installationAddress.streetNo",
+                    "products.installationAddress.buildingNo",
+                    "products.installationAddress.postalCode",
+                    "products.installationAddress.countryCode",
+                    "products.installationAddress.street",
+                    "products.installationAddress.cityDistrict",
+                    "products.installationAddress.city"
+                  ]
+                }
+              },
+              {
+                "query_string": { //highlight pro druhe slovo
+                  "query": "847605674",
+                  "fields": [
+                    "cuRefNo",
+                    "caRefNo",
+                    "orderRefNo",
+                    "createdBy",
+                    "mofifiedBy",
+                    "birthDateString",
+                    "companyRegNo",
+                    "createdDateString",
+                    "status",
+                    "dealerCode",
+                    "firstName",
+                    "lastName",
+                    "companyName",
+                    "cvop", //flat
+                    "residentalAddress.crossId", //flat
+                    "residentalAddress.streeNo", //flat
+                    "residentalAddress.buildingNo", //flat
+                    "residentalAddress.postalCode", //flat
+                    "residentalAddress.countryCode", //flat
+                    "residentalAddress.street", //flat
+                    "residentalAddress.cityDistrict", //flat
+                    "residentalAddress.city", //flat
+                    "contacts.userId",
+                    "contacts.sfaId",
+                    "contacts.firstName",
+                    "contacts.lastName",
+                    "contacts.email",
+                    "contacts.phoneNumber",
+                    "contacts.phoneNumber2",
+                    "products.serviceId",
+                    "products.phoneNumber",
+                    "products.imsi",
+                    "products.serialNumber",
+                    "products.status",
+                    "products.installationAddress.crossId",
+                    "products.installationAddress.streetNo",
+                    "products.installationAddress.buildingNo",
+                    "products.installationAddress.postalCode",
+                    "products.installationAddress.countryCode",
+                    "products.installationAddress.street",
+                    "products.installationAddress.cityDistrict",
+                    "products.installationAddress.city"
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}
