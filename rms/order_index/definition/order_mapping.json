@@ -100,6 +100,9 @@
       "type": "date",
       "format": "dd.MM.yyyy"
     },
+    "createdDateString": {
+      "type": "string"
+    },
     "cuRefNo": {
       "type": "string"
     },

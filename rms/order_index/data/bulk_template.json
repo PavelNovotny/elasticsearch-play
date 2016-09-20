@@ -41,6 +41,7 @@
       "companyRefNo":"{{lorem 1}}{{int 1000000000 9999999999}}",
       "createdBy": "{{firstName}}{{lastName}}",
       "createdDate": "{{date "1950" "2000" "DD.MM.YYYY"}}",
+      "createdDateString": "{{date "1950" "2000" "DD.MM.YYYY"}}",
       "cuRefNo":"{{lorem 1}}{{int 1000000000 9999999999}}",
       "dealerCode":"{{lorem 3}}",
       "modifiedBy": "{{firstName}}{{lastName}}",
