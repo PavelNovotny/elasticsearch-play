@@ -100,6 +100,12 @@
             }
           }
         },
+        "assetId": {
+          "type": "string"
+        },
+        "assetRefNo": {
+          "type": "string"
+        },
         "imsi": {
           "type": "string"
         },
@@ -110,6 +116,9 @@
           "type": "string"
         },
         "serviceId": {
+          "type": "string"
+        },
+        "status": {
           "type": "string"
         }
       }

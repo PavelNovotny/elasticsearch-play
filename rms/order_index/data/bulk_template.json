@@ -33,6 +33,33 @@
             "street": "{{street}}",
             "streetNo": "{{int 100000 999999}}"
       },
+      "products": [
+        {{#repeat 2 8}}
+          {
+            "imsi": "{{int 100000000 999999999}}",
+            "phoneNumber": "{{phone 'xxxxxxxxx'}}",
+            "serialNumber": "{{int 100000000 999999999}}",
+            "serviceId": "{{int 100000000 999999999}}",
+            "assetId": "{{int 1000000000 9999999999}}",
+            "assetRefNo": "{{int 20  1040 }}",
+            "status": "{{random 'Schváleno bez připomínek' 'Zamítnuto nevratně' 'Zamítnuto dočasně' 'Schváleno s připomínkou'}}",
+            "installationAddress": [
+                {{#repeat 0 2}}
+                  {
+                    "buildingNo": "{{int 100000 999999}}",
+                    "city": "{{city}}",
+                    "cityDistrict": "{{city}}",
+                    "countryCode": "{{countryCode}}",
+                    "crossId": "{{email}}",
+                    "postalCode": "{{zipcode}}",
+                    "street": "{{street}}",
+                    "streetNo": "{{int 100000 999999}}"
+                  }
+                {{/repeat}}
+              ]
+          }
+        {{/repeat}}
+      ],      
       "orderId":"{{int 1000000000 9999999999}}",
       "auditDate": "{{date "1950" "2000" "DD.MM.YYYY"}}",
       "birthDate": "{{date "1950" "2000" "DD.MM.YYYY"}}",
@@ -53,7 +80,7 @@
       "lastName": "{{lastName}}"
     }
 
-    {{#repeat 2 8  comma=false}}
+    {{#repeat 0  comma=false}}
 
       {"index":{"_id":"PRODUCT_{{bulk}}_{{@index_R1}}_{{@index_R2}}_{{@index}}","_type":"product","_index":"order_index_rif","_parent":"ORDER_{{bulk}}_{{@index_R1}}_{{@index_R2}}"}}
 
