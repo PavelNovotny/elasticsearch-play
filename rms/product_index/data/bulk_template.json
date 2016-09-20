@@ -1,8 +1,8 @@
 {{#repeatWithId  1 'R1' comma=false}}
 
-  {"index":{"_id":"P_{{bulk}}_{{@index_R1}}_{{@index}}","_type":"product_permission","_index":"product_index_rif"}}
+  {"index":{"_id":"P_{{bulk}}_{{@index_R1}}","_type":"product_permission","_index":"product_index_rif"}}
 
-  {"login":[{{#repeat 0 100}}"x0503{{int 100  999 }}"{{/repeat}}]}
+  {"login":[{{#repeat 1 100}}"x0503{{int 100  999 }}"{{/repeat}}]}
 
   {{#repeatWithId  1 5 'R2' comma=false}}
 
