@@ -4,6 +4,7 @@
   "query": {
     "bool": {
       "must": [
+        // 1. slovo "Ráchel"
         {
           "bool": {
             "should": [
@@ -183,6 +184,190 @@
             ]
           }
         }
+        // 2.slovo
+        ,{
+          "bool": {
+            "should": [
+              {
+                "query_string": {
+                  "query": "DOONDULOVANÝ",
+                  //zde hledam na CustomerAccount
+                  "fields": [
+                    //exact
+                    "deliveryEmails", // emaily, pole
+                    "inRefNo", // čísla individuálních nabídek, pole
+                    "billingPeriod", // bill cycle
+                    "billingSpecificType", // TODO
+                    "birthDateString",  // datum narození s maskou dd.mm.yyyy
+                    "caRefNo",  // TODO
+                    "companyRegNo",  // FIXME: IČO
+                    "cuRefNo",   // TODO
+                    "paymentResponsible",  // příznak platebního účtu
+                    "paymentType",  // TODO
+                    "status",  // TODO
+                    "typeOfDeliveryInvoice", //TODO
+                    //match
+                    "companyName",  // název společnosti
+                    "customName",   // TODO
+                    "firstName",   // jméno
+                    "lastName", // příjmení
+                    // delivery address
+                    "deliveryAddress.buildingNo",
+                    "deliveryAddress.city",
+                    "deliveryAddress.cityDistrict",
+                    "deliveryAddress.countryCode",
+                    "deliveryAddress.crossId",
+                    "deliveryAddress.postalCode",
+                    "deliveryAddress.street",
+                    "deliveryAddress.streetNo",
+                    // residential address
+                    "residentalAddress.buildingNo",
+                    "residentalAddress.city",
+                    "residentalAddress.cityDistrict",
+                    "residentalAddress.countryCode",
+                    "residentalAddress.crossId",
+                    "residentalAddress.postalCode",
+                    "residentalAddress.street",
+                    "residentalAddress.streetNo",
+                    // direct debit
+                    "directDebit.bankAccount",
+                    "directDebit.bankAccountPrefix",
+                    "directDebit.bankCode",
+                    "directDebit.debitLimit"
+                  ]
+                }
+              },
+              {
+                "has_child": {
+                  "type": "product",
+                  "query": {
+                    "bool": {
+                      "must": [
+                        {
+                          "query_string": {
+                            "query": "DOONDULOVANÝ",
+                            "fields": [
+                              "serviceId",//ID služby/přípojky
+                              "imsi",//IMSI
+                              "phoneNumber",//SIM
+                              "serialNumber",//ESN
+                              "status" // TODO
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "inner_hits": {
+                    "name": "product_2",
+                    "highlight": {
+                      "fields": {
+                        "*": {
+                          "number_of_fragments": 3
+                        }
+                      }
+                    },
+                    "from": 0,
+                    "size": 1
+                  }
+                }
+              },
+              {
+                "has_child": {
+                  "type": "customer_request",
+                  "query": {
+                    "bool": {
+                      "must": [
+                        {
+                          "query_string": {
+                            "query": "DOONDULOVANÝ",
+                            "fields": [
+                              "crRefNo"  //ID PZ
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "inner_hits": {
+                    "name": "customer_request_2",
+                    "highlight": {
+                      "fields": {
+                        "crRefNo": {
+                          "number_of_fragments": 3
+                        }
+                      }
+                    },
+                    "from": 0,
+                    "size": 1
+                  }
+                }
+              },
+              {
+                "has_child": {
+                  "type": "order",
+                  "query": {
+                    "bool": {
+                      "must": [
+                        {
+                          "query_string": {
+                            "query": "DOONDULOVANÝ",
+                            "fields": [
+                              "orderRefNo"  //ID objednávky
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "inner_hits": {
+                    "name": "order_2",
+                    "highlight": {
+                      "fields": {
+                        "orderRefNo": {
+                          "number_of_fragments": 3
+                        }
+                      }
+                    },
+                    "from": 0,
+                    "size": 1
+                  }
+                }
+              },
+              {
+                "has_child": {
+                  "type": "payment_document",
+                  "query": {
+                    "bool": {
+                      "must": [
+                        {
+                          "query_string": {
+                            "query": "DOONDULOVANÝ",
+                            "fields": [
+                              "variableSymbol"  //číslo platebního dokladu
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "inner_hits": {
+                    "name": "payment_document_2",
+                    "highlight": {
+                      "fields": {
+                        "variableSymbol": {
+                          "number_of_fragments": 3
+                        }
+                      }
+                    },
+                    "from": 0,
+                    "size": 1
+                  }
+                }
+              }
+            ]
+          }
+        }
       ]
       //filtrovani na opravneni
       ,"filter":[
@@ -208,4 +393,114 @@
       ]
     }
   }
+  // zvýraznění výsledků
+,  "highlight": {
+  "fields": {
+    "*": {
+      "highlight_query": {
+        "bool": {
+          "should": [
+            {
+              "query_string": {
+                "query": "RÁCHEL",
+                //zde hledam na CustomerAccount
+                "fields": [
+                  //exact
+                  "deliveryEmails", // emaily, pole
+                  "inRefNo", // čísla individuálních nabídek, pole
+                  "billingPeriod", // bill cycle
+                  "billingSpecificType", // TODO
+                  "birthDateString",  // datum narození s maskou dd.mm.yyyy
+                  "caRefNo",  // TODO
+                  "companyRegNo",  // FIXME: IČO
+                  "cuRefNo",   // TODO
+                  "paymentResponsible",  // příznak platebního účtu
+                  "paymentType",  // TODO
+                  "status",  // TODO
+                  "typeOfDeliveryInvoice", //TODO
+                  //match
+                  "companyName",  // název společnosti
+                  "customName",   // TODO
+                  "firstName",   // jméno
+                  "lastName", // příjmení
+                  // delivery address
+                  "deliveryAddress.buildingNo",
+                  "deliveryAddress.city",
+                  "deliveryAddress.cityDistrict",
+                  "deliveryAddress.countryCode",
+                  "deliveryAddress.crossId",
+                  "deliveryAddress.postalCode",
+                  "deliveryAddress.street",
+                  "deliveryAddress.streetNo",
+                  // residential address
+                  "residentalAddress.buildingNo",
+                  "residentalAddress.city",
+                  "residentalAddress.cityDistrict",
+                  "residentalAddress.countryCode",
+                  "residentalAddress.crossId",
+                  "residentalAddress.postalCode",
+                  "residentalAddress.street",
+                  "residentalAddress.streetNo",
+                  // direct debit
+                  "directDebit.bankAccount",
+                  "directDebit.bankAccountPrefix",
+                  "directDebit.bankCode",
+                  "directDebit.debitLimit"
+                ]
+              }
+            }
+            // 2. slovo
+            ,{"query_string": {
+              "query": "DOONDULOVANÝ",
+              //zde hledam na CustomerAccount
+              "fields": [
+                //exact
+                "deliveryEmails", // emaily, pole
+                "inRefNo", // čísla individuálních nabídek, pole
+                "billingPeriod", // bill cycle
+                "billingSpecificType", // TODO
+                "birthDateString",  // datum narození s maskou dd.mm.yyyy
+                "caRefNo",  // TODO
+                "companyRegNo",  // FIXME: IČO
+                "cuRefNo",   // TODO
+                "paymentResponsible",  // příznak platebního účtu
+                "paymentType",  // TODO
+                "status",  // TODO
+                "typeOfDeliveryInvoice", //TODO
+                //match
+                "companyName",  // název společnosti
+                "customName",   // TODO
+                "firstName",   // jméno
+                "lastName", // příjmení
+                // delivery address
+                "deliveryAddress.buildingNo",
+                "deliveryAddress.city",
+                "deliveryAddress.cityDistrict",
+                "deliveryAddress.countryCode",
+                "deliveryAddress.crossId",
+                "deliveryAddress.postalCode",
+                "deliveryAddress.street",
+                "deliveryAddress.streetNo",
+                // residential address
+                "residentalAddress.buildingNo",
+                "residentalAddress.city",
+                "residentalAddress.cityDistrict",
+                "residentalAddress.countryCode",
+                "residentalAddress.crossId",
+                "residentalAddress.postalCode",
+                "residentalAddress.street",
+                "residentalAddress.streetNo",
+                // direct debit
+                "directDebit.bankAccount",
+                "directDebit.bankAccountPrefix",
+                "directDebit.bankCode",
+                "directDebit.debitLimit"
+              ]
+            }}
+          ]
+        }
+      }
+    }
+  }
+}
 }
