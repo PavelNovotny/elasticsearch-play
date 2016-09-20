@@ -1,5 +1,5 @@
 {
-  "took": 20,
+  "took": 37,
   "timed_out": false,
   "_shards": {
     "total": 4,
@@ -7,87 +7,51 @@
     "failed": 0
   },
   "hits": {
-    "total": 1,
-    "max_score": 1.039181,
+    "total": 14,
+    "max_score": 0.014980578,
     "hits": [
       {
         "_index": "customer_index_rif",
         "_type": "customer",
-        "_id": "CUST_38_499",
-        "_score": 1.039181,
+        "_id": "CUST_36_492",
+        "_score": 0.014980578,
         "_source": {
           "residentalAddress": {
-            "buildingNo": "496532",
-            "city": "Štěchovice",
-            "cityDistrict": "Okříšky",
-            "countryCode": "TG",
-            "crossId": "josef.bártková@thermolock.org",
-            "postalCode": "29208",
-            "street": "MASARYKOVO NÁMĚSTÍ",
-            "streetNo": "552253"
+            "buildingNo": "297359",
+            "city": "Bdín",
+            "cityDistrict": "NovýBor",
+            "countryCode": "KZ",
+            "crossId": "elena.fürst@opticast.edu",
+            "postalCode": "96238",
+            "street": "VALŠŮV DŮL",
+            "streetNo": "995209"
           },
-          "obligationRefNo": "Nehorázní manikér bezvětrnější.",
-          "auditDate": "15.12.1951",
-          "birthDate": "23.09.1941",
-          "birthNumber": "190119801980",
-          "companyRegNo": "2533395941",
-          "cuRefNo": "cuRefNo8183087595",
-          "customerType": "Business",
-          "identityDocumentID": "OP4637036570",
-          "segment": "SEGMENT6643049549",
-          "sfaId": "5643674825",
-          "taxRegNo": "4372738308",
-          "companyName": "THERMOLOCK",
-          "firstName": "JOSEF",
-          "lastName": "BÁRTKOVÁ"
-        },
-        "highlight": {
-          "firstName": [
-            "<em>JOSEF</em>"
-          ]
+          "frameContract": {
+            "obligationRefNo": "Zrelativizovaný kontrabasista odfrancouzštěný."
+          },
+          "auditDate": "04.03.1986",
+          "birthDate": "06.01.1927",
+          "birthNumber": "250819511951",
+          "companyRegNo": "8896721474",
+          "cuRefNo": "cuRefNo6017028007",
+          "customerType": "Foreigner",
+          "identityDocumentID": "OP6672019337",
+          "segment": "SEGMENT7326798029",
+          "sfaId": "8756699024",
+          "taxRegNo": "7697841088",
+          "companyName": "OPTICAST",
+          "firstName": "ELENA",
+          "lastName": "FÜRST"
         },
         "inner_hits": {
-          "payment_document": {
+          "product": {
             "hits": {
-              "total": 1,
-              "max_score": 9.369725,
-              "hits": [
-                {
-                  "_index": "customer_index_rif",
-                  "_type": "payment_document",
-                  "_id": "PAY_DOC_38_499_1",
-                  "_score": 9.369725,
-                  "_routing": "CUST_38_499",
-                  "_parent": "CUST_38_499",
-                  "_source": {
-                    "variableSymbol": [
-                      "3994490904",
-                      "4327900369",
-                      "6993432691",
-                      "3190425268",
-                      "2285818630",
-                      "1429773906",
-                      "2565268024",
-                      "7230155378",
-                      "3452650968",
-                      "6926321117",
-                      "1051764375",
-                      "5879630473",
-                      "6741189830",
-                      "6073006522",
-                      "7008386587"
-                    ]
-                  },
-                  "highlight": {
-                    "variableSymbol": [
-                      "<em>3994490904</em>"
-                    ]
-                  }
-                }
-              ]
+              "total": 0,
+              "max_score": null,
+              "hits": []
             }
           },
-          "product": {
+          "payment_document": {
             "hits": {
               "total": 0,
               "max_score": null,
@@ -103,9 +67,24 @@
           },
           "customer_permission": {
             "hits": {
-              "total": 0,
-              "max_score": null,
-              "hits": []
+              "total": 1,
+              "max_score": 10.716514,
+              "hits": [
+                {
+                  "_index": "customer_index_rif",
+                  "_type": "customer_permission",
+                  "_id": "CUST_PERM__36",
+                  "_score": 10.716514,
+                  "_routing": "CUST_36_492",
+                  "_parent": "CUST_36_492",
+                  "_source": {
+                    "login": [
+                      "x0503244",
+                      "x0503212"
+                    ]
+                  }
+                }
+              ]
             }
           },
           "order": {

@@ -157,10 +157,23 @@
     "companyRegNo": {
       "type": "string"
     },
+    "createdBy": {
+      "type": "string"
+    },
     "crRefNo": {
       "type": "string"
     },
     "crType": {
+      "type": "string"
+    },
+    "modified": {
+      "type": "date",
+      "format": "dd.MM.yyyy"
+    },
+    "modifiedDateString": {
+      "type": "string"
+    },
+    "modifiedBy": {
       "type": "string"
     },
     "orderRefNo": {

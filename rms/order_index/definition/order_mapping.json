@@ -164,6 +164,13 @@
     "dealerCode": {
       "type": "string"
     },
+    "modified": {
+      "type": "date",
+      "format": "dd.MM.yyyy"
+    },
+    "modifiedDateString": {
+      "type": "string"
+    },
     "modifiedBy": {
       "type": "string"
     },

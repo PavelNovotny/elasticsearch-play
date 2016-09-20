@@ -1,5 +1,5 @@
 {
-  "took": 4,
+  "took": 2,
   "timed_out": false,
   "_shards": {
     "total": 4,
@@ -7,7 +7,7 @@
     "failed": 0
   },
   "hits": {
-    "total": 48000,
+    "total": 47000,
     "max_score": 1,
     "hits": [
       {
@@ -17,114 +17,52 @@
         "_score": 1,
         "_source": {
           "deliveryAddress": {
-            "buildingNo": "629553",
-            "city": "Vřeskovice",
-            "cityDistrict": "Dobříň",
-            "countryCode": "QA",
-            "crossId": "timea.dočkal@thermolock.me",
-            "postalCode": "86000",
-            "street": "KÚTÍKY",
-            "streetNo": "823001"
+            "buildingNo": "342410",
+            "city": "Býšovec",
+            "cityDistrict": "Kozly",
+            "countryCode": "VC",
+            "crossId": "sofia.bělohlávek@quadnet.me",
+            "postalCode": "55613",
+            "street": "KARLŠTEJNSKÁ",
+            "streetNo": "101968"
           },
           "deliveryEmails": [
-            "claudia.bolek@ulogica.club",
-            "karin.bouchalová@grafixmedia.xyz"
+            "alexander.filipová@acousticom.eu"
           ],
           "directDebit": {
-            "bankAccount": "9574450805",
-            "bankAccountPrefix": "358194",
-            "bankCode": "MANDELOVÝ.",
-            "debitLimit": "1642789"
+            "bankAccount": "2909640188",
+            "bankAccountPrefix": "927164",
+            "bankCode": "NOSÁLKA.",
+            "debitLimit": "7215044"
           },
           "individualOffer": {
-            "inRefNo": "9903226450",
-            "status": "Schváleno"
+            "inRefNo": "8596670488",
+            "status": "Schváleno s připomínkou"
           },
           "residentalAddress": {
-            "buildingNo": "515147",
-            "city": "Římov",
-            "cityDistrict": "Únice",
-            "countryCode": "KI",
-            "crossId": "oĺga.frank@kancom.me",
-            "postalCode": "71670",
-            "street": "HORNÍ NÁVES",
-            "streetNo": "324800"
+            "buildingNo": "722903",
+            "city": "Lažánky",
+            "cityDistrict": "Oldřišov",
+            "countryCode": "CW",
+            "crossId": "arpád.černoch@freecast.name",
+            "postalCode": "99673",
+            "street": "NAD OVČÍRNOU I",
+            "streetNo": "923254"
           },
-          "obligationRefNo": "Huyghens zaháknutý zaskakovat.",
-          "auditDate": "17.07.1995",
-          "billingPeriod": "4948595619",
-          "billingSpecificType": "Tykvovitý Vladykův odrůst.",
-          "birthDate": "13.09.1990",
-          "birthDateString": "18.10.1994",
-          "caRefNo": "caRefNo6678353351",
-          "companyRegNo": "6065074538",
-          "cuRefNo": "cuRefNo8714774259",
-          "paymentResponsible": "OĹGA FRANK",
-          "paymentType": "Překutálení Cvachovcův zazubení.",
-          "status": "Zamítnuto",
+          "auditDate": "13.05.1977",
+          "billingPeriod": "3400910282",
+          "billingSpecificType": "Přemilý Swift hihňávat.",
+          "birthDate": "18.02.1970",
+          "caRefNo": "caRefNo3014632509",
+          "companyRegNo": "5236067705",
+          "cuRefNo": "cuRefNo1012432126",
+          "paymentResponsible": "ARPÁD ČERNOCH",
+          "paymentType": "Andrejs dolisování tělnaný.",
           "typeOfDeliveryInvoice": "PPL",
-          "companyName": "KANCOM",
-          "customName": "BENEDIKT BOUŠKOVÁ",
-          "firstName": "DIANA",
-          "lastName": "DOLEJŠÍ"
-        }
-      },
-      {
-        "_index": "customer_account_index_rif",
-        "_type": "customer_account",
-        "_id": "CUST_ACC_1_3",
-        "_score": 1,
-        "_source": {
-          "deliveryAddress": {
-            "buildingNo": "243951",
-            "city": "ModráHůrka",
-            "cityDistrict": "Ústí",
-            "countryCode": "AM",
-            "crossId": "katarina.drda@multiserv.eu",
-            "postalCode": "73443",
-            "street": "U STUDENTKY",
-            "streetNo": "880432"
-          },
-          "deliveryEmails": [
-            "bohdana.dopita@tomiatech.com"
-          ],
-          "directDebit": {
-            "bankAccount": "6084826291",
-            "bankAccountPrefix": "349532",
-            "bankCode": "UMAZÁVANÝ.",
-            "debitLimit": "3789680"
-          },
-          "individualOffer": {
-            "inRefNo": "6614218620",
-            "status": "Schváleno"
-          },
-          "residentalAddress": {
-            "buildingNo": "657407",
-            "city": "Číchov",
-            "cityDistrict": "ŽlebskéChvalovice",
-            "countryCode": "BG",
-            "crossId": "marianna.beková@sealine.club",
-            "postalCode": "47957",
-            "street": "TRŽNÍ",
-            "streetNo": "322768"
-          },
-          "obligationRefNo": "Superorganismus vysedávání durový.",
-          "auditDate": "03.01.1971",
-          "billingPeriod": "6331317119",
-          "billingSpecificType": "Oranžistčin osmanský zaktivovat.",
-          "birthDate": "21.12.1961",
-          "birthDateString": "17.03.1967",
-          "caRefNo": "caRefNo2525347228",
-          "companyRegNo": "4193162398",
-          "cuRefNo": "cuRefNo2160499610",
-          "paymentResponsible": "MARIANNA BEKOVÁ",
-          "paymentType": "Odečtení obplétání Korčákův.",
-          "status": "Zamítnuto",
-          "typeOfDeliveryInvoice": "PPL",
-          "companyName": "SEALINE",
-          "customName": "NICOLE CVEJN",
-          "firstName": "SABRINA",
-          "lastName": "FUČÍKOVÁ"
+          "companyName": "FREECAST",
+          "customName": "INGEBORG BARÁNEK",
+          "firstName": "JENIFER",
+          "lastName": "DZURKO"
         }
       }
     ]
