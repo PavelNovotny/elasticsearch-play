@@ -83,7 +83,7 @@
         "productCode": "{{lorem 1}}",
         "status": "{{lorem 1}}",
         "productDisplayName": "{{lorem 20}}",
-        "productType":{
+        "product":{
           "assetId": "{{int 1000000000 9999999999}}",
           "assetRefNo": "{{int 1000000000 9999999999}}",
           "imsi": "{{int 1000000000 9999999999}}",

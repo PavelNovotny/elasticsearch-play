@@ -10,7 +10,7 @@
     "productFilterGroups": {
       "type": "string"
     },
-    "productType": {
+    "product": {
       "type": "object",
       "properties": {
         "installationAddress": {
