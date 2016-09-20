@@ -12,6 +12,74 @@
     "hits": [
       {
         "_index": "product_index_rif",
+        "_type": "subproduct",
+        "_id": "SBPROD_4_3_0_0",
+        "_score": 1.5652475,
+        "_routing": "P_4_3",
+        "_parent": "PROD_4_3_0",
+        "_source": {
+          "cvop": [],
+          "parameters": [
+            "Šedesát. = Lyžáka vpravení Milasín sedmisetmiliónový špičákův plavečky pseudokód protičeskoslovenský rytecký perníček.",
+            "Městčin. = Přeprofilovat rozmatlat mezihostitelův termočlánkový papouškův vychovaný, vytvrzovaný Ulrychův houbařštější prádlo.",
+            "Přetransportovat. = Zabočení mocnářství pětimilionový povadání svalovčitost, vykládkovější hadice dostonal bručoun pštros.",
+            "Víceznačný. = Dundáčková nadšenčin onálepkování sezobávaný mezzosopránový amalgamovaný zřícení Koterův karosérie Kobosilová.",
+            "Promořený. = Natrhnutí doznívající pseudosocialističtější Eisenhammerův síňka obesílání, Legát plůdek patogennější proplavávání.",
+            "Straškrabová. = Ubourávaný Neprašův zdřevěnět předpokládat jednosměnný. Zletilý rozeschnout odbourat emancipovaný pozorovatel.",
+            "Příznak. = Ebonoložčin vysolenější Vratislav pětačtyřicátníkův předvolba, rekvalifikace medikamentosní stenotypistův zúročovaný nýtovat.",
+            "Smíření. = Znesváření probděnější žerzej Vlkov smrtící Vojtěchovský pětivrstvý mazající elektrifikovávaný ekonomistův.",
+            "Nastříhání. = Vývojářský narcistčin lyscův manganičný depo. Vačlenův hovící Kolder nacpávací Vrba.",
+            "Vnitro. = Mystik rozkouskovávat brebtaný překapovaný plicník. Nyvý připouštědlo ukecanější krupobití ©indelářová."
+          ],
+          "productFilterGroups": [
+            "Špagátek. = Dopáčit dušující okoukávání původkynin sveřepý zapřešívaný archiválie Smutný Lukeš Hasprův.",
+            "Splývat. = Dodefinovat diverzita prelát svolovat nitroglycerín. Ohlupování gutaperča přešlechtěný rozladit Vláďa.",
+            "Ujasňující. = Symbolistka rezervistův futurologův rozptylný přihláška, smazanější španělštinářův zeštíhlování groupwarový Sierraleoňanka.",
+            "Zremizovat. = Zlepšovanější dotahování spatlávání batracholog cenzor, poblívat adultní Čečencův vyroněný odkouknout.",
+            "Ojídávání. = Psychopedie všlehaný vicepremiér pekelnější přesívající vyháknutý. Animovaný antepréteritum filtr rázněji."
+          ],
+          "assetId": "7642494201",
+          "partyId": "8633796604",
+          "assetRefNo": "4974088537",
+          "externalRefNo": "5879575097",
+          "productCode": "Cvrkající.",
+          "status": "Pablesk.",
+          "productDisplayName": "Doklubaný rozvářený Triml olejový odepřený poplavávání genomový driftování zamořovat algebraický důležitý průchodnější trosečnice dokončovaný, tygřice protekcionalistický záletnictví svačící lihovina přespoření.",
+          "productType": {
+            "assetId": "3786141679",
+            "assetRefNo": "8205452353",
+            "imsi": "1004762658",
+            "phoneNumber": "452563135",
+            "serialNumber": "411542977",
+            "serviceId": "238368618",
+            "status": "Kluzák.",
+            "installationAddress": [
+              {
+                "buildingNo": "559566",
+                "city": "Evaň",
+                "cityDistrict": "Seč",
+                "countryCode": "CK",
+                "crossId": "inge.fléglová@fortyfour.xyz",
+                "postalCode": "15205",
+                "street": "VYSOKÁ",
+                "streetNo": "819139"
+              },
+              {
+                "buildingNo": "270810",
+                "city": "VelkéHoštice",
+                "cityDistrict": "Litohlavy",
+                "countryCode": "KE",
+                "crossId": "matylda.floriánová@polycore.eu",
+                "postalCode": "37024",
+                "street": "JANA ČERNÉHO",
+                "streetNo": "364959"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "_index": "product_index_rif",
         "_type": "product",
         "_id": "PROD_4_7_0",
         "_score": 1.5652475,
