@@ -19,7 +19,7 @@
           "street": "{{street}}",
           "streetNo": "{{int 100000 999999}}"
       },
-      "products": [
+      "product": [
           {
             "assetId": "{{int 100000000 999999999}}",
             "assetRefNo": "{{int 100000000 999999999}}",

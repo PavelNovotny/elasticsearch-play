@@ -128,9 +128,6 @@
     "paymentType": {
       "type": "string"
     },
-    "status": {
-      "type": "string"
-    },
     "typeOfDeliveryInvoice": {
       "type": "string"
     },

@@ -34,10 +34,16 @@
       }
     },
 
-    //exact
-    "obligationRefNo": {
-      "type": "string"
+    "frameContract": {
+      "type": "object",
+      "properties": {
+        "obligationRefNo": {
+          "type": "string"
+        }
+      }
     },
+
+    //exact
 /*    "email": {
       "type": "string"
     },*/

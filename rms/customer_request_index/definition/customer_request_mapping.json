@@ -68,7 +68,7 @@
         }
       }
     },
-    "products": {
+    "product": {
       "type": "object",
       "properties": {
         "installationAddress": {

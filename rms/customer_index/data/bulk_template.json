@@ -13,7 +13,9 @@
           "street": "{{street}}",
           "streetNo": "{{int 100000 999999}}"
     },
-    "obligationRefNo": "{{lorem 3}}",
+    "frameContract":{
+      "obligationRefNo": "{{lorem 3}}"
+    },
     "auditDate": "{{date "1900" "2000" "DD.MM.YYYY"}}",
     "birthDate": "{{date "1900" "2000" "DD.MM.YYYY"}}",
     "birthDateString": "{{date "1950" "2000" "DD.MM.YYYY"}}",

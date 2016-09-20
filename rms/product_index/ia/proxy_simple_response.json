@@ -1,0 +1,132 @@
+{
+  "took": 4,
+  "timed_out": false,
+  "_shards": {
+    "total": 4,
+    "successful": 4,
+    "failed": 0
+  },
+  "hits": {
+    "total": 48000,
+    "max_score": 1,
+    "hits": [
+      {
+        "_index": "customer_account_index_rif",
+        "_type": "customer_account",
+        "_id": "CUST_ACC_1_2",
+        "_score": 1,
+        "_source": {
+          "deliveryAddress": {
+            "buildingNo": "629553",
+            "city": "Vřeskovice",
+            "cityDistrict": "Dobříň",
+            "countryCode": "QA",
+            "crossId": "timea.dočkal@thermolock.me",
+            "postalCode": "86000",
+            "street": "KÚTÍKY",
+            "streetNo": "823001"
+          },
+          "deliveryEmails": [
+            "claudia.bolek@ulogica.club",
+            "karin.bouchalová@grafixmedia.xyz"
+          ],
+          "directDebit": {
+            "bankAccount": "9574450805",
+            "bankAccountPrefix": "358194",
+            "bankCode": "MANDELOVÝ.",
+            "debitLimit": "1642789"
+          },
+          "individualOffer": {
+            "inRefNo": "9903226450",
+            "status": "Schváleno"
+          },
+          "residentalAddress": {
+            "buildingNo": "515147",
+            "city": "Římov",
+            "cityDistrict": "Únice",
+            "countryCode": "KI",
+            "crossId": "oĺga.frank@kancom.me",
+            "postalCode": "71670",
+            "street": "HORNÍ NÁVES",
+            "streetNo": "324800"
+          },
+          "obligationRefNo": "Huyghens zaháknutý zaskakovat.",
+          "auditDate": "17.07.1995",
+          "billingPeriod": "4948595619",
+          "billingSpecificType": "Tykvovitý Vladykův odrůst.",
+          "birthDate": "13.09.1990",
+          "birthDateString": "18.10.1994",
+          "caRefNo": "caRefNo6678353351",
+          "companyRegNo": "6065074538",
+          "cuRefNo": "cuRefNo8714774259",
+          "paymentResponsible": "OĹGA FRANK",
+          "paymentType": "Překutálení Cvachovcův zazubení.",
+          "status": "Zamítnuto",
+          "typeOfDeliveryInvoice": "PPL",
+          "companyName": "KANCOM",
+          "customName": "BENEDIKT BOUŠKOVÁ",
+          "firstName": "DIANA",
+          "lastName": "DOLEJŠÍ"
+        }
+      },
+      {
+        "_index": "customer_account_index_rif",
+        "_type": "customer_account",
+        "_id": "CUST_ACC_1_3",
+        "_score": 1,
+        "_source": {
+          "deliveryAddress": {
+            "buildingNo": "243951",
+            "city": "ModráHůrka",
+            "cityDistrict": "Ústí",
+            "countryCode": "AM",
+            "crossId": "katarina.drda@multiserv.eu",
+            "postalCode": "73443",
+            "street": "U STUDENTKY",
+            "streetNo": "880432"
+          },
+          "deliveryEmails": [
+            "bohdana.dopita@tomiatech.com"
+          ],
+          "directDebit": {
+            "bankAccount": "6084826291",
+            "bankAccountPrefix": "349532",
+            "bankCode": "UMAZÁVANÝ.",
+            "debitLimit": "3789680"
+          },
+          "individualOffer": {
+            "inRefNo": "6614218620",
+            "status": "Schváleno"
+          },
+          "residentalAddress": {
+            "buildingNo": "657407",
+            "city": "Číchov",
+            "cityDistrict": "ŽlebskéChvalovice",
+            "countryCode": "BG",
+            "crossId": "marianna.beková@sealine.club",
+            "postalCode": "47957",
+            "street": "TRŽNÍ",
+            "streetNo": "322768"
+          },
+          "obligationRefNo": "Superorganismus vysedávání durový.",
+          "auditDate": "03.01.1971",
+          "billingPeriod": "6331317119",
+          "billingSpecificType": "Oranžistčin osmanský zaktivovat.",
+          "birthDate": "21.12.1961",
+          "birthDateString": "17.03.1967",
+          "caRefNo": "caRefNo2525347228",
+          "companyRegNo": "4193162398",
+          "cuRefNo": "cuRefNo2160499610",
+          "paymentResponsible": "MARIANNA BEKOVÁ",
+          "paymentType": "Odečtení obplétání Korčákův.",
+          "status": "Zamítnuto",
+          "typeOfDeliveryInvoice": "PPL",
+          "companyName": "SEALINE",
+          "customName": "NICOLE CVEJN",
+          "firstName": "SABRINA",
+          "lastName": "FUČÍKOVÁ"
+        }
+      }
+    ]
+  }
+}

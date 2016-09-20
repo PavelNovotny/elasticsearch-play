@@ -34,7 +34,6 @@
           "street": "{{street}}",
           "streetNo": "{{int 100000 999999}}"
     },
-    "obligationRefNo": "{{lorem 3}}",
     "auditDate": "{{date "1950" "2000" "DD.MM.YYYY"}}",
     "billingPeriod": "{{int 1000000000 9999999999}}",
     "billingSpecificType": "{{lorem 3}}",
@@ -45,7 +44,6 @@
     "cuRefNo":"cuRefNo{{int 1000000000 9999999999}}",
     "paymentResponsible": "{{firstName}} {{lastName}}",
     "paymentType": "{{lorem 3}}",
-    "status": "{{random 'Schváleno' 'Zamítnuto' 'Schváleno s připomínkou'}}",
     "typeOfDeliveryInvoice": "{{random 'česká pošta' 'PPL' 'Vyzvednout na pobočce'}}",
     "companyName": "{{uppercase (company)}}",
     "customName": "{{firstName}} {{lastName}}",

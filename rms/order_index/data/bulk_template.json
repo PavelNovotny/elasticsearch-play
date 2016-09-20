@@ -23,7 +23,7 @@
           }
         {{/repeat}}
       ],
-      "residentalAddress": {
+      "deliveryAddress": {
             "buildingNo": "{{int 100000 999999}}",
             "city": "{{city}}",
             "cityDistrict": "{{city}}",
