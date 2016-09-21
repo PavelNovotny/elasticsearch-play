@@ -18,17 +18,17 @@
                     "lastName",
                     "orderRefNo",
                     "status",
-                    "products.serviceId",
-                    "products.phoneNumber",
-                    "products.imsi",
-                    "products.serialNumber",
-                    "products.status"
+                    "product.serviceId",
+                    "product.phoneNumber",
+                    "product.imsi",
+                    "product.serialNumber",
+                    "product.status"
                   ]
                 }
               },
               {
                 "nested": {
-                  "path": "products.installationAddress",
+                  "path": "product.installationAddress",
                   "query": {
                     "bool": {
                       "must": [
@@ -36,14 +36,14 @@
                           "query_string": {
                             "query": "524",
                             "fields": [
-                              "products.installationAddress.buildingNo",
-                              "products.installationAddress.city",
-                              "products.installationAddress.cityDistrict",
-                              "products.installationAddress.countryCode",
-                              "products.installationAddress.crossId",
-                              "products.installationAddress.postalCode",
-                              "products.installationAddress.street",
-                              "products.installationAddress.streetNo"
+                              "product.installationAddress.buildingNo",
+                              "product.installationAddress.city",
+                              "product.installationAddress.cityDistrict",
+                              "product.installationAddress.countryCode",
+                              "product.installationAddress.crossId",
+                              "product.installationAddress.postalCode",
+                              "product.installationAddress.street",
+                              "product.installationAddress.streetNo"
                             ]
                           }
                         }
@@ -115,17 +115,17 @@
                     "lastName",
                     "orderRefNo",
                     "status",
-                    "products.serviceId",
-                    "products.phoneNumber",
-                    "products.imsi",
-                    "products.serialNumber",
-                    "products.status"
+                    "product.serviceId",
+                    "product.phoneNumber",
+                    "product.imsi",
+                    "product.serialNumber",
+                    "product.status"
                   ]
                 }
               },
               {
                 "nested": {
-                  "path": "products.installationAddress",
+                  "path": "product.installationAddress",
                   "query": {
                     "bool": {
                       "must": [
@@ -133,14 +133,14 @@
                           "query_string": {
                             "query": "Mechanizovanější",
                             "fields": [
-                              "products.installationAddress.buildingNo",
-                              "products.installationAddress.city",
-                              "products.installationAddress.cityDistrict",
-                              "products.installationAddress.countryCode",
-                              "products.installationAddress.crossId",
-                              "products.installationAddress.postalCode",
-                              "products.installationAddress.street",
-                              "products.installationAddress.streetNo"
+                              "product.installationAddress.buildingNo",
+                              "product.installationAddress.city",
+                              "product.installationAddress.cityDistrict",
+                              "product.installationAddress.countryCode",
+                              "product.installationAddress.crossId",
+                              "product.installationAddress.postalCode",
+                              "product.installationAddress.street",
+                              "product.installationAddress.streetNo"
                             ]
                           }
                         }
@@ -212,17 +212,17 @@
                     "lastName",
                     "orderRefNo",
                     "status",
-                    "products.serviceId",
-                    "products.phoneNumber",
-                    "products.imsi",
-                    "products.serialNumber",
-                    "products.status"
+                    "product.serviceId",
+                    "product.phoneNumber",
+                    "product.imsi",
+                    "product.serialNumber",
+                    "product.status"
                   ]
                 }
               },
               {
                 "nested": {
-                  "path": "products.installationAddress",
+                  "path": "product.installationAddress",
                   "query": {
                     "bool": {
                       "must": [
@@ -230,14 +230,14 @@
                           "query_string": {
                             "query": "222831212",
                             "fields": [
-                              "products.installationAddress.buildingNo",
-                              "products.installationAddress.city",
-                              "products.installationAddress.cityDistrict",
-                              "products.installationAddress.countryCode",
-                              "products.installationAddress.crossId",
-                              "products.installationAddress.postalCode",
-                              "products.installationAddress.street",
-                              "products.installationAddress.streetNo"
+                              "product.installationAddress.buildingNo",
+                              "product.installationAddress.city",
+                              "product.installationAddress.cityDistrict",
+                              "product.installationAddress.countryCode",
+                              "product.installationAddress.crossId",
+                              "product.installationAddress.postalCode",
+                              "product.installationAddress.street",
+                              "product.installationAddress.streetNo"
                             ]
                           }
                         }
@@ -337,20 +337,20 @@
                     "lastName" ,
                     "orderRefNo" ,
                     "status" ,
-                    "products.serviceId" ,
-                    "products.phoneNumber" ,
-                    "products.imsi" ,
-                    "products.serialNumber" ,
-                    "products.status" ,
+                    "product.serviceId" ,
+                    "product.phoneNumber" ,
+                    "product.imsi" ,
+                    "product.serialNumber" ,
+                    "product.status" ,
                     "crNote.note",
-                    "products.installationAddress.buildingNo",
-                    "products.installationAddress.city",
-                    "products.installationAddress.cityDistrict",
-                    "products.installationAddress.countryCode",
-                    "products.installationAddress.crossId",
-                    "products.installationAddress.postalCode",
-                    "products.installationAddress.street",
-                    "products.installationAddress.streetNo",
+                    "product.installationAddress.buildingNo",
+                    "product.installationAddress.city",
+                    "product.installationAddress.cityDistrict",
+                    "product.installationAddress.countryCode",
+                    "product.installationAddress.crossId",
+                    "product.installationAddress.postalCode",
+                    "product.installationAddress.street",
+                    "product.installationAddress.streetNo",
                     "contacts.userId",
                     "contacts.sfaId",
                     "contacts.firstName",
@@ -374,20 +374,20 @@
                     "lastName" ,
                     "orderRefNo" ,
                     "status" ,
-                    "products.serviceId" ,
-                    "products.phoneNumber" ,
-                    "products.imsi" ,
-                    "products.serialNumber" ,
-                    "products.status" ,
+                    "product.serviceId" ,
+                    "product.phoneNumber" ,
+                    "product.imsi" ,
+                    "product.serialNumber" ,
+                    "product.status" ,
                     "crNote.note",
-                    "products.installationAddress.buildingNo",
-                    "products.installationAddress.city",
-                    "products.installationAddress.cityDistrict",
-                    "products.installationAddress.countryCode",
-                    "products.installationAddress.crossId",
-                    "products.installationAddress.postalCode",
-                    "products.installationAddress.street",
-                    "products.installationAddress.streetNo",
+                    "product.installationAddress.buildingNo",
+                    "product.installationAddress.city",
+                    "product.installationAddress.cityDistrict",
+                    "product.installationAddress.countryCode",
+                    "product.installationAddress.crossId",
+                    "product.installationAddress.postalCode",
+                    "product.installationAddress.street",
+                    "product.installationAddress.streetNo",
                     "contacts.userId",
                     "contacts.sfaId",
                     "contacts.firstName",
@@ -411,20 +411,20 @@
                     "lastName" ,
                     "orderRefNo" ,
                     "status" ,
-                    "products.serviceId" ,
-                    "products.phoneNumber" ,
-                    "products.imsi" ,
-                    "products.serialNumber" ,
-                    "products.status" ,
+                    "product.serviceId" ,
+                    "product.phoneNumber" ,
+                    "product.imsi" ,
+                    "product.serialNumber" ,
+                    "product.status" ,
                     "crNote.note",
-                    "products.installationAddress.buildingNo",
-                    "products.installationAddress.city",
-                    "products.installationAddress.cityDistrict",
-                    "products.installationAddress.countryCode",
-                    "products.installationAddress.crossId",
-                    "products.installationAddress.postalCode",
-                    "products.installationAddress.street",
-                    "products.installationAddress.streetNo",
+                    "product.installationAddress.buildingNo",
+                    "product.installationAddress.city",
+                    "product.installationAddress.cityDistrict",
+                    "product.installationAddress.countryCode",
+                    "product.installationAddress.crossId",
+                    "product.installationAddress.postalCode",
+                    "product.installationAddress.street",
+                    "product.installationAddress.streetNo",
                     "contacts.userId",
                     "contacts.sfaId",
                     "contacts.firstName",

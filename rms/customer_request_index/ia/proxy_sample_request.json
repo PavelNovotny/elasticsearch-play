@@ -8,4 +8,6 @@
   //default je 10, kdyz nebude poslano
   "general.size":"10",
   "general.searchStrings": ["Praha", "Novák"]
+  //default je false
+  "general.show_inactive":true
 }
