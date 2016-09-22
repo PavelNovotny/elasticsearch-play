@@ -1,5 +1,5 @@
 {
-  "took": 37,
+  "took": 50,
   "timed_out": false,
   "_shards": {
     "total": 4,
@@ -8,13 +8,13 @@
   },
   "hits": {
     "total": 14,
-    "max_score": 0.014980578,
+    "max_score": 0.05992231,
     "hits": [
       {
         "_index": "customer_index_rif",
         "_type": "customer",
         "_id": "CUST_36_492",
-        "_score": 0.014980578,
+        "_score": 0.05992231,
         "_source": {
           "residentalAddress": {
             "buildingNo": "297359",
@@ -53,9 +53,40 @@
           },
           "payment_document": {
             "hits": {
-              "total": 0,
-              "max_score": null,
-              "hits": []
+              "total": 1,
+              "max_score": 9.300553,
+              "hits": [
+                {
+                  "_index": "customer_index_rif",
+                  "_type": "payment_document",
+                  "_id": "PAY_DOC_36_492_0",
+                  "_score": 9.300553,
+                  "_routing": "CUST_36_492",
+                  "_parent": "CUST_36_492",
+                  "_source": {
+                    "variableSymbol": [
+                      "8969810791",
+                      "3384501607",
+                      "2853223025",
+                      "3987227609",
+                      "5965799106",
+                      "3257731695",
+                      "8364409196",
+                      "1700414456",
+                      "7283689213",
+                      "7396465283",
+                      "1673655698",
+                      "9583166143",
+                      "6849034632"
+                    ]
+                  },
+                  "highlight": {
+                    "variableSymbol": [
+                      "<em>2853223025</em>"
+                    ]
+                  }
+                }
+              ]
             }
           },
           "customer_request": {
@@ -80,6 +111,7 @@
                   "_source": {
                     "login": [
                       "x0503244",
+                      "x0503153",
                       "x0503212"
                     ]
                   }

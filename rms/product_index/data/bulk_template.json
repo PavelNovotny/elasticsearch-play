@@ -110,7 +110,7 @@
 
     {{/repeatWithId}}
 
-    {{#repeat 1 3  comma=false}}
+    {{#repeat 0  comma=false}}
 
       {"index":{"_id":"CONTACT{{bulk}}_{{@index_R1}}_{{@index_R2}}_{{@index}}","_type":"contact","_index":"product_index_rif","_parent":"PROD_{{bulk}}_{{@index_R1}}_{{@index_R2}}","_routing":"P_{{bulk}}_{{@index_R1}}"}}
 
